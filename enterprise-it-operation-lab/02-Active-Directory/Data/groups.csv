@@ -1,0 +1,19 @@
+GroupName,Type,Scope,Purpose
+GG-IT-HelpDesk,Security,Global,Tier 1 help desk access
+GG-IT-Admins,Security,Global,Delegated administration
+GG-FIN-Share-RW,Security,Global,Finance share modify
+GG-HR-Share-RW,Security,Global,HR share modify
+GG-OPS-Share-RW,Security,Global,Operations share modify
+GG-SALES-Share-RW,Security,Global,Sales share modify
+GG-MKT-Share-RW,Security,Global,Marketing share modify
+GG-CS-Share-RW,Security,Global,Customer Success share modify
+GG-VPN-Users,Security,Global,Remote access entitlement
+GG-RDP-Authorized,Security,Global,Approved remote desktop access
+GG-Software-Adobe,Security,Global,Adobe application assignment
+GG-Software-CRM,Security,Global,CRM application assignment
+GG-Project-Phoenix-RW,Security,Global,Project Phoenix modify access
+GG-Project-Phoenix-RO,Security,Global,Project Phoenix read access
+DL-All-Employees,Distribution,Universal,Company announcements
+DL-Managers,Distribution,Universal,Manager announcements
+DL-Sales,Distribution,Universal,Sales communications
+DL-Operations,Distribution,Universal,Operations communications
