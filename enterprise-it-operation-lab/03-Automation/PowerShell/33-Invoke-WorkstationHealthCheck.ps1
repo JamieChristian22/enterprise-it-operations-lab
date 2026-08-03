@@ -1,4 +1,0 @@
-[CmdletBinding()]
-param([string]$ComputerName=$env:COMPUTERNAME,[string]$Path="$PSScriptRoot\..\Reports\workstation-health-$($ComputerName).json")
-$payload=Invoke-Command -ComputerName $ComputerName -ScriptBlock{$os=Get-CimInstance Win32_OperatingSystem;$disk=Get-CimInstance Win32_LogicalDisk -Filter "DeviceID='C:'";$defender=Get-MpComputerStatus;[ordered]@{Computer=$env:COMPUTERNAME;UptimeDays=[math]::Round(((Get-Date)-$os.LastBootUpTime).TotalDays,1);FreeDiskPercent=[math]::Round(100*$disk.FreeSpace/$disk.Size,1);PendingReboot=(Test-Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update\RebootRequired');DefenderRealtime=$defender.RealTimeProtectionEnabled;AntivirusSignatureAgeDays=$defender.AntivirusSignatureAge;Collected=(Get-Date).ToString('o')}}
-New-Item (Split-Path $Path) -ItemType Directory -Force|Out-Null;$payload|ConvertTo-Json|Set-Content $Path -Encoding UTF8;$payload

@@ -1,4 +1,0 @@
-[CmdletBinding()]
-param([string[]]$DnsServer='10.40.10.10','10.40.10.11',[string[]]$RequiredName='cts-dc01.cts-lab.local','cts-dc02.cts-lab.local','cts-fs01.cts-lab.local',[string]$Path="$PSScriptRoot\..\Reports\dns-health.csv")
-$results=foreach($server in $DnsServer){foreach($name in $RequiredName){$sw=[Diagnostics.Stopwatch]::StartNew();try{$answer=Resolve-DnsName $name -Server $server -DnsOnly -ErrorAction Stop|Where-Object IPAddress|Select-Object -First 1;$status='Healthy';$address=$answer.IPAddress}catch{$status='Failed';$address=''};$sw.Stop();[pscustomobject]@{DnsServer=$server;Name=$name;Address=$address;Status=$status;ResponseMs=$sw.ElapsedMilliseconds;Checked=(Get-Date)}}}
-New-Item (Split-Path $Path) -ItemType Directory -Force|Out-Null;$results|Export-Csv $Path -NoTypeInformation;$results

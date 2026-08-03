@@ -1,2 +1,0 @@
-[CmdletBinding()] param([string[]]$ComputerName=$env:COMPUTERNAME,[string]$Path="$PSScriptRoot\..\Reports\system-inventory.csv")
-$r=foreach($c in $ComputerName){$cs=Get-CimInstance Win32_ComputerSystem -ComputerName $c;$os=Get-CimInstance Win32_OperatingSystem -ComputerName $c;$bios=Get-CimInstance Win32_BIOS -ComputerName $c;[pscustomobject]@{Computer=$c;Manufacturer=$cs.Manufacturer;Model=$cs.Model;RAMGB=[math]::Round($cs.TotalPhysicalMemory/1GB);OS=$os.Caption;Build=$os.BuildNumber;Serial=$bios.SerialNumber}};$r|Export-Csv $Path -NoTypeInformation;$r

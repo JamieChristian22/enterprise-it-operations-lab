@@ -1,2 +1,0 @@
-[CmdletBinding()] param([string[]]$ComputerName=$env:COMPUTERNAME,[string]$Path="$PSScriptRoot\..\Reports\disk-space.csv")
-$result=foreach($c in $ComputerName){Get-CimInstance Win32_LogicalDisk -ComputerName $c -Filter 'DriveType=3'|Select @{n='Computer';e={$c}},DeviceID,@{n='SizeGB';e={[math]::Round($_.Size/1GB,2)}},@{n='FreeGB';e={[math]::Round($_.FreeSpace/1GB,2)}},@{n='FreePercent';e={[math]::Round(100*$_.FreeSpace/$_.Size,1)}}}; $result|Export-Csv $Path -NoTypeInformation; $result

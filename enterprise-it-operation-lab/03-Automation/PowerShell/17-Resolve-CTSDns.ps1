@@ -1,2 +1,0 @@
-[CmdletBinding()] param([Parameter(Mandatory)][string[]]$Name,[string]$Path="$PSScriptRoot\..\Reports\dns-results.csv")
-$r=foreach($n in $Name){try{$a=Resolve-DnsName $n -ErrorAction Stop|Where IPAddress;foreach($x in $a){[pscustomobject]@{Name=$n;IPAddress=$x.IPAddress;Status='Resolved'}}}catch{[pscustomobject]@{Name=$n;IPAddress='';Status=$_.Exception.Message}}};$r|Export-Csv $Path -NoTypeInformation;$r
