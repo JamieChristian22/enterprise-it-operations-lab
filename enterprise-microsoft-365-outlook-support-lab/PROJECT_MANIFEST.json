@@ -1,0 +1,194 @@
+{
+  "project": "Enterprise Microsoft 365 Outlook Support Lab",
+  "version": "1.1.0",
+  "ticket": "INC-10487",
+  "owner": "Jamie Christian",
+  "status": "complete",
+  "quality_controls": [
+    "Pester tests",
+    "GitHub Actions",
+    "PowerShell syntax validation",
+    "SHA-256 manifest",
+    "repository completeness checks"
+  ],
+  "screenshots_included": false,
+  "diagrams_required": false,
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha256": "251a08dde56e2373052b0a95a0f0367bd3e37d98fc8f4bf77781b244d2ec7359"
+    },
+    {
+      "path": ".github/workflows/quality-checks.yml",
+      "sha256": "9f8566abcdd08fd20bd7766610b1e4c001c257e86b638f590060fae095580295"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "161a97503558c4449d1feac70727a16831522e44cfb4652bcc7316fc0308afce"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "a3b5ea7bc9129e99470783687dd67eabc0e63d3b29aa77d67024ecd7ab4bb609"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "6b96ed31f127af8c1c51d3ee2cb5f3902aa668df9de3a886644026c0484eec9b"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "7f2ca8bb09e7eccda28fc663e64b2c81ce2d1927406ff66f4405a2fc7b9636b6"
+    },
+    {
+      "path": "README.md",
+      "sha256": "06cac92516736e80cd97bcc5c0a7cc2fd07378029f1aaec6ab7ff2bf14013353"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "553235367014f5047074619289d2c1ab49d28db2da377297ffb367a0cae56f9e"
+    },
+    {
+      "path": "diagrams/README.md",
+      "sha256": "2e1b83de9b4c79120213319bc17d30590cf4d683a2d01d4c04d7a06c3710ab9e"
+    },
+    {
+      "path": "docs/01-project-charter.md",
+      "sha256": "aab46204ff0f8168f75d82054ce279c415a71f8848f687c52f5bb7d866bf4fd4"
+    },
+    {
+      "path": "docs/02-environment-and-architecture.md",
+      "sha256": "145c17264b0d9c786a4eee50831ab6f02ee10d515b04ecdc515143cf8e43dbd9"
+    },
+    {
+      "path": "docs/03-incident-timeline.md",
+      "sha256": "79980dbac7ad4e6bc805d088e4b2925d6193e80c1f978af2875322b4943d73d9"
+    },
+    {
+      "path": "docs/04-incident-report.md",
+      "sha256": "bdd813636eea6c21e0dd7862e211215745e94761e8059205579c11daff8bb7ba"
+    },
+    {
+      "path": "docs/05-root-cause-analysis.md",
+      "sha256": "f37b99c9b9b90f50c0b380e67220877484ccad9eb0fb4d2c67227e9faea0ea07"
+    },
+    {
+      "path": "docs/06-post-incident-review.md",
+      "sha256": "9b87dbac2731e51730abec8dd5b24c6e3cf4e30678bd116ef25880dc400ec0eb"
+    },
+    {
+      "path": "docs/07-lessons-learned.md",
+      "sha256": "1d0810eede630549eae440c9329d233d97991ba49e19f5653647c745b60973e1"
+    },
+    {
+      "path": "docs/08-resume-and-interview-guide.md",
+      "sha256": "55e5480025c37bf2cbe91c007245304d20e21ab1dd7f636aa0fa130ed393aa5f"
+    },
+    {
+      "path": "docs/09-knowledge-base-outlook-will-not-open.md",
+      "sha256": "108f26e8ccbdf5ca66589a12045a3fa2ad1add0ba8f6455a33a4857f552eb24e"
+    },
+    {
+      "path": "docs/10-service-desk-metrics.md",
+      "sha256": "859fd512a2c2e2e8f726ba5414176f91ed6b126e6d85aa4ac4d5b429fe06193b"
+    },
+    {
+      "path": "docs/policies/customer-communication-standard.md",
+      "sha256": "f22af6fd7cf4eece42e8e4b6131c963ab903cde7a4e39e392826327d93148c6e"
+    },
+    {
+      "path": "docs/policies/evidence-handling-standard.md",
+      "sha256": "87661af9ddc0ebb8e71ad4aa629428cd42bab6abc5a79b362a9d9e54c3b5715d"
+    },
+    {
+      "path": "docs/policies/priority-and-sla-guide.md",
+      "sha256": "96df5c4742dfadbdde8b94729b7a80a6fa86d65cce289be97266b46fa390091e"
+    },
+    {
+      "path": "docs/runbooks/escalation-matrix.md",
+      "sha256": "2c929f39eda4dc67d14f5b44944faa841acbf9b016871fac3b5d1303eb537870"
+    },
+    {
+      "path": "docs/runbooks/microsoft-365-user-validation.md",
+      "sha256": "92f57480af4f6c9aa65143ab993f83dddca6d26608d5ac8eeb786474cae4e09e"
+    },
+    {
+      "path": "docs/runbooks/outlook-startup-troubleshooting.md",
+      "sha256": "78dfc497a7738dfd5decec39ed58008d7b65de07dfd22015239b26a3c227636b"
+    },
+    {
+      "path": "evidence/README.md",
+      "sha256": "a2b20a54af618211b475f71ad1f8321a42e8b0579c64c34eb0dfc14798399a04"
+    },
+    {
+      "path": "sample-output/connectivity-results-sample.csv",
+      "sha256": "aee13c64b82899254f1cd266cf2a85222337c09e0cc942b1e612ed56623dcb7d"
+    },
+    {
+      "path": "sample-output/event-log-summary-sample.csv",
+      "sha256": "71cbd8dbc89790413c6d8cb0486c62ad6974c66c0e66596f9bb7982572ce3145"
+    },
+    {
+      "path": "sample-output/outlook-diagnostics-sample.txt",
+      "sha256": "98727f97ff0c0f9041c0d167f713ec010f3ab365493900c5377ba6a575604f1e"
+    },
+    {
+      "path": "sample-output/process-report-sample.csv",
+      "sha256": "96054c0b8d8288e2fdaeb0d95558b7ac89cc265754ebcadda126b58677623137"
+    },
+    {
+      "path": "scripts/Collect-OutlookDiagnostics.ps1",
+      "sha256": "b9c26f9b03220b1938b7497e9f8ef645488acc4bd2efa0625776494387ae1675"
+    },
+    {
+      "path": "scripts/Export-OutlookEventLogs.ps1",
+      "sha256": "e8ba8de9a0261c84eba3e845cc6661ee6790af9529e50760735d486ad019163e"
+    },
+    {
+      "path": "scripts/Get-OutlookProcessReport.ps1",
+      "sha256": "ff0ad0c1e7515e7da89617483d94c0a87921149565a69a29d1e9152227014b5e"
+    },
+    {
+      "path": "scripts/Invoke-OutlookSupportBundle.ps1",
+      "sha256": "c1e9189d8208af4e2a1dcb6f3faabff2925d111af8b744a6b56f2e5637141fa3"
+    },
+    {
+      "path": "scripts/Test-M365Connectivity.ps1",
+      "sha256": "9fc44c6edc73f672c1e158c3fea13b78a3393f8e5e85f47009a8f0e0d4ef2e2c"
+    },
+    {
+      "path": "scripts/modules/Support.Common.psm1",
+      "sha256": "e6c577ce9e31f416ad73f2ad310dd8fb30bb1cdd4ffd1ef53e3ab6b853793464"
+    },
+    {
+      "path": "tests/Repository.Tests.ps1",
+      "sha256": "7e9f9289ac11d9e561c796bc624fe257557deb2ec2926646d5f3183c4c1dd912"
+    },
+    {
+      "path": "tests/Support.Common.Tests.ps1",
+      "sha256": "cb1a7b4a239e6c8b075e2f875ba99e4c7e1aea9c1f740ec790a51f5789ec3c57"
+    },
+    {
+      "path": "tickets/INC-10487-conversation.md",
+      "sha256": "64b9077d9d60c9f7001f56ccc504919e6fcb7043663bfa69bc5b7b0e555dfcc6"
+    },
+    {
+      "path": "tickets/INC-10487-resolution-notes.md",
+      "sha256": "6384553996687779fd2e16e87691c10037d2f462c2a6344469724d3685a234f2"
+    },
+    {
+      "path": "tickets/INC-10487-ticket-record.md",
+      "sha256": "89add0e7035c1529e779c9cabcefdef1ffa2c76906ea26408deb49229b83d622"
+    },
+    {
+      "path": "tickets/incident-register.csv",
+      "sha256": "6d8bb49026c7565f5c7e58c68818c8f3595db050b64880781d29f0abfe1d5383"
+    },
+    {
+      "path": "tickets/sample-incident-register.csv",
+      "sha256": "d46b77a66693b5b2d5ac1fe20285a2c861d67a89711a006fb662a12f1b0a9d21"
+    },
+    {
+      "path": "tickets/verification-checklist.csv",
+      "sha256": "ea44031c282847c5e86aa8c0cb52ea1a0a64e231c21c6a9d6cfc466eaad95cb2"
+    }
+  ]
+}

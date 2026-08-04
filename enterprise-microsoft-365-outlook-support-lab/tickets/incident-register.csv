@@ -1,0 +1,2 @@
+Ticket ID,Created,Solved,Requester,Department,Device,Category,Priority,Status,SLA Met,Resolution Minutes,Root Cause,Resolution
+INC-10487,2026-07-10 09:02,2026-07-10 10:35,Alex Johnson,Finance,CTSO-LT-0184,Microsoft 365 Outlook,High,Solved,Yes,88,Application component corruption,Microsoft 365 Apps Quick Repair

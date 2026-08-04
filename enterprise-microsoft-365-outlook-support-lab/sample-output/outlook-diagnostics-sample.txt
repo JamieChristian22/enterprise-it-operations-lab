@@ -1,0 +1,13 @@
+Outlook Diagnostic Summary
+Generated: 2026-07-10 09:40:12
+
+Computer: CTSO-LT-0184
+Manufacturer: Dell Inc.
+Model: Latitude 5440
+OS: Microsoft Windows 11 Enterprise
+OS Version: 10.0.26100
+Last Boot: 2026-07-10 08:41:03
+
+Outlook Processes: 0
+Relevant Application Events (24 hours): 2
+Office Executables Found: 1

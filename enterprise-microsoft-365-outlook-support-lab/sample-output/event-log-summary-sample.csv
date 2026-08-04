@@ -1,0 +1,3 @@
+CollectedAt,TimeCreated,Id,LevelDisplayName,ProviderName,MachineName,Message
+2026-07-10 09:38:00,2026-07-10 09:34:21,1000,Error,Application Error,CTSO-LT-0184,"Faulting application name: OUTLOOK.EXE; faulting module name: KERNELBASE.dll."
+2026-07-10 09:38:00,2026-07-10 09:34:25,1001,Information,Windows Error Reporting,CTSO-LT-0184,"Fault bucket recorded for Outlook application failure."

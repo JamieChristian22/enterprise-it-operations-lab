@@ -1,0 +1,4 @@
+Timestamp,Target,DnsResolved,IPAddresses,Tcp443Success,RemoteAddress,InterfaceAlias,SourceAddress
+2026-07-10 09:21:01,outlook.office365.com,True,52.96.0.10;52.96.0.11,True,52.96.0.10,Wi-Fi,10.20.14.82
+2026-07-10 09:21:03,login.microsoftonline.com,True,20.190.128.1,True,20.190.128.1,Wi-Fi,10.20.14.82
+2026-07-10 09:21:05,office.com,True,13.107.6.156,True,13.107.6.156,Wi-Fi,10.20.14.82

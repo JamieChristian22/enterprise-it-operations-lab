@@ -1,0 +1,10 @@
+Check,Expected Result,Actual Result,Status,Verified By,Verified Time
+Outlook normal launch,Application opens without Safe Mode,Opened normally,Pass,Jamie Christian,2026-07-10 10:15
+Microsoft 365 connection,Mailbox shows connected,Connected,Pass,Jamie Christian,2026-07-10 10:16
+Inbox synchronization,Latest messages appear,Synchronized,Pass,Jamie Christian,2026-07-10 10:17
+Send test email,Message sends successfully,Sent,Pass,Jamie Christian,2026-07-10 10:18
+Receive test email,Message arrives successfully,Received,Pass,Jamie Christian,2026-07-10 10:18
+Calendar access,Calendar opens and syncs,Operational,Pass,Jamie Christian,2026-07-10 10:19
+Teams integration,Meeting integration works,Operational,Pass,Jamie Christian,2026-07-10 10:19
+Event Viewer,No new relevant Outlook error,None observed,Pass,Jamie Christian,2026-07-10 10:20
+User confirmation,User confirms normal operation,Confirmed,Pass,Alex Johnson,2026-07-10 10:25

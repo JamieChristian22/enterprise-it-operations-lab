@@ -1,0 +1,6 @@
+Ticket ID,Created,Requester,Department,Category,Priority,Status,Resolution Minutes,Resolution Summary
+INC-10487,2026-07-10 09:02,Alex Johnson,Finance,Outlook startup,High,Solved,88,Microsoft 365 Apps Quick Repair
+INC-10491,2026-07-11 10:14,Olivia Thompson,Operations,Software request,Normal,Solved,42,Approved Adobe Acrobat installation
+INC-10503,2026-07-14 08:40,Daniel Harris,Sales,MFA authentication,High,Solved,36,Authenticator notification settings corrected
+INC-10518,2026-07-16 13:22,Jessica Martinez,Finance,Shared drive access,High,Solved,51,Stale cached credentials removed
+INC-10527,2026-07-18 15:05,Marcus Lee,Engineering,Windows Update,Normal,Solved,73,Update cache reset and component store repaired
