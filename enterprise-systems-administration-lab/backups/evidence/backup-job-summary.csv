@@ -1,0 +1,6 @@
+Job,Asset,StartTime,EndTime,Status,DataProcessedGB,RecoveryPoint,RPOStatus
+AD-SystemState-4H,DC01,2026-08-05 16:00,2026-08-05 16:18,Success,14.8,2026-08-05 16:18,Met
+FS01-Incremental-4H,FS01,2026-08-05 16:00,2026-08-05 16:34,Success,82.6,2026-08-05 16:34,Met
+APP01-Nightly,APP01,2026-08-04 23:00,2026-08-04 23:41,Success,46.2,2026-08-04 23:41,Met
+Offline-Copy,All,2026-08-05 03:30,2026-08-05 04:19,Success,143.6,2026-08-05 04:19,Met
+Offsite-Replication,All,2026-08-05 01:00,2026-08-05 02:17,Success,143.6,2026-08-05 02:17,Met

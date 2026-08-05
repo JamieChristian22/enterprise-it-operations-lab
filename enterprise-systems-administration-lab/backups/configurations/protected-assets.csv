@@ -1,0 +1,5 @@
+Asset,Role,Criticality,BackupMethod,Frequency,RPO,RTO,Owner
+DC01,Domain Controller and DNS,Critical,System State plus VM image,Every 4 hours,4 hours,2 hours,Infrastructure
+FS01,Department File Server,High,Incremental plus weekly full,Every 4 hours,4 hours,4 hours,Infrastructure
+APP01,Line-of-Business Application,High,Application-consistent image,Nightly,8 hours,6 hours,Business Applications
+BKP-SRV01,Backup Server,High,Configuration export plus image,Nightly,24 hours,4 hours,Infrastructure

@@ -1,0 +1,5 @@
+TestID,Date,Workload,RestoreType,RecoveryPoint,TargetRTO,ActualTime,IntegrityResult,OwnerAcceptance,Result
+RST-001,2026-07-10,FS01,Single file,2026-07-10 08:00,30 minutes,11 minutes,PASS,Approved,PASS
+RST-002,2026-07-17,FS01,Folder and ACL,2026-07-17 04:00,60 minutes,27 minutes,PASS,Approved,PASS
+RST-003,2026-07-24,DC01,System state isolated,2026-07-24 00:00,120 minutes,91 minutes,PASS,Approved,PASS
+RST-004,2026-07-31,APP01,Full VM isolated,2026-07-30 23:00,360 minutes,148 minutes,PASS,Approved,PASS
