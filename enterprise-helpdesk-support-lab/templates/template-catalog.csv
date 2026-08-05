@@ -1,0 +1,15 @@
+Template,Primary Audience,Process Area,Completed Example Included
+Ticket Intake,Service Desk,Incident / Request,Yes
+Ticket Resolution,Service Desk,Incident,Yes
+Technical Escalation,Service Desk / Tier 2,Escalation,Yes
+Customer Update,End User,Communication,Yes
+Major Incident Update,Users / Leadership,Incident,Yes
+Root Cause Analysis,IT Operations,Problem Management,Yes
+Change Request,Change Manager / CAB,Change Management,Yes
+Knowledge Base,Users / Analysts,Knowledge Management,Yes
+New-Hire Onboarding,Service Desk / HR,Identity Lifecycle,Yes
+Employee Offboarding,Service Desk / HR,Identity Lifecycle,Yes
+Asset Assignment,Service Desk / Asset Manager,Asset Management,Yes
+Shift Handoff,Service Desk,Operations,Yes
+Weekly Operations Report,Service Desk Leadership,Reporting,Yes
+Vendor Escalation,Technical Teams,Vendor Management,Yes
