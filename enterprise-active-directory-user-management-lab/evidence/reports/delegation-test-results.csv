@@ -1,0 +1,6 @@
+Test,Expected,Actual,Result
+Reset standard user password,Allowed,Allowed,PASS
+Unlock standard user,Allowed,Allowed,PASS
+Add self to Domain Admins,Denied,Denied,PASS
+Edit linked GPO,Denied,Denied,PASS
+Reset protected administrator,Denied,Denied,PASS

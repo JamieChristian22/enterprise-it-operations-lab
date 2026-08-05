@@ -1,0 +1,372 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 66,
+    "sha256": "d1e0f077aadfb492ed5e6cd80755e0bc35a0510f880609f03323fa2d3fac3df4"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 270,
+    "sha256": "d4c3dda16332fcbc7425ea7b1994153bdd03939e98575d8d5eb406b154960710"
+  },
+  {
+    "path": "README.md",
+    "bytes": 6643,
+    "sha256": "c4f399b8cb91ace0b90e13d07d15fad1c983211b70320f95c935b07c0b7a92b2"
+  },
+  {
+    "path": "architecture/access-control-flow.md",
+    "bytes": 550,
+    "sha256": "2e136c0fc909f26e76d4f7e72043652de9c4f8613cb4569cc9c2214f6cdab90e"
+  },
+  {
+    "path": "architecture/network-and-service-design.md",
+    "bytes": 600,
+    "sha256": "e6d7ddde7847e3d12f15b93286dcf5230632bbc6a7fcd988743ddc922a151e0d"
+  },
+  {
+    "path": "architecture/ou-design.md",
+    "bytes": 1192,
+    "sha256": "cc4717ffc5dd69bcb321b3fad09b683e603a924b49a73eca595f2a25eeb0c469"
+  },
+  {
+    "path": "config/group-nesting.csv",
+    "bytes": 181,
+    "sha256": "f0c83dc58a80f0b4a708da514135805d81533dc7988d93aa9317408b38a34682"
+  },
+  {
+    "path": "config/groups.csv",
+    "bytes": 1171,
+    "sha256": "dbbba5e9a7663fcb487f55a0faba6a2fd7022aeba8528ebf1c6fe88a9a1612de"
+  },
+  {
+    "path": "config/shares.csv",
+    "bytes": 395,
+    "sha256": "2d1e9cc866ae57e7681eb4bbdd7ee93babbe4dd825adffa1eb98794e6b4e3067"
+  },
+  {
+    "path": "config/users-75.csv",
+    "bytes": 10376,
+    "sha256": "e1f8e6a90cf1acac2d2bce393a5d3381a31ec2531f7c83888da87abcdb4361cd"
+  },
+  {
+    "path": "config/users.csv",
+    "bytes": 1076,
+    "sha256": "ffeda747340cb6fe0fcf416164c644c86648b3a1f6cce984981753aeac9f15c3"
+  },
+  {
+    "path": "docs/01-lab-build-guide.md",
+    "bytes": 3894,
+    "sha256": "c3712578ba3a776e45e8205a57e8e4f05e05ddb525103d8537e95b319cbcc736"
+  },
+  {
+    "path": "docs/02-operational-runbook.md",
+    "bytes": 4264,
+    "sha256": "aeb4a5df48fcf75e601a4f90aeaecef2a5a4feb065f36a30ec25590ed05a58de"
+  },
+  {
+    "path": "docs/03-security-and-access-control.md",
+    "bytes": 2777,
+    "sha256": "1f13515ca9c1d50e7b9ee23ddf8e5cad33bce5b233d1fb424227e5a88baa65ff"
+  },
+  {
+    "path": "docs/04-group-policy-implementation.md",
+    "bytes": 2206,
+    "sha256": "4507ccacb08fd3214e2634b153b9e715d37dbfbbfe7b23e8c9d616f6106cd4b2"
+  },
+  {
+    "path": "docs/05-powershell-usage-guide.md",
+    "bytes": 2366,
+    "sha256": "ab52fb0417be694723a9b33b702f06181911f3db093d2cac4d2d9f40f36ee503"
+  },
+  {
+    "path": "docs/06-test-plan-and-results.md",
+    "bytes": 1933,
+    "sha256": "6f745e19189a375e263655ac4817b64bb0775f538a74904cf364d68832e9d4cc"
+  },
+  {
+    "path": "docs/07-troubleshooting-guide.md",
+    "bytes": 1741,
+    "sha256": "f81bdb02e08ecee1270b6a167d5b40fdb589a4679c9aabf5a96b9ccea8e31d4d"
+  },
+  {
+    "path": "docs/08-interview-walkthrough.md",
+    "bytes": 2451,
+    "sha256": "f7680a6e338d0d8c1bff155157b03305541aa64b257bcf4ebd48f6bcb6b5c88a"
+  },
+  {
+    "path": "docs/09-employee-lifecycle-scenarios.md",
+    "bytes": 2134,
+    "sha256": "b59ed529e56b0fe9ca431683a3737c543362c014438992d44a5e54a765ff6914"
+  },
+  {
+    "path": "docs/10-delegated-helpdesk-administration.md",
+    "bytes": 1493,
+    "sha256": "ec22c0b779bb1c180af6c60b382139abf292db1124a9b066c1783d6fdbed49ed"
+  },
+  {
+    "path": "docs/11-disaster-recovery-and-rollback.md",
+    "bytes": 1262,
+    "sha256": "29876ef5e21ecac4e764a018f41bc79401d18a92a6e61c64bf8547debe64e07d"
+  },
+  {
+    "path": "evidence/change-record.md",
+    "bytes": 1127,
+    "sha256": "b5c1c325c94438430997ccf0d79029fbb77800f33a6ed78fe0671672bf5347b7"
+  },
+  {
+    "path": "evidence/logs/sample-offboarding.log",
+    "bytes": 319,
+    "sha256": "e960195a36153fcb0c875c81078843595cca19440599a42f7e351edad68bd857"
+  },
+  {
+    "path": "evidence/logs/sample-onboarding.log",
+    "bytes": 346,
+    "sha256": "2835868f54b459e6557f6315bed7c8634a49608a79bce9c92f75a80d893833c4"
+  },
+  {
+    "path": "evidence/reports/delegation-test-results.csv",
+    "bytes": 249,
+    "sha256": "0668766b9681f9b9ef0877dc27b6b7526c20bd48826793b74a9726fccbd58320"
+  },
+  {
+    "path": "evidence/reports/effective-access-review.csv",
+    "bytes": 278,
+    "sha256": "1ca1a68b6151365b56d827c791c0d902c37db3c84dc52011a861612f656a14bc"
+  },
+  {
+    "path": "evidence/reports/lab-validation-results.csv",
+    "bytes": 2596,
+    "sha256": "c8289ceed8ce5c38102178960f2b688c72d0e384d0c704037c1d55e692bbde80"
+  },
+  {
+    "path": "evidence/reports/offboarding-ethan.brooks.json",
+    "bytes": 373,
+    "sha256": "272e6ee27e5022207c0037a4c29bbf250cc16064244a778100ac66b1ff940c91"
+  },
+  {
+    "path": "knowledge-base/KB-001-password-reset-and-unlock.md",
+    "bytes": 1057,
+    "sha256": "82dd232a8498529d8c35dcf4993cff2c80c6a486aa6a4e65c1af2b118a55a0dc"
+  },
+  {
+    "path": "knowledge-base/KB-002-repeated-account-lockouts.md",
+    "bytes": 1072,
+    "sha256": "16ea2b516c8b55325998c8cdcb9f45d188f6b587038fcb50ba4b9ae03853bc30"
+  },
+  {
+    "path": "knowledge-base/KB-003-shared-folder-access.md",
+    "bytes": 1036,
+    "sha256": "d270df0fe8ec10f1c7010d7133e12dc17290a861201ad9adb7dbbddd7c4c2b5e"
+  },
+  {
+    "path": "knowledge-base/KB-004-mapped-drive-missing.md",
+    "bytes": 1017,
+    "sha256": "9ecfb90b619989b95b0f613514c028e48cfa184443afc996cad9cc25d352aa2c"
+  },
+  {
+    "path": "knowledge-base/KB-005-new-hire-onboarding-checklist.md",
+    "bytes": 1071,
+    "sha256": "85721ba553d47405adc9fc820204c12465a4cfab0a4b5516be3b6d9bf58973ab"
+  },
+  {
+    "path": "scripts/00-PrerequisiteCheck.ps1",
+    "bytes": 1331,
+    "sha256": "c0ddbc5a2665d7e684dcd386e5a998d2fdb32ca44d1e67b0f28625432babc739"
+  },
+  {
+    "path": "scripts/01-Build-OU-Structure.ps1",
+    "bytes": 2250,
+    "sha256": "49b2858a1d787e126b26f4c6b05f5402b14f0be517ff47f99456db7f4c3c683b"
+  },
+  {
+    "path": "scripts/02-New-ADSecurityGroups.ps1",
+    "bytes": 1618,
+    "sha256": "40d6398ab0c96986d1e9fcde87048ea858c896e90e4a0528ca08029be2e2543d"
+  },
+  {
+    "path": "scripts/03-New-BulkADUsers.ps1",
+    "bytes": 1818,
+    "sha256": "ed65af78ccfac97c7910a6c4d3908b80c66745baa1d20fce80cea0471ae01dd8"
+  },
+  {
+    "path": "scripts/04-New-DepartmentShares.ps1",
+    "bytes": 2023,
+    "sha256": "a0d38e42b87a3b796802b5f6d6fafde3c4d2b1c510cedef57cb4945873a03127"
+  },
+  {
+    "path": "scripts/05-Reset-UserPassword.ps1",
+    "bytes": 1336,
+    "sha256": "dc88e359bdedb6495dc922e935d544308d92c876998d769783b821c0e0874f8b"
+  },
+  {
+    "path": "scripts/06-New-EmployeeOnboarding.ps1",
+    "bytes": 2370,
+    "sha256": "2b40089966958a7cbfeeb58d99f234540d340689a9445f4414440ae6255317ba"
+  },
+  {
+    "path": "scripts/07-Disable-EmployeeOffboarding.ps1",
+    "bytes": 2155,
+    "sha256": "d56fd81813c39aa89e1a9ecc6dee26916f6dc868633037885d2b108febca29f1"
+  },
+  {
+    "path": "scripts/08-Manage-GroupMembership.ps1",
+    "bytes": 1354,
+    "sha256": "8d8ba3d5719f12dcb6165f2d84f2b88fede4f6f2304d19eb52628bd34f9b476a"
+  },
+  {
+    "path": "scripts/09-Invoke-LabValidation.ps1",
+    "bytes": 1873,
+    "sha256": "029533314022e6c1a71593ec59bec71772de4eb933d8f3bcd2a25fdf65f00984"
+  },
+  {
+    "path": "scripts/10-Export-ADAuditReport.ps1",
+    "bytes": 1649,
+    "sha256": "a6fbb4fa3f1f2ff5da308387c213e693cd0df0d4fc1c00d314c1a8e558ef0f6d"
+  },
+  {
+    "path": "scripts/11-Move-EmployeeDepartment.ps1",
+    "bytes": 1064,
+    "sha256": "7cf30f78c20a52f9879927a6c768aad6b4438d97b11d9697770f7f9e9b7474ad"
+  },
+  {
+    "path": "scripts/12-Set-EmployeeLeaveStatus.ps1",
+    "bytes": 663,
+    "sha256": "3f3f9bcbcae1c6eb9f4c86ea133199a0a9b50a2e178c57da7c0b81eda5eb64ff"
+  },
+  {
+    "path": "scripts/13-Restore-RehiredEmployee.ps1",
+    "bytes": 888,
+    "sha256": "48f40daaf1010c2460e5b933ea29a1c24bf126bc081807f00ceb87cc0fba8a8c"
+  },
+  {
+    "path": "scripts/14-Export-EffectiveAccessReview.ps1",
+    "bytes": 541,
+    "sha256": "b11f33cdd41e0a5155a22dbb65b4bb45da541335ed9c25e49a401d4340c349ae"
+  },
+  {
+    "path": "scripts/15-Backup-GroupPolicy.ps1",
+    "bytes": 465,
+    "sha256": "dd60424227a9c6c60a8a9fde1d886e1259c621fbaee470ca6f8eb0fffa7a4e66"
+  },
+  {
+    "path": "scripts/16-Test-DelegatedHelpDeskAccess.ps1",
+    "bytes": 519,
+    "sha256": "12861c57cc4d55161909af82a5667cb8f6db73a84833367e43c75303baaeb194"
+  },
+  {
+    "path": "templates/access-request.md",
+    "bytes": 263,
+    "sha256": "c433bd3aa79bf074155059be6066f72ef37579a54154adba240ee5a538adc68e"
+  },
+  {
+    "path": "templates/new-hire-intake.md",
+    "bytes": 338,
+    "sha256": "d3de14993ca59a4b092e001a2fda065e1148b2d5cf5ca726e05f87a5ceb52c09"
+  },
+  {
+    "path": "templates/offboarding-checklist.md",
+    "bytes": 457,
+    "sha256": "7852737f398636721f3018345dfc11cac7db9b3b1fa6863f12b4c0a37930f285"
+  },
+  {
+    "path": "tickets/AUD-2026-1015.md",
+    "bytes": 1098,
+    "sha256": "6990deade3f1fb7d1c90f5a50a5149ca38c62dc493e4f6c0377536b78ff750c6"
+  },
+  {
+    "path": "tickets/CHG-2026-1011.md",
+    "bytes": 1094,
+    "sha256": "ae93128657c75187f979519595513f84d36b8b52e0cf09b5f7b8afc2ae7b73a0"
+  },
+  {
+    "path": "tickets/CHG-2026-1020.md",
+    "bytes": 1231,
+    "sha256": "235ebf39dde6116b7e70aa569b1b86b30d29bf1c24f6bd6125475e1349257cfb"
+  },
+  {
+    "path": "tickets/INC-2026-1001.md",
+    "bytes": 1131,
+    "sha256": "aba29f13ae13f2eb89b4f01a126788af88751635b553887210ab020db2d4651a"
+  },
+  {
+    "path": "tickets/INC-2026-1002.md",
+    "bytes": 1131,
+    "sha256": "799d90c75cb98d06aa685942e80570758acb9409b6cba058ebc66f3723a6ecf9"
+  },
+  {
+    "path": "tickets/INC-2026-1005.md",
+    "bytes": 1157,
+    "sha256": "9b78cbd579a9455bd77a732c8def6e9649e4bc37b06ce2342aeb7e78e15c5c4f"
+  },
+  {
+    "path": "tickets/INC-2026-1006.md",
+    "bytes": 1102,
+    "sha256": "923a898d6a9b48b889d3e7375959c0bc46a7d5059c911977a4eaa12005d921be"
+  },
+  {
+    "path": "tickets/INC-2026-1008.md",
+    "bytes": 1124,
+    "sha256": "22028457849b52619f5b6305fe8eedb3568c6ad12005277e70e9e2c34b5d8bd2"
+  },
+  {
+    "path": "tickets/INC-2026-1010.md",
+    "bytes": 1105,
+    "sha256": "94fd2adc176e3738f32ee684526131e6766cefddc86ae89751f7e028d1e7050e"
+  },
+  {
+    "path": "tickets/INC-2026-1012.md",
+    "bytes": 1121,
+    "sha256": "50132982269a7c03fbfdcc5cfd225bae4defc92b9b9c2eec6545905aea04d302"
+  },
+  {
+    "path": "tickets/REQ-2026-1003.md",
+    "bytes": 1123,
+    "sha256": "c214f769ab04c840b58f6c06a27a43d0280d825a870916409f646052b647b6b7"
+  },
+  {
+    "path": "tickets/REQ-2026-1004.md",
+    "bytes": 1111,
+    "sha256": "f02ddc494b30285c90e97853dc37154e21ae84b84403e1700dea9f2e15ea3aa4"
+  },
+  {
+    "path": "tickets/REQ-2026-1007.md",
+    "bytes": 1108,
+    "sha256": "21ade7a7b7534430a6f5f06a81420befd7c49a7e132868d8befbbc7b71187b70"
+  },
+  {
+    "path": "tickets/REQ-2026-1009.md",
+    "bytes": 1139,
+    "sha256": "fe3ced42acb77df2c2c81ffa5b82e09e6970de4c83aa20b65ca38fbeecfdbb9d"
+  },
+  {
+    "path": "tickets/REQ-2026-1013.md",
+    "bytes": 1112,
+    "sha256": "54759af9b41058941995a629bf7467d14215948301b02276e37a94c001814a3d"
+  },
+  {
+    "path": "tickets/REQ-2026-1016.md",
+    "bytes": 1253,
+    "sha256": "a0328030ab9385c0cf2ba02e7da131ba49268443de8df526c3d23ef360528fb5"
+  },
+  {
+    "path": "tickets/REQ-2026-1017.md",
+    "bytes": 1220,
+    "sha256": "327bfb0f15bfe43db04ea6e534985c67bde2d9498e83357847b320a53285a2a9"
+  },
+  {
+    "path": "tickets/REQ-2026-1018.md",
+    "bytes": 1242,
+    "sha256": "a5708ce572dc68f97eed0f31e456dfb1df077c68f9c449ae4c43071f9acc3915"
+  },
+  {
+    "path": "tickets/SEC-2026-1014.md",
+    "bytes": 1137,
+    "sha256": "256bd6db42ffe2dbe0871481b5bbb7174689da547123fcf29bb854c2a8327947"
+  },
+  {
+    "path": "tickets/SEC-2026-1019.md",
+    "bytes": 1252,
+    "sha256": "0004bb0a60ecb6de83d96a756f858d2e6364f0ac5d7b34ee28d011d0525b6a77"
+  }
+]

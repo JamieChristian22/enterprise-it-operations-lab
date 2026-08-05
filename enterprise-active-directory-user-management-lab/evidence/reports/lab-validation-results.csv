@@ -1,0 +1,26 @@
+TestID,Control,Status,Details,CheckedAt
+VAL-01,Northstar root OU exists,Pass,OU query succeeded,2026-08-05T16:20:00-04:00
+GRP-GG-IT-General,Group GG-IT-General exists,Pass,AD group lookup succeeded,2026-08-05T16:20:00-04:00
+GRP-GG-IT-Admins,Group GG-IT-Admins exists,Pass,AD group lookup succeeded,2026-08-05T16:20:00-04:00
+GRP-GG-HR-General,Group GG-HR-General exists,Pass,AD group lookup succeeded,2026-08-05T16:20:00-04:00
+GRP-GG-FIN-General,Group GG-FIN-General exists,Pass,AD group lookup succeeded,2026-08-05T16:20:00-04:00
+GRP-GG-OPS-General,Group GG-OPS-General exists,Pass,AD group lookup succeeded,2026-08-05T16:20:00-04:00
+GRP-GG-SALES-General,Group GG-SALES-General exists,Pass,AD group lookup succeeded,2026-08-05T16:20:00-04:00
+GRP-DL-FS-IT-RW,Group DL-FS-IT-RW exists,Pass,AD group lookup succeeded,2026-08-05T16:20:00-04:00
+GRP-DL-FS-HR-RW,Group DL-FS-HR-RW exists,Pass,AD group lookup succeeded,2026-08-05T16:20:00-04:00
+GRP-DL-FS-Finance-RW,Group DL-FS-Finance-RW exists,Pass,AD group lookup succeeded,2026-08-05T16:20:00-04:00
+GRP-DL-FS-Operations-RW,Group DL-FS-Operations-RW exists,Pass,AD group lookup succeeded,2026-08-05T16:20:00-04:00
+GRP-DL-FS-Sales-RW,Group DL-FS-Sales-RW exists,Pass,AD group lookup succeeded,2026-08-05T16:20:00-04:00
+GRP-DL-FS-Finance-RO,Group DL-FS-Finance-RO exists,Pass,AD group lookup succeeded,2026-08-05T16:20:00-04:00
+GRP-GPO-USB-Blocked,Group GPO-USB-Blocked exists,Pass,AD group lookup succeeded,2026-08-05T16:20:00-04:00
+GRP-ADM-HelpDesk-PasswordReset,Group ADM-HelpDesk-PasswordReset exists,Pass,AD group lookup succeeded,2026-08-05T16:20:00-04:00
+USR-jamie.christian,User exists with correct department,Pass,Information Technology,2026-08-05T16:20:00-04:00
+USR-noah.williams,User exists with correct department,Pass,Information Technology,2026-08-05T16:20:00-04:00
+USR-maya.patel,User exists with correct department,Pass,Finance,2026-08-05T16:20:00-04:00
+USR-alicia.morgan,User exists with correct department,Pass,Finance,2026-08-05T16:20:00-04:00
+USR-liam.carter,User exists with correct department,Pass,Human Resources,2026-08-05T16:20:00-04:00
+USR-sofia.reed,User exists with correct department,Pass,Human Resources,2026-08-05T16:20:00-04:00
+USR-olivia.chen,User exists with correct department,Pass,Operations,2026-08-05T16:20:00-04:00
+USR-marcus.hill,User exists with correct department,Pass,Operations,2026-08-05T16:20:00-04:00
+USR-ethan.brooks,User exists with correct department,Pass,Sales,2026-08-05T16:20:00-04:00
+USR-zoe.turner,User exists with correct department,Pass,Sales,2026-08-05T16:20:00-04:00

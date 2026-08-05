@@ -1,0 +1,15 @@
+Name,Scope,Category,OU,Description
+GG-IT-General,Global,Security,Global Role Groups,All IT employees
+GG-IT-Admins,Global,Security,Global Role Groups,Approved IT administrators
+GG-HR-General,Global,Security,Global Role Groups,All HR employees
+GG-FIN-General,Global,Security,Global Role Groups,All Finance employees
+GG-OPS-General,Global,Security,Global Role Groups,All Operations employees
+GG-SALES-General,Global,Security,Global Role Groups,All Sales employees
+DL-FS-IT-RW,DomainLocal,Security,Resource Groups,Modify access to IT share
+DL-FS-HR-RW,DomainLocal,Security,Resource Groups,Modify access to HR share
+DL-FS-Finance-RW,DomainLocal,Security,Resource Groups,Modify access to Finance share
+DL-FS-Operations-RW,DomainLocal,Security,Resource Groups,Modify access to Operations share
+DL-FS-Sales-RW,DomainLocal,Security,Resource Groups,Modify access to Sales share
+DL-FS-Finance-RO,DomainLocal,Security,Resource Groups,Read-only access to Finance share
+GPO-USB-Blocked,Global,Security,Policy Groups,Users receiving removable storage restriction
+ADM-HelpDesk-PasswordReset,Global,Security,Global Role Groups,Delegated password reset and unlock operators

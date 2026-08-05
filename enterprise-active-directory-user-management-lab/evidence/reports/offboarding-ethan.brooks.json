@@ -1,0 +1,13 @@
+{
+  "Ticket": "REQ-2026-1007",
+  "EffectiveDate": "2026-08-05T16:00:00-04:00",
+  "CapturedAt": "2026-08-05T15:59:55-04:00",
+  "SamAccountName": "ethan.brooks",
+  "Enabled": true,
+  "Department": "Sales",
+  "Title": "Sales Manager",
+  "Manager": null,
+  "MemberOf": [
+    "CN=GG-SALES-General,OU=Global Role Groups,OU=Groups,OU=Northstar,DC=corp,DC=northstar,DC=local"
+  ]
+}

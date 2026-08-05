@@ -1,0 +1,4 @@
+[CmdletBinding(SupportsShouldProcess)] param([Parameter(Mandatory)][string]$SamAccountName,[Parameter(Mandatory)][securestring]$TemporaryPassword,[Parameter(Mandatory)][string]$Department,[Parameter(Mandatory)][string]$Ticket)
+Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'; Import-Module ActiveDirectory
+$domain='DC=corp,DC=northstar,DC=local'; $u=Get-ADUser $SamAccountName -Properties DistinguishedName; $target="OU=Users,OU=$Department,OU=Departments,OU=Northstar,$domain"; $group="GG_$($Department -replace ' ','')_Users"
+if($PSCmdlet.ShouldProcess($SamAccountName,"Rehire under $Ticket")){ Set-ADAccountPassword $u -Reset -NewPassword $TemporaryPassword; Set-ADUser $u -ChangePasswordAtLogon $true -Department $Department -Description "Rehired under $Ticket"; Move-ADObject $u.DistinguishedName -TargetPath $target; Add-ADGroupMember $group $u; Enable-ADAccount $u }

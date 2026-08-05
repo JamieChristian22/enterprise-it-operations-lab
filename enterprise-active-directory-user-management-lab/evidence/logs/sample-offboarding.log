@@ -1,0 +1,5 @@
+2026-08-05 16:00:01Z [INFO] Starting offboarding for REQ-2026-1007.
+2026-08-05 16:00:02Z [SUCCESS] Exported pre-change account state.
+2026-08-05 16:00:03Z [SUCCESS] Disabled ethan.brooks.
+2026-08-05 16:00:04Z [SUCCESS] Removed nonrequired memberships.
+2026-08-05 16:00:05Z [SUCCESS] Moved account to Disabled Users OU.

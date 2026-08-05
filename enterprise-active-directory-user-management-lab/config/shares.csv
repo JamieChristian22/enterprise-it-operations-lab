@@ -1,0 +1,6 @@
+Name,Path,FullAccessGroup,ChangeAccessGroup,ReadAccessGroup
+IT$,D:\Shares\IT,BUILTIN\Administrators,DL-FS-IT-RW,
+HR$,D:\Shares\HR,BUILTIN\Administrators,DL-FS-HR-RW,
+Finance$,D:\Shares\Finance,BUILTIN\Administrators,DL-FS-Finance-RW,DL-FS-Finance-RO
+Operations$,D:\Shares\Operations,BUILTIN\Administrators,DL-FS-Operations-RW,
+Sales$,D:\Shares\Sales,BUILTIN\Administrators,DL-FS-Sales-RW,

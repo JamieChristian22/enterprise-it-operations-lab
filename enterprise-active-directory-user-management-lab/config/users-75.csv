@@ -1,0 +1,76 @@
+EmployeeID,FirstName,LastName,SamAccountName,Department,Title,ManagerSam,Office,Email,Enabled,RoleGroup
+NLG1001,Avery,Adams,aadams,Information Technology,Service Desk Analyst,mcarter,Charlotte,avery.adams@northstar.example,True,GG_InformationTechnology_Users
+NLG1002,Jordan,Irving,jirving,Information Technology,Systems Administrator,mcarter,Raleigh,jordan.irving@northstar.example,True,GG_InformationTechnology_Users
+NLG1003,Taylor,Reed,treed,Information Technology,Network Administrator,mcarter,Atlanta,taylor.reed@northstar.example,True,GG_InformationTechnology_Users
+NLG1004,Morgan,Price,mprice,Information Technology,Service Desk Analyst,mcarter,Charlotte,morgan.price@northstar.example,True,GG_InformationTechnology_Users
+NLG1005,Cameron,Hughes,chughes,Information Technology,Systems Administrator,mcarter,Raleigh,cameron.hughes@northstar.example,True,GG_InformationTechnology_Users
+NLG1006,Riley,Patel,rpatel,Information Technology,Network Administrator,mcarter,Atlanta,riley.patel@northstar.example,True,GG_InformationTechnology_Users
+NLG1007,Casey,Coleman,ccoleman,Information Technology,Service Desk Analyst,mcarter,Charlotte,casey.coleman@northstar.example,True,GG_InformationTechnology_Users
+NLG1008,Drew,Grant,dgrant,Information Technology,Systems Administrator,mcarter,Raleigh,drew.grant@northstar.example,True,GG_InformationTechnology_Users
+NLG1009,Parker,Owens,powens,Information Technology,Network Administrator,mcarter,Atlanta,parker.owens@northstar.example,True,GG_InformationTechnology_Users
+NLG1010,Reese,Brooks,rbrooks,Information Technology,Service Desk Analyst,mcarter,Charlotte,reese.brooks@northstar.example,True,GG_InformationTechnology_Users
+NLG1011,Quinn,Foster,qfoster,Information Technology,Systems Administrator,mcarter,Raleigh,quinn.foster@northstar.example,True,GG_InformationTechnology_Users
+NLG1012,Skyler,Nelson,snelson,Information Technology,Network Administrator,mcarter,Atlanta,skyler.nelson@northstar.example,True,GG_InformationTechnology_Users
+NLG1013,Logan,Young,lyoung,Information Technology,Service Desk Analyst,mcarter,Charlotte,logan.young@northstar.example,True,GG_InformationTechnology_Users
+NLG1014,Emerson,Ellis,eellis,Information Technology,Systems Administrator,mcarter,Raleigh,emerson.ellis@northstar.example,True,GG_InformationTechnology_Users
+NLG1015,Hayden,Mitchell,hmitchell,Information Technology,Network Administrator,mcarter,Atlanta,hayden.mitchell@northstar.example,True,GG_InformationTechnology_Users
+NLG1016,Rowan,Foster,rfoster,Human Resources,HR Coordinator,rnelson,Charlotte,rowan.foster@northstar.example,True,GG_HumanResources_Users
+NLG1017,Blake,Nelson,bnelson,Human Resources,Recruiter,rnelson,Raleigh,blake.nelson@northstar.example,True,GG_HumanResources_Users
+NLG1018,Dakota,Young,dyoung,Human Resources,HR Generalist,rnelson,Atlanta,dakota.young@northstar.example,True,GG_HumanResources_Users
+NLG1019,Finley,Ellis,fellis,Human Resources,HR Coordinator,rnelson,Charlotte,finley.ellis@northstar.example,True,GG_HumanResources_Users
+NLG1020,Sage,Mitchell,smitchell,Human Resources,Recruiter,rnelson,Raleigh,sage.mitchell@northstar.example,True,GG_HumanResources_Users
+NLG1021,Alex,Walker,awalker,Human Resources,HR Generalist,rnelson,Atlanta,alex.walker@northstar.example,True,GG_HumanResources_Users
+NLG1022,Jamie,Diaz,jdiaz,Human Resources,HR Coordinator,rnelson,Charlotte,jamie.diaz@northstar.example,True,GG_HumanResources_Users
+NLG1023,Kendall,Lewis,klewis,Human Resources,Recruiter,rnelson,Raleigh,kendall.lewis@northstar.example,True,GG_HumanResources_Users
+NLG1024,Payton,Vasquez,pvasquez,Human Resources,HR Generalist,rnelson,Atlanta,payton.vasquez@northstar.example,True,GG_HumanResources_Users
+NLG1025,Sydney,Carter,scarter,Human Resources,HR Coordinator,rnelson,Charlotte,sydney.carter@northstar.example,True,GG_HumanResources_Users
+NLG1026,Avery,Kim,akim,Human Resources,Recruiter,rnelson,Raleigh,avery.kim@northstar.example,True,GG_HumanResources_Users
+NLG1027,Jordan,Turner,jturner,Human Resources,HR Generalist,rnelson,Atlanta,jordan.turner@northstar.example,True,GG_HumanResources_Users
+NLG1028,Taylor,Bennett,tbennett,Human Resources,HR Coordinator,rnelson,Charlotte,taylor.bennett@northstar.example,True,GG_HumanResources_Users
+NLG1029,Morgan,Jenkins,mjenkins,Human Resources,Recruiter,rnelson,Raleigh,morgan.jenkins@northstar.example,True,GG_HumanResources_Users
+NLG1030,Cameron,Simmons,csimmons,Human Resources,HR Generalist,rnelson,Atlanta,cameron.simmons@northstar.example,True,GG_HumanResources_Users
+NLG1031,Riley,Kim,rkim,Finance,Accounts Payable Specialist,dpatel,Charlotte,riley.kim@northstar.example,True,GG_Finance_Users
+NLG1032,Casey,Turner,cturner,Finance,Financial Analyst,dpatel,Raleigh,casey.turner@northstar.example,True,GG_Finance_Users
+NLG1033,Drew,Bennett,dbennett,Finance,Payroll Specialist,dpatel,Atlanta,drew.bennett@northstar.example,True,GG_Finance_Users
+NLG1034,Parker,Jenkins,pjenkins,Finance,Accounts Payable Specialist,dpatel,Charlotte,parker.jenkins@northstar.example,True,GG_Finance_Users
+NLG1035,Reese,Simmons,rsimmons,Finance,Financial Analyst,dpatel,Raleigh,reese.simmons@northstar.example,True,GG_Finance_Users
+NLG1036,Quinn,Adams,qadams,Finance,Payroll Specialist,dpatel,Atlanta,quinn.adams@northstar.example,True,GG_Finance_Users
+NLG1037,Skyler,Irving,sirving,Finance,Accounts Payable Specialist,dpatel,Charlotte,skyler.irving@northstar.example,True,GG_Finance_Users
+NLG1038,Logan,Reed,lreed,Finance,Financial Analyst,dpatel,Raleigh,logan.reed@northstar.example,True,GG_Finance_Users
+NLG1039,Emerson,Price,eprice,Finance,Payroll Specialist,dpatel,Atlanta,emerson.price@northstar.example,True,GG_Finance_Users
+NLG1040,Hayden,Hughes,hhughes,Finance,Accounts Payable Specialist,dpatel,Charlotte,hayden.hughes@northstar.example,True,GG_Finance_Users
+NLG1041,Blake,Brooks,bbrooks,Finance,Financial Analyst,dpatel,Raleigh,blake.brooks@northstar.example,True,GG_Finance_Users
+NLG1042,Dakota,Foster,dfoster,Finance,Payroll Specialist,dpatel,Atlanta,dakota.foster@northstar.example,True,GG_Finance_Users
+NLG1043,Finley,Nelson,fnelson,Finance,Accounts Payable Specialist,dpatel,Charlotte,finley.nelson@northstar.example,True,GG_Finance_Users
+NLG1044,Sage,Young,syoung,Finance,Financial Analyst,dpatel,Raleigh,sage.young@northstar.example,True,GG_Finance_Users
+NLG1045,Alex,Ellis,aellis,Finance,Payroll Specialist,dpatel,Atlanta,alex.ellis@northstar.example,True,GG_Finance_Users
+NLG1046,Jamie,Brooks,jbrooks,Operations,Logistics Coordinator,tgrant,Charlotte,jamie.brooks@northstar.example,True,GG_Operations_Users
+NLG1047,Kendall,Foster,kfoster,Operations,Dispatch Specialist,tgrant,Raleigh,kendall.foster@northstar.example,True,GG_Operations_Users
+NLG1048,Payton,Nelson,pnelson,Operations,Operations Analyst,tgrant,Atlanta,payton.nelson@northstar.example,True,GG_Operations_Users
+NLG1049,Avery,Diaz,adiaz,Operations,Logistics Coordinator,tgrant,Charlotte,avery.diaz@northstar.example,True,GG_Operations_Users
+NLG1050,Jordan,Lewis,jlewis,Operations,Dispatch Specialist,tgrant,Raleigh,jordan.lewis@northstar.example,True,GG_Operations_Users
+NLG1051,Taylor,Vasquez,tvasquez,Operations,Operations Analyst,tgrant,Atlanta,taylor.vasquez@northstar.example,True,GG_Operations_Users
+NLG1052,Morgan,Carter,mcarter,Operations,Logistics Coordinator,tgrant,Charlotte,morgan.carter@northstar.example,True,GG_Operations_Users
+NLG1053,Cameron,Kim,ckim,Operations,Dispatch Specialist,tgrant,Raleigh,cameron.kim@northstar.example,True,GG_Operations_Users
+NLG1054,Riley,Turner,rturner,Operations,Operations Analyst,tgrant,Atlanta,riley.turner@northstar.example,True,GG_Operations_Users
+NLG1055,Casey,Bennett,cbennett,Operations,Logistics Coordinator,tgrant,Charlotte,casey.bennett@northstar.example,True,GG_Operations_Users
+NLG1056,Drew,Jenkins,djenkins,Operations,Dispatch Specialist,tgrant,Raleigh,drew.jenkins@northstar.example,True,GG_Operations_Users
+NLG1057,Parker,Simmons,psimmons,Operations,Operations Analyst,tgrant,Atlanta,parker.simmons@northstar.example,True,GG_Operations_Users
+NLG1058,Reese,Adams,radams,Operations,Logistics Coordinator,tgrant,Charlotte,reese.adams@northstar.example,True,GG_Operations_Users
+NLG1059,Quinn,Irving,qirving,Operations,Dispatch Specialist,tgrant,Raleigh,quinn.irving@northstar.example,True,GG_Operations_Users
+NLG1060,Skyler,Reed,sreed,Operations,Operations Analyst,tgrant,Atlanta,skyler.reed@northstar.example,True,GG_Operations_Users
+NLG1061,Logan,Jenkins,ljenkins,Sales,Account Executive,jwalker,Charlotte,logan.jenkins@northstar.example,True,GG_Sales_Users
+NLG1062,Emerson,Simmons,esimmons,Sales,Sales Development Representative,jwalker,Raleigh,emerson.simmons@northstar.example,True,GG_Sales_Users
+NLG1063,Hayden,Adams,hadams,Sales,Sales Operations Analyst,jwalker,Atlanta,hayden.adams@northstar.example,True,GG_Sales_Users
+NLG1064,Rowan,Irving,rirving,Sales,Account Executive,jwalker,Charlotte,rowan.irving@northstar.example,True,GG_Sales_Users
+NLG1065,Blake,Reed,breed,Sales,Sales Development Representative,jwalker,Raleigh,blake.reed@northstar.example,True,GG_Sales_Users
+NLG1066,Dakota,Price,dprice,Sales,Sales Operations Analyst,jwalker,Atlanta,dakota.price@northstar.example,True,GG_Sales_Users
+NLG1067,Finley,Hughes,fhughes,Sales,Account Executive,jwalker,Charlotte,finley.hughes@northstar.example,True,GG_Sales_Users
+NLG1068,Sage,Patel,spatel,Sales,Sales Development Representative,jwalker,Raleigh,sage.patel@northstar.example,True,GG_Sales_Users
+NLG1069,Alex,Coleman,acoleman,Sales,Sales Operations Analyst,jwalker,Atlanta,alex.coleman@northstar.example,True,GG_Sales_Users
+NLG1070,Jamie,Grant,jgrant,Sales,Account Executive,jwalker,Charlotte,jamie.grant@northstar.example,True,GG_Sales_Users
+NLG1071,Kendall,Owens,kowens,Sales,Sales Development Representative,jwalker,Raleigh,kendall.owens@northstar.example,True,GG_Sales_Users
+NLG1072,Payton,Brooks,pbrooks,Sales,Sales Operations Analyst,jwalker,Atlanta,payton.brooks@northstar.example,True,GG_Sales_Users
+NLG1073,Sydney,Foster,sfoster,Sales,Account Executive,jwalker,Charlotte,sydney.foster@northstar.example,True,GG_Sales_Users
+NLG1074,Avery,Nelson,anelson,Sales,Sales Development Representative,jwalker,Raleigh,avery.nelson@northstar.example,True,GG_Sales_Users
+NLG1075,Jordan,Young,jyoung,Sales,Sales Operations Analyst,jwalker,Atlanta,jordan.young@northstar.example,True,GG_Sales_Users

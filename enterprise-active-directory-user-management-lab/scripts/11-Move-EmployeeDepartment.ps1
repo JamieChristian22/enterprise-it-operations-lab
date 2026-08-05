@@ -1,0 +1,5 @@
+[CmdletBinding(SupportsShouldProcess)] param([Parameter(Mandatory)][string]$SamAccountName,[Parameter(Mandatory)][ValidateSet('Information Technology','Human Resources','Finance','Operations','Sales')][string]$NewDepartment,[Parameter(Mandatory)][string]$Ticket)
+Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'; Import-Module ActiveDirectory
+$domain='DC=corp,DC=northstar,DC=local'; $user=Get-ADUser $SamAccountName -Properties Department,MemberOf,DistinguishedName
+$old=$user.Department; $oldGroup="GG_$($old -replace ' ','')_Users"; $newGroup="GG_$($NewDepartment -replace ' ','')_Users"; $target="OU=Users,OU=$NewDepartment,OU=Departments,OU=Northstar,$domain"
+if($PSCmdlet.ShouldProcess($SamAccountName,"Transfer $old to $NewDepartment under $Ticket")){ if(Get-ADGroup $oldGroup -ErrorAction SilentlyContinue){Remove-ADGroupMember $oldGroup $user -Confirm:$false}; Add-ADGroupMember $newGroup $user; Set-ADUser $user -Department $NewDepartment -Description "Transferred under $Ticket"; Move-ADObject $user.DistinguishedName -TargetPath $target }

@@ -1,0 +1,11 @@
+FirstName,LastName,SamAccountName,Department,Title,ManagerSamAccountName,Office,RoleGroup,Enabled
+Jamie,Christian,jamie.christian,Information Technology,IT Support Specialist,,Headquarters,GG-IT-General,True
+Noah,Williams,noah.williams,Information Technology,Systems Administrator,jamie.christian,Headquarters,GG-IT-Admins,True
+Maya,Patel,maya.patel,Finance,Finance Manager,,Headquarters,GG-FIN-General,True
+Alicia,Morgan,alicia.morgan,Finance,Financial Analyst,maya.patel,Headquarters,GG-FIN-General,True
+Liam,Carter,liam.carter,Human Resources,HR Manager,,Headquarters,GG-HR-General,True
+Sofia,Reed,sofia.reed,Human Resources,HR Coordinator,liam.carter,Headquarters,GG-HR-General,True
+Olivia,Chen,olivia.chen,Operations,Operations Manager,,Regional Office,GG-OPS-General,True
+Marcus,Hill,marcus.hill,Operations,Logistics Coordinator,olivia.chen,Regional Office,GG-OPS-General,True
+Ethan,Brooks,ethan.brooks,Sales,Sales Manager,,Regional Office,GG-SALES-General,True
+Zoe,Turner,zoe.turner,Sales,Account Executive,ethan.brooks,Regional Office,GG-SALES-General,True

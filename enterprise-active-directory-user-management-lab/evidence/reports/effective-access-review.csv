@@ -1,0 +1,4 @@
+ResourceGroup,Member,ObjectClass,Purpose,Reviewed
+DL_Finance_RW,GG_Finance_Users,group,Finance modify access,2026-07-22T10:15:00
+DL_HR_RW,GG_HumanResources_Users,group,HR modify access,2026-07-22T10:15:00
+DL_Sales_RW,GG_Sales_Users,group,Sales modify access,2026-07-22T10:15:00
