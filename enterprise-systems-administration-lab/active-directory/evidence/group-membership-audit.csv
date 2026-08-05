@@ -1,0 +1,8 @@
+Group,Category,MemberCount,DirectUserAssignments,ReviewResult
+Domain Admins,Privileged,2,2,Approved
+Enterprise Admins,Privileged,1,1,Approved
+Schema Admins,Privileged,1,1,Approved
+GG-FIN-Analysts,Role,4,4,Approved
+GG-HR-Generalists,Role,3,3,Approved
+DL-FS-Finance-RW,Resource,1,0,Approved-GlobalGroupOnly
+DL-FS-HR-RW,Resource,1,0,Approved-GlobalGroupOnly

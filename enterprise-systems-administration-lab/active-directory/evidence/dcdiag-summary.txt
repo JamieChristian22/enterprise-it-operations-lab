@@ -1,0 +1,17 @@
+Domain Controller Diagnosis
+Server: HQ-Site\JC-DC01
+  Connectivity.........................passed
+  Advertising..........................passed
+  DFSREvent............................passed
+  SysVolCheck..........................passed
+  KccEvent.............................passed
+  KnowsOfRoleHolders...................passed
+  MachineAccount.......................passed
+  NetLogons............................passed
+  Replications.........................passed
+  Services.............................passed
+  SystemLog............................passed
+  VerifyReferences.....................passed
+
+Server: HQ-Site\JC-DC02
+  All selected tests...................passed

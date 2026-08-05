@@ -1,0 +1,2 @@
+Timestamp,Ticket,SamAccountName,DisplayName,OU,Department,Group,Result
+2026-08-05T15:12:44-04:00,SR-AD-001,avery.morgan,Avery Morgan,"OU=Operations,OU=Users,DC=corp,DC=jamiechristian,DC=lab",Operations,GG-OPS-Analysts,Success

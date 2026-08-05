@@ -1,0 +1,2 @@
+FirstName,LastName,Department,Title,OU,Groups,TemporaryPassword
+Avery,Morgan,Operations,Operations Analyst,"OU=Operations,OU=Users,DC=corp,DC=jamiechristian,DC=lab",GG-OPS-Analysts,LabOnly-Temp-9Yq!4sV2

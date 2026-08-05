@@ -1,0 +1,20 @@
+ACTIVE DIRECTORY HEALTH REPORT
+Generated: 2026-08-05 16:40:22 -04:00
+Domain: corp.jamiechristian.lab
+Forest mode: Windows2016Forest
+Domain mode: Windows2016Domain
+
+Domain Controllers
+JC-DC01  10.20.0.10  GlobalCatalog=True  ADWS=Running  DNS=Running
+JC-DC02  10.20.0.11  GlobalCatalog=True  ADWS=Running  DNS=Running
+
+Checks
+DNS SRV records........................PASS
+SYSVOL share on JC-DC01................PASS
+NETLOGON share on JC-DC01..............PASS
+SYSVOL share on JC-DC02................PASS
+NETLOGON share on JC-DC02..............PASS
+Replication failures...................0
+Time offset over 5 minutes.............0
+Unexpected disabled DC accounts........0
+Overall status.........................HEALTHY

@@ -1,0 +1,8 @@
+DNS VALIDATION — 2026-08-05
+nslookup corp.jamiechristian.lab -> 10.20.0.10, 10.20.0.11
+nslookup JC-DC01.corp.jamiechristian.lab -> 10.20.0.10
+nslookup JC-DC02.corp.jamiechristian.lab -> 10.20.0.11
+_ldap._tcp.dc._msdcs.corp.jamiechristian.lab -> JC-DC01, JC-DC02
+Secure dynamic update from JC-WS01 -> PASS
+Reverse lookup 10.20.10.25 -> JC-WS01.corp.jamiechristian.lab
+Overall -> PASS
