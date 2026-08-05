@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/30755245/README.md)
 # Enterprise Active Directory User Management Lab
 
 **Portfolio Owner:** Jamie Christian  
