@@ -1,0 +1,4 @@
+Month,Tickets Opened,Tickets Resolved,SLA Attainment,FCR,Avg Resolution Hours,CSAT,Reopen Rate,Escalation Rate,KB Usage
+2026-05,72,54,0.889,0.722,6.42,4.31,0.093,0.153,0.514
+2026-06,78,60,0.923,0.75,5.84,4.39,0.083,0.141,0.577
+2026-07,84,65,0.94,0.785,5.22,4.52,0.062,0.119,0.631

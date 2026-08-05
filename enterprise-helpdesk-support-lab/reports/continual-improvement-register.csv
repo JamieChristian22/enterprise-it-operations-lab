@@ -1,0 +1,7 @@
+Improvement ID,Source,Action,Owner,Due Date,Status,Expected Benefit
+CSI-2026-001,Ticket Trends,Publish Outlook token refresh KB,M365 Administrator,2026-08-12,Completed,Reduce repeat Outlook incidents
+CSI-2026-002,Backlog Review,Add daily aged-ticket review,Service Desk Lead,2026-08-10,Completed,Reduce tickets older than 72 hours
+CSI-2026-003,Monitoring,Add certificate-expiry alerts,Infrastructure Team,2026-08-15,Completed,Prevent VPN certificate outages
+CSI-2026-004,Asset Management,Reclaim unused software seats,Asset Manager,2026-08-31,In Progress,Lower annual license cost
+CSI-2026-005,Change Review,Require VPN profile peer review,Change Manager,2026-08-05,Completed,Reduce configuration errors
+CSI-2026-006,Knowledge Management,Measure KB-assisted resolution quality,Service Desk Analyst,2026-09-15,Planned,Improve FCR and consistency
