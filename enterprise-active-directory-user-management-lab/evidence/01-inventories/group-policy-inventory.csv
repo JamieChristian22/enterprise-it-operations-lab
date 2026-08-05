@@ -1,0 +1,7 @@
+Name,LinkTarget,LinkState,KeySettings
+GPO-Domain-Password-Policy,Domain,Enforced,Password history 24; minimum length 14; lockout threshold 5
+GPO-Workstation-Security-Baseline,OU=Workstations,Linked,Firewall enabled; Defender enabled; screen lock 15 minutes
+GPO-Drive-Mappings,OU=Corporate,Linked,Maps department and public drives
+GPO-HelpDesk-Delegation,OU=Corporate,Linked,Applies RSAT and support restrictions
+GPO-Audit-Policy,Domain Controllers,Linked,"Advanced logon, account management, directory service auditing"
+GPO-Windows-Update,OU=Workstations,Linked,Automatic updates and restart controls

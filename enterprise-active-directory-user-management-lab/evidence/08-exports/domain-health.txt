@@ -1,0 +1,9 @@
+Domain=corp.contoso.local
+DomainController=DC01
+ADDSService=Running
+DNSService=Running
+SYSVOL=Present
+NETLOGON=Present
+DCDiag=PASS
+ReplicationFailures=0
+SecureChannel=PASS

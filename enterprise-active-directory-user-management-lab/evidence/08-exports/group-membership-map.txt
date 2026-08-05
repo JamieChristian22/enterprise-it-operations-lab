@@ -1,0 +1,6 @@
+GG_IT_Users -> DL_IT_Share_Modify
+GG_HR_Users -> DL_HR_Share_Modify
+GG_Finance_Users -> DL_Finance_Share_Modify
+GG_Sales_Users -> DL_Sales_Share_Modify
+GG_Operations_Users -> DL_Operations_Share_Modify
+GG_HelpDesk_Tier1 -> Delegated password reset/account unlock permissions

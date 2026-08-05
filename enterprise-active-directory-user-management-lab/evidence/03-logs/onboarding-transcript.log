@@ -1,0 +1,12 @@
+[2026-08-05 09:02:11] INFO  Ticket=SR-1001 Operator=jchristian
+[2026-08-05 09:02:12] INFO  Identity verified against approved onboarding request
+[2026-08-05 09:02:13] INFO  Generated SamAccountName=ajohnson16
+[2026-08-05 09:02:14] INFO  TargetOU=OU=Sales,OU=Corporate,DC=corp,DC=contoso,DC=local
+[2026-08-05 09:02:15] INFO  New-ADUser completed
+[2026-08-05 09:02:16] INFO  Added to GG_Sales_Users
+[2026-08-05 09:02:17] INFO  Added to DL_Sales_Share_Modify through approved role mapping
+[2026-08-05 09:02:18] INFO  HomeDirectory=\\FS01\Home\ajohnson16 created
+[2026-08-05 09:02:19] INFO  NTFS owner set to CONTOSO\ajohnson16
+[2026-08-05 09:02:21] INFO  PasswordChangeAtLogon=True
+[2026-08-05 09:02:24] VERIFY Get-ADUser returned Enabled=True Department=Sales
+[2026-08-05 09:02:25] RESULT PASS

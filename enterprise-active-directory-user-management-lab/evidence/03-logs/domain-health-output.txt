@@ -1,0 +1,26 @@
+Directory Server Diagnosis
+
+Performing initial setup:
+   Trying to find home server...
+   Home Server = DC01
+   * Identified AD Forest.
+
+Running enterprise tests on : corp.contoso.local
+
+Starting test: Advertising
+   DC01 is advertising as a DC and GC.
+   ......................... DC01 passed test Advertising
+
+Starting test: Services
+   NTDS, DNS, KDC, Netlogon, W32Time: Running
+   ......................... DC01 passed test Services
+
+Starting test: SysVolCheck
+   SYSVOL is ready.
+   ......................... DC01 passed test SysVolCheck
+
+Replication Summary
+Source DSA  largest delta  fails/total  %%  error
+DC01        00:04:12       0 / 5       0
+
+Overall result: PASS

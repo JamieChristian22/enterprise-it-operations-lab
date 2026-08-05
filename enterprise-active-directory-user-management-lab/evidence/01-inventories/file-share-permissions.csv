@@ -1,0 +1,10 @@
+Share,Path,AssignedGroup,Permission
+IT,\\FS01\IT,DL_IT_Share_Modify,Modify
+HR,\\FS01\HR,DL_HR_Share_Modify,Modify
+Finance,\\FS01\Finance,DL_Finance_Share_Modify,Modify
+Sales,\\FS01\Sales,DL_Sales_Share_Modify,Modify
+Operations,\\FS01\Operations,DL_Operations_Share_Modify,Modify
+Public-Read,\\FS01\Public,DL_Public_Share_Read,Read
+Public-Modify,\\FS01\Public,DL_Public_Share_Modify,Modify
+Home,\\FS01\Home,DL_Home_Folders_Full,FullControl
+Profiles,\\FS01\Profiles,GG_Server_Admins,FullControl

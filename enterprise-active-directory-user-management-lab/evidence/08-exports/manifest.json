@@ -1,0 +1,15 @@
+{
+  "package": "Enterprise Active Directory Evidence",
+  "generated": "2026-08-05",
+  "domain": "corp.contoso.local",
+  "counts": {
+    "users": 75,
+    "groups": 18,
+    "ous": 12,
+    "gpos": 6,
+    "shares": 9,
+    "tests": 15
+  },
+  "status": "PASS",
+  "fictional_data_notice": "Names and organizational data are fictional; controls and procedures mirror enterprise practice."
+}

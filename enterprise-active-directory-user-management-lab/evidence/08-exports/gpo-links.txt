@@ -1,0 +1,6 @@
+GPO-Domain-Password-Policy -> Domain [Enforced]
+GPO-Workstation-Security-Baseline -> OU=Workstations [Linked]
+GPO-Drive-Mappings -> OU=Corporate [Linked]
+GPO-HelpDesk-Delegation -> OU=Corporate [Linked]
+GPO-Audit-Policy -> Domain Controllers [Linked]
+GPO-Windows-Update -> OU=Workstations [Linked]

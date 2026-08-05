@@ -1,0 +1,11 @@
+[2026-08-05 13:07:01] INFO  Ticket=SR-1006 Operator=jchristian
+[2026-08-05 13:07:02] INFO  Manager and HR approval verified
+[2026-08-05 13:07:03] INFO  User=blewis69
+[2026-08-05 13:07:04] INFO  Account disabled
+[2026-08-05 13:07:05] INFO  Group memberships exported to pre-change record
+[2026-08-05 13:07:06] INFO  Non-retention groups removed
+[2026-08-05 13:07:07] INFO  Added to GG_Terminated_Users
+[2026-08-05 13:07:08] INFO  Moved to OU=Disabled Users,OU=Corporate
+[2026-08-05 13:07:09] INFO  Description updated with ticket and retention date
+[2026-08-05 13:07:11] VERIFY Enabled=False
+[2026-08-05 13:07:12] RESULT PASS

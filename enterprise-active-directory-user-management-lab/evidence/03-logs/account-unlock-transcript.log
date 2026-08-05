@@ -1,0 +1,7 @@
+[2026-08-05 10:42:20] INFO  Ticket=INC-1003 Operator=jchristian
+[2026-08-05 10:42:21] INFO  User=rgreen31
+[2026-08-05 10:42:22] INFO  Reviewed event 4740 and source workstation CL01
+[2026-08-05 10:42:23] INFO  No suspicious pattern detected
+[2026-08-05 10:42:24] INFO  Unlock-ADAccount completed
+[2026-08-05 10:42:26] VERIFY LockedOut=False
+[2026-08-05 10:42:27] RESULT PASS

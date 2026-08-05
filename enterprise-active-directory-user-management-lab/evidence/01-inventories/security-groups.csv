@@ -1,0 +1,19 @@
+Name,Scope,Category,Purpose
+GG_IT_Users,Global,Security,IT department users
+GG_HR_Users,Global,Security,HR department users
+GG_Finance_Users,Global,Security,Finance department users
+GG_Sales_Users,Global,Security,Sales department users
+GG_Operations_Users,Global,Security,Operations department users
+GG_HelpDesk_Tier1,Global,Security,Delegated password reset and account unlock
+GG_HelpDesk_Tier2,Global,Security,Advanced endpoint and user support
+GG_Server_Admins,Global,Security,Privileged server administrators
+GG_GPO_Admins,Global,Security,Delegated GPO administrators
+DL_IT_Share_Modify,DomainLocal,Security,Modify access to IT share
+DL_HR_Share_Modify,DomainLocal,Security,Modify access to HR share
+DL_Finance_Share_Modify,DomainLocal,Security,Modify access to Finance share
+DL_Sales_Share_Modify,DomainLocal,Security,Modify access to Sales share
+DL_Operations_Share_Modify,DomainLocal,Security,Modify access to Operations share
+DL_Public_Share_Read,DomainLocal,Security,Read access to Public share
+DL_Public_Share_Modify,DomainLocal,Security,Modify access to Public share
+DL_Home_Folders_Full,DomainLocal,Security,Administrative access to home folders
+GG_Terminated_Users,Global,Security,Disabled accounts pending retention expiry

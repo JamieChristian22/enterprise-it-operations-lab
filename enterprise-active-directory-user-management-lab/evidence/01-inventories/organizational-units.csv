@@ -1,0 +1,13 @@
+Name,ParentDN,DistinguishedName
+Corporate,"DC=corp,DC=contoso,DC=local","OU=Corporate,DC=corp,DC=contoso,DC=local"
+IT,"OU=Corporate,DC=corp,DC=contoso,DC=local","OU=IT,OU=Corporate,DC=corp,DC=contoso,DC=local"
+HR,"OU=Corporate,DC=corp,DC=contoso,DC=local","OU=HR,OU=Corporate,DC=corp,DC=contoso,DC=local"
+Finance,"OU=Corporate,DC=corp,DC=contoso,DC=local","OU=Finance,OU=Corporate,DC=corp,DC=contoso,DC=local"
+Sales,"OU=Corporate,DC=corp,DC=contoso,DC=local","OU=Sales,OU=Corporate,DC=corp,DC=contoso,DC=local"
+Operations,"OU=Corporate,DC=corp,DC=contoso,DC=local","OU=Operations,OU=Corporate,DC=corp,DC=contoso,DC=local"
+Workstations,"OU=Corporate,DC=corp,DC=contoso,DC=local","OU=Workstations,OU=Corporate,DC=corp,DC=contoso,DC=local"
+Servers,"OU=Corporate,DC=corp,DC=contoso,DC=local","OU=Servers,OU=Corporate,DC=corp,DC=contoso,DC=local"
+Service Accounts,"OU=Corporate,DC=corp,DC=contoso,DC=local","OU=Service Accounts,OU=Corporate,DC=corp,DC=contoso,DC=local"
+Admin Accounts,"OU=Corporate,DC=corp,DC=contoso,DC=local","OU=Admin Accounts,OU=Corporate,DC=corp,DC=contoso,DC=local"
+Disabled Users,"OU=Corporate,DC=corp,DC=contoso,DC=local","OU=Disabled Users,OU=Corporate,DC=corp,DC=contoso,DC=local"
+Groups,"OU=Corporate,DC=corp,DC=contoso,DC=local","OU=Groups,OU=Corporate,DC=corp,DC=contoso,DC=local"

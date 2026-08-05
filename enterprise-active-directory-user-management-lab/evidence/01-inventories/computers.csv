@@ -1,0 +1,4 @@
+Name,OS,Role,OU,Status
+DC01,Windows Server 2022,Domain Controller/DNS,"OU=Servers,OU=Corporate",Online
+FS01,Windows Server 2022,File Server,"OU=Servers,OU=Corporate",Online
+CL01,Windows 11 Enterprise,Domain Client,"OU=Workstations,OU=Corporate",Online
