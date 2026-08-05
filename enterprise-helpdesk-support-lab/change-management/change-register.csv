@@ -1,0 +1,4 @@
+Change ID,Title,Type,Risk Score,Risk Level,Approval,Implementation Result,Rollback Used,Related Record,Closure Date
+CHG-2026-014,Domain Password Policy Update,Normal,13,Moderate,CAB Approved,Successful,No,PRB-2026-006,2026-07-11
+CHG-2026-018,Outlook Profile Repair Script Deployment,Standard,8,Low,Pre-Authorized,Successful,No,INC-2026-088; INC-2026-091; INC-2026-097,2026-07-18
+CHG-2026-021,Emergency VPN DNS Configuration Correction,Emergency,14,High,Emergency Authority,Successful,No,INC-2026-104,2026-07-23
