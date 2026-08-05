@@ -1,0 +1,8 @@
+Service,Reporting Period,Availability,Target,Incidents,Status
+Active Directory,2026-07,99.96%,99.90%,1,Met
+Microsoft 365,2026-07,99.82%,99.90%,1,Below Target
+VPN,2026-07,99.74%,99.90%,2,Below Target
+File Services,2026-07,99.91%,99.90%,1,Met
+Endpoint Management,2026-07,99.98%,99.90%,1,Met
+Printing,2026-07,99.93%,99.50%,1,Met
+Cloud Backup,2026-07,99.95%,99.90%,1,Met
