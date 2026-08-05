@@ -1,0 +1,7 @@
+Action ID,Incident ID,Action,Owner,Due Date,Status
+CA-2026-001,INC-2026-104,Add DNS validation to VPN checklist,Network Administrator,2026-07-29,Completed
+CA-2026-002,INC-2026-104,Require peer review for profile promotion,Change Manager,2026-07-30,Completed
+CA-2026-003,INC-2026-117,Publish Outlook token refresh KB,M365 Administrator,2026-07-29,Completed
+CA-2026-004,INC-2026-117,Add pilot group to identity policy changes,Change Manager,2026-08-01,Completed
+CA-2026-005,INC-2026-123,Inventory scheduled tasks using service accounts,Systems Administrator,2026-08-05,Completed
+CA-2026-006,INC-2026-123,Add dependency review to password changes,Change Manager,2026-08-03,Completed
