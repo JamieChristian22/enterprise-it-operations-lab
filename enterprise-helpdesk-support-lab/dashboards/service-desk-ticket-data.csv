@@ -1,0 +1,235 @@
+Ticket ID,Opened At,Resolved At,Month,Status,Priority,Category,Department,Technician,Channel,First Response Hours,Resolution Hours,SLA Target Hours,SLA Met,First Contact Resolution,Reopened,Escalated,CSAT,Backlog Age Hours,Endpoint Compliant,Phishing Correct,Knowledge Article Used
+INC-2026-001,2026-05-05 11:10:00,,2026-05,Pending,Medium,Password Reset,Human Resources,Jordan Lee,Chat,1.25,,8,True,True,False,False,,2100.8,True,True,True
+INC-2026-002,2026-05-22 08:40:00,,2026-05,Open,Medium,Microsoft 365,Customer Service,Alex Morgan,Email,0.51,,8,True,True,False,False,,1695.3,True,True,True
+INC-2026-003,2026-05-06 14:50:00,,2026-05,Open,Medium,Account Lockout,Finance,Jamie Christian II,Phone,2.8,,8,False,True,False,False,,2073.2,True,True,True
+INC-2026-004,2026-05-21 15:40:00,2026-05-21 18:45:24,2026-05,Resolved,High,Outlook,Sales,Jamie Christian II,Chat,0.73,3.09,4,True,False,False,True,5,0,True,True,False
+INC-2026-005,2026-05-15 08:40:00,,2026-05,Open,Medium,Printer,Operations,Jordan Lee,Chat,1.57,,8,True,False,False,True,,1863.3,True,False,True
+INC-2026-006,2026-05-10 16:20:00,2026-05-11 19:56:00,2026-05,Resolved,Low,Outlook,IT,Jordan Lee,Email,8.4,27.6,24,False,True,False,False,5,0,True,True,False
+INC-2026-007,2026-05-01 09:20:00,2026-05-01 18:32:00,2026-05,Resolved,Medium,Outlook,Customer Service,Taylor Reed,Portal,2.8,9.2,8,False,True,False,False,5,0,True,False,False
+INC-2026-008,2026-05-11 12:10:00,,2026-05,Open,Low,Microsoft 365,Human Resources,Taylor Reed,Email,1.37,,24,True,True,False,True,,1955.8,True,True,False
+INC-2026-009,2026-05-23 10:30:00,2026-05-23 19:04:12,2026-05,Closed,Low,Printer,Customer Service,Taylor Reed,Portal,3.05,8.57,24,True,True,False,False,4,0,True,True,False
+INC-2026-010,2026-05-01 11:20:00,2026-05-01 16:50:00,2026-05,Resolved,Medium,Outlook,Customer Service,Alex Morgan,Email,1.59,5.5,8,True,False,False,False,4,0,True,True,False
+INC-2026-011,2026-05-27 14:40:00,2026-05-27 15:23:48,2026-05,Resolved,Critical,Hardware,Operations,Taylor Reed,Phone,0.15,0.73,1,True,False,False,False,5,0,True,True,True
+INC-2026-012,2026-05-26 14:50:00,2026-05-26 16:06:12,2026-05,Resolved,Medium,Password Reset,Operations,Taylor Reed,Portal,1.14,1.27,8,True,True,False,False,5,0,False,True,False
+INC-2026-013,2026-05-02 10:20:00,2026-05-02 10:41:36,2026-05,Resolved,High,VPN,Operations,Alex Morgan,Chat,0.46,0.36,4,True,False,False,False,5,0,True,True,False
+INC-2026-014,2026-05-13 08:30:00,2026-05-13 09:04:48,2026-05,Closed,Critical,VPN,Customer Service,Jordan Lee,Chat,0.17,0.58,1,True,True,True,True,3,0,True,True,True
+INC-2026-015,2026-05-22 10:10:00,2026-05-22 10:29:12,2026-05,Resolved,Critical,Microsoft 365,Customer Service,Alex Morgan,Email,0.13,0.32,1,True,False,False,False,5,0,True,True,True
+INC-2026-016,2026-05-16 16:40:00,2026-05-16 19:51:24,2026-05,Resolved,High,Password Reset,Customer Service,Jordan Lee,Portal,0.51,3.19,4,True,True,False,False,5,0,True,True,True
+INC-2026-017,2026-05-07 11:00:00,,2026-05,Open,Medium,Account Lockout,Customer Service,Jordan Lee,Portal,0.3,,8,True,True,False,False,,2053.0,True,True,True
+INC-2026-018,2026-05-17 12:40:00,2026-05-17 15:48:24,2026-05,Resolved,High,Outlook,IT,Jordan Lee,Portal,0.51,3.14,4,True,True,False,False,4,0,True,True,False
+INC-2026-019,2026-05-26 09:50:00,,2026-05,Open,Low,Password Reset,Sales,Jamie Christian II,Portal,3.56,,24,True,True,False,True,,1598.2,False,True,False
+INC-2026-020,2026-05-07 15:30:00,2026-05-07 16:45:00,2026-05,Resolved,Medium,Password Reset,Finance,Jamie Christian II,Phone,0.77,1.25,8,True,True,False,False,3,0,True,False,True
+INC-2026-021,2026-05-18 10:10:00,2026-05-19 03:11:12,2026-05,Resolved,Low,VPN,Human Resources,Jamie Christian II,Email,1.27,17.02,24,True,True,False,False,5,0,True,True,False
+INC-2026-022,2026-05-15 09:30:00,2026-05-15 14:06:00,2026-05,Resolved,High,Account Lockout,IT,Jamie Christian II,Chat,1.4,4.6,4,False,True,False,False,4,0,True,True,True
+INC-2026-023,2026-05-10 16:30:00,2026-05-10 18:58:48,2026-05,Resolved,Medium,Outlook,Human Resources,Jordan Lee,Phone,0.11,2.48,8,True,True,True,True,5,0,True,True,True
+INC-2026-024,2026-05-27 10:30:00,2026-05-27 11:18:00,2026-05,Resolved,High,Network,IT,Taylor Reed,Portal,0.59,0.8,4,True,True,False,False,5,0,True,True,False
+INC-2026-025,2026-05-22 13:30:00,2026-05-22 16:27:36,2026-05,Resolved,Medium,Account Lockout,Finance,Jordan Lee,Portal,0.72,2.96,8,True,False,False,False,4,0,True,False,False
+INC-2026-026,2026-05-06 14:30:00,,2026-05,Pending,Medium,Password Reset,IT,Jamie Christian II,Email,1.48,,8,True,True,False,False,,2073.5,True,True,True
+INC-2026-027,2026-05-22 10:30:00,,2026-05,Pending,Medium,Outlook,Customer Service,Alex Morgan,Portal,0.48,,8,True,True,False,False,,1693.5,False,False,False
+INC-2026-028,2026-05-05 12:20:00,2026-05-06 08:00:12,2026-05,Resolved,Low,VPN,Human Resources,Taylor Reed,Email,3.65,19.67,24,True,True,False,False,5,0,True,True,True
+INC-2026-029,2026-05-24 08:40:00,2026-05-25 01:06:24,2026-05,Resolved,Low,Account Lockout,Customer Service,Alex Morgan,Chat,2.38,16.44,24,True,True,False,True,5,0,True,True,False
+INC-2026-030,2026-05-05 11:20:00,,2026-05,Open,Medium,Account Lockout,Sales,Jordan Lee,Email,0.44,,8,True,True,False,False,,2100.7,False,True,True
+INC-2026-031,2026-05-13 12:50:00,2026-05-13 15:57:48,2026-05,Resolved,Medium,VPN,Finance,Alex Morgan,Portal,1.47,3.13,8,True,True,False,False,4,0,True,False,True
+INC-2026-032,2026-05-10 15:30:00,2026-05-11 01:36:00,2026-05,Resolved,Low,VPN,Sales,Jordan Lee,Portal,4.06,10.1,24,True,False,False,False,5,0,True,False,False
+INC-2026-033,2026-05-26 16:30:00,2026-05-26 19:39:00,2026-05,Closed,High,Printer,Finance,Jordan Lee,Email,0.11,3.15,4,True,True,False,False,5,0,True,True,True
+INC-2026-034,2026-05-22 11:20:00,2026-05-22 17:29:00,2026-05,Closed,Medium,Password Reset,Finance,Taylor Reed,Email,1.08,6.15,8,True,False,False,False,4,0,True,True,True
+INC-2026-035,2026-05-11 16:20:00,2026-05-12 04:50:00,2026-05,Resolved,Low,Printer,Operations,Jordan Lee,Phone,2.82,12.5,24,True,True,False,False,5,0,True,False,False
+INC-2026-036,2026-05-11 18:40:00,2026-05-12 03:52:00,2026-05,Resolved,Medium,Outlook,Human Resources,Jamie Christian II,Chat,2.8,9.2,8,False,False,False,False,5,0,True,True,False
+INC-2026-037,2026-05-20 17:50:00,2026-05-20 23:21:48,2026-05,Resolved,Medium,Microsoft 365,Operations,Taylor Reed,Email,1.37,5.53,8,True,False,False,True,4,0,True,True,True
+INC-2026-038,2026-05-11 16:00:00,2026-05-11 19:57:00,2026-05,Closed,Low,Outlook,Finance,Jamie Christian II,Phone,3.61,3.95,24,True,True,False,False,5,0,True,True,False
+INC-2026-039,2026-05-19 15:00:00,2026-05-19 17:23:24,2026-05,Closed,Medium,Password Reset,IT,Taylor Reed,Portal,1.48,2.39,8,True,False,False,False,5,0,True,True,True
+INC-2026-040,2026-05-22 13:10:00,2026-05-23 05:41:12,2026-05,Resolved,Low,Account Lockout,IT,Jordan Lee,Email,4.58,16.52,24,True,True,False,False,5,0,True,True,True
+INC-2026-041,2026-05-11 10:40:00,2026-05-11 19:46:36,2026-05,Resolved,Low,Microsoft 365,Operations,Alex Morgan,Portal,4.68,9.11,24,True,True,False,False,4,0,True,True,False
+INC-2026-042,2026-05-21 13:20:00,2026-05-22 09:21:12,2026-05,Resolved,Low,Network,Finance,Alex Morgan,Email,1.23,20.02,24,True,False,True,True,4,0,True,True,False
+INC-2026-043,2026-05-06 13:40:00,2026-05-06 18:34:00,2026-05,Resolved,Low,Outlook,Customer Service,Jordan Lee,Portal,1.51,4.9,24,True,True,False,False,4,0,True,False,True
+INC-2026-044,2026-05-05 14:10:00,2026-05-05 15:41:48,2026-05,Resolved,High,Outlook,Customer Service,Jamie Christian II,Portal,0.59,1.53,4,True,False,True,True,5,0,True,True,True
+INC-2026-045,2026-05-03 11:50:00,2026-05-03 12:59:00,2026-05,Resolved,Critical,Hardware,Human Resources,Jamie Christian II,Email,0.35,1.15,1,False,True,False,False,5,0,True,True,True
+INC-2026-046,2026-05-14 18:00:00,,2026-05,Open,Medium,Outlook,Sales,Taylor Reed,Portal,0.37,,8,True,True,False,True,,1878.0,True,True,False
+INC-2026-047,2026-05-13 10:20:00,,2026-05,Open,Medium,Outlook,Finance,Jordan Lee,Portal,0.83,,8,True,True,False,False,,1909.7,True,True,True
+INC-2026-048,2026-05-25 12:30:00,2026-05-26 16:06:00,2026-05,Closed,Low,Password Reset,Sales,Jamie Christian II,Email,8.4,27.6,24,False,True,False,False,5,0,True,True,False
+INC-2026-049,2026-05-24 10:10:00,2026-05-24 10:54:24,2026-05,Closed,Critical,VPN,Sales,Alex Morgan,Phone,0.07,0.74,1,True,False,True,False,4,0,True,True,False
+INC-2026-050,2026-05-28 18:40:00,2026-05-28 21:59:12,2026-05,Resolved,Medium,VPN,Customer Service,Jordan Lee,Portal,1.18,3.32,8,True,True,False,False,3,0,True,True,False
+INC-2026-051,2026-05-15 14:30:00,2026-05-15 16:35:24,2026-05,Resolved,Low,Outlook,IT,Jordan Lee,Portal,2.25,2.09,24,True,False,False,False,5,0,True,True,True
+INC-2026-052,2026-05-23 16:00:00,,2026-05,Open,Low,VPN,IT,Taylor Reed,Portal,0.77,,24,True,True,False,False,,1664.0,True,True,True
+INC-2026-053,2026-05-15 11:00:00,,2026-05,Open,High,Network,Human Resources,Taylor Reed,Phone,0.68,,4,True,False,False,False,,1861.0,True,False,False
+INC-2026-054,2026-05-28 10:30:00,2026-05-29 04:09:36,2026-05,Closed,Low,VPN,IT,Jordan Lee,Portal,2.52,17.66,24,True,True,False,False,5,0,True,True,False
+INC-2026-055,2026-05-02 10:20:00,2026-05-02 10:57:12,2026-05,Resolved,Medium,VPN,IT,Alex Morgan,Portal,0.68,0.62,8,True,True,False,False,5,0,True,True,True
+INC-2026-056,2026-05-21 09:00:00,2026-05-21 11:20:24,2026-05,Resolved,High,Account Lockout,Customer Service,Alex Morgan,Chat,0.29,2.34,4,True,True,False,False,5,0,True,False,False
+INC-2026-057,2026-05-17 13:10:00,2026-05-17 14:53:48,2026-05,Resolved,Medium,VPN,IT,Alex Morgan,Chat,0.85,1.73,8,True,True,False,False,4,0,True,False,True
+INC-2026-058,2026-05-28 15:00:00,2026-05-28 20:26:24,2026-05,Resolved,Medium,Outlook,Human Resources,Jamie Christian II,Email,1.27,5.44,8,True,False,False,False,5,0,True,True,True
+INC-2026-059,2026-05-25 16:30:00,2026-05-25 20:54:36,2026-05,Resolved,Medium,Microsoft 365,IT,Jamie Christian II,Portal,0.57,4.41,8,True,True,False,False,3,0,True,True,True
+INC-2026-060,2026-05-25 08:00:00,,2026-05,Open,Low,Outlook,Finance,Alex Morgan,Email,3.3,,24,True,True,False,False,,1624.0,True,True,True
+INC-2026-061,2026-05-02 18:50:00,2026-05-02 19:50:36,2026-05,Resolved,High,Password Reset,Sales,Jamie Christian II,Email,0.36,1.01,4,True,True,True,False,5,0,True,True,True
+INC-2026-062,2026-05-20 15:00:00,2026-05-20 21:45:00,2026-05,Closed,Medium,Printer,Finance,Jamie Christian II,Email,1.01,6.75,8,True,True,False,False,5,0,True,True,False
+INC-2026-063,2026-05-16 13:40:00,2026-05-16 16:31:00,2026-05,Closed,Medium,Hardware,IT,Alex Morgan,Portal,0.91,2.85,8,True,True,False,False,4,0,True,True,False
+INC-2026-064,2026-05-24 14:00:00,2026-05-24 20:13:12,2026-05,Closed,Medium,VPN,Customer Service,Taylor Reed,Phone,0.63,6.22,8,True,False,False,False,4,0,True,True,True
+INC-2026-065,2026-05-13 16:30:00,,2026-05,Open,Medium,Microsoft 365,Finance,Taylor Reed,Email,2.8,,8,False,True,True,True,,1903.5,True,False,True
+INC-2026-066,2026-05-22 17:00:00,,2026-05,Pending,Low,Outlook,Operations,Taylor Reed,Portal,3.36,,24,True,True,False,False,,1687.0,True,True,True
+INC-2026-067,2026-05-23 16:00:00,2026-05-24 19:36:00,2026-05,Closed,Low,Outlook,Finance,Jordan Lee,Portal,8.4,27.6,24,False,False,False,False,3,0,True,True,True
+INC-2026-068,2026-05-15 15:10:00,,2026-05,Pending,Low,Microsoft 365,Human Resources,Alex Morgan,Portal,4.61,,24,True,False,False,False,,1856.8,True,False,True
+INC-2026-069,2026-05-12 11:40:00,2026-05-12 20:52:00,2026-05,Closed,Medium,Microsoft 365,Sales,Jordan Lee,Phone,2.8,9.2,8,False,True,False,False,5,0,True,True,False
+INC-2026-070,2026-05-22 17:10:00,2026-05-22 20:31:36,2026-05,Closed,Medium,Password Reset,Customer Service,Jamie Christian II,Email,1.14,3.36,8,True,False,False,False,5,0,True,False,True
+INC-2026-071,2026-05-02 09:30:00,2026-05-02 14:40:12,2026-05,Resolved,Low,Password Reset,Finance,Jordan Lee,Chat,3.81,5.17,24,True,True,False,False,3,0,True,True,False
+INC-2026-072,2026-05-27 16:50:00,,2026-05,Pending,Medium,Printer,Customer Service,Jamie Christian II,Phone,1.29,,8,True,True,True,False,,1567.2,True,True,True
+INC-2026-073,2026-06-05 13:30:00,2026-06-05 14:57:00,2026-06,Resolved,Medium,Account Lockout,Sales,Jordan Lee,Email,0.79,1.45,8,True,False,False,False,5,0,True,True,False
+INC-2026-074,2026-06-11 17:30:00,,2026-06,Pending,Medium,Password Reset,Finance,Alex Morgan,Portal,2.8,,8,False,True,False,False,,1206.5,True,True,False
+INC-2026-075,2026-06-05 11:10:00,,2026-06,Pending,Medium,Printer,Finance,Alex Morgan,Phone,0.55,,8,True,True,False,True,,1356.8,False,True,True
+INC-2026-076,2026-06-25 09:20:00,2026-06-25 12:09:12,2026-06,Resolved,Medium,VPN,Operations,Alex Morgan,Phone,0.68,2.82,8,True,True,False,False,4,0,True,True,False
+INC-2026-077,2026-06-25 18:40:00,2026-06-26 02:07:00,2026-06,Closed,Low,Password Reset,IT,Jordan Lee,Portal,1.08,7.45,24,True,True,False,False,5,0,True,True,True
+INC-2026-078,2026-06-18 17:40:00,2026-06-18 21:20:12,2026-06,Resolved,Medium,Password Reset,Sales,Taylor Reed,Portal,1.38,3.67,8,True,True,False,False,3,0,True,False,False
+INC-2026-079,2026-06-09 18:40:00,2026-06-09 21:46:00,2026-06,Resolved,High,VPN,IT,Jamie Christian II,Chat,0.44,3.1,4,True,True,False,False,5,0,True,True,False
+INC-2026-080,2026-06-14 13:50:00,2026-06-14 14:14:36,2026-06,Closed,Critical,Printer,Finance,Taylor Reed,Portal,0.11,0.41,1,True,True,False,False,5,0,True,True,True
+INC-2026-081,2026-06-19 08:00:00,2026-06-20 02:45:00,2026-06,Resolved,Low,Password Reset,Finance,Alex Morgan,Email,4.44,18.75,24,True,False,False,False,5,0,True,False,True
+INC-2026-082,2026-06-21 14:20:00,2026-06-21 16:53:36,2026-06,Closed,Medium,Microsoft 365,IT,Jordan Lee,Phone,1.1,2.56,8,True,False,False,False,4,0,True,True,False
+INC-2026-083,2026-06-19 09:50:00,2026-06-19 13:51:12,2026-06,Resolved,Low,Outlook,Operations,Jamie Christian II,Chat,3.85,4.02,24,True,True,False,False,4,0,True,True,True
+INC-2026-084,2026-06-25 16:50:00,2026-06-25 20:08:36,2026-06,Resolved,Medium,Outlook,Operations,Alex Morgan,Phone,0.96,3.31,8,True,True,False,False,5,0,True,True,False
+INC-2026-085,2026-06-05 10:00:00,2026-06-05 13:19:12,2026-06,Resolved,High,Printer,Human Resources,Taylor Reed,Phone,0.65,3.32,4,True,False,False,True,4,0,True,True,False
+INC-2026-086,2026-06-22 18:00:00,2026-06-22 18:42:00,2026-06,Closed,Low,VPN,Human Resources,Jamie Christian II,Chat,0.14,0.7,24,True,False,False,False,5,0,True,True,False
+INC-2026-087,2026-06-11 12:40:00,,2026-06,Pending,High,Outlook,Human Resources,Jordan Lee,Email,0.61,,4,True,False,False,True,,1211.3,True,True,False
+INC-2026-088,2026-06-10 08:00:00,,2026-06,Open,Low,Password Reset,Sales,Jordan Lee,Email,4.33,,24,True,True,True,False,,1240.0,True,True,True
+INC-2026-089,2026-06-24 16:40:00,2026-06-24 22:02:48,2026-06,Resolved,Medium,Hardware,Operations,Alex Morgan,Chat,1.13,5.38,8,True,True,False,False,4,0,True,True,True
+INC-2026-090,2026-06-02 17:40:00,,2026-06,Open,Low,VPN,Human Resources,Jordan Lee,Portal,8.4,,24,False,True,False,False,,1422.3,True,True,False
+INC-2026-091,2026-06-17 08:40:00,,2026-06,Pending,Medium,VPN,Customer Service,Jamie Christian II,Email,2.8,,8,False,True,False,False,,1071.3,True,True,True
+INC-2026-092,2026-06-09 18:00:00,2026-06-09 20:54:36,2026-06,Resolved,Low,Account Lockout,Customer Service,Taylor Reed,Portal,2.73,2.91,24,True,True,True,False,4,0,True,True,False
+INC-2026-093,2026-06-14 09:00:00,,2026-06,Open,Medium,Password Reset,Human Resources,Jamie Christian II,Phone,0.94,,8,True,True,False,False,,1143.0,True,True,True
+INC-2026-094,2026-06-21 14:40:00,2026-06-21 16:53:48,2026-06,Resolved,High,VPN,Customer Service,Taylor Reed,Portal,0.36,2.23,4,True,False,False,False,4,0,True,True,False
+INC-2026-095,2026-06-03 16:20:00,2026-06-03 17:08:36,2026-06,Resolved,High,Microsoft 365,Human Resources,Jamie Christian II,Email,0.75,0.81,4,True,False,False,False,4,0,True,True,True
+INC-2026-096,2026-06-19 15:20:00,2026-06-19 18:02:00,2026-06,Resolved,Medium,Network,Human Resources,Jordan Lee,Chat,0.88,2.7,8,True,True,False,False,4,0,True,True,True
+INC-2026-097,2026-06-10 14:20:00,2026-06-10 18:16:24,2026-06,Resolved,Medium,Hardware,Sales,Taylor Reed,Email,1.03,3.94,8,True,False,False,False,5,0,True,True,True
+INC-2026-098,2026-06-17 18:30:00,2026-06-17 20:52:12,2026-06,Closed,High,VPN,Human Resources,Alex Morgan,Chat,0.5,2.37,4,True,True,False,True,2,0,True,True,True
+INC-2026-099,2026-06-23 10:10:00,,2026-06,Open,Low,Microsoft 365,Human Resources,Taylor Reed,Portal,2.15,,24,True,True,False,False,,925.8,True,True,True
+INC-2026-100,2026-06-16 10:00:00,2026-06-16 12:51:36,2026-06,Resolved,High,Printer,Sales,Jamie Christian II,Email,0.76,2.86,4,True,True,False,False,5,0,False,False,False
+INC-2026-101,2026-06-26 13:10:00,2026-06-27 08:43:36,2026-06,Resolved,Low,Microsoft 365,Human Resources,Taylor Reed,Phone,3.3,19.56,24,True,True,False,False,1,0,True,True,False
+INC-2026-102,2026-06-12 10:30:00,2026-06-13 14:06:00,2026-06,Resolved,Low,Account Lockout,Customer Service,Jamie Christian II,Phone,8.4,27.6,24,False,True,False,False,5,0,True,True,True
+INC-2026-103,2026-06-05 14:50:00,2026-06-05 15:37:24,2026-06,Closed,High,Network,IT,Alex Morgan,Portal,0.76,0.79,4,True,True,False,False,5,0,True,True,True
+INC-2026-104,2026-06-13 15:10:00,2026-06-13 16:42:24,2026-06,Resolved,Low,Microsoft 365,Customer Service,Alex Morgan,Phone,3.46,1.54,24,True,True,False,False,4,0,True,True,True
+INC-2026-105,2026-06-06 11:50:00,2026-06-07 01:47:36,2026-06,Resolved,Low,Outlook,IT,Alex Morgan,Email,3.33,13.96,24,True,True,False,False,5,0,True,True,False
+INC-2026-106,2026-06-26 18:40:00,2026-06-27 05:59:48,2026-06,Resolved,Low,Microsoft 365,Customer Service,Alex Morgan,Email,2.01,11.33,24,True,True,False,False,5,0,True,False,False
+INC-2026-107,2026-06-17 18:40:00,2026-06-17 22:48:24,2026-06,Resolved,Low,Account Lockout,IT,Jordan Lee,Email,3.46,4.14,24,True,True,False,False,5,0,True,True,False
+INC-2026-108,2026-06-02 15:40:00,2026-06-03 19:16:00,2026-06,Resolved,Low,Outlook,Operations,Alex Morgan,Portal,8.4,27.6,24,False,False,True,False,4,0,True,True,True
+INC-2026-109,2026-06-24 13:20:00,2026-06-24 19:47:36,2026-06,Closed,Low,Hardware,Sales,Alex Morgan,Email,1.85,6.46,24,True,True,True,False,5,0,True,True,True
+INC-2026-110,2026-06-17 11:00:00,2026-06-17 13:36:36,2026-06,Resolved,High,Hardware,Human Resources,Jordan Lee,Email,0.76,2.61,4,True,False,False,False,2,0,False,True,False
+INC-2026-111,2026-06-22 15:10:00,2026-06-22 16:50:48,2026-06,Resolved,High,Outlook,Human Resources,Jamie Christian II,Email,0.33,1.68,4,True,True,False,False,5,0,True,True,True
+INC-2026-112,2026-06-09 13:00:00,2026-06-10 08:20:24,2026-06,Closed,Low,Password Reset,Finance,Alex Morgan,Portal,1.61,19.34,24,True,True,False,False,5,0,True,True,True
+INC-2026-113,2026-06-16 09:00:00,2026-06-16 18:12:00,2026-06,Resolved,Medium,Password Reset,Sales,Jordan Lee,Chat,2.8,9.2,8,False,True,False,False,2,0,True,True,True
+INC-2026-114,2026-06-24 14:00:00,2026-06-24 15:57:00,2026-06,Resolved,Medium,Outlook,Finance,Alex Morgan,Portal,0.96,1.95,8,True,True,False,False,5,0,True,True,False
+INC-2026-115,2026-06-03 14:30:00,2026-06-03 15:15:36,2026-06,Resolved,High,Network,Human Resources,Jordan Lee,Email,0.52,0.76,4,True,True,False,True,5,0,True,True,True
+INC-2026-116,2026-06-09 17:30:00,2026-06-09 18:16:12,2026-06,Closed,Critical,VPN,Human Resources,Jordan Lee,Email,0.16,0.77,1,True,False,False,False,1,0,True,True,False
+INC-2026-117,2026-06-06 12:30:00,2026-06-06 17:51:00,2026-06,Resolved,Low,VPN,Human Resources,Jamie Christian II,Chat,4.49,5.35,24,True,False,False,False,5,0,True,True,True
+INC-2026-118,2026-06-17 11:50:00,2026-06-17 15:09:48,2026-06,Resolved,Medium,Hardware,Finance,Taylor Reed,Email,1.25,3.33,8,True,True,False,False,5,0,True,True,True
+INC-2026-119,2026-06-01 11:10:00,2026-06-01 12:11:12,2026-06,Resolved,High,Outlook,Human Resources,Taylor Reed,Email,0.13,1.02,4,True,False,False,False,5,0,True,True,True
+INC-2026-120,2026-06-15 08:30:00,,2026-06,Open,High,Outlook,Operations,Alex Morgan,Email,0.54,,4,True,True,False,True,,1119.5,True,True,True
+INC-2026-121,2026-06-10 14:00:00,2026-06-10 19:45:36,2026-06,Closed,Medium,VPN,Finance,Jamie Christian II,Email,1.46,5.76,8,True,True,False,False,5,0,True,True,True
+INC-2026-122,2026-06-09 14:30:00,2026-06-09 15:25:12,2026-06,Closed,Medium,Account Lockout,Operations,Taylor Reed,Email,1.09,0.92,8,True,True,False,False,5,0,True,False,True
+INC-2026-123,2026-06-15 17:50:00,2026-06-15 19:15:48,2026-06,Resolved,Medium,Account Lockout,Operations,Taylor Reed,Portal,0.5,1.43,8,True,True,False,True,5,0,True,True,False
+INC-2026-124,2026-06-11 08:10:00,2026-06-11 14:50:12,2026-06,Resolved,Medium,Password Reset,Sales,Taylor Reed,Chat,1.53,6.67,8,True,True,False,False,5,0,True,True,False
+INC-2026-125,2026-06-26 15:10:00,2026-06-26 18:01:36,2026-06,Resolved,Medium,Printer,Customer Service,Alex Morgan,Portal,0.84,2.86,8,True,False,False,False,4,0,True,False,True
+INC-2026-126,2026-06-05 11:00:00,2026-06-05 13:02:24,2026-06,Resolved,High,Outlook,IT,Jamie Christian II,Portal,0.72,2.04,4,True,False,False,False,4,0,True,False,True
+INC-2026-127,2026-06-04 16:10:00,2026-06-04 22:18:24,2026-06,Resolved,Medium,Microsoft 365,Sales,Jamie Christian II,Phone,0.51,6.14,8,True,False,True,False,5,0,True,True,True
+INC-2026-128,2026-06-15 15:10:00,2026-06-15 18:02:12,2026-06,Closed,Medium,Microsoft 365,Operations,Jamie Christian II,Email,0.73,2.87,8,True,False,False,False,5,0,True,True,True
+INC-2026-129,2026-06-02 08:40:00,,2026-06,Pending,Medium,Outlook,Customer Service,Jamie Christian II,Portal,0.82,,8,True,True,False,True,,1431.3,True,True,True
+INC-2026-130,2026-06-22 16:40:00,,2026-06,Open,Low,Account Lockout,Customer Service,Jamie Christian II,Phone,0.83,,24,True,True,False,False,,943.3,True,True,False
+INC-2026-131,2026-06-26 12:20:00,2026-06-26 12:51:48,2026-06,Resolved,Critical,Account Lockout,Finance,Alex Morgan,Portal,0.08,0.53,1,True,True,False,True,5,0,True,False,False
+INC-2026-132,2026-06-21 18:10:00,,2026-06,Pending,High,VPN,Customer Service,Jordan Lee,Portal,0.76,,4,True,True,False,True,,965.8,True,True,True
+INC-2026-133,2026-06-27 10:30:00,2026-06-27 12:48:00,2026-06,Resolved,Medium,Password Reset,Operations,Jordan Lee,Portal,0.73,2.3,8,True,True,False,False,5,0,True,True,True
+INC-2026-134,2026-06-04 08:30:00,2026-06-04 17:39:36,2026-06,Closed,Low,Printer,Finance,Alex Morgan,Portal,2.75,9.16,24,True,True,False,False,4,0,True,True,False
+INC-2026-135,2026-06-27 09:20:00,2026-06-27 20:29:36,2026-06,Resolved,Low,Printer,Operations,Jamie Christian II,Portal,1.2,11.16,24,True,True,False,True,5,0,True,True,True
+INC-2026-136,2026-06-23 16:10:00,,2026-06,Pending,Low,VPN,Customer Service,Taylor Reed,Portal,2.39,,24,True,False,False,False,,919.8,True,True,True
+INC-2026-137,2026-06-10 09:40:00,2026-06-10 12:47:12,2026-06,Closed,Medium,Password Reset,Operations,Jordan Lee,Chat,0.91,3.12,8,True,True,True,False,4,0,True,True,False
+INC-2026-138,2026-06-13 08:30:00,2026-06-13 09:12:36,2026-06,Resolved,Critical,Microsoft 365,Operations,Jamie Christian II,Portal,0.07,0.71,1,True,False,False,False,4,0,True,True,True
+INC-2026-139,2026-06-17 14:00:00,2026-06-18 06:43:48,2026-06,Resolved,Low,VPN,Human Resources,Jordan Lee,Phone,1.8,16.73,24,True,True,True,False,4,0,True,True,True
+INC-2026-140,2026-06-04 12:50:00,2026-06-04 16:56:36,2026-06,Resolved,Medium,Printer,Human Resources,Jamie Christian II,Portal,0.92,4.11,8,True,True,False,False,5,0,True,True,True
+INC-2026-141,2026-06-25 10:50:00,,2026-06,Pending,High,Password Reset,Operations,Jamie Christian II,Email,0.32,,4,True,True,False,False,,877.2,True,True,True
+INC-2026-142,2026-06-20 09:50:00,2026-06-20 18:28:24,2026-06,Resolved,Low,Microsoft 365,Sales,Alex Morgan,Portal,4.56,8.64,24,True,True,False,False,4,0,False,True,False
+INC-2026-143,2026-06-13 14:40:00,2026-06-13 19:21:24,2026-06,Resolved,Medium,Password Reset,Human Resources,Jordan Lee,Phone,1.02,4.69,8,True,True,False,False,4,0,True,True,False
+INC-2026-144,2026-06-27 08:40:00,,2026-06,Open,High,Outlook,Human Resources,Taylor Reed,Email,0.26,,4,True,False,False,False,,831.3,True,True,True
+INC-2026-145,2026-06-22 15:30:00,,2026-06,Open,High,Account Lockout,Sales,Jamie Christian II,Chat,0.67,,4,True,False,False,False,,944.5,True,True,True
+INC-2026-146,2026-06-20 08:00:00,2026-06-20 11:10:12,2026-06,Resolved,Medium,Password Reset,Finance,Alex Morgan,Email,1.59,3.17,8,True,True,False,True,5,0,True,True,False
+INC-2026-147,2026-06-14 11:20:00,2026-06-14 14:27:48,2026-06,Resolved,High,VPN,Human Resources,Jordan Lee,Email,0.75,3.13,4,True,True,False,False,5,0,False,True,True
+INC-2026-148,2026-06-04 11:10:00,2026-06-04 13:04:00,2026-06,Resolved,High,Password Reset,Operations,Alex Morgan,Email,0.14,1.9,4,True,True,False,False,5,0,True,True,True
+INC-2026-149,2026-06-19 17:10:00,2026-06-20 03:56:12,2026-06,Resolved,Low,Password Reset,IT,Jamie Christian II,Portal,1.52,10.77,24,True,True,False,False,5,0,True,True,False
+INC-2026-150,2026-06-09 18:50:00,,2026-06,Pending,Medium,Account Lockout,Operations,Jamie Christian II,Email,0.21,,8,True,True,False,False,,1253.2,True,True,True
+INC-2026-151,2026-07-04 17:30:00,2026-07-04 21:21:36,2026-07,Resolved,Medium,VPN,Human Resources,Taylor Reed,Email,0.89,3.86,8,True,False,False,False,5,0,True,True,True
+INC-2026-152,2026-07-12 16:20:00,,2026-07,Open,Medium,Account Lockout,Operations,Alex Morgan,Portal,0.56,,8,True,True,False,True,,463.7,True,True,False
+INC-2026-153,2026-07-03 10:50:00,,2026-07,Pending,Low,VPN,IT,Jamie Christian II,Email,0.8,,24,True,True,False,False,,685.2,True,True,False
+INC-2026-154,2026-07-18 14:30:00,2026-07-19 04:52:12,2026-07,Closed,Low,Account Lockout,Sales,Taylor Reed,Phone,0.42,14.37,24,True,True,False,False,4,0,True,True,True
+INC-2026-155,2026-07-23 18:00:00,2026-07-24 03:12:00,2026-07,Resolved,Medium,Outlook,Customer Service,Taylor Reed,Email,2.8,9.2,8,False,True,False,False,4,0,True,False,True
+INC-2026-156,2026-07-19 11:00:00,,2026-07,Open,Low,Hardware,Finance,Alex Morgan,Portal,8.4,,24,False,True,False,False,,301.0,False,True,True
+INC-2026-157,2026-07-12 11:20:00,2026-07-12 14:03:48,2026-07,Resolved,Medium,VPN,Human Resources,Taylor Reed,Email,0.12,2.73,8,True,True,False,False,5,0,True,True,True
+INC-2026-158,2026-07-12 10:50:00,2026-07-12 14:02:36,2026-07,Resolved,High,Outlook,Human Resources,Alex Morgan,Portal,0.42,3.21,4,True,False,False,False,5,0,True,True,False
+INC-2026-159,2026-07-06 10:00:00,2026-07-06 12:03:36,2026-07,Closed,High,Password Reset,IT,Jamie Christian II,Portal,0.49,2.06,4,True,True,False,False,5,0,True,True,True
+INC-2026-160,2026-07-13 15:00:00,,2026-07,Pending,Low,Password Reset,Sales,Jordan Lee,Portal,1.43,,24,True,True,False,False,,441.0,True,True,False
+INC-2026-161,2026-07-28 12:50:00,2026-07-28 15:42:12,2026-07,Resolved,Medium,Password Reset,Customer Service,Jordan Lee,Portal,0.58,2.87,8,True,True,False,False,5,0,True,True,True
+INC-2026-162,2026-07-19 17:20:00,,2026-07,Pending,Medium,VPN,Operations,Alex Morgan,Phone,0.38,,8,True,False,False,False,,294.7,True,True,False
+INC-2026-163,2026-07-14 15:20:00,2026-07-14 16:41:00,2026-07,Closed,Low,Outlook,Sales,Taylor Reed,Portal,4.22,1.35,24,True,True,False,False,4,0,True,True,False
+INC-2026-164,2026-07-23 11:20:00,2026-07-23 15:30:48,2026-07,Resolved,Medium,Hardware,Customer Service,Jamie Christian II,Portal,0.63,4.18,8,True,True,False,False,5,0,True,True,True
+INC-2026-165,2026-07-04 11:10:00,,2026-07,Open,High,Password Reset,Operations,Taylor Reed,Chat,1.4,,4,False,False,False,False,,660.8,True,True,True
+INC-2026-166,2026-07-18 13:50:00,2026-07-18 17:16:24,2026-07,Resolved,Medium,Account Lockout,Sales,Alex Morgan,Email,1.23,3.44,8,True,True,False,False,3,0,True,True,False
+INC-2026-167,2026-07-01 09:10:00,2026-07-02 05:13:00,2026-07,Closed,Low,Microsoft 365,Sales,Jamie Christian II,Portal,0.38,20.05,24,True,False,False,False,4,0,True,True,True
+INC-2026-168,2026-07-18 11:00:00,2026-07-18 11:25:48,2026-07,Resolved,Critical,Microsoft 365,Human Resources,Alex Morgan,Chat,0.16,0.43,1,True,False,False,False,5,0,True,True,False
+INC-2026-169,2026-07-02 18:20:00,2026-07-02 21:24:48,2026-07,Closed,Medium,Password Reset,Customer Service,Alex Morgan,Email,1.24,3.08,8,True,True,False,False,4,0,True,True,True
+INC-2026-170,2026-07-02 09:40:00,2026-07-02 22:16:00,2026-07,Resolved,Low,Hardware,Human Resources,Alex Morgan,Portal,0.16,12.6,24,True,True,False,False,5,0,True,True,False
+INC-2026-171,2026-07-02 09:20:00,,2026-07,Open,High,Microsoft 365,Operations,Alex Morgan,Email,0.39,,4,True,False,False,False,,710.7,True,True,True
+INC-2026-172,2026-07-09 14:30:00,2026-07-09 17:35:24,2026-07,Resolved,Medium,Network,Operations,Alex Morgan,Portal,1.33,3.09,8,True,False,False,True,5,0,True,True,False
+INC-2026-173,2026-07-12 09:20:00,2026-07-12 21:41:00,2026-07,Resolved,Low,Network,Sales,Jordan Lee,Portal,2.52,12.35,24,True,True,False,False,4,0,True,True,False
+INC-2026-174,2026-07-05 12:10:00,2026-07-06 01:27:24,2026-07,Resolved,Low,Printer,IT,Jamie Christian II,Portal,0.51,13.29,24,True,False,False,False,5,0,True,True,True
+INC-2026-175,2026-07-05 16:40:00,2026-07-05 18:07:00,2026-07,Resolved,Medium,Hardware,Customer Service,Jamie Christian II,Portal,0.5,1.45,8,True,True,False,False,5,0,True,True,False
+INC-2026-176,2026-07-04 14:20:00,2026-07-05 07:14:00,2026-07,Closed,Low,Printer,IT,Jordan Lee,Portal,1.25,16.9,24,True,False,False,False,5,0,True,True,True
+INC-2026-177,2026-07-19 08:50:00,2026-07-19 09:30:48,2026-07,Resolved,High,VPN,Finance,Alex Morgan,Portal,0.11,0.68,4,True,True,False,False,4,0,True,True,False
+INC-2026-178,2026-07-22 18:10:00,2026-07-22 22:15:24,2026-07,Resolved,Medium,Microsoft 365,Human Resources,Taylor Reed,Email,0.32,4.09,8,True,False,True,False,4,0,True,True,True
+INC-2026-179,2026-07-03 11:20:00,2026-07-03 16:45:12,2026-07,Resolved,Low,Outlook,Human Resources,Alex Morgan,Chat,4.31,5.42,24,True,False,False,False,5,0,True,True,False
+INC-2026-180,2026-07-25 08:10:00,2026-07-25 11:08:48,2026-07,Resolved,Low,VPN,Finance,Jordan Lee,Email,0.82,2.98,24,True,False,True,False,5,0,False,True,False
+INC-2026-181,2026-07-01 13:50:00,2026-07-02 00:57:12,2026-07,Resolved,Low,Microsoft 365,IT,Jordan Lee,Portal,4.73,11.12,24,True,False,False,False,5,0,True,True,True
+INC-2026-182,2026-07-23 11:20:00,,2026-07,Open,Low,Password Reset,Finance,Taylor Reed,Email,3.51,,24,True,True,False,False,,204.7,True,True,False
+INC-2026-183,2026-07-20 08:10:00,2026-07-20 09:42:24,2026-07,Resolved,Medium,Printer,IT,Jordan Lee,Email,0.45,1.54,8,True,False,False,False,4,0,True,True,True
+INC-2026-184,2026-07-10 15:50:00,2026-07-10 21:00:48,2026-07,Closed,Medium,Network,Sales,Taylor Reed,Email,0.13,5.18,8,True,False,False,False,5,0,True,True,True
+INC-2026-185,2026-07-02 14:50:00,2026-07-02 15:33:12,2026-07,Closed,High,VPN,Operations,Jamie Christian II,Portal,0.22,0.72,4,True,False,False,False,4,0,True,True,True
+INC-2026-186,2026-07-18 11:30:00,2026-07-18 15:18:00,2026-07,Closed,Medium,Outlook,Customer Service,Taylor Reed,Email,0.88,3.8,8,True,True,False,False,5,0,True,True,True
+INC-2026-187,2026-07-14 08:50:00,2026-07-14 11:13:24,2026-07,Resolved,Medium,Printer,Finance,Alex Morgan,Phone,1.4,2.39,8,True,True,False,False,4,0,True,True,True
+INC-2026-188,2026-07-14 12:10:00,2026-07-14 16:46:00,2026-07,Resolved,High,Outlook,Operations,Taylor Reed,Chat,1.4,4.6,4,False,True,False,False,5,0,True,True,False
+INC-2026-189,2026-07-22 13:30:00,2026-07-22 19:27:36,2026-07,Closed,Medium,VPN,IT,Jordan Lee,Chat,0.49,5.96,8,True,True,False,True,5,0,True,False,False
+INC-2026-190,2026-07-26 11:10:00,2026-07-27 02:49:36,2026-07,Closed,Low,Outlook,Customer Service,Taylor Reed,Email,3.62,15.66,24,True,True,False,False,5,0,True,True,False
+INC-2026-191,2026-07-27 09:50:00,2026-07-27 15:57:48,2026-07,Resolved,Medium,Network,Human Resources,Alex Morgan,Email,1.28,6.13,8,True,True,False,False,5,0,True,True,True
+INC-2026-192,2026-07-26 11:10:00,2026-07-26 13:41:48,2026-07,Resolved,High,Outlook,Human Resources,Jamie Christian II,Portal,0.41,2.53,4,True,False,False,False,3,0,True,True,True
+INC-2026-193,2026-07-12 16:30:00,2026-07-12 22:08:24,2026-07,Resolved,Medium,VPN,Sales,Jordan Lee,Email,1.31,5.64,8,True,True,False,True,4,0,True,True,True
+INC-2026-194,2026-07-10 14:00:00,,2026-07,Open,High,Password Reset,IT,Jamie Christian II,Email,0.61,,4,True,True,False,False,,514.0,True,True,True
+INC-2026-195,2026-07-12 15:20:00,2026-07-12 16:10:24,2026-07,Resolved,Critical,Microsoft 365,IT,Jordan Lee,Portal,0.13,0.84,1,True,False,False,False,5,0,True,True,False
+INC-2026-196,2026-07-11 08:30:00,2026-07-11 15:16:48,2026-07,Closed,Medium,Password Reset,IT,Alex Morgan,Portal,1.3,6.78,8,True,True,False,False,4,0,True,True,True
+INC-2026-197,2026-07-15 18:00:00,2026-07-16 00:04:12,2026-07,Closed,Low,Password Reset,Customer Service,Jordan Lee,Portal,2.09,6.07,24,True,True,False,False,5,0,True,True,True
+INC-2026-198,2026-07-03 09:00:00,2026-07-03 10:10:48,2026-07,Resolved,Medium,Outlook,Sales,Jordan Lee,Portal,1.29,1.18,8,True,False,True,False,4,0,True,True,True
+INC-2026-199,2026-07-26 10:10:00,2026-07-26 13:37:36,2026-07,Closed,Medium,Network,Operations,Alex Morgan,Portal,0.91,3.46,8,True,True,False,False,5,0,True,True,True
+INC-2026-200,2026-07-09 11:50:00,,2026-07,Open,Low,Password Reset,Sales,Alex Morgan,Phone,1.67,,24,True,True,False,True,,540.2,True,False,False
+INC-2026-201,2026-07-12 12:30:00,2026-07-12 18:00:00,2026-07,Resolved,Medium,Microsoft 365,Human Resources,Taylor Reed,Email,0.54,5.5,8,True,True,False,False,4,0,False,True,False
+INC-2026-202,2026-07-14 15:00:00,2026-07-14 18:28:12,2026-07,Resolved,Medium,Printer,Human Resources,Alex Morgan,Portal,0.19,3.47,8,True,True,False,False,5,0,True,False,False
+INC-2026-203,2026-07-11 08:10:00,2026-07-11 08:25:00,2026-07,Resolved,High,Outlook,Sales,Jamie Christian II,Chat,0.27,0.25,4,True,True,False,False,4,0,True,True,True
+INC-2026-204,2026-07-28 08:50:00,2026-07-28 12:30:48,2026-07,Resolved,Low,VPN,Operations,Jordan Lee,Portal,4.53,3.68,24,True,True,False,False,5,0,True,True,False
+INC-2026-205,2026-07-02 15:50:00,,2026-07,Open,Medium,VPN,IT,Taylor Reed,Email,0.33,,8,True,True,False,False,,704.2,True,False,False
+INC-2026-206,2026-07-04 11:20:00,,2026-07,Open,Medium,Microsoft 365,Operations,Jamie Christian II,Email,0.08,,8,True,True,False,False,,660.7,True,True,False
+INC-2026-207,2026-07-14 10:40:00,2026-07-14 17:25:00,2026-07,Resolved,Medium,Network,Customer Service,Alex Morgan,Phone,1.55,6.75,8,True,False,False,False,4,0,True,True,True
+INC-2026-208,2026-07-07 08:40:00,2026-07-08 01:09:24,2026-07,Resolved,Low,Microsoft 365,Operations,Jordan Lee,Portal,2.22,16.49,24,True,True,False,False,4,0,True,True,True
+INC-2026-209,2026-07-17 13:20:00,2026-07-17 16:00:48,2026-07,Resolved,High,VPN,IT,Taylor Reed,Email,0.31,2.68,4,True,True,False,False,5,0,True,True,True
+INC-2026-210,2026-07-28 13:50:00,2026-07-28 14:57:12,2026-07,Resolved,Medium,Account Lockout,Sales,Taylor Reed,Phone,0.65,1.12,8,True,True,False,False,4,0,True,True,False
+INC-2026-211,2026-07-06 10:40:00,2026-07-06 16:06:24,2026-07,Closed,Medium,Account Lockout,Sales,Jamie Christian II,Portal,1.37,5.44,8,True,False,False,False,5,0,True,True,False
+INC-2026-212,2026-07-28 11:10:00,,2026-07,Open,Low,Network,IT,Jordan Lee,Phone,8.4,,24,False,True,False,False,,84.8,True,True,True
+INC-2026-213,2026-07-12 09:10:00,2026-07-12 09:49:36,2026-07,Resolved,Medium,Password Reset,Finance,Alex Morgan,Chat,1.58,0.66,8,True,False,False,True,4,0,True,True,True
+INC-2026-214,2026-07-21 11:50:00,2026-07-21 14:27:12,2026-07,Resolved,High,VPN,Sales,Jamie Christian II,Portal,0.7,2.62,4,True,True,False,False,5,0,True,False,False
+INC-2026-215,2026-07-07 12:00:00,2026-07-07 13:39:00,2026-07,Closed,High,Outlook,Customer Service,Taylor Reed,Email,0.21,1.65,4,True,True,True,False,3,0,True,True,True
+INC-2026-216,2026-07-22 12:20:00,,2026-07,Open,Medium,VPN,Sales,Alex Morgan,Email,2.8,,8,False,True,False,False,,227.7,False,True,False
+INC-2026-217,2026-07-11 18:00:00,,2026-07,Open,Low,Outlook,Finance,Jordan Lee,Portal,4.12,,24,True,True,False,False,,486.0,True,True,False
+INC-2026-218,2026-07-18 13:50:00,2026-07-18 17:06:12,2026-07,Closed,High,Outlook,IT,Taylor Reed,Portal,0.8,3.27,4,True,False,False,False,4,0,True,True,False
+INC-2026-219,2026-07-15 15:20:00,2026-07-15 21:39:12,2026-07,Closed,Medium,Microsoft 365,Sales,Jordan Lee,Portal,0.92,6.32,8,True,True,False,False,4,0,True,True,True
+INC-2026-220,2026-07-14 16:00:00,2026-07-14 19:13:12,2026-07,Closed,High,Account Lockout,Customer Service,Jamie Christian II,Portal,0.57,3.22,4,True,True,False,False,4,0,True,False,True
+INC-2026-221,2026-07-17 10:00:00,2026-07-17 10:22:48,2026-07,Closed,High,Microsoft 365,Sales,Jordan Lee,Portal,0.09,0.38,4,True,True,False,False,4,0,True,True,False
+INC-2026-222,2026-07-16 17:50:00,,2026-07,Open,Medium,Password Reset,Customer Service,Alex Morgan,Portal,0.86,,8,True,True,False,False,,366.2,True,True,False
+INC-2026-223,2026-07-17 14:50:00,2026-07-17 20:02:00,2026-07,Closed,Low,Network,Sales,Jordan Lee,Portal,1.07,5.2,24,True,True,False,False,4,0,True,True,True
+INC-2026-224,2026-07-17 18:00:00,,2026-07,Pending,Medium,Hardware,Sales,Alex Morgan,Chat,1.38,,8,True,True,False,False,,342.0,True,False,False
+INC-2026-225,2026-07-11 16:30:00,,2026-07,Open,Medium,Account Lockout,Operations,Alex Morgan,Phone,1.06,,8,True,False,False,False,,487.5,True,True,True
+INC-2026-226,2026-07-26 10:50:00,2026-07-26 21:43:24,2026-07,Closed,Low,VPN,Finance,Alex Morgan,Chat,1.4,10.89,24,True,True,False,False,3,0,True,False,True
+INC-2026-227,2026-07-22 18:00:00,2026-07-22 19:25:48,2026-07,Resolved,Medium,Network,Sales,Alex Morgan,Portal,1.24,1.43,8,True,False,False,False,5,0,True,True,True
+INC-2026-228,2026-07-02 08:10:00,2026-07-02 14:05:12,2026-07,Resolved,Medium,VPN,Human Resources,Jamie Christian II,Portal,0.7,5.92,8,True,True,False,False,4,0,True,True,False
+INC-2026-229,2026-07-19 15:20:00,2026-07-19 16:09:48,2026-07,Resolved,High,Account Lockout,Finance,Taylor Reed,Portal,0.13,0.83,4,True,False,False,False,3,0,True,True,True
+INC-2026-230,2026-07-04 13:00:00,,2026-07,Open,Medium,Microsoft 365,Operations,Alex Morgan,Portal,0.32,,8,True,True,False,False,,659.0,True,True,True
+INC-2026-231,2026-07-23 13:30:00,2026-07-23 20:16:12,2026-07,Resolved,Medium,Hardware,Human Resources,Taylor Reed,Phone,1.52,6.77,8,True,True,False,False,5,0,True,True,True
+INC-2026-232,2026-07-20 13:30:00,2026-07-20 16:35:24,2026-07,Resolved,Medium,Outlook,Finance,Jordan Lee,Portal,0.18,3.09,8,True,True,False,False,4,0,True,True,True
+INC-2026-233,2026-07-18 12:20:00,2026-07-18 14:59:36,2026-07,Closed,Medium,Password Reset,Sales,Jordan Lee,Chat,0.19,2.66,8,True,True,False,False,5,0,True,True,True
+INC-2026-234,2026-07-01 14:30:00,2026-07-01 15:51:36,2026-07,Resolved,High,VPN,Sales,Jamie Christian II,Chat,0.5,1.36,4,True,False,False,False,5,0,True,True,False
