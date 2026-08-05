@@ -1,342 +1,209 @@
-# 💻 Enterprise Help Desk & IT Support Lab
+# 💻 Enterprise Help Desk & IT Support Operations Lab
 
-> Production-inspired enterprise IT support portfolio demonstrating real-world service desk operations, technical troubleshooting, Active Directory administration, Microsoft 365 support, endpoint management, documentation, automation, and enterprise operational procedures.
+![Status](https://img.shields.io/badge/Status-Portfolio%20Ready-success)
+![Focus](https://img.shields.io/badge/Focus-Enterprise%20IT%20Support-0A66C2)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Microsoft%20365-blue)
+![Documentation](https://img.shields.io/badge/Documentation-Operational-blueviolet)
+![Environment](https://img.shields.io/badge/Environment-Simulated-lightgrey)
 
----
-
-<p align="center">
-
-![Windows](https://img.shields.io/badge/Windows-Enterprise-0078D6?style=for-the-badge&logo=windows)
-
-![Microsoft 365](https://img.shields.io/badge/Microsoft_365-Administration-D83B01?style=for-the-badge&logo=microsoftoffice)
-
-![Active Directory](https://img.shields.io/badge/Active_Directory-Identity-0078D4?style=for-the-badge)
-
-![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE?style=for-the-badge&logo=powershell)
-
-![Linux](https://img.shields.io/badge/Linux-Support-FCC624?style=for-the-badge&logo=linux)
-
-![Azure](https://img.shields.io/badge/Microsoft_Azure-Entra_ID-0078D4?style=for-the-badge&logo=microsoftazure)
-
-![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?style=for-the-badge&logo=github)
-
-</p>
+> A production-inspired IT support portfolio demonstrating enterprise Help Desk operations, ticket resolution, Microsoft 365 support, Active Directory administration, endpoint security, incident response, asset management, monitoring, reporting, automation, and technical documentation.
 
 ---
 
-# 📖 Overview
+## 📖 Overview
 
-This repository simulates an enterprise IT Help Desk responsible for supporting over 300 employees across Windows, Microsoft 365, Active Directory, Linux, Azure, and hybrid cloud infrastructure.
+This project simulates the work performed by an enterprise Help Desk and IT Operations team supporting Windows endpoints, Microsoft 365 services, Active Directory, remote users, network resources, security controls, and business applications.
 
-The project demonstrates the day-to-day responsibilities of an IT Support Engineer, Service Desk Analyst, Technical Support Engineer, and Help Desk Technician through realistic operational workflows, ticket resolution, documentation, automation, and enterprise support procedures.
+The repository demonstrates both the technical and operational sides of IT support:
 
----
+- Troubleshooting and ticket resolution
+- Identity and access administration
+- Endpoint and Microsoft 365 support
+- Incident, problem, and change management
+- Monitoring and service-health analysis
+- Security operations
+- IT asset lifecycle management
+- Knowledge management
+- Automation and scripting
+- KPI dashboards and executive reporting
+- Standard operating procedures and runbooks
 
-# 🏢 Enterprise Business Scenario
-
-Northstar Technologies is a multinational organization supporting employees across multiple offices and remote locations.
-
-The Enterprise Service Desk provides:
-
-- Tier 1 IT Support
-- End User Support
-- Microsoft 365 Administration
-- Active Directory Administration
-- Windows Support
-- Laptop Deployment
-- Endpoint Troubleshooting
-- Printer Support
-- VPN Support
-- Software Deployment
-- Password Resets
-- Identity Management
-- Incident Management
-- Change Management
-- Knowledge Base Management
+All organizations, users, systems, assets, incidents, metrics, and dates are simulated for educational and portfolio purposes.
 
 ---
 
-# 🎯 Project Objectives
+## 🏢 Business Scenario
 
-- Simulate an enterprise IT support department
-- Resolve realistic support tickets
-- Build enterprise documentation
-- Create operational runbooks
-- Demonstrate troubleshooting skills
-- Automate repetitive administrative tasks
-- Practice Microsoft 365 administration
-- Support Windows and Linux systems
-- Build an interview-ready portfolio
+**Northstar Technologies** is a simulated organization with office-based and remote employees.
 
----
+Its Enterprise Service Desk supports:
 
-# 💼 Target Job Roles
-
-✅ Help Desk Technician I
-
-✅ IT Support Associate
-
-✅ IT Support Engineer I
-
-✅ Technical Support Engineer
-
-✅ Service Desk Analyst
-
-✅ Desktop Support Technician
-
-✅ End User Support Technician
-
-✅ Junior Systems Administrator
+- Windows laptops and desktops
+- Active Directory identities and security groups
+- Microsoft 365 applications and services
+- Outlook, Teams, OneDrive, and shared mailboxes
+- VPN and remote-access connectivity
+- Printers and shared file resources
+- Endpoint encryption and security health
+- Software installation and troubleshooting
+- User onboarding and offboarding
+- Incident and service-request management
+- Asset assignment, repair, return, and disposal
+- Monitoring, reporting, and continual improvement
 
 ---
 
-# 🖥️ Technologies
+## 🎯 Project Objectives
 
-## Microsoft
+- Demonstrate realistic Tier 1 and Tier 2 support work
+- Document complete ticket lifecycles
+- Apply structured troubleshooting methodology
+- Practice Active Directory and Microsoft 365 administration
+- Standardize operations with templates, SOPs, checklists, and runbooks
+- Demonstrate incident, problem, and change-management processes
+- Track endpoint, asset, security, and service-health data
+- Build formula-driven dashboards and management reports
+- Automate repeatable administrative tasks
+- Present job-ready evidence for entry-level IT roles
+
+---
+
+## 💼 Target Roles
+
+- Help Desk Technician
+- IT Support Specialist
+- Service Desk Analyst
+- Desktop Support Technician
+- End-User Support Technician
+- Technical Support Engineer I
+- IT Operations Analyst
+- Junior Systems Administrator
+- Infrastructure Support Technician
+- Cloud Support Associate
+
+---
+
+## 🧰 Technologies and Tools
+
+### Microsoft Environment
 
 - Windows 11
 - Windows Server
-- Active Directory
+- Active Directory Domain Services
+- Active Directory Users and Computers
 - Group Policy
-- DNS
-- DHCP
+- DNS and DHCP
 - Microsoft 365
 - Exchange Online
 - Outlook
-- Teams
+- Microsoft Teams
 - OneDrive
 - SharePoint
-- Entra ID
-- Intune
+- Microsoft Entra ID
+- Microsoft Intune
+- Microsoft Defender
+- BitLocker
 
----
-
-## Cloud
-
-- Microsoft Azure
-- AWS (Support Operations)
-
----
-
-## Operating Systems
-
-- Windows
-- Ubuntu Linux
-
----
-
-## Automation
+### Administration and Troubleshooting
 
 - PowerShell
-- Bash
-- Python
-
----
-
-## Tools
-
+- Command Prompt
 - Event Viewer
 - Task Scheduler
 - Remote Desktop
-- Windows Admin Center
+- Windows Terminal
+- Windows Credential Manager
+- Microsoft 365 Admin Center
+- Exchange Admin Center
+- Azure portal
+
+### Networking
+
+- TCP/IP
+- DNS
+- DHCP
+- VPN
+- Ping
+- `ipconfig`
+- `nslookup`
+- `tracert`
+- Network-share troubleshooting
+
+### Documentation and Reporting
+
+- Markdown
+- CSV
+- Microsoft Excel
+- KPI dashboards
+- Root-cause analysis
+- Knowledge Base documentation
+- Standard operating procedures
+- Technical runbooks
+- Executive reporting
+
+### Development and Version Control
+
+- PowerShell
+- Python
+- Bash
 - Git
 - GitHub
+- Visual Studio Code
 
 ---
 
-# 🎫 Help Desk Operations
+## 🎫 Support Scenarios
 
-This repository includes realistic enterprise support scenarios such as:
+The lab includes realistic support work involving:
 
-- Password Reset
-- Account Unlock
-- MFA Troubleshooting
-- Outlook Issues
-- Teams Troubleshooting
-- Exchange Mailbox Issues
-- Printer Failures
-- VPN Connectivity
-- Software Installation
-- Driver Problems
-- Windows Updates
-- Blue Screen Troubleshooting
-- DNS Issues
-- DHCP Issues
-- Active Directory Administration
-- Group Policy Issues
-- Laptop Imaging
-- Intune Enrollment
-- BitLocker Recovery
-- OneDrive Sync Issues
-- Shared Mailbox Permissions
-- Email Delivery Issues
-- File Recovery
-- Network Connectivity
-- User Provisioning
-- User Offboarding
+- Password resets
+- Account unlocks
+- New-user provisioning
+- Employee offboarding
+- Security-group membership
+- Shared-folder permissions
+- MFA enrollment and recovery
+- Outlook authentication prompts
+- Email delivery issues
+- Shared-mailbox access
+- Teams and OneDrive troubleshooting
+- VPN authentication and DNS failures
+- Printer and print-queue problems
+- Windows update failures
+- Software installation
+- Disk-capacity alerts
+- Malware and phishing investigations
+- BitLocker recovery
+- Endpoint compliance
+- Device assignment and return
+- Major incident coordination
+- Change implementation and validation
 
 ---
 
-# 📊 Portfolio Metrics
-
-| Metric | Count |
-|---------|------:|
-| Support Tickets | 100+ |
-| Knowledge Base Articles | 40 |
-| SOPs | 20 |
-| Runbooks | 30 |
-| PowerShell Scripts | 20 |
-| Bash Scripts | 10 |
-| Automation Projects | 15 |
-| Enterprise Assets | 300 |
-| Users | 250 |
-| Devices | 300 |
-| Incidents | 40 |
-| Changes | 150 |
-
----
-
-# 📂 Repository Structure
+## 📂 Repository Structure
 
 ```text
 enterprise-helpdesk-support-lab/
 │
-├── assets/
-├── backups/
-├── change-management/
-├── datasets/
-├── diagrams/
-├── docs/
-├── incident-response/
-├── interview/
-├── kb/
-├── monitoring/
-├── reports/
-├── resume/
-├── runbooks/
-├── scripts/
-│   ├── powershell/
-│   ├── bash/
-│   └── python/
-├── sops/
-├── templates/
-├── tickets/
+├── change-management/     # Change policy, CAB, risk, rollback, and completed changes
+├── checklists/            # Repeatable operational validation checklists
+├── dashboards/            # Help Desk and operational KPI dashboards
+├── datasets/              # Simulated service desk and operational datasets
+├── diagrams/              # Architecture and workflow diagrams
+├── docs/                  # Supporting project documentation
+├── incident-response/     # Incident policy, major incidents, PIRs, and communications
+├── inventory/             # Asset, warranty, repair, licensing, audit, and disposal records
+├── knowledge-base/        # Internal and user-facing troubleshooting articles
+├── monitoring/            # Alert catalog, service health, runbooks, and completed alerts
+├── reports/               # Executive, SLA, incident, asset, security, and capacity reports
+├── runbooks/              # Step-by-step technical response procedures
+├── scripts/               # PowerShell, Python, and Bash automation
+├── security/              # Endpoint, identity, vulnerability, access, and security operations
+├── sops/                  # Standard operating procedures
+├── templates/             # Reusable ITSM and Help Desk documentation templates
+├── tickets/               # Completed support tickets and troubleshooting evidence
+│
+├── LICENSE
+├── MANIFEST.sha256
 └── README.md
-```
-
----
-
-# 📈 Skills Demonstrated
-
-- Enterprise Help Desk
-- IT Support
-- Active Directory
-- Microsoft 365
-- Exchange Online
-- Teams Administration
-- Outlook Troubleshooting
-- Entra ID
-- Intune
-- Windows Administration
-- Linux Administration
-- PowerShell
-- Bash
-- Technical Documentation
-- Knowledge Management
-- Root Cause Analysis
-- Incident Management
-- Change Management
-- Customer Service
-- Technical Troubleshooting
-
----
-
-# 📊 Datasets
-
-The repository includes realistic enterprise datasets including:
-
-- Service Desk Tickets
-- Users
-- Devices
-- Software Inventory
-- Active Directory Users
-- Security Groups
-- Microsoft 365 Licenses
-- Printer Inventory
-- Laptop Inventory
-- VPN Users
-- Backup Reports
-- Patch Reports
-- Asset Inventory
-- Incident Reports
-- Change Requests
-- SLA Reports
-- CSAT Reports
-- Monitoring Logs
-
----
-
-# 📚 Documentation
-
-- Enterprise SOPs
-- Runbooks
-- Knowledge Base Articles
-- Troubleshooting Guides
-- User Guides
-- Deployment Guides
-- Incident Reports
-- Root Cause Analyses
-- Executive Reports
-- Asset Documentation
-
----
-
-# 📷 Screenshots
-
-- Active Directory Users & Computers
-- Group Policy Management
-- DNS Manager
-- DHCP Console
-- Microsoft 365 Admin Center
-- Exchange Admin Center
-- Entra ID
-- Intune
-- Event Viewer
-- PowerShell
-- Windows Terminal
-- Help Desk Dashboard
-- Ticket Reports
-
----
-
-
----
-
-# 🚀 Future Enhancements
-
-- Microsoft Endpoint Configuration Manager (MECM)
-- Windows Autopilot
-- Azure Virtual Desktop
-- ServiceNow ticket workflows
-- Jira Service Management
-- Microsoft Defender
-- Microsoft Sentinel
-- Remote Monitoring & Management
-- Power Automate
-- AI-assisted knowledge base
-
----
-
-# 👨‍💻 Author
-
-**Jamie Christian II**
-
-Enterprise IT Support • Service Desk • Systems Administration • Cloud Operations
-
-GitHub:
-
-https://github.com/JamieChristian22
-
----
-
-⭐ If you found this repository useful, consider giving it a star.
