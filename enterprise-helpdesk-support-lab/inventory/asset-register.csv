@@ -1,0 +1,16 @@
+Asset ID,Serial Number,Asset Type,Manufacturer,Model,Operating System,Assigned User,Department,Location,Purchase Date,Warranty Expiration,Status,Encryption,Security Status,Last Audit Date,Condition,Support Coverage
+AST-0001,LT-7H2K9Q,Laptop,Dell,Latitude 5440,Windows 11 Pro,Jamie Christian II,IT,Remote,2025-01-15,2028-01-15,Assigned,BitLocker Enabled,Defender Healthy,2026-07-15,Good,Dell ProSupport
+AST-0002,LT-8Q5M2P,Laptop,Lenovo,ThinkPad T14 Gen 4,Windows 11 Pro,Maya Thompson,Finance,Charlotte HQ,2025-02-10,2028-02-10,Assigned,BitLocker Enabled,Defender Healthy,2026-07-18,Good,Premier Support
+AST-0003,LT-1B7X4R,Laptop,HP,EliteBook 840 G10,Windows 11 Pro,Noah Bennett,Sales,Remote,2024-11-04,2027-11-04,Assigned,BitLocker Enabled,Defender Healthy,2026-07-19,Good,HP Care Pack
+AST-0004,DT-9K3N6S,Desktop,Dell,OptiPlex 7010,Windows 11 Pro,Olivia Carter,Operations,Charlotte HQ,2024-06-20,2027-06-20,Assigned,BitLocker Enabled,Defender Healthy,2026-07-11,Good,Dell Basic Support
+AST-0005,LT-3C8V5T,Laptop,Dell,Latitude 5430,Windows 11 Pro,Unassigned,Stockroom,Charlotte HQ,2023-09-12,2026-09-12,In Stock,BitLocker Enabled,Defender Healthy,2026-07-22,Good,Dell ProSupport
+AST-0006,LT-6D1F8Y,Laptop,Lenovo,ThinkPad L14 Gen 3,Windows 11 Pro,Ethan Brooks,Human Resources,Charlotte HQ,2023-07-06,2026-07-06,Assigned,BitLocker Enabled,Defender Healthy,2026-07-13,Fair,Warranty Expired
+AST-0007,MN-2T6J4A,Monitor,Dell,P2422H,N/A,Maya Thompson,Finance,Charlotte HQ,2025-02-10,2028-02-10,Assigned,N/A,N/A,2026-07-18,Good,Dell Basic Support
+AST-0008,MN-5P9L1C,Monitor,HP,E24 G5,N/A,Noah Bennett,Sales,Remote,2024-11-04,2027-11-04,Assigned,N/A,N/A,2026-07-19,Good,HP Care Pack
+AST-0009,PH-4R8W2B,Mobile Phone,Apple,iPhone 15,iOS 19,Olivia Carter,Operations,Charlotte HQ,2025-03-14,2027-03-14,Assigned,Device Encryption Enabled,MDM Compliant,2026-07-11,Good,AppleCare+
+AST-0010,TB-7N3Q6D,Tablet,Microsoft,Surface Pro 10,Windows 11 Pro,Liam Foster,Executive,Charlotte HQ,2025-04-01,2028-04-01,Assigned,BitLocker Enabled,Defender Healthy,2026-07-17,Good,Microsoft Complete
+AST-0011,LT-0M2A7E,Laptop,Dell,Latitude 5420,Windows 11 Pro,Unassigned,Repair,Vendor Depot,2022-08-19,2025-08-19,Repair,BitLocker Enabled,Defender Healthy,2026-07-09,Poor,Out of Warranty
+AST-0012,PR-6V4C8F,Printer,HP,LaserJet Pro 4001dn,Embedded,Shared - Finance,Finance,Charlotte HQ,2024-01-22,2027-01-22,Assigned,N/A,Firmware Current,2026-07-18,Good,HP Care Pack
+AST-0013,AP-9S5D1G,Wireless AP,Cisco,Catalyst 9164,IOS XE,Infrastructure Team,IT,Charlotte HQ,2024-05-17,2027-05-17,Assigned,Encrypted Config,Firmware Current,2026-07-20,Good,Cisco Smart Net
+AST-0014,LT-4H6K3J,Laptop,HP,EliteBook 845 G9,Windows 11 Pro,Unassigned,Disposal,Secure Storage,2022-02-03,2025-02-03,Pending Disposal,BitLocker Enabled,Defender Healthy,2026-07-08,Poor,Expired
+AST-0015,DT-2F7P9L,Desktop,Lenovo,ThinkCentre M90q,Windows 11 Pro,Sophia Mitchell,Customer Service,Charlotte HQ,2024-10-10,2027-10-10,Assigned,BitLocker Enabled,Defender Healthy,2026-07-16,Good,Premier Support

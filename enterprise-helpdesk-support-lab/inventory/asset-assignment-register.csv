@@ -1,0 +1,9 @@
+Assignment ID,Asset ID,User,Department,Assigned Date,Expected Return,Actual Return,Issued By,Condition Out,Condition In,Status
+ASG-2026-001,AST-0001,Jamie Christian II,IT,2026-01-06,,,Morgan Reed,Good,,Active
+ASG-2026-002,AST-0002,Maya Thompson,Finance,2025-02-12,,,Jamie Christian II,New,,Active
+ASG-2026-003,AST-0003,Noah Bennett,Sales,2024-11-06,,,Jamie Christian II,New,,Active
+ASG-2026-004,AST-0004,Olivia Carter,Operations,2024-06-21,,,Alex Morgan,New,,Active
+ASG-2026-005,AST-0006,Ethan Brooks,Human Resources,2023-07-07,,,Taylor Reed,New,,Active
+ASG-2026-006,AST-0010,Liam Foster,Executive,2025-04-02,,,Jamie Christian II,New,,Active
+ASG-2026-007,AST-0015,Sophia Mitchell,Customer Service,2024-10-11,,,Jordan Lee,New,,Active
+ASG-2026-008,AST-0014,Ava Parker,Finance,2022-02-04,2026-06-30,2026-06-28,Jamie Christian II,New,Poor,Returned

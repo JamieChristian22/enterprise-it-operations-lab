@@ -1,0 +1,4 @@
+Repair ID,Asset ID,Reported Date,Issue,Vendor,Estimated Cost,Actual Cost,Warranty Covered,Status,Returned Date,Resolution
+RPR-2026-001,AST-0011,2026-07-07,Intermittent power failure and battery not charging,Dell Depot,385.00,385.00,No,Completed,2026-07-25,System board and battery replaced; device passed diagnostics
+RPR-2026-002,AST-0006,2026-06-19,Keyboard keys sticking,Local Authorized Service,145.00,0.00,Yes,Completed,2026-06-25,Keyboard replaced under extended support exception
+RPR-2026-003,AST-0012,2026-07-16,Paper-feed rollers slipping,HP Support,210.00,0.00,Yes,Completed,2026-07-20,Roller kit replaced and printer tested with 100-page job

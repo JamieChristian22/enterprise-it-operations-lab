@@ -1,0 +1,5 @@
+Finding ID,Audit Date,Asset ID,Finding,Risk,Corrective Action,Owner,Due Date,Status,Closed Date
+AUD-2026-001,2026-07-08,AST-0014,Returned laptop remained assigned to former user in tracking system,Moderate,"Removed assignment, moved asset to secure disposal storage, and opened disposal record",Jamie Christian II,2026-07-10,Closed,2026-07-09
+AUD-2026-002,2026-07-13,AST-0006,Warranty expired without replacement decision,Low,Documented risk acceptance through September 2026 and added replacement to Q4 plan,Infrastructure Manager,2026-07-20,Closed,2026-07-18
+AUD-2026-003,2026-07-18,AST-0012,Printer firmware one release behind baseline,Moderate,Updated firmware and validated print and network functions,Jamie Christian II,2026-07-19,Closed,2026-07-18
+AUD-2026-004,2026-07-22,AST-0005,Stock laptop lacked current assignment-ready checklist,Low,"Completed patching, encryption verification, and provisioning checklist",Service Desk Analyst,2026-07-24,Closed,2026-07-23
