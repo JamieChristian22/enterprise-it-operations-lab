@@ -1,0 +1,9 @@
+Event ID,Detected At,Category,Severity,Owner,Related Record,Status,Summary,Response,Outcome
+SEC-2026-001,2026-07-03 09:18,Phishing,High,Jamie Christian II,INC-2026-071,Closed,User reported suspicious Microsoft 365 login email,Message quarantined; sender blocked; credentials reset,No compromise confirmed
+SEC-2026-002,2026-07-11 13:26,Malware,Critical,Jamie Christian II,INC-2026-091,Closed,Defender detected malicious executable,Endpoint isolated; file quarantined; full scan completed,No persistence or lateral activity
+SEC-2026-003,2026-07-18 10:04,MFA,Medium,Alex Morgan,SR-2026-214,Closed,User unable to complete MFA after phone replacement,Identity verified; old method removed; new method enrolled,Access restored
+SEC-2026-004,2026-07-24 11:08,Encryption,High,Taylor Reed,INC-2026-109,Closed,BitLocker protection remained suspended after firmware update,Protection resumed; recovery key escrow validated,Endpoint compliant
+SEC-2026-005,2026-07-28 08:42,Access Review,Medium,Jamie Christian II,AUD-2026-017,Closed,Former contractor retained shared-folder group membership,Membership removed; manager review completed,Access corrected
+SEC-2026-006,2026-07-30 07:49,Identity,High,Jamie Christian II,INC-2026-123,Closed,Account lockouts exceeded baseline,Stale scheduled-task credential removed,No repeat lockouts
+SEC-2026-007,2026-08-01 14:20,Vulnerability,High,Jordan Lee,VUL-2026-044,Closed,Critical browser vulnerability found on 7 endpoints,Emergency browser update deployed,7 of 7 remediated
+SEC-2026-008,2026-08-03 16:12,Privileged Access,Medium,Alex Morgan,AUD-2026-021,Closed,Dormant local admin account detected,Account disabled and password rotated,Privileged access reduced

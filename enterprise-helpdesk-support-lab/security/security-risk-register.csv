@@ -1,0 +1,6 @@
+Risk ID,Risk,Likelihood,Impact,Rating,Treatment,Owner,Status
+RSK-2026-001,Three users not enrolled in MFA,Medium,High,High,Complete enrollment campaign by 2026-08-15,M365 Administrator,Open
+RSK-2026-002,Three endpoints exceed local admin standard,Medium,High,High,Remove unnecessary admin rights,Desktop Support Lead,In Progress
+RSK-2026-003,Five laptops pending firmware update,Medium,Medium,Moderate,Patch during approved maintenance window,Systems Administrator,In Progress
+RSK-2026-004,Phishing reporting relies on user awareness,Medium,High,High,Monthly simulation and report button training,Security Awareness Lead,Monitored
+RSK-2026-005,One dormant privileged account discovered,Low,High,Moderate,Quarterly privileged account review,Identity Services Manager,Reduced

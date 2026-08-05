@@ -1,0 +1,5 @@
+Review ID,Review Date,Scope,Accounts Reviewed,Exceptions,Removed Access,Owner,Status
+ARV-2026-Q3-001,2026-07-28,Finance shared folders,18,1,1,Jamie Christian II,Completed
+ARV-2026-Q3-002,2026-07-29,Local administrator membership,48,3,3,Alex Morgan,Completed
+ARV-2026-Q3-003,2026-07-30,Microsoft 365 privileged roles,12,1,1,M365 Administrator,Completed
+ARV-2026-Q3-004,2026-07-31,VPN access groups,34,2,2,Infrastructure Manager,Completed

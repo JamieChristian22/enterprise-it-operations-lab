@@ -1,0 +1,7 @@
+Metric,Compliant,Total,Rate,Target,Status
+BitLocker Enabled,48,48,1.0,1.0,Met
+Microsoft Defender Healthy,47,48,0.979,0.95,Met
+Critical Patches Current,46,48,0.958,0.95,Met
+MFA Registered,72,75,0.96,0.95,Met
+Local Admin Standard Met,45,48,0.938,0.95,Below Target
+Device Compliance,46,48,0.958,0.95,Met
