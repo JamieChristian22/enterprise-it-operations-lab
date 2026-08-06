@@ -1,187 +1,374 @@
-# 🚀 Enterprise IT Support & Systems Operations
+# 🖥️ Enterprise IT Support & Systems Operations Portfolio
 
-<div align="center">
+<p align="center">
 
-### Enterprise-Level IT Support • Systems Administration • Windows Server • Microsoft 365 • Active Directory • PowerShell • IT Operations
+<img src="https://img.shields.io/badge/Enterprise-IT%20Support-0078D4?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Windows-Server-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS-Cloud-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
+<img src="https://img.shields.io/badge/Microsoft-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Microsoft-365-D83B01?style=for-the-badge&logo=microsoftoffice&logoColor=white" />
+<img src="https://img.shields.io/badge/PowerShell-Automation-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
+<img src="https://img.shields.io/badge/Terraform-IaC-844FBA?style=for-the-badge&logo=terraform&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-Scripting-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 
-![Windows Server](https://img.shields.io/badge/Windows_Server-2022-0078D6?style=for-the-badge\&logo=windows\&logoColor=white)
-![Microsoft 365](https://img.shields.io/badge/Microsoft_365-Enterprise-D83B01?style=for-the-badge\&logo=microsoft\&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE?style=for-the-badge\&logo=powershell\&logoColor=white)
-![Active Directory](https://img.shields.io/badge/Active_Directory-Administration-0066CC?style=for-the-badge)
-![Windows](https://img.shields.io/badge/Windows-11-0078D6?style=for-the-badge\&logo=windows\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge\&logo=github)
+</p>
 
-</div>
+<p align="center">
 
----
+Enterprise Help Desk • Systems Administration • IT Operations • Active Directory • Microsoft 365 • Windows Server • Linux • Cloud Infrastructure • Automation
 
-# 👋 Welcome
-
-This repository showcases a collection of **enterprise-style IT Support and Systems Administration projects** designed to simulate real production environments. Every project emphasizes technical implementation, operational documentation, troubleshooting, automation, and enterprise best practices.
-
-These labs are designed around responsibilities commonly performed by:
-
-* 💻 IT Support Specialists
-* 🎫 Help Desk Technicians
-* 🖥️ Systems Administrators
-* ☁️ Cloud Support Associates
-* 🏢 Infrastructure Support Engineers
+</p>
 
 ---
 
-# 📂 Enterprise Portfolio
+# 📌 Enterprise Overview
 
-| Project                                            | Description                                                                          |
-| -------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| 📧 Enterprise Microsoft 365 Outlook Support Lab    | Microsoft 365 administration, Outlook troubleshooting, Exchange Online, user support |
-| 👤 Enterprise Active Directory User Management Lab | User provisioning, password resets, security groups, Group Policy, PowerShell        |
-| 🖥️ Enterprise Windows Server Administration Lab   | Windows Server deployment, DNS, DHCP, File Services, Backup, Monitoring              |
-| 🎫 Enterprise Help Desk Support Lab                | Ticket lifecycle, troubleshooting, knowledge base, customer support                  |
-| ⚙️ Enterprise IT Operations Lab                    | Incident management, change management, operational documentation                    |
-| 📚 Enterprise Systems Administration Lab           | Enterprise infrastructure, automation, validation, reporting                         |
+Welcome to my **Enterprise IT Support & Systems Operations Portfolio**.
 
----
+This repository contains multiple production-inspired enterprise environments that simulate the daily responsibilities of an:
 
-# 🛠️ Technical Skills
+- 🖥️ IT Support Specialist
+- 🎧 Help Desk Technician
+- 🛠️ Systems Administrator
+- ☁️ Cloud Support Associate
+- 📊 IT Operations Analyst
+- 🌐 Infrastructure Support Engineer
 
-### Operating Systems
+Unlike isolated labs, these projects are designed as realistic enterprise environments with complete documentation, operational procedures, troubleshooting workflows, architecture diagrams, automation, and technical documentation.
 
-* Windows 11
-* Windows Server 2022
-
-### Microsoft Technologies
-
-* Microsoft 365
-* Exchange Online
-* Outlook
-* Microsoft Entra ID
-* Active Directory
-* Group Policy
-
-### Enterprise Administration
-
-* User Administration
-* Password Resets
-* Account Unlocks
-* File & Print Services
-* DNS
-* DHCP
-* NTFS Permissions
-* Shared Folders
-
-### Automation
-
-* PowerShell
-* Windows Administration
-* Health Checks
-* Validation Scripts
-* Operational Automation
-
-### IT Operations
-
-* Incident Management
-* Change Management
-* Problem Management
-* Knowledge Base Documentation
-* Root Cause Analysis
-* Standard Operating Procedures
-* Operational Runbooks
+Every repository follows enterprise documentation standards similar to what would be expected inside a production IT department.
 
 ---
 
-# 📸 Featured Project Showcase
+# 🚀 Portfolio Labs
 
-## 📧 Microsoft 365 Outlook Support
+## 🎧 Enterprise Help Desk Support Lab
 
-> Replace the filenames below with the exact image names in your repository.
+Simulates a Tier 1/Tier 2 enterprise service desk.
+
+### Skills Demonstrated
+
+- 🎫 Ticket Management
+- 🚨 Incident Management
+- 🔐 Password Resets
+- 🔓 Account Unlocks
+- 👤 User Support
+- 📧 Outlook Troubleshooting
+- ☁️ Microsoft 365 Support
+- 🖨️ Printer Support
+- 🌐 VPN Troubleshooting
+- 📚 Knowledge Base Creation
+- 📞 User Communication
+- ⬆️ Escalation Procedures
+- 📈 SLA Management
+
+---
+
+## 👤 Enterprise Active Directory User Management Lab
+
+Enterprise identity lifecycle administration.
+
+### Skills Demonstrated
+
+- 👥 User Provisioning
+- 🚪 Employee Offboarding
+- 🏢 Organizational Units
+- 🔐 Security Groups
+- 📂 Shared Folder Permissions
+- 🛡️ NTFS Permissions
+- 📜 Group Policy
+- 🔑 Password Policies
+- 💻 PowerShell Automation
+- 📋 Administrative Auditing
+
+---
+
+## ⚙️ Enterprise Systems Administration Lab
+
+Enterprise Windows & Linux administration.
+
+### Skills Demonstrated
+
+- 🖥️ Windows Server
+- 🐧 Linux Administration
+- 💾 Storage Management
+- 📊 Performance Monitoring
+- 🔄 Patch Management
+- 💿 Backup Administration
+- 🚑 Disaster Recovery
+- 📦 Virtualization
+- 🤖 Configuration Management
+- 📜 Automation
+
+---
+
+## 📊 Enterprise IT Operations Lab
+
+Enterprise operational support environment.
+
+### Skills Demonstrated
+
+- 📈 Infrastructure Monitoring
+- 🚨 Incident Response
+- 📝 Root Cause Analysis
+- 📦 Asset Management
+- 📋 Daily Operations
+- 🛠️ Preventive Maintenance
+- 💾 Backup Validation
+- 📊 Operational Dashboards
+- 📚 Runbooks
+- 📑 Checklists
+
+---
+
+## 📧 Enterprise Microsoft 365 Outlook Support Lab
+
+Microsoft 365 enterprise administration.
+
+### Skills Demonstrated
+
+- 📨 Outlook Desktop
+- 🌐 Outlook Web
+- ☁️ Exchange Online
+- 👥 Shared Mailboxes
+- 📧 Distribution Lists
+- 🔑 Mailbox Permissions
+- 🎫 Microsoft 365 Administration
+- 📂 Licensing
+- 🛠️ Email Troubleshooting
+
+---
+
+## ☁️ Cloud Infrastructure Operations Lab
+
+Enterprise AWS & Azure operations.
+
+### Skills Demonstrated
+
+- ☁️ AWS
+- ☁️ Microsoft Azure
+- 🔐 IAM
+- 🌐 Virtual Networks
+- 🖥️ EC2
+- 💾 Storage
+- 📈 Monitoring
+- 🛡️ Security Groups
+- 🏗️ Terraform
+- 🤖 Cloud Automation
+
+---
+
+# 🛠️ Technology Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| 💻 Operating Systems | Windows 11, Windows Server, Ubuntu, Rocky Linux |
+| ☁️ Cloud | AWS, Azure |
+| 👤 Identity | Active Directory, Microsoft Entra ID, AWS IAM |
+| 🌐 Networking | TCP/IP, DNS, DHCP, VPN, Routing |
+| 🖥️ Virtualization | VirtualBox, VMware |
+| 📧 Microsoft | Microsoft 365, Outlook, Exchange Online |
+| 🤖 Automation | PowerShell, Bash, Python, Terraform, Ansible, DSC |
+| 📊 Monitoring | Event Viewer, Performance Monitor, CloudWatch, Azure Monitor |
+| 📚 Documentation | SOPs, Runbooks, Knowledge Base Articles, Incident Reports |
+
+---
+
+# 🔄 Enterprise Workflow
 
 ```text
-enterprise-microsoft-365-outlook-support-lab/evidence/
-```
-
-```markdown
-![Outlook Dashboard](enterprise-microsoft-365-outlook-support-lab/evidence/01-outlook-dashboard.png)
-
-![Microsoft 365 Admin](enterprise-microsoft-365-outlook-support-lab/evidence/02-microsoft365-admin-center.png)
-
-![Exchange Online](enterprise-microsoft-365-outlook-support-lab/evidence/03-exchange-online-mailboxes.png)
-
-![Resolved Ticket](enterprise-microsoft-365-outlook-support-lab/evidence/04-zendesk-ticket.png)
-
-![Knowledge Base](enterprise-microsoft-365-outlook-support-lab/evidence/05-knowledge-base.png)
-
-![Service Health](enterprise-microsoft-365-outlook-support-lab/evidence/06-service-health.png)
+👤 User Reports Issue
+          │
+          ▼
+🎫 Help Desk Ticket
+          │
+          ▼
+📋 Issue Classification
+          │
+          ▼
+🚨 Priority Assignment
+          │
+          ▼
+🔍 Investigation
+          │
+          ▼
+🛠️ Troubleshooting
+          │
+          ▼
+✅ Resolution
+          │
+          ▼
+✔️ User Validation
+          │
+          ▼
+📚 Knowledge Base Update
+          │
+          ▼
+📂 Ticket Closure
 ```
 
 ---
 
-# ⭐ Repository Highlights
+# ⭐ Core Competencies
 
-* 🖥️ Enterprise Windows Server Administration
-* 👤 Active Directory Administration
-* ☁️ Microsoft 365 Administration
-* 📧 Exchange Online Support
-* ⚙️ PowerShell Automation
-* 📚 Knowledge Base Documentation
-* 🎫 Enterprise Help Desk Operations
-* 📋 Change Management
-* 🚨 Incident Response
-* 🧪 Testing & Validation
-* 📈 Operational Reporting
-* 🔒 Security Best Practices
+## 🖥️ Help Desk
+
+- Ticket Management
+- Technical Troubleshooting
+- User Support
+- Remote Assistance
+- Documentation
+- SLA Compliance
 
 ---
 
-# 📁 Repository Structure
+## 🔐 Identity & Access Management
+
+- Active Directory
+- Entra ID
+- IAM
+- Security Groups
+- Group Policy
+- RBAC
+- NTFS Permissions
+
+---
+
+## ⚙️ Systems Administration
+
+- Windows Server
+- Linux
+- Server Maintenance
+- Performance Monitoring
+- Storage Administration
+- Services
+- Backup & Recovery
+
+---
+
+## 🌐 Networking
+
+- DNS
+- DHCP
+- TCP/IP
+- VPN
+- Firewalls
+- Ping
+- Tracert
+- NSLookup
+
+---
+
+## ☁️ Cloud
+
+- AWS
+- Azure
+- EC2
+- Azure VM
+- IAM
+- Monitoring
+- Security
+- Infrastructure as Code
+
+---
+
+## 🤖 Automation
+
+- PowerShell
+- Bash
+- Python
+- Terraform
+- Ansible
+- Desired State Configuration
+
+---
+
+# 📂 Repository Structure
 
 ```text
-enterprise-it-support-and-systems-operations
-│
-├── enterprise-helpdesk-support-lab
-├── enterprise-it-operations-lab
-├── enterprise-microsoft-365-outlook-support-lab
-├── enterprise-systems-administration-lab
-│   ├── active-directory
-│   ├── configuration-management
-│   ├── disaster-recovery
-│   ├── virtualization
-│   ├── windows-server
-│   └── knowledge-base
-│
-└── README.md
+enterprise-it-support-and-systems-operations/
+
+├── ☁️ cloud-infrastructure-operations-lab/
+├── 👤 enterprise-active-directory-user-management-lab/
+├── 🎧 enterprise-helpdesk-support-lab/
+├── 📊 enterprise-it-operations-lab/
+├── 📧 enterprise-microsoft-365-outlook-support-lab/
+├── ⚙️ enterprise-systems-administration-lab/
+
+├── 📄 LICENSE
+└── 📘 README.md
 ```
 
 ---
 
-# 📚 Documentation Standards
+# 🎯 Target Roles
 
-Every enterprise lab includes, where applicable:
+This portfolio is designed to demonstrate the skills required for:
 
-* ✅ Professional README
-* ✅ Architecture Diagrams
-* ✅ Configuration Documentation
-* ✅ Standard Operating Procedures
-* ✅ Knowledge Base Articles
-* ✅ Incident Reports
-* ✅ Change Records
-* ✅ Operational Runbooks
-* ✅ Validation Reports
-* ✅ PowerShell Automation
-* ✅ Test Results
-* ✅ Evidence
+- 🖥️ IT Support Specialist
+- 🎧 Help Desk Technician
+- 📞 Service Desk Analyst
+- 💻 Desktop Support Technician
+- ⚙️ Junior Systems Administrator
+- 🌐 Infrastructure Support Engineer
+- 📊 IT Operations Analyst
+- ☁️ Cloud Support Associate
+- ☁️ Cloud Operations Analyst
+- 🚀 Junior Cloud Engineer
 
 ---
 
-# 🎯 Purpose
+# 📈 Portfolio Highlights
 
-The goal of this repository is to demonstrate practical, job-ready IT skills through realistic enterprise scenarios. Rather than isolated tutorials, these projects combine technical implementation with documentation, operational processes, troubleshooting, and automation to reflect how modern IT teams work.
+✔️ Enterprise Documentation
+
+✔️ Production-Inspired Projects
+
+✔️ Active Directory Administration
+
+✔️ Windows Server Administration
+
+✔️ Linux Administration
+
+✔️ Microsoft 365 Administration
+
+✔️ AWS Cloud Operations
+
+✔️ Azure Cloud Operations
+
+✔️ Infrastructure Automation
+
+✔️ Enterprise Troubleshooting
+
+✔️ Operational Runbooks
+
+✔️ Knowledge Base Articles
+
+✔️ Incident Reports
+
+✔️ Architecture Documentation
+
+✔️ Disaster Recovery Planning
+
+✔️ Configuration Management
 
 ---
 
-<div align="center">
+# 👨‍💻 About Me
 
-### ⭐ Thanks for visiting!
+I'm passionate about building enterprise IT environments that mirror real-world production operations. This portfolio demonstrates my ability to troubleshoot systems, administer enterprise infrastructure, document operational procedures, automate repetitive tasks, and support users using industry best practices.
 
-If you find these projects useful, consider giving the repository a ⭐.
+---
 
-</div>
+# 📜 License
+
+Licensed under the MIT License.
+
+---
+
+# ⚠️ Disclaimer
+
+All organizations, users, infrastructure, incidents, tickets, systems, and business scenarios contained in this repository are fictional and were created solely for educational and portfolio demonstration purposes.
+
+No proprietary company information or production environments are included.
