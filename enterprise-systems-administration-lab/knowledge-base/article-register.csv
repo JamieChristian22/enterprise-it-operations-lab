@@ -1,0 +1,41 @@
+kb_id,title,service,severity,file,owner,last_reviewed,next_review,status
+KB-001,Troubleshoot Active Directory Account Lockouts,Active Directory,Medium,kb-001-ad-account-lockouts.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-002,Diagnose DNS Name Resolution Failures,DNS / Networking,High,kb-002-dns-resolution.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-003,Troubleshoot Active Directory Replication,Active Directory,Critical,kb-003-ad-replication.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-004,Troubleshoot Group Policy Processing,Group Policy,High,kb-004-group-policy-processing.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-005,Validate and Recover FSMO Role Availability,Active Directory,Critical,kb-005-fsmo-roles.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-006,Troubleshoot NTFS Permission Issues,Windows File Services,High,kb-006-ntfs-permissions.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-007,Troubleshoot SMB Share Access,Windows File Services,High,kb-007-smb-access.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-008,Recover Windows Print Spooler Failures,Windows Printing,Medium,kb-008-print-spooler.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-009,Troubleshoot Windows Service Failures,Windows Server,High,kb-009-windows-service-failures.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-010,Perform Structured Windows Event Log Analysis,Windows Server,Medium,kb-010-event-viewer-analysis.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-011,Troubleshoot WSUS Client Reporting and Scan Failures,Patch Management,High,kb-011-wsus-client-failures.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-012,Reset Windows Update Components Safely,Patch Management,High,kb-012-windows-update-reset.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-013,Remediate Windows Disk Capacity Alerts,Windows Server,High,kb-013-disk-cleanup.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-014,Expand a Windows Data Volume,Storage,High,kb-014-volume-expansion.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-015,Troubleshoot Remote Desktop Connection Failures,Remote Administration,High,kb-015-rdp-failures.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-016,Respond to TLS Certificate Expiration,PKI / Security,Critical,kb-016-certificate-expiration.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-017,Troubleshoot Linux SSH Connection Failures,Linux,High,kb-017-linux-ssh-failures.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-018,Troubleshoot systemd Service Failures,Linux,High,kb-018-systemd-services.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-019,Remediate Linux Disk and Inode Pressure,Linux,High,kb-019-linux-disk-pressure.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-020,Troubleshoot and Grant Linux sudo Access,Linux / Security,High,kb-020-sudo-access.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-021,Troubleshoot Linux Package Update Failures,Linux / Patch Management,High,kb-021-package-update-failures.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-022,Troubleshoot Linux cron Job Failures,Linux,Medium,kb-022-cron-jobs.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-023,Correct Linux and Windows Time Drift,Time Services,Critical,kb-023-ntp-drift.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-024,Resolve Microsoft 365 Licensing Issues,Microsoft 365,High,kb-024-microsoft-365-licensing.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-025,Configure and Troubleshoot Shared Mailboxes,Microsoft 365 / Exchange Online,High,kb-025-shared-mailboxes.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-026,Troubleshoot Exchange Online Mail Flow,Microsoft 365 / Exchange Online,Critical,kb-026-exchange-mail-flow.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-027,Troubleshoot Microsoft Teams Sign-In,Microsoft 365 / Teams,High,kb-027-teams-sign-in.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-028,Troubleshoot OneDrive Synchronization,Microsoft 365 / OneDrive,High,kb-028-onedrive-sync.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-029,Reset Microsoft Entra MFA Methods Safely,Identity / Microsoft Entra,High,kb-029-mfa-reset.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-030,Troubleshoot Microsoft Entra Conditional Access,Identity / Microsoft Entra,Critical,kb-030-conditional-access.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-031,Troubleshoot Hyper-V Virtual Machine Startup,Virtualization,High,kb-031-hyper-v-vm-startup.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-032,Manage and Consolidate Hyper-V Checkpoints,Virtualization,High,kb-032-vm-snapshot-cleanup.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-033,Diagnose Virtual Machine Resource Pressure,Virtualization / Performance,High,kb-033-vm-resource-pressure.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-034,Troubleshoot Enterprise Backup Job Failures,Backup and Recovery,Critical,kb-034-backup-job-failure.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-035,Validate a Backup Restore,Backup and Recovery,Critical,kb-035-restore-validation.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-036,Troubleshoot Monitoring Agent Failures,Monitoring,High,kb-036-monitoring-agent-failure.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-037,Investigate Sustained High CPU Utilization,Performance,High,kb-037-high-cpu.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-038,Investigate Sustained High Memory Utilization,Performance,High,kb-038-high-memory.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-039,Execute and Validate Vulnerability Remediation,Security Operations,Critical,kb-039-vulnerability-remediation.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
+KB-040,Perform a Privileged Access Review,Identity Governance,Critical,kb-040-privileged-access-review.md,Infrastructure Operations,2026-08-06,2027-02-02,Active
