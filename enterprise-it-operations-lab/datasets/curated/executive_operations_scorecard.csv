@@ -1,0 +1,8 @@
+metric,current,target,status
+SLA Attainment,96.1,95,Met
+Patch Compliance,98.0,95,Met
+Backup Success,99.4,98,Met
+Change Success,97.5,95,Met
+Major Incident MTTR,24,30,Met
+Cloud Cost USD,14575,14000,Watch
+High Vulnerabilities,1,0,Action

@@ -1,0 +1,28 @@
+{
+  "title": "Backup Jobs",
+  "type": "object",
+  "required": [
+    "job_id",
+    "workload",
+    "result"
+  ],
+  "properties": {
+    "job_id": {
+      "type": "string"
+    },
+    "workload": {
+      "type": "string"
+    },
+    "result": {
+      "type": "string",
+      "enum": [
+        "Success",
+        "Failed"
+      ]
+    },
+    "data_size_gb": {
+      "type": "integer",
+      "minimum": 0
+    }
+  }
+}

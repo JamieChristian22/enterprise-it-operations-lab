@@ -1,0 +1,5 @@
+platform,current_utilization_percent,forecast_90_day_percent,recommended_action
+Windows Server,63,71,Monitor
+Ubuntu,58,66,Healthy
+Rocky Linux,74,84,Plan Storage Expansion
+VMware Cluster,69,80,Review Capacity

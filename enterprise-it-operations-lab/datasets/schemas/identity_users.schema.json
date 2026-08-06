@@ -1,0 +1,26 @@
+{
+  "title": "Identity Users",
+  "type": "object",
+  "required": [
+    "user_id",
+    "user_principal_name"
+  ],
+  "properties": {
+    "user_id": {
+      "type": "string"
+    },
+    "user_principal_name": {
+      "type": "string"
+    },
+    "mfa_registered": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "account_status": {
+      "type": "string"
+    }
+  }
+}

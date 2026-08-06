@@ -1,0 +1,24 @@
+{
+  "title": "Cloud Resources",
+  "type": "object",
+  "required": [
+    "resource_id",
+    "provider"
+  ],
+  "properties": {
+    "resource_id": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string",
+      "enum": [
+        "AWS",
+        "Azure"
+      ]
+    },
+    "monthly_cost_usd": {
+      "type": "number",
+      "minimum": 0
+    }
+  }
+}

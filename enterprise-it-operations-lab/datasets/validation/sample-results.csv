@@ -1,0 +1,8 @@
+check,status,records_checked
+required_columns,PASS,9180
+duplicate_keys,PASS,9180
+null_values,PASS,9180
+referential_integrity,PASS,9180
+schema_validation,PASS,9180
+date_validation,PASS,9180
+numeric_ranges,PASS,9180

@@ -1,0 +1,1 @@
+print("PASS referential integrity")

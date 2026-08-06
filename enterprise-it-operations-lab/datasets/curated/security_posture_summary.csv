@@ -1,0 +1,5 @@
+category,value,target,status
+MFA Coverage,100,100,Met
+Critical Vulnerabilities Open,1,0,Action
+Privileged Reviews,100,100,Met
+Backup Immutability,100,100,Met
