@@ -1,0 +1,6 @@
+ChangeID,Title,Type,Risk,Start,End,Owner,Status
+CHG-2001,Monthly Server Patching,Standard,Low,2026-07-20T22:00:00-04:00,2026-07-21T02:00:00-04:00,Infrastructure,Completed
+CHG-2002,AWS Volume Expansion,Normal,Medium,2026-07-23T21:00:00-04:00,2026-07-23T22:00:00-04:00,Cloud Operations,Completed
+CHG-2003,Privileged MFA Policy,Normal,Medium,2026-07-25T19:00:00-04:00,2026-07-25T20:00:00-04:00,Identity,Completed
+CHG-2004,Critical Vulnerability Remediation,Emergency,High,2026-07-27T14:00:00-04:00,2026-07-27T15:00:00-04:00,Security,Completed
+CHG-2005,Application Deployment,Normal,High,2026-07-30T20:00:00-04:00,2026-07-30T21:00:00-04:00,Application Team,Failed

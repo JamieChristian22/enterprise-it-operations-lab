@@ -1,0 +1,43 @@
+{
+  "factors": {
+    "business_impact": [
+      1,
+      2,
+      3
+    ],
+    "technical_complexity": [
+      1,
+      2,
+      3
+    ],
+    "user_scope": [
+      1,
+      2,
+      3
+    ],
+    "rollback_difficulty": [
+      1,
+      2,
+      3
+    ],
+    "testing_confidence": [
+      1,
+      2,
+      3
+    ]
+  },
+  "bands": {
+    "low": [
+      5,
+      7
+    ],
+    "medium": [
+      8,
+      11
+    ],
+    "high": [
+      12,
+      15
+    ]
+  }
+}

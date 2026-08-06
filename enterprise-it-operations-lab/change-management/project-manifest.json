@@ -1,0 +1,20 @@
+{
+  "project": "Enterprise Change Management Lab",
+  "version": "1.0.0",
+  "generated": "2026-08-06",
+  "change_types": [
+    "Standard",
+    "Normal",
+    "Emergency",
+    "Failed"
+  ],
+  "focus": [
+    "Risk scoring",
+    "CAB governance",
+    "Forward schedule",
+    "Rollback",
+    "PIR",
+    "Metrics",
+    "Audit evidence"
+  ]
+}

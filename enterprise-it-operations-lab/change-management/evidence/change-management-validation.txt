@@ -1,0 +1,12 @@
+PASS policy_present=true
+PASS risk_model_present=true
+PASS cab_governance_present=true
+PASS templates_present=4
+PASS standard_changes=1
+PASS normal_changes=2
+PASS emergency_changes=1
+PASS failed_changes=1
+PASS pir_present=true
+PASS forward_schedule_present=true
+PASS reports_present=4
+PASS runbooks_present=3
