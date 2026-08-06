@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+<style>text{font-family:Arial,sans-serif;fill:#172033}.title{font-size:34px;font-weight:700}.h{font-size:24px;font-weight:700}.b{font-size:17px}.tier{stroke:#314d78;stroke-width:3;rx:22}.t0{fill:#fff0f0}.t1{fill:#fff8e6}.t2{fill:#eef8ff}.paw{fill:#eef7ee;stroke:#3d7044;stroke-width:3;rx:20}.deny{stroke:#a12b2b;stroke-width:4;stroke-dasharray:10 8}.allow{stroke:#2e6c3c;stroke-width:5;marker-end:url(#a)}</style>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2e6c3c"/></marker></defs>
+<text x="55" y="58" class="title">Administrative Tiering and Credential Boundaries</text>
+<rect x="90" y="115" width="1220" height="180" class="tier t0"/><text x="125" y="160" class="h">Tier 0 — Identity Control Plane</text><text x="125" y="205" class="b">Domain Controllers • Entra Connect • PKI • Domain/Enterprise Admin • Emergency Access</text><text x="125" y="245" class="b">Account: adm0-jchristian | Logon: Tier 0 systems and approved PAWs only</text>
+<rect x="90" y="335" width="1220" height="180" class="tier t1"/><text x="125" y="380" class="h">Tier 1 — Server and Application Control Plane</text><text x="125" y="425" class="b">Member Servers • Hypervisors • Backup • Enterprise Applications • Management Servers</text><text x="125" y="465" class="b">Account: adm1-jchristian | Logon: Tier 1 systems only</text>
+<rect x="90" y="555" width="1220" height="180" class="tier t2"/><text x="125" y="600" class="h">Tier 2 — Endpoint and User Support</text><text x="125" y="645" class="b">Workstations • Endpoint Tools • Printers • User Support</text><text x="125" y="685" class="b">Account: adm2-jchristian | Logon: Tier 2 systems only</text>
+<rect x="1040" y="30" width="270" height="70" class="paw"/><text x="1090" y="73" class="h">NS-PAW01</text>
+<line x1="1170" y1="100" x2="1170" y2="115" class="allow"/>
+<line x1="740" y1="295" x2="740" y2="335" class="deny"/><text x="765" y="323" class="b">Tier 0 credential denied below</text>
+<line x1="740" y1="515" x2="740" y2="555" class="deny"/><text x="765" y="543" class="b">Tier 1 credential denied below</text>
+<text x="90" y="805" class="b">Separate identities • No email/web on admin accounts • JIT elevation • GPO logon restrictions • Continuous auditing</text>
+</svg>

@@ -1,0 +1,31 @@
+# File Manifest
+
+- `README.md`
+- `architecture/administrative-tier-model.svg`
+- `architecture/hybrid-identity-architecture.svg`
+- `change-management/CHG-2038-entra-connect-failover.md`
+- `checklists/monthly-privileged-access-review.md`
+- `checklists/post-change-identity-validation.md`
+- `evidence/README.md`
+- `evidence/duplicate-attribute-check.csv`
+- `evidence/gpo-validation-summary.txt`
+- `evidence/privileged-access-review.csv`
+- `evidence/privileged-group-changes.csv`
+- `evidence/sync-health-validation.txt`
+- `hybrid-identity-operations.md`
+- `incidents/INC-1042-sync-export-failure.md`
+- `incidents/INC-1057-duplicate-proxy-address.md`
+- `incidents/INC-1071-unauthorized-admin-group-change.md`
+- `runbooks/break-glass-account-review.md`
+- `runbooks/controlled-staging-failover.md`
+- `runbooks/entra-connect-health-check.md`
+- `runbooks/sync-failure-troubleshooting.md`
+- `scripts/Export-PrivilegedAccessReview.ps1`
+- `scripts/Find-DuplicateIdentityAttributes.ps1`
+- `scripts/Get-PrivilegedGroupChanges.ps1`
+- `scripts/Test-AdministrativeTierLogon.ps1`
+- `scripts/Test-IdentitySyncHealth.ps1`
+- `standards/administrative-tiering-standard.md`
+- `standards/hybrid-identity-configuration-baseline.md`
+- `standards/privileged-account-standard.md`
+- `tiered-administration-model.md`

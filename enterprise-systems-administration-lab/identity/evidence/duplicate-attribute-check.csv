@@ -1,0 +1,3 @@
+Attribute,Value,SamAccountName,DN
+proxyAddresses,smtp:alex.morgan@northstarlab.com,amorgan,"CN=Alex Morgan,OU=Employees,DC=corp,DC=northstarlab,DC=local"
+proxyAddresses,smtp:alex.morgan@northstarlab.com,ctr-amorgan,"CN=Alex Morgan Contractor,OU=Disabled,DC=corp,DC=northstarlab,DC=local"

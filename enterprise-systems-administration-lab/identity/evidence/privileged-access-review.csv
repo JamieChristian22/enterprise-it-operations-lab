@@ -1,0 +1,5 @@
+Group,Name,SamAccountName,ObjectClass,Owner,ReviewDecision
+Tier0-Admins,Jamie Christian,adm0-jchristian,user,Director Infrastructure,Retain
+Tier1-Admins,Jamie Christian,adm1-jchristian,user,Manager Systems Operations,Retain
+Tier2-Admins,Jamie Christian,adm2-jchristian,user,Service Desk Manager,Retain
+Domain Admins,Break Glass AD,bg-ad-01,user,CISO,Retain-Emergency

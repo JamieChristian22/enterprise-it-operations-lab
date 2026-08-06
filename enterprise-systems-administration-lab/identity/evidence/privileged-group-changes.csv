@@ -1,0 +1,3 @@
+TimeCreated,EventId,Actor,Member,Group,Computer,RecordId
+2026-07-10 21:44:05,4728,CORP\adm0-jchristian,CN=adm0-lrivera\,OU=Admins\,DC=corp\,DC=northstarlab\,DC=local,Tier0-Admins,NS-DC01,884122
+2026-07-10 22:03:17,4729,CORP\adm0-jchristian,CN=adm0-lrivera\,OU=Admins\,DC=corp\,DC=northstarlab\,DC=local,Tier0-Admins,NS-DC01,884201

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<style>text{font-family:Arial,sans-serif;fill:#172033}.title{font-size:34px;font-weight:700}.h{font-size:21px;font-weight:700}.b{font-size:16px}.box{fill:#f7f9fc;stroke:#3b5b92;stroke-width:3;rx:18}.cloud{fill:#eef6ff;stroke:#2463a8;stroke-width:3}.line{stroke:#334e73;stroke-width:4;fill:none;marker-end:url(#a)}.dash{stroke-dasharray:10 8}</style>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334e73"/></marker></defs>
+<text x="60" y="60" class="title">Northstar Logistics — Hybrid Identity Architecture</text>
+<rect x="70" y="130" width="360" height="530" class="box"/><text x="110" y="180" class="h">On-Premises Identity</text>
+<rect x="115" y="220" width="270" height="95" class="box"/><text x="160" y="260" class="h">NS-DC01 / NS-DC02</text><text x="150" y="290" class="b">AD DS • DNS • Group Policy</text>
+<rect x="115" y="360" width="270" height="105" class="box"/><text x="155" y="402" class="h">NS-AADCON01</text><text x="160" y="435" class="b">Active synchronization</text>
+<rect x="115" y="510" width="270" height="105" class="box"/><text x="155" y="552" class="h">NS-AADCON02</text><text x="170" y="585" class="b">Staging server</text>
+<rect x="555" y="220" width="300" height="260" class="cloud" rx="28"/><text x="625" y="270" class="h">Microsoft Entra ID</text><text x="615" y="315" class="b">Users • Groups • Devices</text><text x="605" y="350" class="b">Password Hash Sync</text><text x="630" y="385" class="b">Conditional Access</text><text x="635" y="420" class="b">Audit and Sign-ins</text>
+<rect x="1000" y="150" width="320" height="170" class="box"/><text x="1070" y="200" class="h">Microsoft 365</text><text x="1060" y="245" class="b">Exchange • Teams • Apps</text><text x="1050" y="280" class="b">Cloud authentication</text>
+<rect x="1000" y="430" width="320" height="190" class="box"/><text x="1040" y="480" class="h">Operations & Security</text><text x="1050" y="525" class="b">NS-MGMT01 • NS-PAW01</text><text x="1055" y="560" class="b">Health alerts • SIEM</text><text x="1060" y="595" class="b">Change and incident records</text>
+<path d="M385 412 C470 412 470 330 555 330" class="line"/><text x="425" y="335" class="b">Directory sync</text>
+<path d="M385 560 C475 560 480 410 555 410" class="line dash"/><text x="420" y="540" class="b">Controlled failover</text>
+<path d="M855 300 L1000 235" class="line"/><path d="M855 430 L1000 515" class="line"/>
+<text x="70" y="735" class="b">Source anchor: ms-DS-ConsistencyGuid • Routable UPN: northstarlab.com • One active scheduler at a time</text>
+</svg>

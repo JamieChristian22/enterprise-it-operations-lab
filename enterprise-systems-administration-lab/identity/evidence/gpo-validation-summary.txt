@@ -1,0 +1,16 @@
+GPO Validation Summary - 2026-07-10
+
+GPO: SEC-T0-Deny-Logon-Lower-Tiers
+Scope: Tier 1 servers and Tier 2 workstations
+Result: Applied
+Validation: adm0-jchristian denied interactive and RDP logon to NS-APP01 and NS-WKS114
+
+GPO: SEC-T1-Deny-Logon-Tier2
+Scope: Tier 2 workstations
+Result: Applied
+Validation: adm1-jchristian denied interactive logon to NS-WKS114
+
+GPO: SEC-T0-PAW-Logon
+Scope: NS-PAW01
+Result: Applied
+Validation: adm0-jchristian permitted; standard user denied administrative elevation

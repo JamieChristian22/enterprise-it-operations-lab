@@ -1,0 +1,13 @@
+Northstar Lab - Identity Synchronization Health
+Generated: 2026-07-10T22:21:14-04:00
+Computer: NS-AADCON02
+------------------------------------------------------------------------------------------
+Scheduler enabled                PASS       True
+Staging mode                     PASS       False
+Next cycle policy                INFO       Delta
+Recent sync event                PASS       4.2 minutes old
+Service ADSync                   PASS       Running
+Password hash synchronization    PASS       Healthy
+Connector export errors          PASS       0
+Unexpected deletions             PASS       0
+Overall status                   PASS       Healthy
