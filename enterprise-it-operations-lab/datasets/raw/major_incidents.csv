@@ -1,0 +1,41 @@
+incident_id,opened_at,priority,service,mttr_minutes,users_impacted,root_cause_category,status,owner_team
+INC-3001,2026-01-21T04:48,P2,Application,112,202,Configuration,Closed,Infrastructure
+INC-3002,2026-07-07T14:35,P2,Microsoft 365,219,551,Hardware,Closed,Security
+INC-3003,2026-02-12T21:23,P2,Application,52,673,Change,Closed,Cloud Operations
+INC-3004,2026-02-25T22:27,P1,Network,104,944,Hardware,Closed,Security
+INC-3005,2026-03-31T09:33,P1,Application,49,1040,Capacity,Resolved,Network
+INC-3006,2026-01-14T02:55,P2,Cloud,24,979,Vendor,Closed,Infrastructure
+INC-3007,2026-07-06T23:40,P2,Microsoft 365,111,238,Hardware,Resolved,Network
+INC-3008,2026-03-19T06:40,P2,Cloud,35,918,Hardware,Closed,Network
+INC-3009,2026-04-24T18:22,P1,Network,124,808,Vendor,Closed,Network
+INC-3010,2026-02-07T11:26,P2,Identity,205,901,Hardware,Resolved,Security
+INC-3011,2026-03-23T02:18,P2,Security,154,969,Capacity,Resolved,Cloud Operations
+INC-3012,2026-03-10T06:49,P2,Cloud,194,71,Change,Resolved,Identity
+INC-3013,2026-07-22T17:59,P2,Microsoft 365,39,772,Vendor,Closed,Infrastructure
+INC-3014,2026-05-26T16:44,P1,Cloud,123,760,Change,Resolved,Cloud Operations
+INC-3015,2026-03-01T11:36,P2,Application,114,195,Vendor,Closed,Infrastructure
+INC-3016,2026-04-12T09:20,P1,Identity,69,396,Change,Resolved,Network
+INC-3017,2026-03-01T16:12,P2,Cloud,25,280,Change,Closed,Infrastructure
+INC-3018,2026-07-24T11:46,P2,Microsoft 365,231,169,Change,Closed,Infrastructure
+INC-3019,2026-07-19T05:22,P2,Microsoft 365,197,504,Unknown,Resolved,Infrastructure
+INC-3020,2026-03-11T07:28,P1,Security,18,544,Hardware,Resolved,Infrastructure
+INC-3021,2026-07-21T12:08,P2,Security,147,225,Unknown,Resolved,Infrastructure
+INC-3022,2026-01-04T02:45,P2,Application,102,685,Vendor,Closed,Network
+INC-3023,2026-02-24T23:37,P1,Identity,67,765,Change,Resolved,Identity
+INC-3024,2026-04-17T04:15,P2,Cloud,135,658,Unknown,Resolved,Infrastructure
+INC-3025,2026-01-07T20:14,P1,Application,95,1158,Hardware,Resolved,Cloud Operations
+INC-3026,2026-03-20T12:21,P2,Security,60,570,Hardware,Closed,Security
+INC-3027,2026-01-17T08:18,P2,Security,87,999,Hardware,Closed,Security
+INC-3028,2026-03-04T15:35,P2,Microsoft 365,146,919,Hardware,Closed,Security
+INC-3029,2026-07-01T01:14,P2,Identity,56,528,Hardware,Closed,Network
+INC-3030,2026-01-11T04:47,P1,Security,194,617,Unknown,Resolved,Identity
+INC-3031,2026-03-30T16:39,P1,Cloud,158,484,Change,Closed,Cloud Operations
+INC-3032,2026-03-18T11:59,P1,Application,189,671,Unknown,Resolved,Identity
+INC-3033,2026-03-23T02:13,P1,Security,61,714,Hardware,Resolved,Network
+INC-3034,2026-03-11T08:36,P1,Network,228,1001,Change,Resolved,Identity
+INC-3035,2026-06-11T00:54,P2,Application,109,1154,Change,Resolved,Identity
+INC-3036,2026-04-19T23:54,P2,Microsoft 365,220,457,Capacity,Resolved,Network
+INC-3037,2026-06-29T22:19,P2,Microsoft 365,175,207,Change,Resolved,Security
+INC-3038,2026-03-06T10:16,P2,Security,33,296,Vendor,Closed,Identity
+INC-3039,2026-04-16T22:44,P1,Network,100,248,Configuration,Closed,Cloud Operations
+INC-3040,2026-07-24T15:34,P2,Security,95,362,Configuration,Closed,Network

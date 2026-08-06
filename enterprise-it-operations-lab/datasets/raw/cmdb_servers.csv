@@ -1,0 +1,61 @@
+ci_id,hostname,platform,role,location,environment,criticality,owner_team,status
+CI-SRV-001,NSS-SRV-001,Ubuntu 24.04,PKI,Distribution Site 2,Production,Tier 1,Cloud Operations,Active
+CI-SRV-002,NSS-SRV-002,Rocky Linux 9,Domain Controller,Distribution Site 1,Test,Tier 2,Cloud Operations,Active
+CI-SRV-003,NSS-SRV-003,Windows Server 2022,Monitoring,AWS,Test,Tier 1,Infrastructure,Maintenance
+CI-SRV-004,NSS-SRV-004,Windows Server 2022,Domain Controller,Distribution Site 2,Development,Tier 1,Identity,Active
+CI-SRV-005,NSS-SRV-005,Windows Server 2022,Backup,Distribution Site 1,Production,Tier 1,Infrastructure,Maintenance
+CI-SRV-006,NSS-SRV-006,Ubuntu 24.04,Backup,AWS,Test,Tier 3,Infrastructure,Maintenance
+CI-SRV-007,NSS-SRV-007,Windows Server 2022,File Server,Distribution Site 1,Development,Tier 2,Cloud Operations,Active
+CI-SRV-008,NSS-SRV-008,Ubuntu 24.04,Application Server,Distribution Site 1,Test,Tier 2,Identity,Maintenance
+CI-SRV-009,NSS-SRV-009,Ubuntu 24.04,Backup,Headquarters,Test,Tier 1,Infrastructure,Maintenance
+CI-SRV-010,NSS-SRV-010,Ubuntu 24.04,File Server,Distribution Site 1,Development,Tier 2,Security,Maintenance
+CI-SRV-011,NSS-SRV-011,Rocky Linux 9,Database Server,Distribution Site 1,Test,Tier 1,Cloud Operations,Maintenance
+CI-SRV-012,NSS-SRV-012,Windows Server 2022,Application Server,Distribution Site 1,Test,Tier 2,Infrastructure,Maintenance
+CI-SRV-013,NSS-SRV-013,Rocky Linux 9,Domain Controller,Distribution Site 1,Development,Tier 2,Infrastructure,Maintenance
+CI-SRV-014,NSS-SRV-014,Rocky Linux 9,Monitoring,Headquarters,Production,Tier 1,Identity,Maintenance
+CI-SRV-015,NSS-SRV-015,Ubuntu 24.04,File Server,Headquarters,Test,Tier 2,Identity,Active
+CI-SRV-016,NSS-SRV-016,Rocky Linux 9,Domain Controller,Distribution Site 1,Development,Tier 2,Cloud Operations,Maintenance
+CI-SRV-017,NSS-SRV-017,Rocky Linux 9,Monitoring,Distribution Site 1,Development,Tier 3,Identity,Maintenance
+CI-SRV-018,NSS-SRV-018,Windows Server 2022,PKI,Distribution Site 2,Development,Tier 1,Cloud Operations,Active
+CI-SRV-019,NSS-SRV-019,Ubuntu 24.04,Database Server,Distribution Site 2,Test,Tier 3,Security,Active
+CI-SRV-020,NSS-SRV-020,Rocky Linux 9,Backup,Distribution Site 1,Test,Tier 2,Security,Active
+CI-SRV-021,NSS-SRV-021,Windows Server 2022,Database Server,Distribution Site 1,Test,Tier 3,Cloud Operations,Active
+CI-SRV-022,NSS-SRV-022,Ubuntu 24.04,Database Server,Headquarters,Test,Tier 3,Infrastructure,Active
+CI-SRV-023,NSS-SRV-023,Ubuntu 24.04,File Server,Distribution Site 2,Production,Tier 3,Cloud Operations,Active
+CI-SRV-024,NSS-SRV-024,Rocky Linux 9,Backup,AWS,Production,Tier 2,Cloud Operations,Active
+CI-SRV-025,NSS-SRV-025,Ubuntu 24.04,Database Server,Distribution Site 1,Production,Tier 1,Infrastructure,Maintenance
+CI-SRV-026,NSS-SRV-026,Ubuntu 24.04,Backup,Distribution Site 2,Test,Tier 1,Security,Maintenance
+CI-SRV-027,NSS-SRV-027,Rocky Linux 9,Monitoring,Distribution Site 1,Development,Tier 1,Infrastructure,Maintenance
+CI-SRV-028,NSS-SRV-028,Ubuntu 24.04,PKI,Distribution Site 1,Production,Tier 2,Security,Maintenance
+CI-SRV-029,NSS-SRV-029,Ubuntu 24.04,Backup,AWS,Development,Tier 3,Cloud Operations,Maintenance
+CI-SRV-030,NSS-SRV-030,Rocky Linux 9,Backup,AWS,Production,Tier 1,Identity,Maintenance
+CI-SRV-031,NSS-SRV-031,Ubuntu 24.04,PKI,AWS,Production,Tier 3,Security,Active
+CI-SRV-032,NSS-SRV-032,Ubuntu 24.04,Backup,Headquarters,Test,Tier 3,Identity,Active
+CI-SRV-033,NSS-SRV-033,Ubuntu 24.04,Application Server,Distribution Site 1,Development,Tier 3,Identity,Active
+CI-SRV-034,NSS-SRV-034,Windows Server 2022,Monitoring,Headquarters,Test,Tier 2,Identity,Active
+CI-SRV-035,NSS-SRV-035,Windows Server 2022,Backup,AWS,Test,Tier 1,Cloud Operations,Active
+CI-SRV-036,NSS-SRV-036,Rocky Linux 9,Application Server,Distribution Site 2,Development,Tier 1,Identity,Active
+CI-SRV-037,NSS-SRV-037,Ubuntu 24.04,Backup,Headquarters,Test,Tier 3,Identity,Active
+CI-SRV-038,NSS-SRV-038,Windows Server 2022,Domain Controller,Distribution Site 2,Development,Tier 1,Infrastructure,Active
+CI-SRV-039,NSS-SRV-039,Windows Server 2022,Domain Controller,AWS,Test,Tier 1,Identity,Active
+CI-SRV-040,NSS-SRV-040,Rocky Linux 9,Monitoring,Headquarters,Production,Tier 1,Identity,Maintenance
+CI-SRV-041,NSS-SRV-041,Ubuntu 24.04,File Server,AWS,Development,Tier 3,Identity,Maintenance
+CI-SRV-042,NSS-SRV-042,Windows Server 2022,Database Server,Distribution Site 1,Production,Tier 2,Identity,Maintenance
+CI-SRV-043,NSS-SRV-043,Ubuntu 24.04,Database Server,AWS,Development,Tier 2,Identity,Maintenance
+CI-SRV-044,NSS-SRV-044,Windows Server 2022,Backup,Distribution Site 1,Development,Tier 2,Security,Active
+CI-SRV-045,NSS-SRV-045,Ubuntu 24.04,Domain Controller,AWS,Test,Tier 1,Infrastructure,Active
+CI-SRV-046,NSS-SRV-046,Ubuntu 24.04,Monitoring,AWS,Development,Tier 3,Security,Maintenance
+CI-SRV-047,NSS-SRV-047,Rocky Linux 9,Domain Controller,Distribution Site 1,Test,Tier 1,Infrastructure,Maintenance
+CI-SRV-048,NSS-SRV-048,Windows Server 2022,Database Server,AWS,Test,Tier 3,Infrastructure,Active
+CI-SRV-049,NSS-SRV-049,Rocky Linux 9,Database Server,AWS,Test,Tier 1,Cloud Operations,Maintenance
+CI-SRV-050,NSS-SRV-050,Rocky Linux 9,Domain Controller,Distribution Site 2,Production,Tier 1,Identity,Maintenance
+CI-SRV-051,NSS-SRV-051,Rocky Linux 9,Database Server,Distribution Site 1,Production,Tier 1,Infrastructure,Maintenance
+CI-SRV-052,NSS-SRV-052,Ubuntu 24.04,Application Server,Distribution Site 2,Test,Tier 3,Security,Active
+CI-SRV-053,NSS-SRV-053,Ubuntu 24.04,Domain Controller,Distribution Site 2,Development,Tier 2,Identity,Maintenance
+CI-SRV-054,NSS-SRV-054,Rocky Linux 9,Application Server,Headquarters,Development,Tier 1,Infrastructure,Active
+CI-SRV-055,NSS-SRV-055,Windows Server 2022,Application Server,Headquarters,Production,Tier 1,Identity,Maintenance
+CI-SRV-056,NSS-SRV-056,Rocky Linux 9,Backup,Distribution Site 1,Test,Tier 3,Identity,Maintenance
+CI-SRV-057,NSS-SRV-057,Rocky Linux 9,Domain Controller,Distribution Site 1,Production,Tier 3,Security,Active
+CI-SRV-058,NSS-SRV-058,Windows Server 2022,PKI,Distribution Site 1,Test,Tier 2,Infrastructure,Active
+CI-SRV-059,NSS-SRV-059,Windows Server 2022,Application Server,Headquarters,Development,Tier 2,Identity,Maintenance
+CI-SRV-060,NSS-SRV-060,Windows Server 2022,Domain Controller,AWS,Development,Tier 2,Cloud Operations,Maintenance

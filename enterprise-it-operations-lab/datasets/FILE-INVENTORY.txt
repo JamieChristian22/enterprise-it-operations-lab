@@ -1,0 +1,12 @@
+raw/README.md
+raw/backup_jobs.csv
+raw/change_records.csv
+raw/cloud_resource_inventory.csv
+raw/cmdb_servers.csv
+raw/endpoint_assets.csv
+raw/identity_users.csv
+raw/infrastructure_metrics.csv
+raw/major_incidents.csv
+raw/patch_compliance.csv
+raw/service_tickets_2026.csv
+raw/vulnerability_findings.csv

@@ -1,0 +1,181 @@
+resource_id,provider,resource_type,environment,region,monthly_cost_usd,tag_compliant,monitoring_enabled,backup_enabled,owner
+CLD-0001,AWS,Azure SQL,Development,eastus2,486.48,1,1,1,Application Team
+CLD-0002,Azure,Azure SQL,Test,eastus2,608.78,1,1,1,Application Team
+CLD-0003,Azure,S3,Development,eastus,105.72,1,1,0,Security
+CLD-0004,AWS,S3,Test,us-east-1,933.07,1,1,1,Cloud Operations
+CLD-0005,AWS,Lambda,Development,us-east-2,364.3,1,1,1,Cloud Operations
+CLD-0006,Azure,Azure SQL,Test,eastus2,108.19,0,1,1,Application Team
+CLD-0007,AWS,Azure SQL,Test,eastus2,467.95,1,1,0,Cloud Operations
+CLD-0008,Azure,EC2,Development,us-east-1,297.68,1,1,1,Cloud Operations
+CLD-0009,AWS,Azure VM,Development,us-east-1,441.09,1,1,1,Application Team
+CLD-0010,AWS,EC2,Test,eastus2,434.38,1,1,1,Data Team
+CLD-0011,Azure,Function App,Test,us-east-2,366.78,1,0,1,Cloud Operations
+CLD-0012,AWS,Function App,Production,eastus,480.26,1,1,1,Security
+CLD-0013,Azure,RDS,Development,eastus,819.1,1,1,1,Cloud Operations
+CLD-0014,Azure,Function App,Development,us-east-1,858.84,1,0,1,Data Team
+CLD-0015,Azure,EC2,Development,us-east-2,598.9,1,1,1,Data Team
+CLD-0016,Azure,S3,Development,eastus,694.02,1,1,1,Cloud Operations
+CLD-0017,Azure,RDS,Development,us-east-2,108.42,1,1,1,Cloud Operations
+CLD-0018,AWS,Azure SQL,Development,eastus,162.71,1,1,1,Application Team
+CLD-0019,Azure,Azure VM,Production,us-east-1,370.5,1,1,1,Cloud Operations
+CLD-0020,AWS,Lambda,Test,us-east-1,345.41,1,1,1,Cloud Operations
+CLD-0021,Azure,Azure VM,Production,eastus,830.14,1,1,1,Data Team
+CLD-0022,AWS,RDS,Production,us-east-1,852.78,1,1,1,Application Team
+CLD-0023,AWS,RDS,Production,eastus,732.23,1,1,1,Data Team
+CLD-0024,AWS,Azure VM,Development,eastus,223.71,0,1,1,Security
+CLD-0025,Azure,RDS,Production,us-east-2,539.45,1,1,1,Data Team
+CLD-0026,AWS,S3,Production,eastus2,535.39,1,1,1,Application Team
+CLD-0027,AWS,Azure SQL,Production,us-east-1,767.28,1,1,1,Security
+CLD-0028,Azure,Azure SQL,Production,us-east-1,657.81,0,0,1,Cloud Operations
+CLD-0029,Azure,Function App,Production,eastus,702.91,1,1,1,Cloud Operations
+CLD-0030,AWS,S3,Test,eastus,481.43,1,1,1,Cloud Operations
+CLD-0031,Azure,Azure SQL,Production,eastus2,825.86,1,1,1,Data Team
+CLD-0032,Azure,Azure VM,Test,eastus2,502.49,1,1,1,Security
+CLD-0033,AWS,Azure SQL,Production,us-east-1,131.78,1,1,1,Cloud Operations
+CLD-0034,AWS,Function App,Production,eastus2,337.22,1,1,1,Cloud Operations
+CLD-0035,AWS,Lambda,Development,eastus2,110.51,1,1,1,Cloud Operations
+CLD-0036,Azure,EC2,Development,us-east-2,387.23,1,1,1,Cloud Operations
+CLD-0037,AWS,RDS,Development,eastus,632.59,0,1,1,Application Team
+CLD-0038,Azure,EC2,Production,eastus,279.73,1,1,1,Cloud Operations
+CLD-0039,Azure,Lambda,Test,us-east-1,824.02,1,1,1,Security
+CLD-0040,AWS,RDS,Test,eastus,911.77,1,1,1,Security
+CLD-0041,AWS,Function App,Development,eastus,359.29,1,1,1,Security
+CLD-0042,Azure,S3,Test,us-east-1,964.3,1,1,1,Security
+CLD-0043,Azure,Function App,Development,eastus2,161.11,1,0,1,Application Team
+CLD-0044,Azure,Lambda,Test,eastus2,592.17,1,1,1,Security
+CLD-0045,Azure,Function App,Test,us-east-2,565.85,1,1,1,Security
+CLD-0046,AWS,Function App,Production,us-east-2,234.27,1,1,1,Data Team
+CLD-0047,Azure,Lambda,Test,us-east-2,949.53,1,1,1,Application Team
+CLD-0048,Azure,Storage Account,Development,us-east-1,923.52,1,1,1,Application Team
+CLD-0049,Azure,Azure VM,Development,eastus,66.23,1,1,1,Data Team
+CLD-0050,AWS,Azure VM,Test,eastus2,896.91,1,1,0,Security
+CLD-0051,AWS,Storage Account,Development,eastus,322.34,1,1,1,Application Team
+CLD-0052,AWS,Azure VM,Development,eastus,809.29,1,0,0,Application Team
+CLD-0053,AWS,Azure VM,Test,us-east-1,394.64,1,1,1,Application Team
+CLD-0054,Azure,Storage Account,Test,us-east-2,34.56,0,1,1,Security
+CLD-0055,AWS,RDS,Test,eastus2,672.16,0,1,1,Data Team
+CLD-0056,Azure,Lambda,Test,us-east-2,112.29,1,1,1,Data Team
+CLD-0057,AWS,Azure VM,Test,eastus2,269.48,1,1,1,Cloud Operations
+CLD-0058,AWS,S3,Development,us-east-2,220.98,1,1,1,Application Team
+CLD-0059,AWS,EC2,Test,us-east-1,581.64,1,1,1,Data Team
+CLD-0060,AWS,Lambda,Development,us-east-1,312.47,1,1,1,Data Team
+CLD-0061,Azure,RDS,Development,eastus,979.52,1,0,1,Data Team
+CLD-0062,AWS,Azure SQL,Development,eastus,951.94,1,1,1,Application Team
+CLD-0063,AWS,Azure SQL,Development,eastus2,676.19,1,0,1,Cloud Operations
+CLD-0064,Azure,S3,Development,eastus2,770.88,1,1,1,Data Team
+CLD-0065,AWS,S3,Development,eastus,170.38,1,0,1,Data Team
+CLD-0066,AWS,Azure SQL,Development,us-east-1,132.47,1,1,1,Security
+CLD-0067,AWS,RDS,Production,eastus2,948.16,1,1,1,Cloud Operations
+CLD-0068,Azure,EC2,Test,us-east-2,270.08,1,1,1,Cloud Operations
+CLD-0069,AWS,Azure SQL,Test,eastus2,943.2,1,1,1,Data Team
+CLD-0070,AWS,S3,Production,us-east-1,180.55,1,1,1,Application Team
+CLD-0071,Azure,S3,Test,eastus2,250.94,1,1,1,Security
+CLD-0072,Azure,Azure SQL,Test,eastus2,727.09,1,0,1,Cloud Operations
+CLD-0073,AWS,RDS,Production,eastus2,644.46,1,1,1,Application Team
+CLD-0074,AWS,S3,Production,us-east-1,563.98,0,1,1,Cloud Operations
+CLD-0075,AWS,Lambda,Development,eastus2,747.1,1,0,1,Data Team
+CLD-0076,AWS,Lambda,Test,us-east-2,557.33,1,1,1,Data Team
+CLD-0077,Azure,Storage Account,Production,us-east-2,28.72,1,1,1,Security
+CLD-0078,Azure,Azure VM,Production,eastus2,491.51,1,1,1,Application Team
+CLD-0079,AWS,EC2,Test,us-east-1,821.14,1,1,0,Application Team
+CLD-0080,Azure,Azure SQL,Development,eastus2,441.77,1,1,0,Security
+CLD-0081,Azure,EC2,Production,eastus,661.63,1,1,1,Cloud Operations
+CLD-0082,AWS,EC2,Production,us-east-1,301.93,1,1,1,Security
+CLD-0083,Azure,Storage Account,Test,eastus2,641.34,1,1,1,Cloud Operations
+CLD-0084,Azure,S3,Development,us-east-1,618.76,1,1,1,Security
+CLD-0085,Azure,S3,Development,eastus2,736.39,1,0,1,Application Team
+CLD-0086,Azure,Storage Account,Development,us-east-2,978.32,1,1,1,Cloud Operations
+CLD-0087,Azure,S3,Development,eastus2,744.02,1,1,1,Security
+CLD-0088,AWS,Function App,Test,eastus,837.58,1,1,1,Data Team
+CLD-0089,AWS,Azure VM,Test,eastus,36.7,0,1,1,Cloud Operations
+CLD-0090,AWS,Azure VM,Test,us-east-2,929.79,1,1,1,Data Team
+CLD-0091,AWS,Lambda,Test,us-east-2,384.7,1,0,1,Data Team
+CLD-0092,AWS,Azure VM,Production,eastus,99.96,0,1,1,Application Team
+CLD-0093,Azure,Azure SQL,Test,eastus2,149.06,1,0,1,Application Team
+CLD-0094,AWS,Azure SQL,Development,us-east-2,670.46,1,0,1,Application Team
+CLD-0095,AWS,Function App,Production,eastus,749.76,1,1,1,Data Team
+CLD-0096,AWS,Storage Account,Development,eastus2,482.99,0,1,1,Security
+CLD-0097,AWS,EC2,Test,eastus,579.04,1,1,1,Security
+CLD-0098,Azure,EC2,Test,eastus2,524.94,1,1,1,Cloud Operations
+CLD-0099,Azure,S3,Development,us-east-2,486.24,1,1,1,Application Team
+CLD-0100,AWS,RDS,Test,us-east-1,141.07,0,1,1,Data Team
+CLD-0101,Azure,S3,Development,eastus2,566.9,1,1,0,Cloud Operations
+CLD-0102,AWS,Function App,Development,us-east-2,250.9,1,1,1,Cloud Operations
+CLD-0103,Azure,Azure SQL,Development,eastus,43.2,1,1,1,Security
+CLD-0104,Azure,Azure SQL,Test,eastus,749.93,1,1,1,Data Team
+CLD-0105,AWS,EC2,Test,eastus2,201.37,1,1,1,Cloud Operations
+CLD-0106,AWS,EC2,Test,eastus2,965.47,0,1,0,Security
+CLD-0107,Azure,EC2,Production,eastus,363.63,1,1,1,Security
+CLD-0108,Azure,Function App,Production,us-east-2,535.04,1,1,1,Application Team
+CLD-0109,AWS,S3,Development,eastus,647.53,1,1,1,Application Team
+CLD-0110,AWS,Azure SQL,Development,us-east-1,674.12,1,1,1,Data Team
+CLD-0111,Azure,RDS,Development,eastus2,407.31,1,1,1,Security
+CLD-0112,AWS,EC2,Test,eastus,881.39,1,0,1,Security
+CLD-0113,AWS,RDS,Test,us-east-1,304.27,1,0,1,Data Team
+CLD-0114,Azure,Azure SQL,Development,us-east-1,214.12,1,1,1,Cloud Operations
+CLD-0115,Azure,Function App,Production,us-east-2,177.81,1,0,1,Security
+CLD-0116,AWS,Azure VM,Production,eastus2,793.47,1,1,0,Application Team
+CLD-0117,AWS,S3,Test,eastus,343.35,1,1,1,Data Team
+CLD-0118,Azure,S3,Production,eastus,313.87,1,0,1,Cloud Operations
+CLD-0119,Azure,Azure VM,Production,us-east-2,821.55,1,1,1,Security
+CLD-0120,Azure,EC2,Development,us-east-2,109.32,1,1,1,Application Team
+CLD-0121,AWS,Storage Account,Development,us-east-2,323.0,1,0,1,Cloud Operations
+CLD-0122,Azure,Azure VM,Development,us-east-2,643.06,1,0,1,Cloud Operations
+CLD-0123,AWS,S3,Development,us-east-2,305.82,1,1,1,Application Team
+CLD-0124,Azure,Storage Account,Development,us-east-1,189.03,0,1,1,Cloud Operations
+CLD-0125,AWS,Lambda,Test,eastus,878.85,1,1,1,Security
+CLD-0126,Azure,S3,Development,eastus,874.74,1,1,1,Application Team
+CLD-0127,Azure,Azure SQL,Development,eastus2,367.27,1,1,1,Cloud Operations
+CLD-0128,Azure,S3,Development,us-east-1,379.42,1,1,1,Cloud Operations
+CLD-0129,AWS,Azure VM,Test,eastus2,734.84,1,1,1,Cloud Operations
+CLD-0130,AWS,EC2,Production,eastus,299.07,1,1,1,Data Team
+CLD-0131,AWS,Azure SQL,Production,us-east-2,81.53,1,1,1,Security
+CLD-0132,AWS,RDS,Test,us-east-1,507.13,1,1,1,Application Team
+CLD-0133,Azure,Function App,Production,us-east-2,633.37,0,1,1,Data Team
+CLD-0134,Azure,EC2,Development,eastus2,251.42,1,1,1,Data Team
+CLD-0135,AWS,RDS,Production,eastus2,107.06,1,1,0,Cloud Operations
+CLD-0136,AWS,Azure SQL,Development,eastus,627.72,1,1,1,Security
+CLD-0137,AWS,Storage Account,Development,eastus,713.56,1,1,1,Security
+CLD-0138,Azure,Lambda,Production,us-east-1,767.04,1,0,0,Security
+CLD-0139,AWS,EC2,Development,us-east-2,73.29,1,1,1,Data Team
+CLD-0140,Azure,Function App,Production,us-east-1,908.85,1,0,1,Security
+CLD-0141,Azure,Azure SQL,Development,eastus,775.26,1,1,1,Application Team
+CLD-0142,AWS,S3,Production,us-east-1,31.28,0,1,1,Cloud Operations
+CLD-0143,Azure,Storage Account,Test,us-east-2,470.22,0,1,1,Cloud Operations
+CLD-0144,Azure,Storage Account,Development,eastus2,210.99,1,1,1,Application Team
+CLD-0145,Azure,Function App,Development,eastus,627.96,1,1,1,Application Team
+CLD-0146,Azure,Lambda,Production,us-east-2,451.97,1,1,1,Data Team
+CLD-0147,AWS,RDS,Development,eastus,255.98,1,1,1,Data Team
+CLD-0148,Azure,RDS,Test,us-east-2,244.91,1,1,1,Data Team
+CLD-0149,AWS,Azure VM,Development,eastus2,366.63,0,1,1,Application Team
+CLD-0150,AWS,S3,Production,eastus2,146.99,0,1,1,Cloud Operations
+CLD-0151,AWS,Lambda,Test,us-east-1,574.39,0,1,1,Security
+CLD-0152,AWS,EC2,Test,us-east-2,655.0,1,1,1,Application Team
+CLD-0153,Azure,S3,Test,eastus,425.59,1,1,1,Application Team
+CLD-0154,AWS,EC2,Production,us-east-1,586.57,1,1,1,Cloud Operations
+CLD-0155,AWS,Azure VM,Test,us-east-2,717.61,1,1,1,Data Team
+CLD-0156,AWS,RDS,Production,us-east-1,156.81,1,1,1,Application Team
+CLD-0157,Azure,EC2,Test,eastus2,971.04,1,1,1,Application Team
+CLD-0158,Azure,Azure SQL,Test,us-east-1,182.64,0,0,0,Data Team
+CLD-0159,Azure,Azure VM,Test,eastus,805.62,1,1,1,Cloud Operations
+CLD-0160,AWS,Azure VM,Development,us-east-1,973.37,1,1,1,Cloud Operations
+CLD-0161,Azure,Function App,Development,us-east-1,425.49,0,1,1,Cloud Operations
+CLD-0162,AWS,S3,Test,us-east-2,488.56,1,1,1,Security
+CLD-0163,AWS,Storage Account,Test,eastus,250.96,1,1,1,Security
+CLD-0164,AWS,S3,Test,us-east-1,938.63,0,1,1,Data Team
+CLD-0165,AWS,Storage Account,Production,eastus,963.08,1,1,1,Security
+CLD-0166,AWS,Function App,Test,us-east-2,436.4,1,1,1,Security
+CLD-0167,AWS,Lambda,Test,us-east-2,122.11,1,1,1,Data Team
+CLD-0168,AWS,Lambda,Production,eastus2,34.81,1,1,1,Data Team
+CLD-0169,Azure,S3,Test,eastus,796.46,1,1,1,Application Team
+CLD-0170,AWS,Function App,Production,eastus,892.42,1,1,1,Data Team
+CLD-0171,Azure,Lambda,Development,eastus2,864.37,1,1,1,Data Team
+CLD-0172,Azure,Azure SQL,Test,us-east-1,325.52,1,1,1,Data Team
+CLD-0173,AWS,Function App,Development,eastus2,471.84,1,1,1,Application Team
+CLD-0174,Azure,EC2,Development,us-east-2,940.67,1,1,0,Security
+CLD-0175,AWS,Azure VM,Production,us-east-1,221.89,1,1,0,Application Team
+CLD-0176,AWS,Lambda,Test,eastus2,967.31,1,1,1,Application Team
+CLD-0177,AWS,EC2,Development,eastus,888.96,1,1,0,Security
+CLD-0178,AWS,Azure SQL,Test,us-east-2,136.45,1,1,1,Cloud Operations
+CLD-0179,AWS,Azure SQL,Test,us-east-1,609.13,1,1,1,Cloud Operations
+CLD-0180,Azure,EC2,Development,us-east-1,453.95,1,1,1,Data Team
