@@ -1,8 +1,0 @@
-$ kubectl get deploy,pod,svc,hpa,pdb -n northstar-prod
-northstar-api deployment 3/3 available
-northstar-api pods 3 Running, readiness 1/1
-northstar-api service ClusterIP port 80
-northstar-api HPA current CPU 22%, target 60%, replicas 3
-northstar-api PDB allowed disruptions 1
-$ kubectl rollout status deployment/northstar-api -n northstar-prod
-successfully rolled out

@@ -1,5 +1,0 @@
-timestamp_utc,service,severity,metric,value,threshold,status
-2026-07-10T14:02:00Z,ALB,critical,UnHealthyHostCount,2,1,resolved
-2026-07-15T16:40:00Z,RDS,critical,DatabaseConnectionsPercent,91,85,resolved
-2026-07-24T09:13:00Z,AzureVM,warning,HeartbeatMissingMinutes,10,5,resolved
-2026-07-29T18:05:00Z,Kubernetes,warning,UnavailableReplicas,1,0,resolved

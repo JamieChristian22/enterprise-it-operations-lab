@@ -1,4 +1,0 @@
-resource_id,backup_time_utc,status,restore_tested,recovery_point_age_hours
-northstar-postgres,2026-08-05T05:03:00Z,COMPLETED,yes,10
-northstar-azure-vm-01,2026-08-05T03:12:00Z,COMPLETED,yes,12
-northstar-log-bucket,2026-08-05T05:21:00Z,COMPLETED,no,9

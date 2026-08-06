@@ -1,5 +1,0 @@
-asset_id,cloud,service,environment,region,owner,criticality,backup_policy,patch_group
-aws-alb-01,AWS,Application Load Balancer,lab,us-east-1,Cloud Operations,high,not-applicable,managed-service
-aws-asg-01,AWS,Auto Scaling Group,lab,us-east-1,Cloud Operations,high,ami-rebuild,linux-monthly
-aws-rds-01,AWS,RDS PostgreSQL,lab,us-east-1,Cloud Operations,critical,daily-35-day,managed-service
-az-vm-01,Azure,Linux VM,lab,eastus,Cloud Operations,high,daily-30-day,linux-monthly

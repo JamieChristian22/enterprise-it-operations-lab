@@ -1,2 +1,0 @@
-# FinOps Governance Guide
-Use mandatory tags: owner, application, environment, cost_center, data_classification, and lifecycle. Budgets are configured at account/subscription and workload levels. Cost anomalies are triaged daily. Idle resources, unattached disks, obsolete snapshots, oversized instances, and non-production schedules are reviewed weekly. Savings recommendations require performance evidence and owner approval before implementation.

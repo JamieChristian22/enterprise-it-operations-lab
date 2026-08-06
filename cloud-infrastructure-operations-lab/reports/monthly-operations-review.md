@@ -1,2 +1,0 @@
-# July 2026 Operations Review
-Availability was 99.93%. Five incidents were resolved with no confirmed data loss. Backup compliance reached 100% after one failed job was remediated and restored successfully. Patch compliance was 96%; the remaining systems were scheduled for the next approved window. Priority actions are deployment health gates, privileged-access cleanup, and certificate-expiry automation.
