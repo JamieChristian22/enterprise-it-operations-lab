@@ -1,6 +1,19 @@
-product,version,systems,owner,support_status
-Windows Server,2022,3,Infrastructure,Supported
-Ubuntu Server,24.04 LTS,2,Cloud Operations,Supported
-Amazon Linux,2023,1,Cloud Operations,Supported
-Microsoft 365 Apps,Current Channel,185,Endpoint Services,Supported
-Terraform,1.8,Admin workstations,Cloud Operations,Supported
+Software ID,Product,Publisher,Version,License,Install Count,Owner,Support
+SW-0001,Windows Server,Vendor,Current,Commercial,20,Jamie Christian,Supported
+SW-0002,Microsoft 365 Apps,Vendor,Current,Commercial,20,Jamie Christian,Supported
+SW-0003,VMware vSphere,Vendor,Current,Commercial,10,Jamie Christian,Supported
+SW-0004,Veeam,Vendor,Current,Commercial,10,Jamie Christian,Supported
+SW-0005,PRTG,Vendor,Current,Commercial,10,Jamie Christian,Supported
+SW-0006,Terraform,Vendor,Current,Commercial,10,Jamie Christian,Supported
+SW-0007,PowerShell,Vendor,Current,Commercial,10,Jamie Christian,Supported
+SW-0008,Google Chrome,Vendor,Current,Commercial,10,Jamie Christian,Supported
+SW-0009,Microsoft Edge,Vendor,Current,Commercial,10,Jamie Christian,Supported
+SW-0010,Notepad++,Vendor,Current,Commercial,10,Jamie Christian,Supported
+SW-0011,SQL Server,Vendor,Current,Commercial,10,Jamie Christian,Supported
+SW-0012,Visual Studio Code,Vendor,Current,Commercial,10,Jamie Christian,Supported
+SW-0013,OpenSSH,Vendor,Current,Commercial,10,Jamie Christian,Supported
+SW-0014,Ubuntu Server,Vendor,Current,Commercial,10,Jamie Christian,Supported
+SW-0015,Amazon Linux,Vendor,Current,Commercial,10,Jamie Christian,Supported
+SW-0016,Cisco AnyConnect,Vendor,Current,Commercial,10,Jamie Christian,Supported
+SW-0017,7-Zip,Vendor,Current,Commercial,10,Jamie Christian,Supported
+SW-0018,Defender,Vendor,Current,Commercial,10,Jamie Christian,Supported

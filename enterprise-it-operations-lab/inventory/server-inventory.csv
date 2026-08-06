@@ -1,7 +1,21 @@
-hostname,os,role,ip_address,criticality,owner,patch_ring
-NS-DC01,Windows Server 2022,Domain Controller/DNS,10.20.20.10,Tier 1,Infrastructure,Monthly
-NS-DC02,Windows Server 2022,Domain Controller/DNS,10.20.20.11,Tier 1,Infrastructure,Monthly
-NS-FS01,Windows Server 2022,File Server,10.20.20.20,Tier 1,Infrastructure,Monthly
-NS-MON01,Ubuntu 24.04 LTS,Monitoring,10.20.20.30,Tier 2,Cloud Operations,Monthly
-NS-WEB01,Ubuntu 24.04 LTS,Internal Web,10.60.10.20,Tier 2,Cloud Operations,Monthly
-NS-APP01,Amazon Linux 2023,Application,10.60.10.30,Tier 1,Cloud Operations,Monthly
+Asset ID,Hostname,OS,Role,IP,Location,Type,Criticality,Service,Owner,Environment,Last Patch,Patch Status,Backup,Monitoring
+SRV-0001,DC01,Windows Server 2022,Domain Controller,10.0.1.10,HQ,VM,Critical,Identity,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0002,DC02,Windows Server 2022,Domain Controller,10.0.1.11,HQ,VM,Critical,Identity,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0003,DHCP,Windows Server 2022,DHCP,10.0.2.3,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0004,FILE,Windows Server 2022,File,10.0.2.4,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0005,PRINT,Windows Server 2022,Print,10.0.2.5,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0006,SQL,Windows Server 2022,SQL,10.0.2.6,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0007,APP,Windows Server 2022,App,10.0.2.7,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0008,WEB,Windows Server 2022,Web,10.0.2.8,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0009,MONITORING,Windows Server 2022,Monitoring,10.0.2.9,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0010,BACKUP,Windows Server 2022,Backup,10.0.2.10,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0011,JUMP,Windows Server 2022,Jump,10.0.2.11,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0012,WSUS,Windows Server 2022,WSUS,10.0.2.12,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0013,VCENTER,Windows Server 2022,vCenter,10.0.2.13,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0014,ESXI01,VMware ESXi 8,ESXi01,10.0.2.14,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0015,ESXI02,VMware ESXi 8,ESXi02,10.0.2.15,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0016,LINUXAPP,Ubuntu 24.04,LinuxApp,10.0.2.16,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0017,PKI,Windows Server 2022,PKI,10.0.2.17,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0018,SFTP,Windows Server 2022,SFTP,10.0.2.18,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0019,DNS,Windows Server 2022,DNS,10.0.2.19,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled
+SRV-0020,RDS,Windows Server 2022,RDS,10.0.2.20,HQ,VM,High,Infrastructure,Jamie Christian,Prod,2026-07-31,Compliant,Daily,Enabled

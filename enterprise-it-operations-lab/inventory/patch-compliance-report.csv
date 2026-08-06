@@ -1,0 +1,21 @@
+Asset,Compliance,Last Scan
+DC01,Compliant,2026-08-01
+DC02,Compliant,2026-08-01
+DHCP,Compliant,2026-08-01
+FILE,Compliant,2026-08-01
+PRINT,Compliant,2026-08-01
+SQL,Compliant,2026-08-01
+APP,Compliant,2026-08-01
+WEB,Compliant,2026-08-01
+MONITORING,Compliant,2026-08-01
+BACKUP,Compliant,2026-08-01
+JUMP,Compliant,2026-08-01
+WSUS,Compliant,2026-08-01
+VCENTER,Compliant,2026-08-01
+ESXI01,Compliant,2026-08-01
+ESXI02,Compliant,2026-08-01
+LINUXAPP,Compliant,2026-08-01
+PKI,Compliant,2026-08-01
+SFTP,Compliant,2026-08-01
+DNS,Compliant,2026-08-01
+RDS,Compliant,2026-08-01

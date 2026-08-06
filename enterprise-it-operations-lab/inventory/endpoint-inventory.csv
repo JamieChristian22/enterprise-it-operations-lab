@@ -1,0 +1,26 @@
+Asset ID,Hostname,Model,OS,User,Department,Encryption,EDR,Last Patch,Status
+END-0001,WS-001,Dell Latitude 7440,Windows 11 Enterprise,User1,Operations,BitLocker,Defender,2026-07-31,Active
+END-0002,WS-002,Dell Latitude 7440,Windows 11 Enterprise,User2,Operations,BitLocker,Defender,2026-07-31,Active
+END-0003,WS-003,Dell Latitude 7440,Windows 11 Enterprise,User3,Operations,BitLocker,Defender,2026-07-31,Active
+END-0004,WS-004,Dell Latitude 7440,Windows 11 Enterprise,User4,Operations,BitLocker,Defender,2026-07-31,Active
+END-0005,WS-005,Dell Latitude 7440,Windows 11 Enterprise,User5,Operations,BitLocker,Defender,2026-07-31,Active
+END-0006,WS-006,Dell Latitude 7440,Windows 11 Enterprise,User6,Operations,BitLocker,Defender,2026-07-31,Active
+END-0007,WS-007,Dell Latitude 7440,Windows 11 Enterprise,User7,Operations,BitLocker,Defender,2026-07-31,Active
+END-0008,WS-008,Dell Latitude 7440,Windows 11 Enterprise,User8,Operations,BitLocker,Defender,2026-07-31,Active
+END-0009,WS-009,Dell Latitude 7440,Windows 11 Enterprise,User9,Operations,BitLocker,Defender,2026-07-31,Active
+END-0010,WS-010,Dell Latitude 7440,Windows 11 Enterprise,User10,Operations,BitLocker,Defender,2026-07-31,Active
+END-0011,WS-011,Dell Latitude 7440,Windows 11 Enterprise,User11,Operations,BitLocker,Defender,2026-07-31,Active
+END-0012,WS-012,Dell Latitude 7440,Windows 11 Enterprise,User12,Operations,BitLocker,Defender,2026-07-31,Active
+END-0013,WS-013,Dell Latitude 7440,Windows 11 Enterprise,User13,Operations,BitLocker,Defender,2026-07-31,Active
+END-0014,WS-014,Dell Latitude 7440,Windows 11 Enterprise,User14,Operations,BitLocker,Defender,2026-07-31,Active
+END-0015,WS-015,Dell Latitude 7440,Windows 11 Enterprise,User15,Operations,BitLocker,Defender,2026-07-31,Active
+END-0016,WS-016,Dell Latitude 7440,Windows 11 Enterprise,User16,Operations,BitLocker,Defender,2026-07-31,Active
+END-0017,WS-017,Dell Latitude 7440,Windows 11 Enterprise,User17,Operations,BitLocker,Defender,2026-07-31,Active
+END-0018,WS-018,Dell Latitude 7440,Windows 11 Enterprise,User18,Operations,BitLocker,Defender,2026-07-31,Active
+END-0019,WS-019,Dell Latitude 7440,Windows 11 Enterprise,User19,Operations,BitLocker,Defender,2026-07-31,Active
+END-0020,WS-020,Dell Latitude 7440,Windows 11 Enterprise,User20,Operations,BitLocker,Defender,2026-07-31,Active
+END-0021,WS-021,Dell Latitude 7440,Windows 11 Enterprise,User21,Operations,BitLocker,Defender,2026-07-31,Active
+END-0022,WS-022,Dell Latitude 7440,Windows 11 Enterprise,User22,Operations,BitLocker,Defender,2026-07-31,Active
+END-0023,WS-023,Dell Latitude 7440,Windows 11 Enterprise,User23,Operations,BitLocker,Defender,2026-07-31,Active
+END-0024,WS-024,Dell Latitude 7440,Windows 11 Enterprise,User24,Operations,BitLocker,Defender,2026-07-31,Active
+END-0025,WS-025,Dell Latitude 7440,Windows 11 Enterprise,User25,Operations,BitLocker,Defender,2026-07-31,Active

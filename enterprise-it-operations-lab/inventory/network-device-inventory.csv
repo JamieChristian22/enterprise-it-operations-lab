@@ -1,0 +1,13 @@
+Asset ID,Hostname,Type,Vendor,Model,Mgmt IP,Location,Firmware,Status
+NET-0001,FIREWALL,Firewall,Cisco,Enterprise,10.0.254.1,HQ,Current,Active
+NET-0002,CORESWITCH,CoreSwitch,Cisco,Enterprise,10.0.254.2,HQ,Current,Active
+NET-0003,ACCESSSWITCH1,AccessSwitch1,Cisco,Enterprise,10.0.254.3,HQ,Current,Active
+NET-0004,ACCESSSWITCH2,AccessSwitch2,Cisco,Enterprise,10.0.254.4,HQ,Current,Active
+NET-0005,ROUTER1,Router1,Cisco,Enterprise,10.0.254.5,HQ,Current,Active
+NET-0006,ROUTER2,Router2,Cisco,Enterprise,10.0.254.6,HQ,Current,Active
+NET-0007,WAP01,WAP01,Cisco,Enterprise,10.0.254.7,HQ,Current,Active
+NET-0008,WAP02,WAP02,Cisco,Enterprise,10.0.254.8,HQ,Current,Active
+NET-0009,SDWAN,SDWAN,Cisco,Enterprise,10.0.254.9,HQ,Current,Active
+NET-0010,LOADBALANCER,LoadBalancer,Cisco,Enterprise,10.0.254.10,HQ,Current,Active
+NET-0011,VPN,VPN,Cisco,Enterprise,10.0.254.11,HQ,Current,Active
+NET-0012,EDGESWITCH,EdgeSwitch,Cisco,Enterprise,10.0.254.12,HQ,Current,Active

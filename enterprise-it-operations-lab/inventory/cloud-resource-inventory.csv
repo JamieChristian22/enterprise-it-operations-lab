@@ -1,0 +1,11 @@
+Asset ID,Provider,Region,Resource,Type,Instance,Owner,Backup,Cost Center
+CLD-0001,AWS,us-east-1,Resource1,EC2,t3.medium,Jamie Christian,Daily,IT-OPS
+CLD-0002,AWS,us-east-1,Resource2,EC2,t3.medium,Jamie Christian,Daily,IT-OPS
+CLD-0003,AWS,us-east-1,Resource3,EC2,t3.medium,Jamie Christian,Daily,IT-OPS
+CLD-0004,AWS,us-east-1,Resource4,EC2,t3.medium,Jamie Christian,Daily,IT-OPS
+CLD-0005,AWS,us-east-1,Resource5,EC2,t3.medium,Jamie Christian,Daily,IT-OPS
+CLD-0006,AWS,us-east-1,Resource6,EC2,t3.medium,Jamie Christian,Daily,IT-OPS
+CLD-0007,AWS,us-east-1,Resource7,EC2,t3.medium,Jamie Christian,Daily,IT-OPS
+CLD-0008,AWS,us-east-1,Resource8,EC2,t3.medium,Jamie Christian,Daily,IT-OPS
+CLD-0009,AWS,us-east-1,Resource9,EC2,t3.medium,Jamie Christian,Daily,IT-OPS
+CLD-0010,AWS,us-east-1,Resource10,EC2,t3.medium,Jamie Christian,Daily,IT-OPS
