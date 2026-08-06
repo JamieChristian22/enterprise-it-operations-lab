@@ -1,0 +1,2 @@
+vm_id       = "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg-app-prod/providers/Microsoft.Compute/virtualMachines/corp-app-vm01"
+alert_email = "cloud-operations@example.com"

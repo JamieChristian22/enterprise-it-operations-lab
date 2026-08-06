@@ -1,0 +1,7 @@
+asset_id,resource_name,platform,location,environment,tier,method,frequency,retention,rpo,rto,encryption,secondary_copy,owner,last_restore_test,status
+BKP-001,orders-prod-db,AWS RDS PostgreSQL,us-east-1,Production,0,PITR + daily AWS Backup,Continuous/12h,35d + monthly 13m,15m,2h,KMS CMK,us-west-2,Database Platform,2026-08-01,Compliant
+BKP-002,terraform-state-prod,AWS S3,us-east-1,Production,0,Versioning + CRR + Object Lock,Continuous,365d,15m,1h,KMS CMK,us-west-2,Cloud Platform,2026-08-01,Compliant
+BKP-003,customer-app-asg,AWS EC2/EBS,us-east-1,Production,1,Daily AWS Backup,Daily 01:00 UTC,35d,4h,4h,KMS CMK,us-west-2,Cloud Operations,2026-08-01,Compliant
+BKP-004,corp-app-vm01,Azure VM,East US,Production,1,Recovery Services Vault,Daily 02:00 UTC,30d + monthly 12m,4h,4h,Platform-managed,Central US,Cloud Operations,2026-07-20,Compliant
+BKP-005,ops-shared-files,Azure Files,East US,Production,2,Azure Backup,Daily 03:00 UTC,30d,24h,8h,Platform-managed,Central US,IT Operations,2026-06-15,Compliant
+BKP-006,dev-k8s-pvc,Kubernetes/EBS CSI,us-east-1,Development,3,VolumeSnapshot + manifest export,Every 72h,14d,72h,24h,KMS CMK,None,DevOps,2026-05-10,Compliant

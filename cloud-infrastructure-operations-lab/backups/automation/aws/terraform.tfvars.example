@@ -1,0 +1,5 @@
+notification_email = "cloud-operations@example.com"
+resource_arns = [
+  "arn:aws:rds:us-east-1:111122223333:db:orders-prod-db",
+  "arn:aws:ec2:us-east-1::volume/vol-0123456789abcdef0"
+]
