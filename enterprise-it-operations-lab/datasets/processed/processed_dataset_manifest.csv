@@ -1,0 +1,12 @@
+dataset,rows,purpose
+service_tickets_processed.csv,1200,Service desk analytics-ready data
+infrastructure_metrics_processed.csv,5000,Normalized capacity and availability metrics
+backup_jobs_processed.csv,1080,Backup performance and recoverability data
+vulnerability_findings_processed.csv,600,Security remediation and aging analysis
+patch_compliance_processed.csv,360,Patch compliance and target tracking
+endpoint_assets_processed.csv,300,Normalized endpoint asset inventory
+identity_users_processed.csv,250,"Identity, MFA, licensing, and access-review data"
+cloud_resource_inventory_processed.csv,180,Cloud cost and governance analytics
+change_records_processed.csv,150,Change success and incident correlation
+cmdb_servers_processed.csv,60,Configuration-item inventory
+major_incidents_processed.csv,40,Major-incident impact and restoration metrics

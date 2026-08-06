@@ -1,0 +1,251 @@
+user_id,user_principal_name,department,job_title,account_status,active_flag,mfa_registered,mfa_gap_flag,group_count,last_sign_in_date,m365_license,privilege_review_needed
+USR-0001,user001@northstar.example,Security,Manager,Active,1,1,0,5,2025-07-17,E3,0
+USR-0002,user002@northstar.example,Hr,Manager,Active,1,1,0,7,2025-10-05,E3,0
+USR-0003,user003@northstar.example,Operations,Specialist,Active,1,1,0,16,2026-04-06,F3,1
+USR-0004,user004@northstar.example,Executive,Director,Active,1,1,0,4,2025-02-18,F3,0
+USR-0005,user005@northstar.example,Sales,Director,Active,1,1,0,13,2025-03-25,E5,0
+USR-0006,user006@northstar.example,Finance,Coordinator,Active,1,1,0,3,2025-08-23,F3,0
+USR-0007,user007@northstar.example,Security,Analyst,Active,1,1,0,10,2025-06-07,E5,0
+USR-0008,user008@northstar.example,Executive,Engineer,Active,1,1,0,6,2026-01-26,F3,0
+USR-0009,user009@northstar.example,It,Coordinator,Active,1,1,0,8,2025-07-05,E3,0
+USR-0010,user010@northstar.example,Hr,Director,Active,1,1,0,7,2025-06-12,F3,0
+USR-0011,user011@northstar.example,Executive,Analyst,Active,1,1,0,17,2025-01-01,E3,1
+USR-0012,user012@northstar.example,Executive,Manager,Active,1,1,0,9,2025-09-29,F3,0
+USR-0013,user013@northstar.example,Hr,Coordinator,Active,1,1,0,2,2025-01-13,F3,0
+USR-0014,user014@northstar.example,It,Manager,Active,1,1,0,3,2025-05-20,E5,0
+USR-0015,user015@northstar.example,Sales,Manager,Active,1,1,0,11,2025-07-03,F3,0
+USR-0016,user016@northstar.example,Sales,Manager,Active,1,1,0,5,2025-07-03,E3,0
+USR-0017,user017@northstar.example,Executive,Manager,Active,1,1,0,7,2025-02-18,E5,0
+USR-0018,user018@northstar.example,Hr,Director,Active,1,1,0,12,2025-04-03,Business Premium,0
+USR-0019,user019@northstar.example,Hr,Coordinator,Active,1,1,0,12,2026-04-22,E3,0
+USR-0020,user020@northstar.example,It,Engineer,Active,1,1,0,16,2025-09-09,E3,1
+USR-0021,user021@northstar.example,Hr,Engineer,Active,1,1,0,1,2025-07-14,Business Premium,0
+USR-0022,user022@northstar.example,Hr,Engineer,Active,1,1,0,5,2025-09-06,Business Premium,0
+USR-0023,user023@northstar.example,Security,Manager,Active,1,1,0,10,2026-07-09,E5,0
+USR-0024,user024@northstar.example,Finance,Engineer,Active,1,1,0,13,2025-03-25,E3,0
+USR-0025,user025@northstar.example,Sales,Coordinator,Active,1,1,0,15,2025-05-18,Business Premium,1
+USR-0026,user026@northstar.example,Hr,Coordinator,Active,1,1,0,18,2025-03-27,E3,1
+USR-0027,user027@northstar.example,Hr,Specialist,Active,1,1,0,13,2025-05-09,F3,0
+USR-0028,user028@northstar.example,Sales,Specialist,Active,1,1,0,12,2025-05-01,E3,0
+USR-0029,user029@northstar.example,Security,Director,Active,1,1,0,17,2026-02-22,E5,1
+USR-0030,user030@northstar.example,Executive,Coordinator,Active,1,1,0,7,2025-04-21,E3,0
+USR-0031,user031@northstar.example,Security,Engineer,Active,1,1,0,12,2025-06-24,Business Premium,0
+USR-0032,user032@northstar.example,Operations,Coordinator,Active,1,1,0,4,2025-03-01,Business Premium,0
+USR-0033,user033@northstar.example,Hr,Director,Active,1,1,0,3,2025-09-14,F3,0
+USR-0034,user034@northstar.example,Sales,Manager,Active,1,1,0,15,2026-07-30,E5,1
+USR-0035,user035@northstar.example,Sales,Specialist,Active,1,1,0,13,2026-07-02,F3,0
+USR-0036,user036@northstar.example,Operations,Manager,Active,1,1,0,17,2025-04-01,E3,1
+USR-0037,user037@northstar.example,Finance,Coordinator,Active,1,1,0,1,2025-10-19,E3,0
+USR-0038,user038@northstar.example,Executive,Director,Active,1,1,0,9,2026-03-02,F3,0
+USR-0039,user039@northstar.example,Sales,Engineer,Active,1,0,1,2,2025-04-07,E3,0
+USR-0040,user040@northstar.example,It,Engineer,Active,1,1,0,17,2025-08-29,E3,1
+USR-0041,user041@northstar.example,Hr,Coordinator,Active,1,1,0,11,2025-07-02,E5,0
+USR-0042,user042@northstar.example,Finance,Coordinator,Active,1,1,0,15,2025-05-24,Business Premium,1
+USR-0043,user043@northstar.example,Executive,Engineer,Active,1,1,0,16,2025-04-10,E5,1
+USR-0044,user044@northstar.example,Hr,Specialist,Disabled,0,1,0,13,2026-07-05,E5,0
+USR-0045,user045@northstar.example,Sales,Director,Active,1,1,0,11,2025-05-28,Business Premium,0
+USR-0046,user046@northstar.example,Executive,Director,Active,1,1,0,8,2025-06-19,E5,0
+USR-0047,user047@northstar.example,Finance,Specialist,Active,1,1,0,13,2025-05-13,F3,0
+USR-0048,user048@northstar.example,Finance,Analyst,Active,1,1,0,13,2025-11-05,E5,0
+USR-0049,user049@northstar.example,Sales,Manager,Active,1,1,0,13,2025-10-10,E3,0
+USR-0050,user050@northstar.example,Security,Manager,Active,1,1,0,10,2025-02-14,E5,0
+USR-0051,user051@northstar.example,Sales,Specialist,Active,1,1,0,12,2026-05-14,E3,0
+USR-0052,user052@northstar.example,Sales,Coordinator,Active,1,1,0,6,2025-10-21,F3,0
+USR-0053,user053@northstar.example,Hr,Analyst,Active,1,1,0,6,2026-05-05,E3,0
+USR-0054,user054@northstar.example,Security,Coordinator,Active,1,1,0,5,2025-09-08,E5,0
+USR-0055,user055@northstar.example,It,Manager,Active,1,1,0,16,2025-04-06,F3,1
+USR-0056,user056@northstar.example,It,Specialist,Active,1,1,0,15,2025-07-25,Business Premium,1
+USR-0057,user057@northstar.example,Sales,Specialist,Active,1,1,0,5,2025-12-14,E3,0
+USR-0058,user058@northstar.example,Hr,Director,Active,1,1,0,18,2026-06-17,E5,1
+USR-0059,user059@northstar.example,Sales,Analyst,Active,1,1,0,6,2025-02-16,Business Premium,0
+USR-0060,user060@northstar.example,It,Engineer,Active,1,1,0,4,2025-07-21,F3,0
+USR-0061,user061@northstar.example,Sales,Engineer,Active,1,1,0,15,2026-07-07,E5,1
+USR-0062,user062@northstar.example,Executive,Engineer,Active,1,1,0,1,2025-12-20,E5,0
+USR-0063,user063@northstar.example,Operations,Engineer,Active,1,1,0,15,2025-12-06,E3,1
+USR-0064,user064@northstar.example,Security,Analyst,Active,1,1,0,15,2026-05-25,Business Premium,1
+USR-0065,user065@northstar.example,Finance,Manager,Active,1,1,0,11,2025-07-01,E3,0
+USR-0066,user066@northstar.example,Executive,Engineer,Active,1,1,0,12,2026-04-15,F3,0
+USR-0067,user067@northstar.example,Hr,Director,Active,1,1,0,16,2025-03-29,E5,1
+USR-0068,user068@northstar.example,Security,Coordinator,Active,1,1,0,6,2025-03-07,Business Premium,0
+USR-0069,user069@northstar.example,Hr,Specialist,Active,1,1,0,10,2026-05-22,Business Premium,0
+USR-0070,user070@northstar.example,Executive,Specialist,Active,1,1,0,13,2025-11-16,F3,0
+USR-0071,user071@northstar.example,Finance,Specialist,Active,1,1,0,6,2026-03-06,E3,0
+USR-0072,user072@northstar.example,Finance,Coordinator,Active,1,1,0,10,2025-04-23,E3,0
+USR-0073,user073@northstar.example,Finance,Manager,Active,1,1,0,11,2025-06-09,F3,0
+USR-0074,user074@northstar.example,Finance,Specialist,Active,1,0,1,3,2026-07-02,E3,0
+USR-0075,user075@northstar.example,Security,Coordinator,Active,1,1,0,9,2025-12-10,Business Premium,0
+USR-0076,user076@northstar.example,Finance,Director,Active,1,1,0,4,2025-06-02,E3,0
+USR-0077,user077@northstar.example,It,Manager,Active,1,1,0,15,2025-06-17,Business Premium,1
+USR-0078,user078@northstar.example,Finance,Analyst,Active,1,1,0,14,2025-08-08,E3,0
+USR-0079,user079@northstar.example,Sales,Coordinator,Active,1,1,0,1,2026-04-04,E5,0
+USR-0080,user080@northstar.example,Operations,Engineer,Active,1,1,0,11,2025-08-19,Business Premium,0
+USR-0081,user081@northstar.example,Executive,Manager,Disabled,0,1,0,13,2025-07-03,E3,0
+USR-0082,user082@northstar.example,Finance,Specialist,Disabled,0,1,0,9,2025-01-18,Business Premium,0
+USR-0083,user083@northstar.example,Security,Analyst,Active,1,1,0,3,2025-01-14,F3,0
+USR-0084,user084@northstar.example,Finance,Analyst,Active,1,1,0,8,2025-12-12,Business Premium,0
+USR-0085,user085@northstar.example,Security,Analyst,Disabled,0,1,0,13,2025-06-29,E5,0
+USR-0086,user086@northstar.example,Sales,Analyst,Active,1,1,0,7,2025-02-16,E5,0
+USR-0087,user087@northstar.example,Executive,Director,Active,1,1,0,7,2025-10-09,F3,0
+USR-0088,user088@northstar.example,Finance,Director,Active,1,1,0,17,2026-03-18,F3,1
+USR-0089,user089@northstar.example,Hr,Engineer,Active,1,1,0,12,2026-07-01,E3,0
+USR-0090,user090@northstar.example,Sales,Specialist,Active,1,1,0,18,2026-05-14,E3,1
+USR-0091,user091@northstar.example,Executive,Specialist,Active,1,1,0,4,2025-07-03,E5,0
+USR-0092,user092@northstar.example,Operations,Director,Active,1,1,0,12,2026-07-26,F3,0
+USR-0093,user093@northstar.example,Executive,Engineer,Active,1,1,0,12,2026-02-20,E5,0
+USR-0094,user094@northstar.example,Security,Coordinator,Active,1,1,0,7,2025-01-03,Business Premium,0
+USR-0095,user095@northstar.example,It,Engineer,Active,1,1,0,14,2025-10-28,E3,0
+USR-0096,user096@northstar.example,Executive,Coordinator,Active,1,1,0,12,2025-08-05,Business Premium,0
+USR-0097,user097@northstar.example,Sales,Coordinator,Active,1,1,0,15,2026-01-01,E5,1
+USR-0098,user098@northstar.example,Security,Specialist,Active,1,1,0,1,2025-07-19,E3,0
+USR-0099,user099@northstar.example,Finance,Manager,Active,1,1,0,16,2025-12-14,Business Premium,1
+USR-0100,user100@northstar.example,Finance,Specialist,Active,1,1,0,8,2026-05-01,F3,0
+USR-0101,user101@northstar.example,Sales,Manager,Active,1,1,0,3,2025-07-29,Business Premium,0
+USR-0102,user102@northstar.example,Finance,Coordinator,Active,1,1,0,4,2026-02-04,Business Premium,0
+USR-0103,user103@northstar.example,It,Analyst,Active,1,1,0,15,2025-01-05,E3,1
+USR-0104,user104@northstar.example,Executive,Coordinator,Active,1,1,0,1,2026-02-22,E3,0
+USR-0105,user105@northstar.example,Finance,Engineer,Active,1,1,0,16,2025-03-15,Business Premium,1
+USR-0106,user106@northstar.example,Hr,Analyst,Active,1,1,0,2,2025-07-05,E3,0
+USR-0107,user107@northstar.example,Executive,Coordinator,Disabled,0,1,0,6,2025-08-04,Business Premium,0
+USR-0108,user108@northstar.example,Sales,Manager,Active,1,0,1,17,2025-11-09,Business Premium,1
+USR-0109,user109@northstar.example,It,Specialist,Active,1,1,0,13,2026-07-18,E5,0
+USR-0110,user110@northstar.example,Operations,Specialist,Active,1,1,0,2,2025-04-26,E5,0
+USR-0111,user111@northstar.example,Sales,Coordinator,Active,1,1,0,10,2026-04-19,F3,0
+USR-0112,user112@northstar.example,Sales,Director,Active,1,1,0,5,2025-10-08,E3,0
+USR-0113,user113@northstar.example,Operations,Director,Active,1,1,0,9,2026-03-05,Business Premium,0
+USR-0114,user114@northstar.example,Operations,Director,Active,1,1,0,8,2025-08-01,F3,0
+USR-0115,user115@northstar.example,It,Analyst,Active,1,1,0,3,2025-11-10,Business Premium,0
+USR-0116,user116@northstar.example,Sales,Director,Disabled,0,1,0,15,2025-11-14,E3,1
+USR-0117,user117@northstar.example,Hr,Director,Active,1,1,0,2,2026-07-21,Business Premium,0
+USR-0118,user118@northstar.example,It,Manager,Active,1,1,0,16,2026-06-14,Business Premium,1
+USR-0119,user119@northstar.example,Security,Director,Active,1,1,0,8,2025-06-03,E5,0
+USR-0120,user120@northstar.example,Operations,Specialist,Active,1,1,0,4,2025-08-25,E5,0
+USR-0121,user121@northstar.example,Hr,Specialist,Active,1,1,0,11,2025-01-30,E5,0
+USR-0122,user122@northstar.example,Security,Coordinator,Disabled,0,1,0,9,2025-08-24,E3,0
+USR-0123,user123@northstar.example,Executive,Director,Disabled,0,1,0,14,2025-09-12,F3,0
+USR-0124,user124@northstar.example,Security,Engineer,Active,1,1,0,12,2025-05-23,E5,0
+USR-0125,user125@northstar.example,Sales,Engineer,Active,1,1,0,6,2025-11-14,E5,0
+USR-0126,user126@northstar.example,Security,Specialist,Disabled,0,1,0,15,2025-02-21,F3,1
+USR-0127,user127@northstar.example,Sales,Analyst,Active,1,1,0,7,2026-04-16,E5,0
+USR-0128,user128@northstar.example,Hr,Coordinator,Active,1,1,0,6,2026-04-28,E5,0
+USR-0129,user129@northstar.example,Security,Coordinator,Disabled,0,1,0,12,2026-07-15,E3,0
+USR-0130,user130@northstar.example,Security,Manager,Active,1,1,0,15,2025-02-17,Business Premium,1
+USR-0131,user131@northstar.example,Hr,Specialist,Active,1,1,0,9,2025-11-14,E5,0
+USR-0132,user132@northstar.example,Hr,Specialist,Active,1,1,0,6,2025-06-05,F3,0
+USR-0133,user133@northstar.example,Hr,Analyst,Active,1,1,0,13,2025-11-14,F3,0
+USR-0134,user134@northstar.example,It,Coordinator,Active,1,1,0,5,2025-08-25,Business Premium,0
+USR-0135,user135@northstar.example,Executive,Coordinator,Active,1,1,0,17,2025-10-05,E3,1
+USR-0136,user136@northstar.example,Executive,Coordinator,Active,1,1,0,1,2025-01-08,E5,0
+USR-0137,user137@northstar.example,Finance,Manager,Active,1,1,0,4,2025-05-13,Business Premium,0
+USR-0138,user138@northstar.example,It,Specialist,Active,1,1,0,3,2025-04-12,E3,0
+USR-0139,user139@northstar.example,Hr,Coordinator,Active,1,1,0,3,2026-05-30,F3,0
+USR-0140,user140@northstar.example,Operations,Engineer,Active,1,1,0,3,2025-10-04,Business Premium,0
+USR-0141,user141@northstar.example,Executive,Coordinator,Active,1,1,0,2,2026-06-03,E5,0
+USR-0142,user142@northstar.example,It,Engineer,Active,1,1,0,9,2025-04-05,F3,0
+USR-0143,user143@northstar.example,Executive,Coordinator,Active,1,1,0,13,2025-07-31,E3,0
+USR-0144,user144@northstar.example,Sales,Coordinator,Disabled,0,1,0,4,2025-10-27,Business Premium,0
+USR-0145,user145@northstar.example,Sales,Specialist,Active,1,1,0,17,2025-12-03,E5,1
+USR-0146,user146@northstar.example,It,Analyst,Active,1,1,0,9,2026-07-27,F3,0
+USR-0147,user147@northstar.example,Operations,Manager,Active,1,1,0,11,2026-05-31,E3,0
+USR-0148,user148@northstar.example,Executive,Analyst,Active,1,1,0,11,2026-07-05,F3,0
+USR-0149,user149@northstar.example,Security,Coordinator,Active,1,1,0,17,2025-12-08,E5,1
+USR-0150,user150@northstar.example,Sales,Specialist,Active,1,1,0,18,2025-06-25,E3,1
+USR-0151,user151@northstar.example,Sales,Engineer,Active,1,1,0,8,2025-04-10,E3,0
+USR-0152,user152@northstar.example,Operations,Manager,Active,1,1,0,4,2026-03-21,Business Premium,0
+USR-0153,user153@northstar.example,Executive,Specialist,Active,1,1,0,3,2025-12-22,F3,0
+USR-0154,user154@northstar.example,Executive,Specialist,Active,1,1,0,6,2025-05-09,Business Premium,0
+USR-0155,user155@northstar.example,Finance,Manager,Active,1,1,0,15,2025-03-25,F3,1
+USR-0156,user156@northstar.example,Security,Coordinator,Active,1,1,0,3,2026-05-24,E3,0
+USR-0157,user157@northstar.example,Executive,Engineer,Active,1,1,0,16,2026-03-06,F3,1
+USR-0158,user158@northstar.example,Finance,Coordinator,Active,1,1,0,6,2026-02-27,F3,0
+USR-0159,user159@northstar.example,Sales,Coordinator,Active,1,1,0,1,2025-08-20,E5,0
+USR-0160,user160@northstar.example,Hr,Engineer,Active,1,1,0,5,2025-03-28,E5,0
+USR-0161,user161@northstar.example,Security,Manager,Active,1,1,0,13,2025-11-21,Business Premium,0
+USR-0162,user162@northstar.example,Hr,Manager,Active,1,1,0,14,2025-09-24,F3,0
+USR-0163,user163@northstar.example,It,Specialist,Active,1,1,0,8,2025-06-25,E5,0
+USR-0164,user164@northstar.example,Hr,Manager,Active,1,1,0,13,2025-11-04,F3,0
+USR-0165,user165@northstar.example,Operations,Manager,Active,1,1,0,14,2025-04-26,F3,0
+USR-0166,user166@northstar.example,Hr,Manager,Active,1,1,0,16,2025-01-11,E3,1
+USR-0167,user167@northstar.example,Finance,Director,Active,1,1,0,15,2025-04-05,E5,1
+USR-0168,user168@northstar.example,Hr,Analyst,Active,1,1,0,2,2025-05-10,Business Premium,0
+USR-0169,user169@northstar.example,Executive,Manager,Active,1,1,0,1,2025-08-11,F3,0
+USR-0170,user170@northstar.example,Executive,Engineer,Active,1,1,0,9,2026-03-24,Business Premium,0
+USR-0171,user171@northstar.example,Security,Manager,Active,1,1,0,1,2025-05-05,E3,0
+USR-0172,user172@northstar.example,Security,Manager,Active,1,1,0,16,2025-08-10,Business Premium,1
+USR-0173,user173@northstar.example,It,Analyst,Active,1,1,0,10,2025-12-03,F3,0
+USR-0174,user174@northstar.example,It,Manager,Disabled,0,1,0,15,2025-10-07,E5,1
+USR-0175,user175@northstar.example,Hr,Specialist,Active,1,1,0,11,2025-02-03,E3,0
+USR-0176,user176@northstar.example,Sales,Director,Disabled,0,1,0,12,2026-06-01,F3,0
+USR-0177,user177@northstar.example,Finance,Director,Active,1,1,0,8,2026-03-03,E3,0
+USR-0178,user178@northstar.example,Executive,Analyst,Active,1,1,0,8,2026-07-06,E5,0
+USR-0179,user179@northstar.example,Sales,Coordinator,Active,1,1,0,4,2026-01-22,E5,0
+USR-0180,user180@northstar.example,Sales,Manager,Active,1,1,0,13,2025-06-04,Business Premium,0
+USR-0181,user181@northstar.example,It,Manager,Active,1,1,0,7,2026-03-29,E3,0
+USR-0182,user182@northstar.example,Executive,Manager,Active,1,1,0,9,2025-06-08,Business Premium,0
+USR-0183,user183@northstar.example,Hr,Engineer,Active,1,1,0,11,2025-06-22,Business Premium,0
+USR-0184,user184@northstar.example,Executive,Specialist,Active,1,1,0,10,2025-03-09,Business Premium,0
+USR-0185,user185@northstar.example,Hr,Coordinator,Active,1,1,0,8,2025-12-06,E3,0
+USR-0186,user186@northstar.example,Security,Analyst,Active,1,1,0,6,2026-05-05,E5,0
+USR-0187,user187@northstar.example,Hr,Manager,Active,1,1,0,17,2025-06-16,Business Premium,1
+USR-0188,user188@northstar.example,Security,Specialist,Active,1,1,0,2,2025-08-15,Business Premium,0
+USR-0189,user189@northstar.example,Sales,Manager,Active,1,1,0,11,2026-02-18,E5,0
+USR-0190,user190@northstar.example,Finance,Specialist,Active,1,1,0,15,2025-02-04,E3,1
+USR-0191,user191@northstar.example,Finance,Analyst,Active,1,1,0,12,2026-07-16,E5,0
+USR-0192,user192@northstar.example,Finance,Engineer,Disabled,0,1,0,4,2026-05-24,F3,0
+USR-0193,user193@northstar.example,Security,Manager,Active,1,1,0,15,2026-06-25,E5,1
+USR-0194,user194@northstar.example,Hr,Coordinator,Active,1,1,0,10,2026-01-31,F3,0
+USR-0195,user195@northstar.example,Sales,Coordinator,Active,1,1,0,3,2025-11-22,Business Premium,0
+USR-0196,user196@northstar.example,Operations,Coordinator,Active,1,1,0,15,2025-07-17,Business Premium,1
+USR-0197,user197@northstar.example,Sales,Director,Active,1,1,0,6,2025-07-18,E3,0
+USR-0198,user198@northstar.example,Security,Analyst,Active,1,1,0,7,2026-06-23,E5,0
+USR-0199,user199@northstar.example,Executive,Manager,Active,1,1,0,9,2025-12-16,F3,0
+USR-0200,user200@northstar.example,Executive,Engineer,Active,1,1,0,1,2025-01-14,F3,0
+USR-0201,user201@northstar.example,Security,Manager,Active,1,1,0,7,2025-01-12,E5,0
+USR-0202,user202@northstar.example,Security,Director,Active,1,1,0,13,2026-01-12,E5,0
+USR-0203,user203@northstar.example,Sales,Manager,Active,1,1,0,16,2025-01-16,F3,1
+USR-0204,user204@northstar.example,Executive,Specialist,Active,1,1,0,11,2025-01-06,Business Premium,0
+USR-0205,user205@northstar.example,Operations,Director,Active,1,1,0,16,2025-02-13,Business Premium,1
+USR-0206,user206@northstar.example,Finance,Engineer,Active,1,1,0,12,2025-09-13,F3,0
+USR-0207,user207@northstar.example,Executive,Engineer,Active,1,1,0,8,2026-01-16,Business Premium,0
+USR-0208,user208@northstar.example,Sales,Engineer,Active,1,1,0,16,2026-06-21,F3,1
+USR-0209,user209@northstar.example,Hr,Manager,Active,1,1,0,5,2026-02-09,F3,0
+USR-0210,user210@northstar.example,Executive,Director,Active,1,1,0,3,2025-01-05,E5,0
+USR-0211,user211@northstar.example,It,Engineer,Active,1,1,0,1,2025-04-23,Business Premium,0
+USR-0212,user212@northstar.example,Operations,Director,Active,1,1,0,15,2025-12-13,F3,1
+USR-0213,user213@northstar.example,It,Specialist,Active,1,1,0,13,2026-02-18,Business Premium,0
+USR-0214,user214@northstar.example,Operations,Specialist,Active,1,1,0,2,2025-07-16,Business Premium,0
+USR-0215,user215@northstar.example,Security,Engineer,Active,1,1,0,1,2025-08-06,F3,0
+USR-0216,user216@northstar.example,Operations,Engineer,Active,1,1,0,3,2025-03-09,E5,0
+USR-0217,user217@northstar.example,Security,Manager,Active,1,1,0,3,2026-01-13,E3,0
+USR-0218,user218@northstar.example,Hr,Director,Active,1,0,1,4,2026-05-31,Business Premium,0
+USR-0219,user219@northstar.example,Sales,Coordinator,Active,1,1,0,9,2025-10-07,E3,0
+USR-0220,user220@northstar.example,Operations,Analyst,Active,1,1,0,14,2025-11-04,F3,0
+USR-0221,user221@northstar.example,Sales,Director,Active,1,1,0,10,2025-08-29,E5,0
+USR-0222,user222@northstar.example,Security,Manager,Active,1,1,0,17,2025-05-07,Business Premium,1
+USR-0223,user223@northstar.example,Hr,Coordinator,Active,1,1,0,18,2025-09-30,F3,1
+USR-0224,user224@northstar.example,Finance,Specialist,Active,1,1,0,17,2026-03-15,E5,1
+USR-0225,user225@northstar.example,Sales,Specialist,Active,1,1,0,14,2025-06-06,E3,0
+USR-0226,user226@northstar.example,Finance,Coordinator,Active,1,1,0,16,2025-02-12,Business Premium,1
+USR-0227,user227@northstar.example,Security,Engineer,Active,1,1,0,13,2026-02-02,E3,0
+USR-0228,user228@northstar.example,Executive,Analyst,Active,1,1,0,9,2026-04-07,F3,0
+USR-0229,user229@northstar.example,Hr,Director,Active,1,1,0,9,2026-03-30,F3,0
+USR-0230,user230@northstar.example,It,Coordinator,Active,1,1,0,6,2025-06-07,E3,0
+USR-0231,user231@northstar.example,Hr,Specialist,Active,1,1,0,11,2026-04-05,E3,0
+USR-0232,user232@northstar.example,Hr,Analyst,Active,1,1,0,15,2025-05-26,E5,1
+USR-0233,user233@northstar.example,Finance,Coordinator,Active,1,1,0,13,2025-08-19,Business Premium,0
+USR-0234,user234@northstar.example,Sales,Engineer,Active,1,1,0,11,2025-10-26,E3,0
+USR-0235,user235@northstar.example,Executive,Coordinator,Active,1,1,0,14,2025-06-23,F3,0
+USR-0236,user236@northstar.example,Sales,Engineer,Active,1,1,0,9,2025-06-30,E3,0
+USR-0237,user237@northstar.example,Sales,Director,Active,1,1,0,16,2026-04-06,E5,1
+USR-0238,user238@northstar.example,Operations,Director,Active,1,1,0,13,2026-03-25,E5,0
+USR-0239,user239@northstar.example,Security,Specialist,Active,1,1,0,9,2025-05-23,F3,0
+USR-0240,user240@northstar.example,Finance,Specialist,Active,1,1,0,13,2025-11-28,F3,0
+USR-0241,user241@northstar.example,Hr,Engineer,Disabled,0,1,0,16,2025-07-24,E3,1
+USR-0242,user242@northstar.example,Finance,Coordinator,Active,1,1,0,3,2025-07-03,Business Premium,0
+USR-0243,user243@northstar.example,Executive,Engineer,Active,1,1,0,5,2025-09-30,F3,0
+USR-0244,user244@northstar.example,Hr,Specialist,Active,1,1,0,3,2025-04-25,E5,0
+USR-0245,user245@northstar.example,It,Manager,Active,1,1,0,5,2026-05-31,F3,0
+USR-0246,user246@northstar.example,Finance,Coordinator,Active,1,1,0,6,2025-04-03,Business Premium,0
+USR-0247,user247@northstar.example,Security,Analyst,Active,1,1,0,1,2026-02-18,F3,0
+USR-0248,user248@northstar.example,Security,Analyst,Active,1,1,0,3,2025-08-31,E5,0
+USR-0249,user249@northstar.example,Finance,Director,Disabled,0,1,0,9,2025-09-08,E3,0
+USR-0250,user250@northstar.example,Executive,Analyst,Active,1,1,0,4,2025-12-25,F3,0

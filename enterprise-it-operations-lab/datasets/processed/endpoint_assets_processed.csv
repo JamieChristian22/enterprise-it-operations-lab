@@ -1,0 +1,301 @@
+asset_id,hostname,model,operating_system,department,assigned_user_id,is_assigned,status,last_inventory_date,replacement_cost_usd,lifecycle_state
+AST-0001,NSS-WKS-001,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0084,1,Repair,2026-01-07,1129.28,Needs Attention
+AST-0002,NSS-WKS-002,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0088,1,Repair,2026-02-13,1438.49,Needs Attention
+AST-0003,NSS-WKS-003,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0118,1,Spare,2026-04-05,669.78,Available
+AST-0004,NSS-WKS-004,Dell Latitude 5440,Windows 11 Enterprise,It,USR-0229,1,Active,2026-05-13,837.02,In Service
+AST-0005,NSS-WKS-005,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0079,1,Spare,2026-03-21,1159.1,Available
+AST-0006,NSS-WKS-006,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0245,1,Spare,2026-02-13,700.44,Available
+AST-0007,NSS-WKS-007,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0197,1,Active,2026-02-05,662.21,In Service
+AST-0008,NSS-WKS-008,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0095,1,Active,2026-01-10,1491.77,In Service
+AST-0009,NSS-WKS-009,Dell Latitude 5440,Windows 11 Enterprise,It,USR-0028,1,Spare,2026-02-02,985.54,Available
+AST-0010,NSS-WKS-010,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0057,1,Repair,2026-07-25,1316.0,Needs Attention
+AST-0011,NSS-WKS-011,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0124,1,Spare,2026-03-19,1333.96,Available
+AST-0012,NSS-WKS-012,HP EliteBook 840,Windows 11 Enterprise,Operations,USR-0163,1,Active,2026-04-24,950.97,In Service
+AST-0013,NSS-WKS-013,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0099,1,Repair,2026-05-03,1501.56,Needs Attention
+AST-0014,NSS-WKS-014,Dell Latitude 5440,Windows 11 Enterprise,Executive,USR-0099,1,Spare,2026-03-15,605.11,Available
+AST-0015,NSS-WKS-015,Lenovo ThinkPad T14,Windows 11 Enterprise,Operations,USR-0219,1,Repair,2026-07-12,686.66,Needs Attention
+AST-0016,NSS-WKS-016,HP EliteBook 840,Windows 11 Enterprise,Finance,USR-0134,1,Active,2026-02-08,816.58,In Service
+AST-0017,NSS-WKS-017,Lenovo ThinkPad T14,Windows 11 Enterprise,Sales,,0,Repair,2026-01-04,1062.14,Needs Attention
+AST-0018,NSS-WKS-018,Dell Latitude 5440,Windows 11 Enterprise,It,USR-0211,1,Spare,2026-07-04,1243.09,Available
+AST-0019,NSS-WKS-019,Dell Latitude 5440,Windows 11 Enterprise,Sales,,0,Spare,2026-03-18,1073.38,Available
+AST-0020,NSS-WKS-020,HP EliteBook 840,Windows 11 Enterprise,It,USR-0120,1,Active,2026-05-05,898.19,In Service
+AST-0021,NSS-WKS-021,HP EliteBook 840,Windows 11 Enterprise,Executive,USR-0175,1,Repair,2026-03-19,1607.86,Needs Attention
+AST-0022,NSS-WKS-022,HP EliteBook 840,Windows 11 Enterprise,It,USR-0212,1,Spare,2026-04-13,642.74,Available
+AST-0023,NSS-WKS-023,HP EliteBook 840,Windows 11 Enterprise,It,,0,Spare,2026-02-10,622.45,Available
+AST-0024,NSS-WKS-024,Lenovo ThinkPad T14,Windows 11 Enterprise,Hr,USR-0249,1,Repair,2026-06-24,826.76,Needs Attention
+AST-0025,NSS-WKS-025,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0164,1,Spare,2026-05-30,1467.91,Available
+AST-0026,NSS-WKS-026,Lenovo ThinkPad T14,Windows 11 Enterprise,Operations,USR-0194,1,Repair,2026-02-28,1544.34,Needs Attention
+AST-0027,NSS-WKS-027,Dell Latitude 5440,Windows 11 Enterprise,Operations,USR-0073,1,Spare,2026-05-14,771.5,Available
+AST-0028,NSS-WKS-028,Lenovo ThinkPad T14,Windows 11 Enterprise,Sales,USR-0213,1,Active,2026-03-13,1225.66,In Service
+AST-0029,NSS-WKS-029,Lenovo ThinkPad T14,Windows 11 Enterprise,Sales,USR-0142,1,Spare,2026-05-13,693.54,Available
+AST-0030,NSS-WKS-030,Lenovo ThinkPad T14,Windows 11 Enterprise,Sales,USR-0147,1,Repair,2026-05-06,1360.62,Needs Attention
+AST-0031,NSS-WKS-031,Lenovo ThinkPad T14,Windows 11 Enterprise,It,USR-0156,1,Spare,2026-06-12,910.42,Available
+AST-0032,NSS-WKS-032,Dell Latitude 5440,Windows 11 Enterprise,Sales,USR-0169,1,Spare,2026-07-19,1447.03,Available
+AST-0033,NSS-WKS-033,Lenovo ThinkPad T14,Windows 11 Enterprise,Hr,USR-0132,1,Repair,2026-05-13,810.01,Needs Attention
+AST-0034,NSS-WKS-034,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0104,1,Repair,2026-05-21,1635.12,Needs Attention
+AST-0035,NSS-WKS-035,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0213,1,Spare,2026-02-12,954.02,Available
+AST-0036,NSS-WKS-036,Dell Latitude 5440,Windows 11 Enterprise,Executive,USR-0137,1,Spare,2026-06-21,1284.97,Available
+AST-0037,NSS-WKS-037,Lenovo ThinkPad T14,Windows 11 Enterprise,Hr,USR-0235,1,Active,2026-07-19,1500.68,In Service
+AST-0038,NSS-WKS-038,HP EliteBook 840,Windows 11 Enterprise,Finance,USR-0108,1,Spare,2026-04-14,1139.27,Available
+AST-0039,NSS-WKS-039,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0147,1,Repair,2026-03-18,1237.54,Needs Attention
+AST-0040,NSS-WKS-040,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0157,1,Repair,2026-05-21,665.9,Needs Attention
+AST-0041,NSS-WKS-041,Dell Latitude 5440,Windows 11 Enterprise,Security,USR-0120,1,Spare,2026-06-07,1327.95,Available
+AST-0042,NSS-WKS-042,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0078,1,Spare,2026-05-01,595.11,Available
+AST-0043,NSS-WKS-043,HP EliteBook 840,Windows 11 Enterprise,Executive,USR-0013,1,Active,2026-01-13,1557.56,In Service
+AST-0044,NSS-WKS-044,HP EliteBook 840,Windows 11 Enterprise,Operations,USR-0134,1,Repair,2026-01-16,618.78,Needs Attention
+AST-0045,NSS-WKS-045,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0162,1,Active,2026-03-13,966.91,In Service
+AST-0046,NSS-WKS-046,Lenovo ThinkPad T14,Windows 11 Enterprise,Operations,USR-0120,1,Spare,2026-04-24,1518.38,Available
+AST-0047,NSS-WKS-047,Lenovo ThinkPad T14,Windows 11 Enterprise,It,USR-0215,1,Spare,2026-06-22,611.25,Available
+AST-0048,NSS-WKS-048,Lenovo ThinkPad T14,Windows 11 Enterprise,Sales,USR-0020,1,Spare,2026-06-22,1076.53,Available
+AST-0049,NSS-WKS-049,Dell Latitude 5440,Windows 11 Enterprise,Hr,USR-0212,1,Repair,2026-04-23,1186.16,Needs Attention
+AST-0050,NSS-WKS-050,Lenovo ThinkPad T14,Windows 11 Enterprise,Operations,USR-0129,1,Repair,2026-03-01,1028.88,Needs Attention
+AST-0051,NSS-WKS-051,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0198,1,Spare,2026-02-20,868.08,Available
+AST-0052,NSS-WKS-052,Dell Latitude 5440,Windows 11 Enterprise,Executive,USR-0025,1,Repair,2026-02-21,848.56,Needs Attention
+AST-0053,NSS-WKS-053,Lenovo ThinkPad T14,Windows 11 Enterprise,It,USR-0033,1,Repair,2026-02-09,1385.3,Needs Attention
+AST-0054,NSS-WKS-054,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0077,1,Repair,2026-06-14,620.24,Needs Attention
+AST-0055,NSS-WKS-055,HP EliteBook 840,Windows 11 Enterprise,Operations,USR-0163,1,Active,2026-05-02,1477.12,In Service
+AST-0056,NSS-WKS-056,HP EliteBook 840,Windows 11 Enterprise,Finance,USR-0064,1,Active,2026-02-20,1364.4,In Service
+AST-0057,NSS-WKS-057,Dell Latitude 5440,Windows 11 Enterprise,Hr,USR-0175,1,Active,2026-01-02,1227.0,In Service
+AST-0058,NSS-WKS-058,Dell Latitude 5440,Windows 11 Enterprise,It,USR-0236,1,Repair,2026-01-20,1619.03,Needs Attention
+AST-0059,NSS-WKS-059,HP EliteBook 840,Windows 11 Enterprise,Sales,USR-0157,1,Spare,2026-01-28,1439.93,Available
+AST-0060,NSS-WKS-060,Dell Latitude 5440,Windows 11 Enterprise,Operations,USR-0177,1,Active,2026-05-29,863.4,In Service
+AST-0061,NSS-WKS-061,HP EliteBook 840,Windows 11 Enterprise,Finance,,0,Repair,2026-07-17,1586.84,Needs Attention
+AST-0062,NSS-WKS-062,HP EliteBook 840,Windows 11 Enterprise,Finance,,0,Spare,2026-06-26,1549.15,Available
+AST-0063,NSS-WKS-063,HP EliteBook 840,Windows 11 Enterprise,Executive,USR-0119,1,Spare,2026-06-03,1009.99,Available
+AST-0064,NSS-WKS-064,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0043,1,Spare,2026-01-07,679.98,Available
+AST-0065,NSS-WKS-065,Lenovo ThinkPad T14,Windows 11 Enterprise,Operations,USR-0060,1,Spare,2026-03-19,1010.19,Available
+AST-0066,NSS-WKS-066,Lenovo ThinkPad T14,Windows 11 Enterprise,It,USR-0241,1,Spare,2026-02-12,799.34,Available
+AST-0067,NSS-WKS-067,Dell Latitude 5440,Windows 11 Enterprise,Sales,USR-0101,1,Active,2026-07-26,1243.74,In Service
+AST-0068,NSS-WKS-068,Lenovo ThinkPad T14,Windows 11 Enterprise,Sales,USR-0230,1,Repair,2026-04-19,1461.17,Needs Attention
+AST-0069,NSS-WKS-069,HP EliteBook 840,Windows 11 Enterprise,Sales,USR-0114,1,Repair,2026-06-21,1370.07,Needs Attention
+AST-0070,NSS-WKS-070,Dell Latitude 5440,Windows 11 Enterprise,Sales,USR-0037,1,Spare,2026-05-28,1358.36,Available
+AST-0071,NSS-WKS-071,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0205,1,Spare,2026-04-19,892.05,Available
+AST-0072,NSS-WKS-072,HP EliteBook 840,Windows 11 Enterprise,Sales,USR-0224,1,Spare,2026-05-09,1074.11,Available
+AST-0073,NSS-WKS-073,HP EliteBook 840,Windows 11 Enterprise,Finance,USR-0135,1,Repair,2026-05-24,727.72,Needs Attention
+AST-0074,NSS-WKS-074,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0097,1,Repair,2026-05-12,936.97,Needs Attention
+AST-0075,NSS-WKS-075,HP EliteBook 840,Windows 11 Enterprise,Finance,USR-0163,1,Active,2026-06-27,998.41,In Service
+AST-0076,NSS-WKS-076,Dell Latitude 5440,Windows 11 Enterprise,Finance,,0,Spare,2026-06-16,1572.32,Available
+AST-0077,NSS-WKS-077,Dell Latitude 5440,Windows 11 Enterprise,Finance,,0,Repair,2026-05-01,1583.58,Needs Attention
+AST-0078,NSS-WKS-078,HP EliteBook 840,Windows 11 Enterprise,Executive,USR-0137,1,Repair,2026-02-17,1123.41,Needs Attention
+AST-0079,NSS-WKS-079,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0174,1,Active,2026-04-28,1513.43,In Service
+AST-0080,NSS-WKS-080,HP EliteBook 840,Windows 11 Enterprise,It,,0,Active,2026-03-31,1641.99,In Service
+AST-0081,NSS-WKS-081,HP EliteBook 840,Windows 11 Enterprise,Operations,USR-0066,1,Active,2026-05-22,894.42,In Service
+AST-0082,NSS-WKS-082,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0052,1,Active,2026-01-06,1310.9,In Service
+AST-0083,NSS-WKS-083,Lenovo ThinkPad T14,Windows 11 Enterprise,Hr,USR-0099,1,Active,2026-06-07,1531.34,In Service
+AST-0084,NSS-WKS-084,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0146,1,Repair,2026-06-29,792.24,Needs Attention
+AST-0085,NSS-WKS-085,Dell Latitude 5440,Windows 11 Enterprise,Executive,USR-0093,1,Spare,2026-03-23,696.38,Available
+AST-0086,NSS-WKS-086,Dell Latitude 5440,Windows 11 Enterprise,Operations,USR-0159,1,Repair,2026-04-09,1426.0,Needs Attention
+AST-0087,NSS-WKS-087,Dell Latitude 5440,Windows 11 Enterprise,Security,USR-0106,1,Repair,2026-05-17,1276.15,Needs Attention
+AST-0088,NSS-WKS-088,Dell Latitude 5440,Windows 11 Enterprise,It,USR-0102,1,Spare,2026-02-18,1218.31,Available
+AST-0089,NSS-WKS-089,HP EliteBook 840,Windows 11 Enterprise,Executive,USR-0002,1,Active,2026-07-16,1186.68,In Service
+AST-0090,NSS-WKS-090,Dell Latitude 5440,Windows 11 Enterprise,Security,USR-0203,1,Active,2026-05-31,872.58,In Service
+AST-0091,NSS-WKS-091,Dell Latitude 5440,Windows 11 Enterprise,Sales,USR-0123,1,Repair,2026-07-09,1449.04,Needs Attention
+AST-0092,NSS-WKS-092,Dell Latitude 5440,Windows 11 Enterprise,Hr,USR-0046,1,Repair,2026-07-24,996.27,Needs Attention
+AST-0093,NSS-WKS-093,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0142,1,Active,2026-01-10,981.77,In Service
+AST-0094,NSS-WKS-094,HP EliteBook 840,Windows 11 Enterprise,Sales,USR-0074,1,Active,2026-03-20,1413.08,In Service
+AST-0095,NSS-WKS-095,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0045,1,Spare,2026-03-10,752.17,Available
+AST-0096,NSS-WKS-096,HP EliteBook 840,Windows 11 Enterprise,Operations,USR-0082,1,Spare,2026-07-25,694.91,Available
+AST-0097,NSS-WKS-097,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0007,1,Repair,2026-02-03,1519.69,Needs Attention
+AST-0098,NSS-WKS-098,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0178,1,Spare,2026-07-21,1201.87,Available
+AST-0099,NSS-WKS-099,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0021,1,Repair,2026-03-25,1075.51,Needs Attention
+AST-0100,NSS-WKS-100,Dell Latitude 5440,Windows 11 Enterprise,Executive,,0,Spare,2026-04-07,1203.78,Available
+AST-0101,NSS-WKS-101,Lenovo ThinkPad T14,Windows 11 Enterprise,Sales,,0,Spare,2026-05-31,1095.4,Available
+AST-0102,NSS-WKS-102,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0146,1,Repair,2026-06-17,1599.03,Needs Attention
+AST-0103,NSS-WKS-103,Dell Latitude 5440,Windows 11 Enterprise,It,USR-0242,1,Repair,2026-04-12,1268.38,Needs Attention
+AST-0104,NSS-WKS-104,Dell Latitude 5440,Windows 11 Enterprise,Security,USR-0226,1,Active,2026-06-24,613.93,In Service
+AST-0105,NSS-WKS-105,Dell Latitude 5440,Windows 11 Enterprise,Operations,USR-0124,1,Active,2026-07-05,614.51,In Service
+AST-0106,NSS-WKS-106,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0140,1,Repair,2026-07-25,953.49,Needs Attention
+AST-0107,NSS-WKS-107,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0098,1,Active,2026-06-15,959.72,In Service
+AST-0108,NSS-WKS-108,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0019,1,Spare,2026-04-15,1142.16,Available
+AST-0109,NSS-WKS-109,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0067,1,Spare,2026-07-27,1380.88,Available
+AST-0110,NSS-WKS-110,Dell Latitude 5440,Windows 11 Enterprise,Hr,,0,Repair,2026-05-24,784.81,Needs Attention
+AST-0111,NSS-WKS-111,HP EliteBook 840,Windows 11 Enterprise,Security,,0,Spare,2026-06-16,860.67,Available
+AST-0112,NSS-WKS-112,Lenovo ThinkPad T14,Windows 11 Enterprise,It,USR-0104,1,Active,2026-06-07,1279.45,In Service
+AST-0113,NSS-WKS-113,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0025,1,Spare,2026-05-04,978.03,Available
+AST-0114,NSS-WKS-114,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0225,1,Active,2026-04-03,731.63,In Service
+AST-0115,NSS-WKS-115,Dell Latitude 5440,Windows 11 Enterprise,Operations,USR-0224,1,Repair,2026-05-26,750.94,Needs Attention
+AST-0116,NSS-WKS-116,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0234,1,Repair,2026-04-06,1045.55,Needs Attention
+AST-0117,NSS-WKS-117,Dell Latitude 5440,Windows 11 Enterprise,Executive,USR-0172,1,Active,2026-07-24,1257.98,In Service
+AST-0118,NSS-WKS-118,Dell Latitude 5440,Windows 11 Enterprise,Sales,USR-0047,1,Repair,2026-03-04,604.16,Needs Attention
+AST-0119,NSS-WKS-119,HP EliteBook 840,Windows 11 Enterprise,Sales,USR-0139,1,Repair,2026-03-17,779.31,Needs Attention
+AST-0120,NSS-WKS-120,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0167,1,Repair,2026-06-09,1443.84,Needs Attention
+AST-0121,NSS-WKS-121,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0060,1,Spare,2026-05-14,618.05,Available
+AST-0122,NSS-WKS-122,Dell Latitude 5440,Windows 11 Enterprise,Hr,USR-0042,1,Spare,2026-04-12,1367.04,Available
+AST-0123,NSS-WKS-123,Lenovo ThinkPad T14,Windows 11 Enterprise,Sales,USR-0041,1,Spare,2026-01-09,716.83,Available
+AST-0124,NSS-WKS-124,HP EliteBook 840,Windows 11 Enterprise,Operations,USR-0153,1,Active,2026-04-16,1227.43,In Service
+AST-0125,NSS-WKS-125,HP EliteBook 840,Windows 11 Enterprise,It,USR-0067,1,Spare,2026-05-30,1464.54,Available
+AST-0126,NSS-WKS-126,Dell Latitude 5440,Windows 11 Enterprise,It,USR-0179,1,Spare,2026-04-22,991.88,Available
+AST-0127,NSS-WKS-127,Lenovo ThinkPad T14,Windows 11 Enterprise,It,USR-0120,1,Repair,2026-07-03,1233.97,Needs Attention
+AST-0128,NSS-WKS-128,Lenovo ThinkPad T14,Windows 11 Enterprise,Operations,USR-0099,1,Repair,2026-06-04,1171.99,Needs Attention
+AST-0129,NSS-WKS-129,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0122,1,Spare,2026-01-17,1429.87,Available
+AST-0130,NSS-WKS-130,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0211,1,Repair,2026-04-13,1210.05,Needs Attention
+AST-0131,NSS-WKS-131,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0137,1,Active,2026-04-14,1460.63,In Service
+AST-0132,NSS-WKS-132,Dell Latitude 5440,Windows 11 Enterprise,Security,USR-0031,1,Active,2026-05-13,1092.27,In Service
+AST-0133,NSS-WKS-133,Dell Latitude 5440,Windows 11 Enterprise,Sales,USR-0037,1,Repair,2026-01-31,1369.4,Needs Attention
+AST-0134,NSS-WKS-134,Lenovo ThinkPad T14,Windows 11 Enterprise,Sales,USR-0161,1,Repair,2026-01-11,1334.48,Needs Attention
+AST-0135,NSS-WKS-135,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0248,1,Active,2026-04-01,1541.94,In Service
+AST-0136,NSS-WKS-136,Lenovo ThinkPad T14,Windows 11 Enterprise,Sales,USR-0091,1,Spare,2026-03-07,1351.66,Available
+AST-0137,NSS-WKS-137,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0203,1,Repair,2026-03-09,1520.84,Needs Attention
+AST-0138,NSS-WKS-138,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0203,1,Active,2026-06-19,1313.29,In Service
+AST-0139,NSS-WKS-139,Dell Latitude 5440,Windows 11 Enterprise,Security,USR-0182,1,Repair,2026-03-10,565.35,Needs Attention
+AST-0140,NSS-WKS-140,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0045,1,Spare,2026-07-04,582.18,Available
+AST-0141,NSS-WKS-141,Dell Latitude 5440,Windows 11 Enterprise,Security,USR-0013,1,Spare,2026-05-06,1308.07,Available
+AST-0142,NSS-WKS-142,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0173,1,Repair,2026-07-02,1128.25,Needs Attention
+AST-0143,NSS-WKS-143,Dell Latitude 5440,Windows 11 Enterprise,Sales,USR-0206,1,Spare,2026-07-26,1284.05,Available
+AST-0144,NSS-WKS-144,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0143,1,Spare,2026-06-05,636.66,Available
+AST-0145,NSS-WKS-145,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0060,1,Active,2026-06-21,647.5,In Service
+AST-0146,NSS-WKS-146,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0203,1,Active,2026-01-02,1022.23,In Service
+AST-0147,NSS-WKS-147,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0033,1,Active,2026-02-01,1409.33,In Service
+AST-0148,NSS-WKS-148,HP EliteBook 840,Windows 11 Enterprise,Executive,USR-0011,1,Spare,2026-07-20,1415.62,Available
+AST-0149,NSS-WKS-149,HP EliteBook 840,Windows 11 Enterprise,Executive,USR-0108,1,Repair,2026-06-17,686.56,Needs Attention
+AST-0150,NSS-WKS-150,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0146,1,Repair,2026-01-03,562.7,Needs Attention
+AST-0151,NSS-WKS-151,Dell Latitude 5440,Windows 11 Enterprise,Security,USR-0156,1,Repair,2026-01-07,1613.3,Needs Attention
+AST-0152,NSS-WKS-152,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0212,1,Active,2026-05-18,1125.14,In Service
+AST-0153,NSS-WKS-153,Dell Latitude 5440,Windows 11 Enterprise,It,USR-0074,1,Spare,2026-01-27,1388.2,Available
+AST-0154,NSS-WKS-154,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0020,1,Active,2026-03-29,1261.15,In Service
+AST-0155,NSS-WKS-155,HP EliteBook 840,Windows 11 Enterprise,Operations,USR-0052,1,Active,2026-04-14,1316.88,In Service
+AST-0156,NSS-WKS-156,HP EliteBook 840,Windows 11 Enterprise,Finance,USR-0157,1,Spare,2026-04-02,757.77,Available
+AST-0157,NSS-WKS-157,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0169,1,Repair,2026-07-14,1442.67,Needs Attention
+AST-0158,NSS-WKS-158,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0109,1,Active,2026-01-30,1040.35,In Service
+AST-0159,NSS-WKS-159,Dell Latitude 5440,Windows 11 Enterprise,Security,USR-0110,1,Active,2026-07-06,793.78,In Service
+AST-0160,NSS-WKS-160,HP EliteBook 840,Windows 11 Enterprise,It,USR-0122,1,Spare,2026-06-14,1193.9,Available
+AST-0161,NSS-WKS-161,Lenovo ThinkPad T14,Windows 11 Enterprise,Hr,USR-0249,1,Active,2026-02-18,1236.39,In Service
+AST-0162,NSS-WKS-162,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0099,1,Active,2026-02-12,584.56,In Service
+AST-0163,NSS-WKS-163,HP EliteBook 840,Windows 11 Enterprise,It,USR-0020,1,Active,2026-07-24,1286.33,In Service
+AST-0164,NSS-WKS-164,HP EliteBook 840,Windows 11 Enterprise,It,USR-0143,1,Repair,2026-05-09,688.82,Needs Attention
+AST-0165,NSS-WKS-165,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0056,1,Active,2026-01-06,620.09,In Service
+AST-0166,NSS-WKS-166,Dell Latitude 5440,Windows 11 Enterprise,Security,USR-0146,1,Active,2026-05-19,1270.31,In Service
+AST-0167,NSS-WKS-167,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0150,1,Spare,2026-03-15,695.52,Available
+AST-0168,NSS-WKS-168,Lenovo ThinkPad T14,Windows 11 Enterprise,It,USR-0043,1,Active,2026-03-11,1431.0,In Service
+AST-0169,NSS-WKS-169,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0088,1,Active,2026-07-20,1218.61,In Service
+AST-0170,NSS-WKS-170,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0107,1,Repair,2026-05-08,919.42,Needs Attention
+AST-0171,NSS-WKS-171,Lenovo ThinkPad T14,Windows 11 Enterprise,Operations,USR-0122,1,Spare,2026-01-29,1470.48,Available
+AST-0172,NSS-WKS-172,HP EliteBook 840,Windows 11 Enterprise,Sales,USR-0019,1,Repair,2026-04-16,816.62,Needs Attention
+AST-0173,NSS-WKS-173,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0124,1,Repair,2026-01-24,1125.68,Needs Attention
+AST-0174,NSS-WKS-174,Dell Latitude 5440,Windows 11 Enterprise,It,USR-0128,1,Repair,2026-04-21,1376.51,Needs Attention
+AST-0175,NSS-WKS-175,Lenovo ThinkPad T14,Windows 11 Enterprise,Hr,USR-0232,1,Spare,2026-06-04,1310.99,Available
+AST-0176,NSS-WKS-176,HP EliteBook 840,Windows 11 Enterprise,It,USR-0232,1,Spare,2026-05-13,1491.14,Available
+AST-0177,NSS-WKS-177,HP EliteBook 840,Windows 11 Enterprise,Finance,USR-0108,1,Spare,2026-06-11,1156.25,Available
+AST-0178,NSS-WKS-178,Lenovo ThinkPad T14,Windows 11 Enterprise,It,USR-0246,1,Active,2026-07-03,1078.74,In Service
+AST-0179,NSS-WKS-179,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0179,1,Spare,2026-03-29,1092.25,Available
+AST-0180,NSS-WKS-180,HP EliteBook 840,Windows 11 Enterprise,Executive,USR-0059,1,Active,2026-04-14,1486.85,In Service
+AST-0181,NSS-WKS-181,HP EliteBook 840,Windows 11 Enterprise,Sales,USR-0054,1,Repair,2026-03-10,1248.05,Needs Attention
+AST-0182,NSS-WKS-182,Dell Latitude 5440,Windows 11 Enterprise,Executive,USR-0139,1,Repair,2026-02-12,1231.11,Needs Attention
+AST-0183,NSS-WKS-183,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0081,1,Spare,2026-01-17,643.34,Available
+AST-0184,NSS-WKS-184,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0162,1,Repair,2026-04-30,1128.93,Needs Attention
+AST-0185,NSS-WKS-185,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0128,1,Spare,2026-06-10,1294.82,Available
+AST-0186,NSS-WKS-186,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0140,1,Spare,2026-03-14,840.41,Available
+AST-0187,NSS-WKS-187,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0030,1,Active,2026-06-16,1625.31,In Service
+AST-0188,NSS-WKS-188,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0170,1,Repair,2026-05-29,1261.21,Needs Attention
+AST-0189,NSS-WKS-189,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0245,1,Spare,2026-04-06,767.04,Available
+AST-0190,NSS-WKS-190,HP EliteBook 840,Windows 11 Enterprise,Operations,USR-0014,1,Active,2026-05-17,804.66,In Service
+AST-0191,NSS-WKS-191,Dell Latitude 5440,Windows 11 Enterprise,Executive,USR-0107,1,Spare,2026-04-29,1108.5,Available
+AST-0192,NSS-WKS-192,HP EliteBook 840,Windows 11 Enterprise,Operations,USR-0249,1,Repair,2026-05-13,1231.66,Needs Attention
+AST-0193,NSS-WKS-193,HP EliteBook 840,Windows 11 Enterprise,Finance,USR-0075,1,Active,2026-05-15,1532.91,In Service
+AST-0194,NSS-WKS-194,Dell Latitude 5440,Windows 11 Enterprise,It,USR-0122,1,Active,2026-04-03,1590.58,In Service
+AST-0195,NSS-WKS-195,Lenovo ThinkPad T14,Windows 11 Enterprise,Hr,USR-0166,1,Active,2026-01-23,793.16,In Service
+AST-0196,NSS-WKS-196,Lenovo ThinkPad T14,Windows 11 Enterprise,Operations,USR-0164,1,Active,2026-06-10,1541.8,In Service
+AST-0197,NSS-WKS-197,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0067,1,Spare,2026-04-26,1108.75,Available
+AST-0198,NSS-WKS-198,HP EliteBook 840,Windows 11 Enterprise,It,USR-0035,1,Active,2026-04-17,739.18,In Service
+AST-0199,NSS-WKS-199,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0019,1,Active,2026-06-02,806.06,In Service
+AST-0200,NSS-WKS-200,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0076,1,Active,2026-03-28,876.32,In Service
+AST-0201,NSS-WKS-201,HP EliteBook 840,Windows 11 Enterprise,Executive,USR-0241,1,Repair,2026-03-18,732.49,Needs Attention
+AST-0202,NSS-WKS-202,Lenovo ThinkPad T14,Windows 11 Enterprise,Hr,USR-0065,1,Active,2026-07-20,1241.73,In Service
+AST-0203,NSS-WKS-203,HP EliteBook 840,Windows 11 Enterprise,Executive,USR-0032,1,Active,2026-02-19,1616.13,In Service
+AST-0204,NSS-WKS-204,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0008,1,Active,2026-01-05,843.66,In Service
+AST-0205,NSS-WKS-205,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0233,1,Active,2026-02-20,1484.66,In Service
+AST-0206,NSS-WKS-206,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0068,1,Spare,2026-05-03,835.15,Available
+AST-0207,NSS-WKS-207,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0023,1,Repair,2026-06-25,1493.23,Needs Attention
+AST-0208,NSS-WKS-208,Dell Latitude 5440,Windows 11 Enterprise,Security,USR-0182,1,Spare,2026-07-13,988.97,Available
+AST-0209,NSS-WKS-209,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0005,1,Repair,2026-02-05,1061.07,Needs Attention
+AST-0210,NSS-WKS-210,Dell Latitude 5440,Windows 11 Enterprise,Operations,USR-0014,1,Spare,2026-02-10,1391.34,Available
+AST-0211,NSS-WKS-211,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0232,1,Spare,2026-05-19,573.57,Available
+AST-0212,NSS-WKS-212,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0159,1,Spare,2026-02-03,1600.55,Available
+AST-0213,NSS-WKS-213,Lenovo ThinkPad T14,Windows 11 Enterprise,Operations,USR-0033,1,Active,2026-03-25,817.33,In Service
+AST-0214,NSS-WKS-214,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0128,1,Repair,2026-05-21,1128.79,Needs Attention
+AST-0215,NSS-WKS-215,Lenovo ThinkPad T14,Windows 11 Enterprise,Hr,USR-0119,1,Active,2026-02-04,676.46,In Service
+AST-0216,NSS-WKS-216,Lenovo ThinkPad T14,Windows 11 Enterprise,Hr,USR-0047,1,Spare,2026-03-30,664.92,Available
+AST-0217,NSS-WKS-217,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0113,1,Repair,2026-05-06,879.4,Needs Attention
+AST-0218,NSS-WKS-218,Lenovo ThinkPad T14,Windows 11 Enterprise,Operations,,0,Spare,2026-07-08,816.55,Available
+AST-0219,NSS-WKS-219,Dell Latitude 5440,Windows 11 Enterprise,Hr,USR-0136,1,Active,2026-07-08,657.66,In Service
+AST-0220,NSS-WKS-220,Lenovo ThinkPad T14,Windows 11 Enterprise,Sales,USR-0028,1,Repair,2026-06-14,1041.71,Needs Attention
+AST-0221,NSS-WKS-221,HP EliteBook 840,Windows 11 Enterprise,Sales,USR-0148,1,Spare,2026-04-13,1020.88,Available
+AST-0222,NSS-WKS-222,Dell Latitude 5440,Windows 11 Enterprise,Operations,USR-0139,1,Repair,2026-04-10,1417.82,Needs Attention
+AST-0223,NSS-WKS-223,HP EliteBook 840,Windows 11 Enterprise,Sales,USR-0247,1,Repair,2026-04-14,590.06,Needs Attention
+AST-0224,NSS-WKS-224,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0175,1,Active,2026-06-18,1284.17,In Service
+AST-0225,NSS-WKS-225,Dell Latitude 5440,Windows 11 Enterprise,Sales,USR-0133,1,Repair,2026-04-08,1191.33,Needs Attention
+AST-0226,NSS-WKS-226,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0173,1,Active,2026-06-20,695.27,In Service
+AST-0227,NSS-WKS-227,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0056,1,Active,2026-03-09,701.67,In Service
+AST-0228,NSS-WKS-228,Lenovo ThinkPad T14,Windows 11 Enterprise,Hr,USR-0200,1,Active,2026-01-02,1072.42,In Service
+AST-0229,NSS-WKS-229,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0087,1,Spare,2026-04-01,1152.86,Available
+AST-0230,NSS-WKS-230,HP EliteBook 840,Windows 11 Enterprise,Finance,USR-0226,1,Repair,2026-07-26,1299.93,Needs Attention
+AST-0231,NSS-WKS-231,Dell Latitude 5440,Windows 11 Enterprise,Hr,USR-0226,1,Repair,2026-05-30,1325.79,Needs Attention
+AST-0232,NSS-WKS-232,Lenovo ThinkPad T14,Windows 11 Enterprise,It,USR-0047,1,Spare,2026-07-20,629.47,Available
+AST-0233,NSS-WKS-233,Dell Latitude 5440,Windows 11 Enterprise,It,USR-0213,1,Spare,2026-04-17,1277.43,Available
+AST-0234,NSS-WKS-234,HP EliteBook 840,Windows 11 Enterprise,It,,0,Active,2026-05-06,752.63,In Service
+AST-0235,NSS-WKS-235,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0238,1,Spare,2026-01-28,1493.26,Available
+AST-0236,NSS-WKS-236,HP EliteBook 840,Windows 11 Enterprise,Sales,USR-0198,1,Repair,2026-01-06,1311.24,Needs Attention
+AST-0237,NSS-WKS-237,Dell Latitude 5440,Windows 11 Enterprise,Sales,USR-0247,1,Spare,2026-05-05,1222.6,Available
+AST-0238,NSS-WKS-238,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0181,1,Active,2026-04-15,712.91,In Service
+AST-0239,NSS-WKS-239,HP EliteBook 840,Windows 11 Enterprise,Executive,USR-0151,1,Active,2026-07-06,802.66,In Service
+AST-0240,NSS-WKS-240,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0227,1,Spare,2026-07-29,1307.26,Available
+AST-0241,NSS-WKS-241,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0161,1,Repair,2026-01-11,612.8,Needs Attention
+AST-0242,NSS-WKS-242,HP EliteBook 840,Windows 11 Enterprise,It,USR-0220,1,Repair,2026-05-21,1096.23,Needs Attention
+AST-0243,NSS-WKS-243,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0168,1,Spare,2026-01-30,1070.12,Available
+AST-0244,NSS-WKS-244,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0114,1,Repair,2026-04-26,1085.16,Needs Attention
+AST-0245,NSS-WKS-245,Dell Latitude 5440,Windows 11 Enterprise,Hr,USR-0137,1,Active,2026-04-26,1149.41,In Service
+AST-0246,NSS-WKS-246,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0229,1,Spare,2026-01-10,981.64,Available
+AST-0247,NSS-WKS-247,Dell Latitude 5440,Windows 11 Enterprise,Hr,USR-0240,1,Repair,2026-05-28,1610.08,Needs Attention
+AST-0248,NSS-WKS-248,Lenovo ThinkPad T14,Windows 11 Enterprise,Finance,USR-0092,1,Repair,2026-06-07,828.76,Needs Attention
+AST-0249,NSS-WKS-249,Dell Latitude 5440,Windows 11 Enterprise,Security,USR-0002,1,Active,2026-03-31,742.12,In Service
+AST-0250,NSS-WKS-250,Lenovo ThinkPad T14,Windows 11 Enterprise,Sales,USR-0084,1,Spare,2026-03-09,927.83,Available
+AST-0251,NSS-WKS-251,HP EliteBook 840,Windows 11 Enterprise,Sales,USR-0004,1,Repair,2026-03-04,747.91,Needs Attention
+AST-0252,NSS-WKS-252,Dell Latitude 5440,Windows 11 Enterprise,Sales,USR-0156,1,Spare,2026-05-31,987.64,Available
+AST-0253,NSS-WKS-253,HP EliteBook 840,Windows 11 Enterprise,Security,USR-0046,1,Repair,2026-07-13,893.1,Needs Attention
+AST-0254,NSS-WKS-254,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0116,1,Active,2026-07-26,1488.71,In Service
+AST-0255,NSS-WKS-255,HP EliteBook 840,Windows 11 Enterprise,Executive,USR-0057,1,Repair,2026-07-05,575.91,Needs Attention
+AST-0256,NSS-WKS-256,Lenovo ThinkPad T14,Windows 11 Enterprise,Security,USR-0222,1,Repair,2026-01-07,931.78,Needs Attention
+AST-0257,NSS-WKS-257,Lenovo ThinkPad T14,Windows 11 Enterprise,It,USR-0225,1,Spare,2026-02-13,1222.75,Available
+AST-0258,NSS-WKS-258,Dell Latitude 5440,Windows 11 Enterprise,Security,USR-0227,1,Active,2026-02-11,992.53,In Service
+AST-0259,NSS-WKS-259,Dell Latitude 5440,Windows 11 Enterprise,It,USR-0185,1,Active,2026-06-13,1091.87,In Service
+AST-0260,NSS-WKS-260,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,,0,Repair,2026-07-10,1334.63,Needs Attention
+AST-0261,NSS-WKS-261,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0116,1,Spare,2026-05-18,1103.54,Available
+AST-0262,NSS-WKS-262,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0248,1,Active,2026-04-21,916.34,In Service
+AST-0263,NSS-WKS-263,HP EliteBook 840,Windows 11 Enterprise,Operations,USR-0042,1,Active,2026-06-04,1281.45,In Service
+AST-0264,NSS-WKS-264,HP EliteBook 840,Windows 11 Enterprise,Finance,USR-0233,1,Active,2026-03-05,1362.37,In Service
+AST-0265,NSS-WKS-265,Lenovo ThinkPad T14,Windows 11 Enterprise,Sales,USR-0018,1,Active,2026-06-07,1593.09,In Service
+AST-0266,NSS-WKS-266,HP EliteBook 840,Windows 11 Enterprise,Operations,USR-0023,1,Active,2026-03-18,972.58,In Service
+AST-0267,NSS-WKS-267,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0229,1,Repair,2026-04-24,1277.64,Needs Attention
+AST-0268,NSS-WKS-268,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0186,1,Active,2026-05-22,799.28,In Service
+AST-0269,NSS-WKS-269,Dell Latitude 5440,Windows 11 Enterprise,Sales,USR-0108,1,Spare,2026-03-20,1517.99,Available
+AST-0270,NSS-WKS-270,HP EliteBook 840,Windows 11 Enterprise,Executive,,0,Spare,2026-07-28,727.79,Available
+AST-0271,NSS-WKS-271,HP EliteBook 840,Windows 11 Enterprise,Operations,USR-0053,1,Spare,2026-06-29,632.88,Available
+AST-0272,NSS-WKS-272,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,,0,Active,2026-03-24,1363.62,In Service
+AST-0273,NSS-WKS-273,HP EliteBook 840,Windows 11 Enterprise,Hr,USR-0142,1,Active,2026-04-15,606.34,In Service
+AST-0274,NSS-WKS-274,HP EliteBook 840,Windows 11 Enterprise,Operations,USR-0076,1,Spare,2026-05-02,1526.53,Available
+AST-0275,NSS-WKS-275,Dell Latitude 5440,Windows 11 Enterprise,Executive,USR-0025,1,Spare,2026-07-27,879.7,Available
+AST-0276,NSS-WKS-276,HP EliteBook 840,Windows 11 Enterprise,Operations,USR-0040,1,Active,2026-04-12,779.98,In Service
+AST-0277,NSS-WKS-277,HP EliteBook 840,Windows 11 Enterprise,Executive,,0,Repair,2026-04-09,835.76,Needs Attention
+AST-0278,NSS-WKS-278,Dell Latitude 5440,Windows 11 Enterprise,Security,USR-0192,1,Repair,2026-04-30,631.23,Needs Attention
+AST-0279,NSS-WKS-279,Dell Latitude 5440,Windows 11 Enterprise,Operations,USR-0003,1,Active,2026-07-06,1543.63,In Service
+AST-0280,NSS-WKS-280,Lenovo ThinkPad T14,Windows 11 Enterprise,Hr,USR-0204,1,Spare,2026-04-15,629.7,Available
+AST-0281,NSS-WKS-281,Lenovo ThinkPad T14,Windows 11 Enterprise,Operations,USR-0001,1,Spare,2026-03-04,743.92,Available
+AST-0282,NSS-WKS-282,Dell Latitude 5440,Windows 11 Enterprise,Operations,USR-0007,1,Active,2026-07-14,1133.67,In Service
+AST-0283,NSS-WKS-283,Dell Latitude 5440,Windows 11 Enterprise,Hr,USR-0214,1,Active,2026-04-28,892.97,In Service
+AST-0284,NSS-WKS-284,HP EliteBook 840,Windows 11 Enterprise,It,USR-0166,1,Repair,2026-05-25,1063.76,Needs Attention
+AST-0285,NSS-WKS-285,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0077,1,Active,2026-05-29,768.72,In Service
+AST-0286,NSS-WKS-286,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0017,1,Repair,2026-03-24,895.6,Needs Attention
+AST-0287,NSS-WKS-287,HP EliteBook 840,Windows 11 Enterprise,It,USR-0115,1,Active,2026-03-03,611.38,In Service
+AST-0288,NSS-WKS-288,Dell Latitude 5440,Windows 11 Enterprise,Security,USR-0103,1,Spare,2026-03-24,883.51,Available
+AST-0289,NSS-WKS-289,Lenovo ThinkPad T14,Windows 11 Enterprise,Executive,USR-0170,1,Repair,2026-03-10,800.95,Needs Attention
+AST-0290,NSS-WKS-290,Dell Latitude 5440,Windows 11 Enterprise,Operations,,0,Spare,2026-01-11,1136.52,Available
+AST-0291,NSS-WKS-291,Dell Latitude 5440,Windows 11 Enterprise,Sales,USR-0106,1,Repair,2026-01-25,1170.06,Needs Attention
+AST-0292,NSS-WKS-292,HP EliteBook 840,Windows 11 Enterprise,Finance,USR-0096,1,Active,2026-05-21,1411.25,In Service
+AST-0293,NSS-WKS-293,Lenovo ThinkPad T14,Windows 11 Enterprise,Sales,USR-0153,1,Spare,2026-03-09,1272.94,Available
+AST-0294,NSS-WKS-294,Dell Latitude 5440,Windows 11 Enterprise,Finance,USR-0038,1,Spare,2026-03-17,1373.91,Available
+AST-0295,NSS-WKS-295,Dell Latitude 5440,Windows 11 Enterprise,Sales,USR-0150,1,Active,2026-06-11,572.36,In Service
+AST-0296,NSS-WKS-296,Dell Latitude 5440,Windows 11 Enterprise,Operations,USR-0167,1,Spare,2026-04-06,1255.25,Available
+AST-0297,NSS-WKS-297,HP EliteBook 840,Windows 11 Enterprise,Operations,USR-0220,1,Spare,2026-03-05,810.4,Available
+AST-0298,NSS-WKS-298,HP EliteBook 840,Windows 11 Enterprise,Finance,USR-0027,1,Spare,2026-01-12,664.38,Available
+AST-0299,NSS-WKS-299,Dell Latitude 5440,Windows 11 Enterprise,Hr,USR-0029,1,Repair,2026-07-06,1301.98,Needs Attention
+AST-0300,NSS-WKS-300,Dell Latitude 5440,Windows 11 Enterprise,Finance,,0,Active,2026-07-13,1195.31,In Service
