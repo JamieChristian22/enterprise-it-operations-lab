@@ -1,0 +1,6 @@
+PASS group=linux-admins exists=true
+PASS group=helpdesk-linux exists=true
+PASS path=/srv/company-share owner=root group=linux-admins mode=2770
+PASS ssh_root_login disabled=true
+PASS ssh_password_authentication disabled=true
+PASS administrator_access individual_accounts=true

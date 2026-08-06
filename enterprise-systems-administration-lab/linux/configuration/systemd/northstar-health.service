@@ -1,0 +1,8 @@
+[Unit]
+Description=Northstar Linux Health Check
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/server-health-check.sh
+User=root
+Group=root

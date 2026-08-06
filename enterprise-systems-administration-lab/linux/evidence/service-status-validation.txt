@@ -1,0 +1,5 @@
+PASS service=ssh state=active
+PASS service=cron state=active
+PASS service=northstar-api state=active
+PASS endpoint=http://127.0.0.1:8080 result=HTTP_200
+PASS failed_units count=0

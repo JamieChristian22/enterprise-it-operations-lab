@@ -1,0 +1,11 @@
+Linux Administration Lab — Server Inventory
+Hostname: nss-linux-01
+Operating System: Ubuntu Server 24.04 LTS
+IP Address: 10.20.30.15/24
+Gateway: 10.20.30.1
+Administrative group: linux-admins
+Support group: helpdesk-linux
+Shared path: /srv/company-share
+Backup path: /var/backups/northstar
+Managed service: northstar-api.service
+Firewall: UFW, default deny incoming

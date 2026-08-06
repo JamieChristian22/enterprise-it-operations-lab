@@ -1,0 +1,25 @@
+[Unit]
+Description=Northstar Internal API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/northstar-api
+ExecStart=/usr/bin/python3 -m http.server 8080 --bind 127.0.0.1
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadOnlyPaths=/
+ReadWritePaths=/opt/northstar-api
+CapabilityBoundingSet=
+RestrictAddressFamilies=AF_INET AF_INET6
+UMask=0027
+
+[Install]
+WantedBy=multi-user.target

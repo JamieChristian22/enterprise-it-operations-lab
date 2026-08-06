@@ -1,0 +1,7 @@
+PASS archive_created=true
+PASS checksum_verified=true
+PASS archive_readable=true
+PASS restore_target=/tmp/northstar-restore-test
+PASS expected_path=etc present=true
+PASS expected_path=srv/company-share present=true
+PASS restore_cleanup=true

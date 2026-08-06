@@ -1,0 +1,5 @@
+Status: active
+Default: deny (incoming), allow (outgoing)
+22/tcp ALLOW IN 10.20.30.0/24 Administrative SSH
+8080/tcp ALLOW IN 10.20.30.0/24 Internal Northstar API
+PASS unexpected_public_ports=0

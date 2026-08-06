@@ -1,0 +1,8 @@
+# Deploy as /etc/sudoers.d/linux-admins and validate with visudo -cf.
+User_Alias LINUX_ADMINS = %linux-admins
+Cmnd_Alias SERVICE_MGMT = /usr/bin/systemctl status *, /usr/bin/systemctl restart *, /usr/bin/systemctl start *, /usr/bin/systemctl stop *
+Cmnd_Alias LOG_REVIEW = /usr/bin/journalctl *, /usr/bin/tail /var/log/*
+Cmnd_Alias ACCOUNT_MGMT = /usr/sbin/useradd *, /usr/sbin/usermod *, /usr/sbin/userdel *, /usr/bin/passwd *
+Cmnd_Alias PACKAGE_MGMT = /usr/bin/apt *, /usr/bin/apt-get *
+LINUX_ADMINS ALL=(root) SERVICE_MGMT, LOG_REVIEW, ACCOUNT_MGMT, PACKAGE_MGMT
+Defaults:LINUX_ADMINS use_pty

@@ -1,0 +1,14 @@
+{
+  "project": "Enterprise Linux Systems Administration Lab",
+  "version": "1.0.0",
+  "generated": "2026-08-05",
+  "file_count": 48,
+  "focus": [
+    "Linux administration",
+    "Bash automation",
+    "SSH hardening",
+    "systemd",
+    "backup and recovery",
+    "incident response"
+  ]
+}

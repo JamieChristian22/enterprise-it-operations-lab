@@ -1,0 +1,6 @@
+# /etc/cron.d/northstar-operations
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+15 1 * * * root /usr/local/sbin/backup-directories.sh >> /var/log/northstar-backup-cron.log 2>&1
+30 6 * * * root /usr/local/sbin/server-health-check.sh >> /var/log/northstar-health.log 2>&1

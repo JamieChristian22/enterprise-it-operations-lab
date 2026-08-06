@@ -1,0 +1,16 @@
+===== Identity =====
+nss-linux-01
+2026-08-05T21:15:00-04:00
+6.8.0-40-generic
+
+===== Uptime and load =====
+up 12 days, 4 hours, load average: 0.08, 0.05, 0.01
+
+===== Filesystem utilization =====
+/dev/mapper/ubuntu--vg-ubuntu--lv  48G  15G  31G  33% /
+
+===== Failed systemd units =====
+No failed units
+
+===== Backup freshness =====
+Latest backup: /var/backups/northstar/nss-linux-01-20260806T011500Z.tar.gz

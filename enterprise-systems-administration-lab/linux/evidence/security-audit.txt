@@ -1,0 +1,8 @@
+PASS direct_root_ssh_login=false
+PASS ssh_password_authentication=false
+PASS empty_password_accounts=0
+PASS world_writable_sensitive_files=0
+PASS firewall_active=true
+PASS auditd_active=true
+PASS persistent_logging_enabled=true
+PASS privileged_groups_reviewed=true
