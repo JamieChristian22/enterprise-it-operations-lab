@@ -1,0 +1,23 @@
+groups:
+  - name: infrastructure-recording
+    interval: 30s
+    rules:
+      - record: instance:cpu_utilization:percent
+        expr: 100 - (avg by(instance) (rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100)
+
+      - record: instance:memory_available:percent
+        expr: (node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes) * 100
+
+      - record: instance:filesystem_free:percent
+        expr: |
+          (
+            node_filesystem_avail_bytes{fstype!~"tmpfs|overlay"}
+            /
+            node_filesystem_size_bytes{fstype!~"tmpfs|overlay"}
+          ) * 100
+
+      - record: endpoint:availability:ratio_30d
+        expr: avg_over_time(probe_success{job="blackbox-http"}[30d])
+
+      - record: endpoint:latency:p95_5m
+        expr: quantile_over_time(0.95, probe_duration_seconds{job="blackbox-http"}[5m])

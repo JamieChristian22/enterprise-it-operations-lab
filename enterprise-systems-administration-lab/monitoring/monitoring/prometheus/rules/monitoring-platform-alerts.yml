@@ -1,0 +1,24 @@
+groups:
+  - name: monitoring-platform
+    rules:
+      - alert: PrometheusTargetDown
+        expr: up == 0
+        for: 5m
+        labels:
+          severity: warning
+          service: monitoring
+        annotations:
+          summary: "Prometheus scrape target is down"
+          description: "{{ $labels.job }} target {{ $labels.instance }} is down."
+          runbook_url: "runbooks/prometheus-target-down.md"
+
+      - alert: PrometheusRuleEvaluationFailures
+        expr: increase(prometheus_rule_evaluation_failures_total[10m]) > 0
+        for: 5m
+        labels:
+          severity: warning
+          service: monitoring
+        annotations:
+          summary: "Prometheus rule evaluations are failing"
+          description: "Prometheus has recorded rule evaluation failures."
+          runbook_url: "runbooks/prometheus-rule-failure.md"

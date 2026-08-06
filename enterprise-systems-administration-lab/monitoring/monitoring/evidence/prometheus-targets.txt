@@ -1,0 +1,7 @@
+UP prometheus:9090 job=prometheus
+UP alertmanager:9093 job=alertmanager
+UP node-exporter:9100 job=node-exporter hostname=linux-app-01
+UP win-file-01:9182 job=windows-exporter hostname=win-file-01
+UP cadvisor:8080 job=cadvisor
+UP portal.northstar.local job=blackbox-http
+UP northstar-api:8080/health job=blackbox-http

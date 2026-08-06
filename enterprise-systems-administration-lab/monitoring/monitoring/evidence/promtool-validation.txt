@@ -1,0 +1,14 @@
+Checking prometheus/config/prometheus.yml
+ SUCCESS: prometheus/config/prometheus.yml is valid prometheus config file syntax
+
+Checking prometheus/rules/linux-alerts.yml
+ SUCCESS: 4 rules found
+
+Checking prometheus/rules/windows-alerts.yml
+ SUCCESS: 3 rules found
+
+Checking prometheus/rules/application-alerts.yml
+ SUCCESS: 3 rules found
+
+Checking prometheus/rules/monitoring-platform-alerts.yml
+ SUCCESS: 2 rules found

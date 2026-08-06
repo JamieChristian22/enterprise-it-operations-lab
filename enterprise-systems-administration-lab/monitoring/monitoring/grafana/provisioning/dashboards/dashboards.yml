@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: Northstar Enterprise Monitoring
+    orgId: 1
+    folder: Enterprise Monitoring
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 30
+    options:
+      path: /var/lib/grafana/dashboards

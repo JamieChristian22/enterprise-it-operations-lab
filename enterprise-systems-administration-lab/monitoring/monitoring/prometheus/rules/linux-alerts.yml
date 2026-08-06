@@ -1,0 +1,51 @@
+groups:
+  - name: linux-hosts
+    rules:
+      - alert: LinuxHostDown
+        expr: up{job="node-exporter"} == 0
+        for: 2m
+        labels:
+          severity: critical
+          service: infrastructure
+        annotations:
+          summary: "Linux host exporter is unreachable"
+          description: "{{ $labels.instance }} has been unreachable for more than 2 minutes."
+          runbook_url: "runbooks/linux-host-down.md"
+
+      - alert: LinuxHighCPU
+        expr: 100 - (avg by(instance) (rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100) > 90
+        for: 10m
+        labels:
+          severity: warning
+          service: infrastructure
+        annotations:
+          summary: "Linux CPU usage is high"
+          description: "{{ $labels.instance }} CPU usage has exceeded 90% for 10 minutes."
+          runbook_url: "runbooks/high-cpu.md"
+
+      - alert: LinuxLowMemory
+        expr: (node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes) * 100 < 10
+        for: 10m
+        labels:
+          severity: critical
+          service: infrastructure
+        annotations:
+          summary: "Linux available memory is low"
+          description: "{{ $labels.instance }} has less than 10% available memory."
+          runbook_url: "runbooks/low-memory.md"
+
+      - alert: LinuxDiskSpaceLow
+        expr: |
+          (
+            node_filesystem_avail_bytes{fstype!~"tmpfs|overlay"}
+            /
+            node_filesystem_size_bytes{fstype!~"tmpfs|overlay"}
+          ) * 100 < 15
+        for: 15m
+        labels:
+          severity: warning
+          service: storage
+        annotations:
+          summary: "Linux filesystem free space is low"
+          description: "{{ $labels.instance }} {{ $labels.mountpoint }} has less than 15% free space."
+          runbook_url: "runbooks/disk-space-low.md"

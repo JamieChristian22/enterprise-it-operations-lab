@@ -1,0 +1,49 @@
+global:
+  resolve_timeout: 5m
+
+route:
+  receiver: operations-email
+  group_by: [alertname, service, severity]
+  group_wait: 30s
+  group_interval: 5m
+  repeat_interval: 4h
+  routes:
+    - matchers:
+        - severity="critical"
+      receiver: operations-critical
+      repeat_interval: 30m
+    - matchers:
+        - severity="warning"
+      receiver: operations-email
+      repeat_interval: 2h
+
+inhibit_rules:
+  - source_matchers:
+      - severity="critical"
+    target_matchers:
+      - severity="warning"
+    equal:
+      - alertname
+      - instance
+
+receivers:
+  - name: operations-email
+    email_configs:
+      - to: infrastructure-operations@northstarservices.com
+        from: monitoring@northstarservices.com
+        smarthost: smtp.northstarservices.com:587
+        auth_username: monitoring@northstarservices.com
+        auth_password: REPLACE_WITH_SECRET
+        send_resolved: true
+
+  - name: operations-critical
+    email_configs:
+      - to: infrastructure-operations@northstarservices.com
+        from: monitoring@northstarservices.com
+        smarthost: smtp.northstarservices.com:587
+        auth_username: monitoring@northstarservices.com
+        auth_password: REPLACE_WITH_SECRET
+        send_resolved: true
+    webhook_configs:
+      - url: https://example.invalid/teams-webhook-replace-in-lab
+        send_resolved: true

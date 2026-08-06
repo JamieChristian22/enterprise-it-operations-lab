@@ -1,0 +1,35 @@
+groups:
+  - name: windows-hosts
+    rules:
+      - alert: WindowsHostDown
+        expr: up{job="windows-exporter"} == 0
+        for: 2m
+        labels:
+          severity: critical
+          service: infrastructure
+        annotations:
+          summary: "Windows exporter is unreachable"
+          description: "{{ $labels.instance }} has been unreachable for more than 2 minutes."
+          runbook_url: "runbooks/windows-host-down.md"
+
+      - alert: WindowsHighCPU
+        expr: 100 - (avg by(instance) (rate(windows_cpu_time_total{mode="idle"}[5m])) * 100) > 90
+        for: 10m
+        labels:
+          severity: warning
+          service: infrastructure
+        annotations:
+          summary: "Windows CPU usage is high"
+          description: "{{ $labels.instance }} CPU usage has exceeded 90% for 10 minutes."
+          runbook_url: "runbooks/high-cpu.md"
+
+      - alert: WindowsServiceStopped
+        expr: windows_service_state{state="stopped",name=~"LanmanServer|W32Time"} == 1
+        for: 5m
+        labels:
+          severity: critical
+          service: windows
+        annotations:
+          summary: "Critical Windows service is stopped"
+          description: "{{ $labels.name }} is stopped on {{ $labels.instance }}."
+          runbook_url: "runbooks/windows-service-stopped.md"

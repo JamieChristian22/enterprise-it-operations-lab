@@ -1,0 +1,20 @@
+{
+  "project": "Enterprise Monitoring, Alerting, and Observability Lab",
+  "version": "1.0.0",
+  "generated": "2026-08-05",
+  "components": [
+    "Prometheus",
+    "Grafana",
+    "Alertmanager",
+    "Node Exporter",
+    "Windows Exporter",
+    "Blackbox Exporter",
+    "cAdvisor"
+  ],
+  "portfolio_targets": [
+    "Systems Administrator",
+    "Cloud Support Engineer",
+    "Infrastructure Engineer",
+    "Junior DevOps Engineer"
+  ]
+}

@@ -1,0 +1,35 @@
+groups:
+  - name: applications
+    rules:
+      - alert: EndpointUnavailable
+        expr: probe_success{job=~"blackbox-http|blackbox-tcp"} == 0
+        for: 3m
+        labels:
+          severity: critical
+          service: application
+        annotations:
+          summary: "Monitored endpoint is unavailable"
+          description: "{{ $labels.instance }} has failed probes for more than 3 minutes."
+          runbook_url: "runbooks/endpoint-unavailable.md"
+
+      - alert: EndpointLatencyHigh
+        expr: probe_duration_seconds{job="blackbox-http"} > 2
+        for: 10m
+        labels:
+          severity: warning
+          service: application
+        annotations:
+          summary: "Endpoint latency is elevated"
+          description: "{{ $labels.instance }} response time has exceeded 2 seconds."
+          runbook_url: "runbooks/high-latency.md"
+
+      - alert: ContainerRestarting
+        expr: rate(container_last_seen{name!=""}[5m]) == 0
+        for: 5m
+        labels:
+          severity: warning
+          service: containers
+        annotations:
+          summary: "Container metrics stopped updating"
+          description: "{{ $labels.name }} may be stopped or unavailable."
+          runbook_url: "runbooks/container-unavailable.md"
