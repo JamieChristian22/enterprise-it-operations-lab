@@ -1,0 +1,7 @@
+AWS Account: 123456789012 (sanitized lab identifier)
+Instance i-0a1b2c3d4e5f67890  System=ok InstanceStatus=ok
+Instance i-0123456789abcdef0  System=ok InstanceStatus=ok
+ALB target states: healthy=2 unhealthy=0
+RDS northstar-ops-lab-postgres Status=available MultiAZ=true BackupRetention=7
+CloudWatch alarms: OK=2 ALARM=0 INSUFFICIENT_DATA=0
+Recorded: 2026-08-06T18:20:00Z

@@ -1,3 +1,10 @@
-# Cloud Security Baseline
-
-MFA is required for interactive users. Root/global administrator usage is restricted. Public management ports are prohibited. Encryption is enabled for storage and backups. Logs are centralized and retained. Privileged roles are reviewed monthly. Secrets are stored in managed vaults. Resources require owner, environment, cost center, and data classification tags.
+# Security Baseline
+- MFA for all human administrators
+- No long-lived root credentials
+- Least-privilege roles and quarterly access reviews
+- IMDSv2 required on EC2
+- Encryption at rest for EBS, RDS, logs, backups, and Key Vault
+- Private application and database subnets
+- Public access blocked on S3
+- Centralized audit logging and 30-day operational log retention
+- Critical patches within 14 days and high-severity patches within 30 days

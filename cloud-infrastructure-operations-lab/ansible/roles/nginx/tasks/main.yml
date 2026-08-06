@@ -1,0 +1,9 @@
+- name: Install nginx
+  ansible.builtin.package: { name: nginx, state: present }
+- name: Deploy health endpoint
+  ansible.builtin.copy:
+    dest: /usr/share/nginx/html/health
+    content: healthy
+    mode: '0644'
+- name: Start nginx
+  ansible.builtin.service: { name: nginx, state: started, enabled: true }

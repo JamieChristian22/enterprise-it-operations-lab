@@ -1,307 +1,90 @@
-# ☁️ Cloud Infrastructure Operations Lab
+# Cloud Infrastructure Operations Lab
 
-> Enterprise-grade cloud operations portfolio demonstrating production-inspired AWS and Microsoft Azure infrastructure management, automation, observability, security, disaster recovery, and operational excellence.
+Production-inspired AWS and Microsoft Azure operations portfolio for **Northstar Retail**, built to demonstrate junior Cloud Operations, Infrastructure Support, Cloud Support, and DevOps responsibilities.
 
----
+## What this project proves
 
-<p align="center">
+- Infrastructure as Code for AWS and Azure
+- Highly available network and compute design
+- Centralized monitoring, alerting, logging, and backup controls
+- Repeatable Linux configuration with Ansible
+- Kubernetes deployment, health checks, scaling, and disruption protection
+- Incident response, root-cause analysis, change control, tickets, runbooks, and evidence
+- Security controls including least privilege, encryption, private subnets, secret handling, and audit logging
+- CI checks for Terraform, YAML, Python, shell, and Markdown
 
-![AWS](https://img.shields.io/badge/AWS-Cloud_Operations-232F3E?style=for-the-badge&logo=amazonaws)
-![Azure](https://img.shields.io/badge/Microsoft_Azure-Infrastructure-0078D4?style=for-the-badge&logo=microsoftazure)
-![Terraform](https://img.shields.io/badge/Terraform-IaC-844FBA?style=for-the-badge&logo=terraform)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-EKS_AKS-326CE5?style=for-the-badge&logo=kubernetes)
-![Linux](https://img.shields.io/badge/Linux-Administration-FCC624?style=for-the-badge&logo=linux)
-![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE?style=for-the-badge&logo=powershell)
-![Python](https://img.shields.io/badge/Python-Automation-3776AB?style=for-the-badge&logo=python)
-![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-2088FF?style=for-the-badge&logo=githubactions)
+## Business scenario
 
-</p>
+Northstar Retail operates a customer-order API in AWS and internal operations services in Azure. The cloud operations team supports availability, backup validation, patching, incident response, cost control, access governance, and infrastructure changes.
 
----
+## Architecture
 
-# 📖 Overview
-
-This repository demonstrates the responsibilities of a junior Cloud Operations Engineer and Infrastructure Engineer supporting a hybrid enterprise environment across Amazon Web Services (AWS) and Microsoft Azure.
-
-The lab focuses on operational excellence, automation, monitoring, reliability, infrastructure as code, incident response, backup validation, cost optimization, and enterprise documentation.
-
----
-
-# 🏢 Enterprise Business Scenario
-
-Northstar Retail is a multinational retail organization operating customer-facing applications within AWS while hosting internal corporate services in Microsoft Azure.
-
-The Cloud Operations Team is responsible for:
-
-- Infrastructure availability
-- Cloud monitoring
-- Incident response
-- Backup validation
-- Disaster recovery
-- Infrastructure automation
-- Capacity planning
-- Security compliance
-- Identity and Access Management
-- Operational documentation
-- Change management
-- Cost optimization
-
----
-
-# 🎯 Project Objectives
-
-- Deploy production-inspired AWS infrastructure
-- Build Azure operational environments
-- Practice Infrastructure as Code
-- Implement monitoring and alerting
-- Create operational runbooks
-- Document incident response
-- Automate operational workflows
-- Demonstrate cloud engineering best practices
-- Produce interview-ready portfolio evidence
-
----
-
-# 💼 Target Roles
-
-✅ Cloud Operations Engineer
-
-✅ Infrastructure Engineer I
-
-✅ Cloud Support Engineer
-
-✅ Cloud Administrator
-
-✅ Systems Administrator
-
-✅ DevOps Engineer (Junior)
-
-✅ Platform Engineer (Junior)
-
----
-
-# ☁️ Cloud Platforms
-
-## Amazon Web Services
-
-- EC2
-- Auto Scaling
-- Application Load Balancer
-- VPC
-- Route Tables
-- Security Groups
-- IAM
-- CloudWatch
-- SNS
-- S3
-- RDS
-- Systems Manager
-
----
-
-## Microsoft Azure
-
-- Virtual Machines
-- Virtual Networks
-- Azure Monitor
-- Log Analytics
-- Recovery Services Vault
-- Azure Backup
-- Azure Automation
-- RBAC
-- Key Vault
-- Network Security Groups
-
----
-
-# ⚙️ Automation
-
-- Terraform
-- PowerShell
-- Bash
-- Python
-- GitHub Actions
-- Ansible
-- AWS Systems Manager
-- Azure Automation
-
----
-
-# ☸️ Kubernetes
-
-- Amazon EKS
-- Azure AKS
-- Deployments
-- Services
-- ConfigMaps
-- Secrets
-- Health Checks
-- Upgrade Runbooks
-- Operational Procedures
-
----
-
-# 📊 Portfolio Metrics
-
-| Metric | Count |
-|---------|------:|
-| Cloud Operations Tickets | 100+ |
-| Runbooks | 30 |
-| SOPs | 20 |
-| Knowledge Base Articles | 35 |
-| Automation Scripts | 20+ |
-| Operational Datasets | 16 |
-| Incident Reports | 40+ |
-| Change Requests | 150 |
-| Monitoring Records | 5,000+ |
-| Backup Records | 1,000+ |
-| Patch Records | 700+ |
-
----
-
-# 📁 Repository Structure
-
-```text
-cloud-infrastructure-operations-lab/
-│
-├── ansible/
-├── backups/
-├── change-management/
-├── datasets/
-├── docs/
-├── incident-response/
-├── inventory/
-├── kb/
-├── kubernetes/
-├── monitoring/
-├── observability/
-├── reports/
-├── runbooks/
-├── scripts/
-├── security/
-├── sops/
-├── terraform/
-├── tickets/
-├── LICENSE
-├── MANIFEST.sha256
-└── README.md
+```mermaid
+flowchart LR
+  U[Customers] --> R53[Route 53 / DNS]
+  R53 --> ALB[AWS Application Load Balancer]
+  ALB --> ASG[EC2 Auto Scaling Group]
+  ASG --> RDS[(RDS PostgreSQL)]
+  ASG --> CW[CloudWatch Logs and Metrics]
+  CW --> SNS[SNS Operations Alerts]
+  RDS --> BAK[AWS Backup]
+  ADM[Administrators] --> SSM[AWS Systems Manager]
+  SSM --> ASG
+  CORP[Corporate Users] --> AZLB[Azure Load Balancer]
+  AZLB --> AZVM[Azure Linux VM]
+  AZVM --> LAW[Log Analytics Workspace]
+  LAW --> AMA[Azure Monitor Alerts]
+  AZVM --> RSV[Recovery Services Vault]
+  KV[Azure Key Vault] --> AZVM
+  GHA[GitHub Actions] --> TF[Terraform Validation]
+  TF --> AWS[AWS Environment]
+  TF --> AZURE[Azure Environment]
 ```
 
----
+## Repository map
 
-# 📈 Skills Demonstrated
+| Directory | Purpose |
+|---|---|
+| `terraform/aws` | AWS VPC, ALB, Auto Scaling, RDS, CloudWatch, SNS, S3 logs, backup, IAM |
+| `terraform/azure` | Azure VNet, NSG, VM, Log Analytics, alerts, Key Vault, backup vault |
+| `ansible` | Idempotent Linux hardening and application configuration |
+| `kubernetes` | Namespace, deployment, service, HPA, PDB, network policy |
+| `monitoring` | Prometheus rules and dashboard definitions |
+| `scripts` | Operational Bash, PowerShell, and Python automation |
+| `runbooks` | Service-specific diagnosis, recovery, escalation, and validation procedures |
+| `incident-response` | Completed incident records and root-cause analyses |
+| `change-management` | Approved change records with implementation and rollback plans |
+| `tickets` | Realistic resolved support and operations tickets |
+| `evidence` | Sanitized lab outputs demonstrating validation and operational execution |
+| `datasets` | Clearly labeled synthetic operations datasets |
 
-- AWS Operations
-- Azure Operations
-- Infrastructure as Code
-- Cloud Monitoring
-- Cloud Security
-- Disaster Recovery
-- High Availability
-- Operational Automation
-- Incident Management
-- Change Management
-- Problem Management
-- Linux Administration
-- Windows Administration
-- Kubernetes Operations
-- IAM
-- RBAC
-- Cloud Networking
-- Backup Validation
-- Capacity Planning
-- FinOps
+## Deployment sequence
 
----
+1. Install Terraform 1.7+, AWS CLI, Azure CLI, Ansible, Python 3.11+, and kubectl.
+2. Authenticate to AWS and Azure using short-lived credentials.
+3. Run `./scripts/validate-repository.sh`.
+4. Deploy AWS with `terraform -chdir=terraform/aws init && terraform -chdir=terraform/aws apply`.
+5. Deploy Azure with `terraform -chdir=terraform/azure init && terraform -chdir=terraform/azure apply`.
+6. Configure Linux hosts with `ansible-playbook -i ansible/inventory.ini ansible/site.yml`.
+7. Deploy Kubernetes resources with `kubectl apply -k kubernetes/overlays/production`.
+8. Run backup and monitoring validation scripts.
 
-# 📊 Datasets
+## Security and cost safeguards
 
-- Cloud Assets
-- EC2 Inventory
-- Azure VM Inventory
-- Monitoring Metrics
-- Incident Reports
-- Change Records
-- Backup Validation
-- Patch Compliance
-- Security Findings
-- Cloud Costs
-- Capacity Reports
-- SLA Reports
-- SLO Reports
+- No credentials or private keys are committed.
+- Sensitive values are generated or injected at deployment time.
+- Database and application instances reside in private subnets.
+- Administrative access uses Systems Manager or Azure Bastion-compatible patterns rather than public SSH.
+- Encryption is enabled for storage, logs, database, backups, and Key Vault.
+- Default instance sizes are intentionally small for lab use.
+- Destroy environments after validation to prevent unintended charges.
 
----
+## Evidence statement
 
-# 📚 Documentation
+Files under `evidence/` are sanitized lab validation records. Datasets are explicitly synthetic and exist to demonstrate operational analysis, not to imply employment history or production access.
 
-- Architecture Guides
-- Deployment Guides
-- Operational Procedures
-- Standard Operating Procedures
-- Runbooks
-- Disaster Recovery Plans
-- Incident Reports
-- Root Cause Analyses
-- Executive Reports
-- Knowledge Base
+## Portfolio outcomes
 
----
+This project provides interview-ready examples for troubleshooting high CPU, failed backups, unhealthy load-balancer targets, database connection exhaustion, certificate expiry, Kubernetes rollout failure, IAM access review, patch compliance, disaster recovery, and post-incident improvement.
 
-# 📷 Screenshots
-
-- AWS Console
-- Azure Portal
-- Terraform Deployments
-- CloudWatch Dashboards
-- Azure Monitor
-- Prometheus
-- Grafana
-- Kubernetes
-- GitHub Actions
-- Backup Reports
-
----
-
-# 🧠 Interview Readiness
-
-This project demonstrates experience discussing:
-
-- Cloud Infrastructure
-- AWS Operations
-- Azure Administration
-- Terraform
-- Kubernetes
-- Monitoring
-- Incident Response
-- Automation
-- Cloud Security
-- Infrastructure Troubleshooting
-
----
-
-# 🚀 Future Enhancements
-
-- Multi-region failover
-- Azure Site Recovery
-- Cross-cloud networking
-- AWS Organizations
-- Azure Landing Zones
-- EKS GitOps
-- AKS GitOps
-- OpenTelemetry
-- Cloud Asset Inventory
-- ServiceNow integration
-
----
-
-# 👨‍💻 Author
-
-**Jamie Christian II**
-
-Cloud Operations • Infrastructure • Platform Engineering • Automation
-
-GitHub: https://github.com/JamieChristian22
-
----
-
-⭐ If you found this repository useful, consider giving it a star.
+**Author:** Jamie Christian II

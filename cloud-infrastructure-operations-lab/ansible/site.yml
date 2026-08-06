@@ -1,6 +1,6 @@
----
-- name: Baseline Linux cloud hosts
-  hosts: linux
+- name: Configure Northstar application hosts
+  hosts: app
   become: true
   roles:
-    - linux_baseline
+    - common
+    - nginx

@@ -1,7 +1,3 @@
 apiVersion: v1
 kind: Namespace
-metadata:
-  name: cloud-ops
-  labels:
-    owner: platform-operations
-    environment: production
+metadata: { name: northstar-prod }

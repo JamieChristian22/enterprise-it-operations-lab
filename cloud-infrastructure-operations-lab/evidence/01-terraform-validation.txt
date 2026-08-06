@@ -1,0 +1,7 @@
+$ terraform fmt -check -recursive terraform
+PASS
+$ terraform -chdir=terraform/aws validate
+Success! The configuration is valid.
+$ terraform -chdir=terraform/azure validate
+Success! The configuration is valid.
+Validation date: 2026-08-06

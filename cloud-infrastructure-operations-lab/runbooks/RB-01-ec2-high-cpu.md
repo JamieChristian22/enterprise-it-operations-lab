@@ -1,20 +1,25 @@
-# Runbook RB-01: EC2 high CPU
+# EC2 High CPU
 
-## Trigger
-Alert, ticket, or health check indicates ec2 high cpu.
+**Owner:** Cloud Operations  
+**Severity:** SEV-2 unless customer-wide impact requires SEV-1  
+**Trigger:** CloudWatch CPUUtilization above 80% for 10 minutes
 
-## Triage
-1. Confirm scope, business impact, region, subscription/account, and recent changes.
-2. Capture timestamps, resource IDs, metrics, logs, and correlation IDs.
-3. Check service health and dependency status.
+## Immediate actions
+1. Acknowledge the alert and create or link the incident record.
+2. Confirm customer impact, affected environment, region, and start time.
+3. Freeze unrelated changes and preserve logs before remediation.
 
-## Resolution
-1. Apply the least disruptive approved corrective action.
-2. Validate health checks and application functionality.
-3. Monitor for recurrence for at least 15 minutes.
+## Diagnosis
+Use: `aws cloudwatch get-metric-data; aws autoscaling describe-auto-scaling-groups; top -b -n1; pidstat -u 5 12`. Compare metrics with the last known healthy period and recent change history.
+
+## Recovery decision
+Terminate a single unhealthy instance only after confirming ASG capacity; scale desired capacity by one when traffic is legitimate; stop runaway process when application owner approves.
 
 ## Escalation
-Escalate for security impact, data loss risk, multi-region impact, or unresolved P1/P2 conditions.
+Escalate to the incident commander immediately for revenue impact, security exposure, data-loss risk, or unsuccessful recovery after 30 minutes. Notify the application owner and database or network specialist when their component is implicated.
 
-## Evidence
-Attach command output, graphs, ticket notes, validation results, and rollback status.
+## Validation
+CPU below 60% for 15 minutes, target healthy, 5xx rate normal, no backlog growth.
+
+## Closure evidence
+Attach commands, timestamps, graphs, ticket number, change or rollback reference, and follow-up action owners.
