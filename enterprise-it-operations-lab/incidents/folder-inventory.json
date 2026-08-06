@@ -1,0 +1,76 @@
+{
+  "package": "enterprise-it-operations-lab/incidents",
+  "generated": "2026-08-06",
+  "owner": "Jamie Christian",
+  "file_count": 17,
+  "files": [
+    {
+      "file": "INC-1007-domain-authentication-outage.md",
+      "bytes": 8561
+    },
+    {
+      "file": "INC-1018-wan-packet-loss-rca.md",
+      "bytes": 7835
+    },
+    {
+      "file": "INC-1024-microsoft-365-mail-flow-disruption.md",
+      "bytes": 7697
+    },
+    {
+      "file": "INC-1031-fileserver-capacity-event.md",
+      "bytes": 7320
+    },
+    {
+      "file": "INC-1042-expired-tls-certificate-outage.md",
+      "bytes": 7374
+    },
+    {
+      "file": "INC-1055-backup-job-failure.md",
+      "bytes": 7446
+    },
+    {
+      "file": "INC-1063-endpoint-malware-containment.md",
+      "bytes": 7652
+    },
+    {
+      "file": "INC-1071-virtualization-host-resource-exhaustion.md",
+      "bytes": 7443
+    },
+    {
+      "file": "README.md",
+      "bytes": 4283
+    },
+    {
+      "file": "corrective-action-register.csv",
+      "bytes": 5028
+    },
+    {
+      "file": "incident-communication-templates.md",
+      "bytes": 1635
+    },
+    {
+      "file": "incident-metrics.csv",
+      "bytes": 1229
+    },
+    {
+      "file": "incident-report-template.md",
+      "bytes": 2395
+    },
+    {
+      "file": "incident-severity-matrix.md",
+      "bytes": 2183
+    },
+    {
+      "file": "lessons-learned-register.md",
+      "bytes": 1589
+    },
+    {
+      "file": "major-incident-operating-procedure.md",
+      "bytes": 3255
+    },
+    {
+      "file": "service-dependency-map.md",
+      "bytes": 1699
+    }
+  ]
+}

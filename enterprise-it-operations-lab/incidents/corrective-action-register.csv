@@ -1,0 +1,35 @@
+Action ID,Incident ID,Corrective action,Owner,Priority,Due date,Status,Completion date,Completion evidence
+CA-1007-01,INC-1007,Synthetic identity checks,Jamie Christian,High,2026-06-12,Complete,2026-06-11,Alert test evidence MON-TEST-1007
+CA-1007-02,INC-1007,Post-patch validation script,Morgan Lee,High,2026-06-19,Complete,2026-06-18,SCRIPT-AD-HEALTH v1.0
+CA-1007-03,INC-1007,Balance DNS resolver order,Alex Romero,Medium,2026-06-16,Complete,2026-06-15,DHCP audit report
+CA-1007-04,INC-1007,Enforce DNS service with DSC,Morgan Lee,High,2026-06-26,Complete,2026-06-25,DSC compliance report
+CA-1007-05,INC-1007,Quarterly failover exercise,Priya Shah,Medium,2026-07-15,Complete,2026-07-14,EXERCISE-DNS-Q3
+CA-1018-01,INC-1018,Lower SD-WAN loss trigger,Alex Romero,High,2026-06-19,Complete,2026-06-19,SDWAN test result
+CA-1018-02,INC-1018,Packet-loss alerting,Jamie Christian,High,2026-06-20,Complete,2026-06-20,MON-TEST-WAN
+CA-1018-03,INC-1018,Voice-quality dashboard,Alex Romero,Medium,2026-06-26,Complete,2026-06-25,Dashboard VOICE-02
+CA-1018-04,INC-1018,Degraded-path failover tests,Priya Shah,High,2026-07-01,Complete,2026-06-30,NET-DRILL-06
+CA-1018-05,INC-1018,Carrier escalation runbook,Jamie Christian,Medium,2026-06-23,Complete,2026-06-23,NET-RUNBOOK-008
+CA-1024-01,INC-1024,Add external-domain delivery test to connector changes,Noah Kim,High,2026-06-26,Complete,2026-06-26,Test to three domains must pass before enablement
+CA-1024-02,INC-1024,Add certificate-name validation script,Jamie Christian,High,2026-06-30,Complete,2026-06-30,Script detects mismatch before production change
+CA-1024-03,INC-1024,Create connector rollback runbook,Noah Kim,Medium,2026-07-02,Complete,2026-07-02,Rollback completed in test in under 10 min
+CA-1024-04,INC-1024,Alert on outbound queue growth and delivery latency,Jamie Christian,Medium,2026-07-03,Complete,2026-07-03,Alert fires at 50 queued or 5-min delay
+CA-1031-01,INC-1031,Enable 80/90/95% tiered capacity alerts,Jamie Christian,High,2026-07-01,Complete,2026-07-01,Test alerts received and routed
+CA-1031-02,INC-1031,Apply 100 GB quota to temporary export path,Morgan Lee,High,2026-07-02,Complete,2026-07-02,Job stops safely before shared volume risk
+CA-1031-03,INC-1031,Add seven-day cleanup task with audit log,Morgan Lee,Medium,2026-07-06,Complete,2026-07-06,Files older than seven days removed daily
+CA-1031-04,INC-1031,Add monthly capacity forecast review,Priya Shah,Medium,2026-07-15,Complete,2026-07-15,90-day forecast included in ops review
+CA-1042-01,INC-1042,Centralize certificates in owned inventory,Jamie Christian,High,2026-07-10,Complete,2026-07-10,All production certificates have owner and backup owner
+CA-1042-02,INC-1042,"Alert at 60, 30, 14, 7, and 3 days",Jamie Christian,High,2026-07-10,Complete,2026-07-10,Test certificate generates each alert
+CA-1042-03,INC-1042,Automate portal certificate renewal,Avery Chen,High,2026-07-24,Complete,2026-07-24,Staging certificate renews without manual action
+CA-1042-04,INC-1042,Add full-chain external TLS validation,Avery Chen,Medium,2026-07-13,Complete,2026-07-13,Probe fails for missing/expired intermediates
+CA-1055-01,INC-1055,Document backup dependency in service-account inventory,Morgan Lee,High,2026-07-16,Complete,2026-07-16,Credential record lists every consuming system
+CA-1055-02,INC-1055,Add post-rotation authentication test,Jamie Christian,High,2026-07-17,Complete,2026-07-17,Change cannot close until test passes
+CA-1055-03,INC-1055,Page on two consecutive production backup failures,Jamie Christian,Medium,2026-07-20,Complete,2026-07-20,Test failures page on-call within 10 min
+CA-1055-04,INC-1055,Perform monthly automated restore test,Morgan Lee,Medium,2026-08-01,Complete,2026-08-01,Restore result appears in monthly scorecard
+CA-1063-01,INC-1063,Block internet-origin JavaScript attachments,Noah Kim,High,2026-07-22,Complete,2026-07-22,Test message quarantined before delivery
+CA-1063-02,INC-1063,Expand vendor impersonation protection,Sofia Patel,High,2026-07-23,Complete,2026-07-23,All registered vendor display names protected
+CA-1063-03,INC-1063,Create one-click identity containment runbook,Jamie Christian,High,2026-07-27,Complete,2026-07-27,"Account, tokens, and device isolated in under 10 min"
+CA-1063-04,INC-1063,Assign targeted phishing retraining,Dana Wells,Medium,2026-07-29,Complete,2026-07-29,User completes module and simulation
+CA-1071-01,INC-1071,Require capacity check for VM resize above 25%,Morgan Lee,High,2026-07-31,Complete,2026-07-31,Change template blocks approval without report
+CA-1071-02,INC-1071,Alert when DRS leaves fully automated mode,Jamie Christian,High,2026-07-30,Complete,2026-07-30,Page occurs within five minutes
+CA-1071-03,INC-1071,Run monthly VM rightsizing report,Morgan Lee,Medium,2026-08-03,Complete,2026-08-03,Oversized/undersized VMs reviewed monthly
+CA-1071-04,INC-1071,Lower CPU-ready warning to 8% and critical to 15%,Jamie Christian,Medium,2026-07-30,Complete,2026-07-30,Synthetic load test triggers both levels
