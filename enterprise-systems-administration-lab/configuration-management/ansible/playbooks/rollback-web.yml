@@ -1,0 +1,14 @@
+---
+- name: Roll back Northstar portal deployment
+  hosts: web_servers
+  gather_facts: false
+  tasks:
+    - name: Remove IIS site
+      community.windows.win_iis_website:
+        name: "{{ iis_site_name }}"
+        state: absent
+    - name: Preserve content as rollback evidence
+      ansible.windows.win_copy:
+        src: "{{ iis_site_path }}"
+        dest: "{{ iis_site_path }}.rollback"
+        remote_src: true

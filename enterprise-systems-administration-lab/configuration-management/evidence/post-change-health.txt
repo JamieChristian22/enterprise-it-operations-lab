@@ -1,0 +1,10 @@
+Captured: 2026-07-17 23:04 ET
+Nodes reachable: 8/8
+Critical services running: 24/24
+Open critical alerts: 0
+Pending reboots: 0
+DSC compliant: 8/8
+SMBv1 absent: 8/8
+Script block logging enabled: 8/8
+Windows Firewall enabled: 8/8
+Unexpected Ansible changes on second run: 0

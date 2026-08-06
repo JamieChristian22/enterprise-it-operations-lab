@@ -1,0 +1,24 @@
+---
+- name: Install file server role
+  ansible.windows.win_feature:
+    name: FS-FileServer
+    state: present
+- name: Create business share directory
+  ansible.windows.win_file:
+    path: "{{ business_share_path }}"
+    state: directory
+- name: Apply NTFS permissions
+  ansible.windows.win_acl:
+    path: "{{ business_share_path }}"
+    user: "{{ business_share_group }}"
+    rights: Modify
+    type: allow
+    state: present
+    inherit: ContainerInherit,ObjectInherit
+    propagation: None
+- name: Publish SMB share
+  ansible.windows.win_share:
+    name: "{{ business_share_name }}"
+    path: "{{ business_share_path }}"
+    full: Administrators
+    change: "{{ business_share_group }}"

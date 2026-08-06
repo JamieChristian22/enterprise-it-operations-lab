@@ -1,0 +1,10 @@
+---
+- name: Configure file servers
+  hosts: file_servers
+  gather_facts: false
+  serial: 1
+  roles:
+    - windows_baseline
+    - security_hardening
+    - file_services
+    - monitoring_agent

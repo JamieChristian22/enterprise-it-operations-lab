@@ -1,0 +1,16 @@
+---
+- name: Validate managed state
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Query required services
+      ansible.windows.win_service_info:
+        name: "{{ item }}"
+      loop: "{{ baseline_services }}"
+      register: service_results
+    - name: Assert required services are running
+      ansible.builtin.assert:
+        that:
+          - item.services | length == 1
+          - item.services[0].state == 'started'
+      loop: "{{ service_results.results }}"

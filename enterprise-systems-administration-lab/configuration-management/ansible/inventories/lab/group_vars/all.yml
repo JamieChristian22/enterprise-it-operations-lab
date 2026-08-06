@@ -1,0 +1,12 @@
+organization_name: Northstar Services
+domain_name: northstar.local
+timezone_id: Eastern Standard Time
+ntp_servers:
+  - time.windows.com
+  - 0.pool.ntp.org
+baseline_services:
+  - WinRM
+  - EventLog
+  - W32Time
+audit_log_max_kb: 196608
+monitoring_agent_service: NorthstarMonitor

@@ -1,0 +1,9 @@
+PLAY RECAP
+DC01 : ok=18 changed=12 unreachable=0 failed=0
+DC02 : ok=18 changed=11 unreachable=0 failed=0
+FS01 : ok=24 changed=14 unreachable=0 failed=0
+FS02 : ok=24 changed=15 unreachable=0 failed=0
+WEB01: ok=27 changed=16 unreachable=0 failed=0
+WEB02: ok=27 changed=15 unreachable=0 failed=0
+MON01: ok=19 changed=6  unreachable=0 failed=0
+BAK01: ok=19 changed=4  unreachable=0 failed=0

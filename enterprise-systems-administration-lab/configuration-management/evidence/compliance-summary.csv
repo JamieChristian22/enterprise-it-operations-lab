@@ -1,0 +1,7 @@
+Control,Compliant,Total,Percent,Status
+Required services running,8,8,100,Pass
+SMBv1 disabled,8,8,100,Pass
+Firewall enabled,8,8,100,Pass
+Script-block logging,8,8,100,Pass
+DSC desired state,8,8,100,Pass
+WinRM HTTPS,8,8,100,Pass

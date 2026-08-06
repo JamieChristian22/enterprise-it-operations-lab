@@ -1,0 +1,7 @@
+Captured: 2026-07-17 21:45 ET
+Nodes reachable: 8/8
+Critical services running: 24/24
+Open critical alerts: 0
+Pending reboots: 0
+DSC compliant: 5/8
+Baseline gaps: SMBv1 present on FS02; script logging disabled on MON01; W32Time manual on WEB02

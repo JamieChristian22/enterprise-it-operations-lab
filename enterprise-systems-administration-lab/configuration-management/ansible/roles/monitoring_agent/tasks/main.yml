@@ -1,0 +1,16 @@
+---
+- name: Create monitoring directory
+  ansible.windows.win_file:
+    path: C:\ProgramData\Northstar\Monitoring
+    state: directory
+- name: Deploy monitoring configuration
+  ansible.windows.win_template:
+    src: agent.json.j2
+    dest: C:\ProgramData\Northstar\Monitoring\agent.json
+- name: Ensure monitoring service is running when installed
+  ansible.windows.win_service:
+    name: "{{ monitoring_agent_service }}"
+    start_mode: auto
+    state: started
+  register: monitor_service
+  failed_when: false

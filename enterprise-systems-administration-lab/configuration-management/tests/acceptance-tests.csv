@@ -1,0 +1,31 @@
+TestID,Requirement,Expected,Actual,Status
+AT-01,Repository README exists,Complete project overview,Complete overview present,Pass
+AT-02,Inventory defines eight nodes,8,8,Pass
+AT-03,WinRM uses HTTPS,Port 5986,5986 configured,Pass
+AT-04,Certificate validation enabled,validate,validate,Pass
+AT-05,Baseline services managed,3 services,3 services,Pass
+AT-06,SMBv1 removed,Absent,Absent,Pass
+AT-07,Firewall enabled,All profiles,All profiles,Pass
+AT-08,Script logging enabled,Enabled,Enabled,Pass
+AT-09,IIS role reusable,Role present,Role present,Pass
+AT-10,File role reusable,Role present,Role present,Pass
+AT-11,Monitoring role reusable,Role present,Role present,Pass
+AT-12,Patching playbook present,Present,Present,Pass
+AT-13,Validation playbook present,Present,Present,Pass
+AT-14,Rollback playbook present,Present,Present,Pass
+AT-15,DSC baseline compiles,Configuration valid,Validated,Pass
+AT-16,LCM auto-correct configured,ApplyAndAutoCorrect,Configured,Pass
+AT-17,DSC compliance script present,Present,Present,Pass
+AT-18,Pester tests present,Present,Present,Pass
+AT-19,Pre-change evidence present,Present,Present,Pass
+AT-20,Post-change evidence present,Present,Present,Pass
+AT-21,Idempotency result,0 unexpected changes,0,Pass
+AT-22,Change record complete,Complete,Complete,Pass
+AT-23,Incident record complete,Complete,Complete,Pass
+AT-24,Problem record complete,Complete,Complete,Pass
+AT-25,Exception documented,Complete,Complete,Pass
+AT-26,Risk register present,Present,Present,Pass
+AT-27,Secrets runbook present,Present,Present,Pass
+AT-28,Rollback runbook present,Present,Present,Pass
+AT-29,No empty files,0,0,Pass
+AT-30,Archive integrity,Pass,Pass,Pass

@@ -1,0 +1,6 @@
+RiskID,Risk,Likelihood,Impact,Rating,Mitigation,Owner,Status
+R-001,Automation credential compromise,Low,Critical,High,Vault storage MFA rotation least privilege,Security,Controlled
+R-002,Bad configuration applied broadly,Medium,High,High,Canary serial batches validation rollback,Infrastructure,Controlled
+R-003,WinRM trust failure,Medium,Medium,Medium,Certificate monitoring and runbook,Infrastructure,Controlled
+R-004,Configuration drift,Medium,High,High,DSC auto-correction and alerting,Infrastructure,Controlled
+R-005,Legacy protocol exception,Medium,High,High,Isolation logging expiration and migration,Application Owner,Open

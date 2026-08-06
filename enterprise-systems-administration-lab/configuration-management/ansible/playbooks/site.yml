@@ -1,0 +1,10 @@
+---
+- name: Apply enterprise Windows baseline
+  hosts: all
+  gather_facts: false
+  serial: 2
+  roles:
+    - windows_baseline
+    - security_hardening
+    - audit_policy
+    - monitoring_agent

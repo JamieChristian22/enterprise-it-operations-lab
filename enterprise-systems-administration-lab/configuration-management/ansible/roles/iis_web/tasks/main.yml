@@ -1,0 +1,23 @@
+---
+- name: Install IIS
+  ansible.windows.win_feature:
+    name:
+      - Web-Server
+      - Web-Http-Logging
+      - Web-Windows-Auth
+    state: present
+    include_management_tools: true
+- name: Create application directory
+  ansible.windows.win_file:
+    path: "{{ iis_site_path }}"
+    state: directory
+- name: Deploy health page
+  ansible.windows.win_template:
+    src: health.html.j2
+    dest: "{{ iis_site_path }}\health.html"
+- name: Configure IIS site
+  community.windows.win_iis_website:
+    name: "{{ iis_site_name }}"
+    state: started
+    port: "{{ web_port }}"
+    physical_path: "{{ iis_site_path }}"

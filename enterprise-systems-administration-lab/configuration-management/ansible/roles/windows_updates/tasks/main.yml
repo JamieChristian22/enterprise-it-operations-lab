@@ -1,0 +1,9 @@
+---
+- name: Install approved security and critical updates
+  ansible.windows.win_updates:
+    category_names:
+      - SecurityUpdates
+      - CriticalUpdates
+    reboot: true
+    reboot_timeout: 3600
+  register: update_result

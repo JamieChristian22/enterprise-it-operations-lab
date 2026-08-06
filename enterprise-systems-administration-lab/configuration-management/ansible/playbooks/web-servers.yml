@@ -1,0 +1,10 @@
+---
+- name: Configure IIS servers
+  hosts: web_servers
+  gather_facts: false
+  serial: 1
+  roles:
+    - windows_baseline
+    - security_hardening
+    - iis_web
+    - monitoring_agent

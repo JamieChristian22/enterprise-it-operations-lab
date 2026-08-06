@@ -1,0 +1,4 @@
+iis_site_name: NorthstarPortal
+iis_site_path: C:\inetpub\northstar
+web_port: 8080
+web_app_pool: NorthstarPortalPool

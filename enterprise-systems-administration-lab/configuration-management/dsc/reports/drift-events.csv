@@ -1,0 +1,4 @@
+EventID,Detected,Node,Resource,Expected,Observed,Action,Resolved
+DRIFT-001,2026-07-20T10:12:00,WEB02,WindowsFeature/IIS,Present,Absent,Auto-corrected,2026-07-20T10:14:11
+DRIFT-002,2026-07-22T14:31:00,FS01,Service/W32Time,Running,Stopped,Auto-corrected,2026-07-22T14:31:42
+DRIFT-003,2026-07-24T08:05:00,MON01,Registry/ScriptBlockLogging,1,0,Auto-corrected,2026-07-24T08:06:03

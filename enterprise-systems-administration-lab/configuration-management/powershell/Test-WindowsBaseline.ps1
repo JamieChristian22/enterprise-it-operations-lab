@@ -1,0 +1,2 @@
+[CmdletBinding()] param([string[]]$ComputerName)
+foreach($c in $ComputerName){ Invoke-Command -ComputerName $c -ScriptBlock { $s=Get-Service W32Time,WinRM,EventLog; [pscustomobject]@{Computer=$env:COMPUTERNAME;RequiredServicesRunning=(@($s|? Status -ne Running).Count -eq 0);SMB1Disabled=((Get-WindowsOptionalFeature -Online -FeatureName SMB1Protocol).State -ne 'Enabled');ScriptBlockLogging=((Get-ItemProperty 'HKLM:\Software\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging' -ErrorAction SilentlyContinue).EnableScriptBlockLogging -eq 1)} } }

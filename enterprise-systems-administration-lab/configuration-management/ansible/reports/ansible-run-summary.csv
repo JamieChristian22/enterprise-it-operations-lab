@@ -1,0 +1,5 @@
+RunID,Date,Scope,Hosts,Changed,Failed,Unreachable,Result
+RUN-001,2026-07-15,Canary baseline,1,17,0,0,Passed
+RUN-002,2026-07-15,Canary idempotency,1,0,0,0,Passed
+RUN-003,2026-07-17,All baseline,8,93,0,0,Passed
+RUN-004,2026-07-18,All validation,8,0,0,0,Passed
