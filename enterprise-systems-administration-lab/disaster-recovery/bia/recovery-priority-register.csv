@@ -1,0 +1,7 @@
+Service,Tier,RTO_Minutes,RPO_Minutes,Owner,RecoveryMethod
+Active Directory and DNS,0,30,15,Identity Lead,System-state restore or recovery DC promotion
+DHCP,1,45,30,Network Lead,Configuration import and authorization
+File Services,1,60,30,Infrastructure Lead,VM or volume restore
+SQL Application,1,90,15,Application Lead,Database restore and application validation
+IIS Intranet,2,120,60,Systems Engineer,Configuration deployment and content restore
+Monitoring,2,180,60,Operations Lead,Application restore and agent validation

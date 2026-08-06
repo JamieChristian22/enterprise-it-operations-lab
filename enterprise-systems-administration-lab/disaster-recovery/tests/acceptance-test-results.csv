@@ -1,0 +1,31 @@
+Test_ID,Test,Result
+DR-AT-01,README present,Pass
+DR-AT-02,DR plan documented,Pass
+DR-AT-03,Policy documented,Pass
+DR-AT-04,BIA completed,Pass
+DR-AT-05,Service priorities defined,Pass
+DR-AT-06,Dependency map completed,Pass
+DR-AT-07,Architecture documented,Pass
+DR-AT-08,Recovery sequence documented,Pass
+DR-AT-09,AD recovery runbook completed,Pass
+DR-AT-10,DHCP recovery runbook completed,Pass
+DR-AT-11,File recovery runbook completed,Pass
+DR-AT-12,SQL recovery runbook completed,Pass
+DR-AT-13,IIS recovery runbook completed,Pass
+DR-AT-14,Ransomware recovery runbook completed,Pass
+DR-AT-15,Failback runbook completed,Pass
+DR-AT-16,PowerShell readiness script included,Pass
+DR-AT-17,AD validation script included,Pass
+DR-AT-18,File checksum script included,Pass
+DR-AT-19,Service validation script included,Pass
+DR-AT-20,HTML report script included,Pass
+DR-AT-21,Q2 exercise completed,Pass
+DR-AT-22,Annual tabletop completed,Pass
+DR-AT-23,Evidence files included,Pass
+DR-AT-24,RTO measured,Pass
+DR-AT-25,RPO measured,Pass
+DR-AT-26,Risk register completed,Pass
+DR-AT-27,Corrective actions completed,Pass
+DR-AT-28,Tickets completed,Pass
+DR-AT-29,Executive report completed,Pass
+DR-AT-30,No empty files,Pass

@@ -1,0 +1,5 @@
+Test,Expected,Actual,Result
+User authentication,Successful login,Successful login,Pass
+Search case,Record returned,Record returned,Pass
+Create transaction,Transaction committed,Transaction committed,Pass
+Run report,Report generated,Report generated,Pass

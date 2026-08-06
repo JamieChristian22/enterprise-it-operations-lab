@@ -1,0 +1,5 @@
+Action_ID,Source,Action,Owner,Due_Date,Status,Validation
+CA-001,Q2 exercise,Pre-stage file-server restore network mapping,Infrastructure Lead,2026-07-15,Complete,Validated during retest
+CA-002,Q2 exercise,Reduce DNS cutover TTL to 300 seconds before planned exercises,Network Lead,2026-07-15,Complete,Validated in tabletop
+CA-003,Tabletop exercise,Create offline application dependency sheet,Application Lead,2026-08-01,Complete,Reviewed by service owner
+CA-004,Tabletop exercise,Add alternate Incident Commander,IT Director,2026-08-01,Complete,Added to call tree

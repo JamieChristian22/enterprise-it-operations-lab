@@ -1,0 +1,9 @@
+DC: DR-DC01
+Authentication test: PASS
+DNS forward lookup: PASS
+DNS reverse lookup: PASS
+SYSVOL share: PASS
+NETLOGON share: PASS
+Replication summary: 0 failures
+RTO achieved: 24 minutes
+RPO achieved: 11 minutes

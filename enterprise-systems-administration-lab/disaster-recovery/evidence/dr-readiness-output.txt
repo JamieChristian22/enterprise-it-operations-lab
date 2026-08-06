@@ -1,0 +1,7 @@
+Computer  Online Checked
+--------  ------ -------
+DR-DC01   True   2026-06-18 09:05
+DR-FS01   True   2026-06-18 09:05
+DR-SQL01  True   2026-06-18 09:05
+DR-WEB01  True   2026-06-18 09:05
+Result: PASS

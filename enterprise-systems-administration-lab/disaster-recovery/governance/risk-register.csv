@@ -1,0 +1,6 @@
+Risk_ID,Risk,Probability,Impact,Rating,Mitigation,Owner,Status
+DR-001,Recovery credentials unavailable,Low,Critical,High,Offline sealed credential escrow and quarterly test,Security Lead,Controlled
+DR-002,Backup corruption,Low,Critical,High,Automated integrity checks and monthly restores,Backup Administrator,Controlled
+DR-003,Recovery compute shortage,Medium,High,High,Reserved capacity and annual sizing review,Infrastructure Manager,Open
+DR-004,DNS cutover delay,Medium,High,High,Pre-staged records and documented TTL strategy,Network Lead,Controlled
+DR-005,Runbook drift after changes,Medium,Medium,Medium,Change-control checklist requires DR review,Change Manager,Controlled

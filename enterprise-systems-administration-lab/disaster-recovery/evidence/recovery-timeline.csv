@@ -1,0 +1,13 @@
+Time,Milestone
+09:00,Exercise started
+09:04,Disaster declared
+09:08,Recovery site validated
+09:16,AD/DNS restoration started
+09:32,AD/DNS validated
+09:36,DHCP restored
+09:44,File server restored
+09:52,File validation completed
+10:03,SQL application restored
+10:12,Application owner accepted service
+10:18,Monitoring restored
+10:22,Exercise closed
