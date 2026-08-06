@@ -1,0 +1,7 @@
+Workload,Tier,RPOHours,RTOHours,RestoreTestFrequency
+Active Directory,1,4,4,Quarterly
+File Services,1,4,4,Monthly
+Microsoft 365,1,4,8,Quarterly
+PKI,1,24,8,Quarterly
+AWS Production App,1,1,2,Quarterly
+Linux Application,2,12,8,Quarterly

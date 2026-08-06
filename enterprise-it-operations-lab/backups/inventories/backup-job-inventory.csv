@@ -1,0 +1,7 @@
+JobName,Workload,Tier,Schedule,Repository,Owner
+AD-System-State,Active Directory,1,Every 4 hours,Primary Repository,Identity
+File-Server-Daily,File Services,1,Daily,Primary Repository,Infrastructure
+Linux-App-Daily,Linux Application,2,Daily,Primary Repository,Linux Operations
+M365-Exchange,Microsoft 365,1,Daily,SaaS Backup,Messaging
+PKI-Daily,Enterprise PKI,1,Daily,Primary Repository,PKI
+AWS-RDS,Database,1,Every 4 hours,AWS Backup Vault,Cloud Operations

@@ -1,0 +1,17 @@
+{
+  "project": "Enterprise Backup and Recovery Lab",
+  "version": "1.0.0",
+  "generated": "2026-08-06",
+  "focus": [
+    "3-2-1-1-0",
+    "Immutable backups",
+    "Windows",
+    "Linux",
+    "Active Directory",
+    "Microsoft 365",
+    "PKI",
+    "Databases",
+    "AWS",
+    "Restore testing"
+  ]
+}

@@ -1,0 +1,7 @@
+Workload,BackupCurrent,OffsiteCopy,ImmutableCopy,RestoreTestCurrent,Status
+Active Directory,Yes,Yes,Yes,Yes,Compliant
+File Services,Yes,Yes,Yes,Yes,Compliant
+Microsoft 365,Yes,Yes,ProviderControlled,Yes,Compliant
+PKI,Yes,Yes,Yes,Yes,Compliant
+Linux Application,Yes,Yes,No,Yes,Compliant
+AWS Production,Yes,Yes,Yes,Yes,Compliant

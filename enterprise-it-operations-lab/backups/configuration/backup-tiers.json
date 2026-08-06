@@ -1,0 +1,23 @@
+{
+  "tier1": {
+    "rpo_hours": 4,
+    "rto_hours": 4,
+    "daily_retention_days": 30,
+    "monthly_retention_months": 12,
+    "immutable_required": true
+  },
+  "tier2": {
+    "rpo_hours": 12,
+    "rto_hours": 8,
+    "daily_retention_days": 14,
+    "monthly_retention_months": 6,
+    "immutable_required": false
+  },
+  "tier3": {
+    "rpo_hours": 24,
+    "rto_hours": 24,
+    "daily_retention_days": 7,
+    "monthly_retention_months": 3,
+    "immutable_required": false
+  }
+}

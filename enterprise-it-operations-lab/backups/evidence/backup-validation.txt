@@ -1,0 +1,8 @@
+PASS backup_policy_present=true
+PASS 3_2_1_1_0_documented=true
+PASS immutable_copy_required=true
+PASS restore_tests_completed=4
+PASS restore_tests_passed=4
+PASS automation_scripts_present=4
+PASS monthly_report_present=true
+PASS open_rpo_breaches=0
