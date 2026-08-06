@@ -1,0 +1,12 @@
+LAB EVIDENCE — SECURITY BASELINE
+Collected: 2026-08-01 09:24 ET
+
+Server        Firewall  NLA  SMBv1  Guest  Defender  RequiredServices  Disk>=20%  Result
+NSS-DC01      PASS      PASS PASS   PASS   PASS      PASS              PASS       PASS
+NSS-FILE01    PASS      PASS PASS   PASS   PASS      PASS              PASS       PASS
+NSS-PRINT01   PASS      PASS PASS   PASS   PASS      PASS              PASS       PASS
+NSS-APP01     PASS      PASS PASS   PASS   PASS      PASS              PASS       PASS
+
+High-severity findings: 0
+Medium-severity findings: 0
+Overall result: PASS

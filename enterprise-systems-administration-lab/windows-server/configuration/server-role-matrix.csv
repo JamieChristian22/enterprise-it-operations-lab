@@ -1,0 +1,9 @@
+Server,Feature,Required,ValidationCommand
+NSS-DC01,AD-Domain-Services,Yes,Get-WindowsFeature AD-Domain-Services
+NSS-DC01,DNS,Yes,Get-WindowsFeature DNS
+NSS-FILE01,FS-FileServer,Yes,Get-WindowsFeature FS-FileServer
+NSS-FILE01,FS-Resource-Manager,Yes,Get-WindowsFeature FS-Resource-Manager
+NSS-FILE01,Windows-Server-Backup,Yes,Get-WindowsFeature Windows-Server-Backup
+NSS-PRINT01,Print-Server,Yes,Get-WindowsFeature Print-Server
+NSS-APP01,Web-Server,Yes,Get-WindowsFeature Web-Server
+NSS-APP01,Web-Mgmt-Tools,Yes,Get-WindowsFeature Web-Mgmt-Tools

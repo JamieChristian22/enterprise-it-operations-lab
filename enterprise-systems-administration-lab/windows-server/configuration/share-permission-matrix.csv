@@ -1,0 +1,5 @@
+Share,Path,ReadWriteGroup,ReadOnlyGroup,SharePermission,NTFSPermission,Owner
+Finance,D:\Shares\Finance,GG_Finance_RW,GG_Finance_RO,Change/Read,Modify/Read and Execute,Finance Manager
+HR,D:\Shares\HR,GG_HR_RW,GG_HR_RO,Change/Read,Modify/Read and Execute,HR Manager
+Operations,D:\Shares\Operations,GG_Operations_RW,GG_Operations_RO,Change/Read,Modify/Read and Execute,Operations Manager
+Public,D:\Shares\Public,GG_AllEmployees_RW,,Change,Modify,Infrastructure Operations

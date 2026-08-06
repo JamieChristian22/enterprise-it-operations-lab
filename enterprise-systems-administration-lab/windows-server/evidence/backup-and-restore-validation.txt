@@ -1,0 +1,17 @@
+LAB EVIDENCE — BACKUP AND RESTORE VALIDATION
+Backup server: NSS-FILE01
+Backup completed: 2026-08-01 22:18 ET
+Validation performed: 2026-08-02 08:41 ET
+Recovery point age: 10.4 hours
+Backup freshness threshold: 26 hours
+Backup freshness: PASS
+
+Restore test:
+Source: D:\Shares\Operations\Quarterly-Checklist.docx
+Recovery point: 2026-08-01 22:18 ET
+Alternate restore path: D:\Restore-Test\Quarterly-Checklist.docx
+Original SHA256: 8356D81B4DE5D05A64C240B4BC6933E1F0F30A2257328A40A03193EC6B1A1970
+Restored SHA256: 8356D81B4DE5D05A64C240B4BC6933E1F0F30A2257328A40A03193EC6B1A1970
+Restore duration: 11 minutes
+User validation: successful open and content review
+Overall result: PASS

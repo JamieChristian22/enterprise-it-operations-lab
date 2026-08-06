@@ -1,6 +1,13 @@
-PASS hostname=NSS-FILE01
-PASS domain=northstar.local
-PASS static_ip=10.20.30.21
-PASS secure_channel=true
-PASS firewall_enabled=true
-PASS updates_current=true
+LAB EVIDENCE — SERVER BUILD VALIDATION
+Collected: 2026-08-01 09:15 ET
+Environment: northstar.local
+
+NSS-DC01  10.20.30.10  Windows Server 2022 Standard  AD-Domain-Services=Installed  DNS=Installed  PASS
+NSS-FILE01 10.20.30.20 Windows Server 2022 Standard  FS-FileServer=Installed FSRM=Installed Windows-Server-Backup=Installed PASS
+NSS-PRINT01 10.20.30.30 Windows Server 2022 Standard Print-Server=Installed PASS
+NSS-APP01 10.20.30.40 Windows Server 2022 Standard Web-Server=Installed Web-Mgmt-Tools=Installed PASS
+
+Domain membership: 4/4 PASS
+Static address match: 4/4 PASS
+DNS server assignment: 4/4 PASS
+Overall result: PASS

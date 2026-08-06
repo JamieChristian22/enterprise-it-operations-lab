@@ -1,5 +1,5 @@
-Server,CPUAvgPercent,MemoryAvailablePercent,SystemDriveFreePercent,CriticalEvents,Status
-NSS-DC01,12,68,57,0,Healthy
-NSS-FILE01,21,51,39,0,Healthy
-NSS-PRINT01,18,62,48,1,Healthy
-NSS-APP01,32,44,31,0,Watch
+Server,CollectedAt,UptimeHours,CPUPercent,MemoryFreePercent,LowestDiskFreePercent,CriticalErrors,RequiredServices,Overall
+NSS-DC01,2026-08-01T09:15:00-04:00,261.4,8.0,64.2,46.8,0,Pass,Pass
+NSS-FILE01,2026-08-01T09:16:00-04:00,261.2,12.0,58.7,31.0,0,Pass,Pass
+NSS-PRINT01,2026-08-01T09:17:00-04:00,260.9,5.0,61.4,43.5,0,Pass,Pass
+NSS-APP01,2026-08-01T09:18:00-04:00,260.7,14.0,52.8,34.6,0,Pass,Pass

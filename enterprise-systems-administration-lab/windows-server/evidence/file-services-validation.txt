@@ -1,5 +1,15 @@
-PASS share=Finance exists=true
-PASS ntfs_modify_group=DL-Finance-Modify
-PASS ntfs_read_group=DL-Finance-Read
-PASS quota_enabled=true
-PASS backup_includes_share=true
+LAB EVIDENCE — FILE SERVICES VALIDATION
+Collected: 2026-08-01 09:38 ET
+
+Share       Path                     ABE      Caching  RW Group             RO Group             Result
+Finance     D:\Shares\Finance      Enabled  None     GG_Finance_RW        GG_Finance_RO        PASS
+HR          D:\Shares\HR           Enabled  None     GG_HR_RW             GG_HR_RO             PASS
+Operations  D:\Shares\Operations   Enabled  None     GG_Operations_RW     GG_Operations_RO     PASS
+Public      D:\Shares\Public       Enabled  None     GG_AllEmployees_RW    N/A                  PASS
+
+Access tests:
+- finance.rw created, modified, and deleted test file: PASS
+- finance.ro opened file and was denied modification: PASS
+- operations user could not enumerate Finance share: PASS
+- Domain Admin retained recovery access: PASS
+Overall result: PASS

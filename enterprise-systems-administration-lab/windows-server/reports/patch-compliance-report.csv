@@ -1,0 +1,5 @@
+Server,AssessmentDate,ApprovedUpdatesInstalled,PendingApprovedUpdates,PendingReboot,Compliance
+NSS-DC01,2026-07-21,Yes,0,No,Compliant
+NSS-FILE01,2026-07-21,Yes,0,No,Compliant
+NSS-PRINT01,2026-07-21,Yes,0,No,Compliant
+NSS-APP01,2026-07-21,Yes,0,No,Compliant

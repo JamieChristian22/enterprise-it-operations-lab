@@ -1,6 +1,18 @@
 {
   "project": "Enterprise Windows Server Administration Lab",
-  "version": "1.0.0",
-  "generated": "2026-08-06",
-  "platform": "Windows Server 2022"
+  "version": "2.0.0",
+  "owner": "Jamie Christian",
+  "environment": "Simulated portfolio lab",
+  "domain": "northstar.local",
+  "servers": [
+    "NSS-DC01",
+    "NSS-FILE01",
+    "NSS-PRINT01",
+    "NSS-APP01"
+  ],
+  "controls": 15,
+  "documentedIncidents": 3,
+  "documentedChanges": 2,
+  "powershellScripts": 7,
+  "status": "Complete"
 }

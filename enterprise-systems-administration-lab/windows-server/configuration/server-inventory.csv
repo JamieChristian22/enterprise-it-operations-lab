@@ -1,0 +1,5 @@
+Server,IPv4,OperatingSystem,vCPU,MemoryGB,OSDiskGB,DataDiskGB,PrimaryRoles,Owner,Environment
+NSS-DC01,10.20.30.10,Windows Server 2022 Standard,2,8,80,0,AD DS; DNS,Infrastructure Operations,Lab
+NSS-FILE01,10.20.30.20,Windows Server 2022 Standard,4,12,80,550,File Services; FSRM; Windows Server Backup,Infrastructure Operations,Lab
+NSS-PRINT01,10.20.30.30,Windows Server 2022 Standard,2,6,80,0,Print and Document Services,Infrastructure Operations,Lab
+NSS-APP01,10.20.30.40,Windows Server 2022 Standard,4,12,100,100,IIS; Scheduled Tasks,Application Operations,Lab
