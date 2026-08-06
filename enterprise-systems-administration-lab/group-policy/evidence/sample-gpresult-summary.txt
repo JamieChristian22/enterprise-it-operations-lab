@@ -1,0 +1,20 @@
+RSOP summary — NS-WKS-PILOT01
+Generated: 2026-08-05 18:30 EDT
+
+Computer applied GPOs:
+- CORP-WS-Security-Baseline-v1.0
+- CORP-WS-Audit-Logging-v1.0
+- CORP-WS-Windows-Update-v1.0
+- CORP-PILOT-Validation-v1.0
+
+User applied GPOs:
+- CORP-USR-Session-Security-v1.0
+
+Denied GPOs:
+- CORP-HD-Admin-Tools-v1.0 — Security Filtering
+- CORP-KIOSK-Lockdown-v1.0 — Not in linked OU scope
+
+Processing result: Completed successfully
+Slow-link detected: No
+Last computer policy refresh: 2026-08-05 18:28 EDT
+Last user policy refresh: 2026-08-05 18:29 EDT

@@ -1,0 +1,9 @@
+Control,Passed,Observed,Expected,TestedAt
+Firewall-Domain,True,True,True,2026-08-05 18:32:14
+Firewall-Private,True,True,True,2026-08-05 18:32:14
+Firewall-Public,True,True,True,2026-08-05 18:32:14
+Defender-Antivirus,True,True,True,2026-08-05 18:32:15
+Defender-Realtime,True,True,True,2026-08-05 18:32:15
+ScreenSaver-Enabled,True,1,1,2026-08-05 18:32:15
+ScreenSaver-Timeout,True,900,1-900 seconds,2026-08-05 18:32:15
+Recent-GP-Processing,True,27,>0 events in last 4 hours,2026-08-05 18:32:16

@@ -1,0 +1,9 @@
+GPOName,Version,Configuration,LinkTarget,SecurityFilter,Owner,Status,Validation,Rollback
+CORP-DOM-Account-Policy-v1.0,1.0,Computer,"DC=corp,DC=northstar,DC=local",Authenticated Users,Infrastructure,Approved,"Account policy query and lockout test","Restore backup or revert approved values"
+CORP-WS-Security-Baseline-v1.0,1.0,Computer,"OU=Workstations,OU=CORP,DC=corp,DC=northstar,DC=local",Authenticated Users,Security,Approved,"gpresult; Defender; firewall; registry checks","Unlink and restore previous backup"
+CORP-WS-Audit-Logging-v1.0,1.0,Computer,"OU=Workstations,OU=CORP,DC=corp,DC=northstar,DC=local",Authenticated Users,Security,Approved,"auditpol; event log; PowerShell logging checks","Unlink or restore previous backup"
+CORP-WS-Windows-Update-v1.0,1.0,Computer,"OU=Workstations,OU=CORP,DC=corp,DC=northstar,DC=local",Authenticated Users,Infrastructure,Approved,"Windows Update policy registry and event log","Unlink and restore previous backup"
+CORP-USR-Session-Security-v1.0,1.0,User,"OU=Users,OU=CORP,DC=corp,DC=northstar,DC=local",Authenticated Users,Security,Approved,"gpresult user scope and screen-lock test","Unlink or disable User Configuration"
+CORP-HD-Admin-Tools-v1.0,1.0,Both,"OU=HelpDesk,OU=Workstations,OU=CORP,DC=corp,DC=northstar,DC=local",GG-HelpDesk-Technicians,Infrastructure,Approved,"RSAT and local group validation","Remove preference item and unlink"
+CORP-KIOSK-Lockdown-v1.0,1.0,Both,"OU=Kiosks,OU=Workstations,OU=CORP,DC=corp,DC=northstar,DC=local",Authenticated Users,Operations,Approved,"loopback mode and restricted UI test","Unlink kiosk GPO and force refresh"
+CORP-PILOT-Validation-v1.0,1.0,Both,"OU=Pilot,OU=Workstations,OU=CORP,DC=corp,DC=northstar,DC=local",GG-GPO-Pilot-Computers,Infrastructure,Pilot,"Automated validation suite","Unlink immediately"
