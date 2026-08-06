@@ -1,0 +1,52 @@
+{
+  "title": "Infrastructure Overview",
+  "uid": "nss-infra",
+  "schemaVersion": 39,
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Targets Up",
+      "targets": [
+        {
+          "expr": "sum(up)"
+        }
+      ],
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "CPU Utilization",
+      "targets": [
+        {
+          "expr": "100-(avg by(instance)(rate(node_cpu_seconds_total{mode='idle'}[5m]))*100)"
+        }
+      ],
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 4
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Disk Free",
+      "targets": [
+        {
+          "expr": "node_filesystem_avail_bytes"
+        }
+      ],
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Workload,Jobs,Successful,Failed,SuccessRate
+Windows Servers,31,31,0,100.0
+Linux Servers,18,18,0,100.0
+Microsoft 365,31,30,1,96.8
+PKI,8,8,0,100.0

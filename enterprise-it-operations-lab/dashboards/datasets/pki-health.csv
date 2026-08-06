@@ -1,0 +1,5 @@
+Metric,Current,Target,Status
+Certificates Active,128,128,Healthy
+Expiring <30 Days,2,0,Action
+CRL Publication,1,1,Healthy
+OCSP Availability,99.99,99.9,Met

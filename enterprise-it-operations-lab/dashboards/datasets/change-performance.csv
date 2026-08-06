@@ -1,0 +1,4 @@
+ChangeType,Total,Successful,Failed,SuccessRate
+Standard,18,18,0,100.0
+Normal,19,18,1,94.7
+Emergency,3,3,0,100.0

@@ -1,0 +1,5 @@
+Platform,Assets,Compliant,ComplianceRate,Exceptions
+Windows 11,84,82,97.6,2
+Windows Server,18,18,100.0,0
+Ubuntu Server,9,9,100.0,0
+Rocky Linux,4,3,75.0,1

@@ -1,0 +1,11 @@
+from pathlib import Path
+import csv
+
+for path in Path("datasets").glob("*.csv"):
+    with path.open(newline="", encoding="utf-8") as handle:
+        rows = list(csv.reader(handle))
+    if len(rows) < 2:
+        raise SystemExit(f"{path}: no data")
+    if len({len(row) for row in rows}) != 1:
+        raise SystemExit(f"{path}: inconsistent columns")
+    print(f"PASS {path}")

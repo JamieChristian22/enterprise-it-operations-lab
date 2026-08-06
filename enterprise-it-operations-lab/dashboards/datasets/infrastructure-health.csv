@@ -1,0 +1,7 @@
+Server,Platform,Role,Availability,CPU,MemoryAvailable,DiskFree,Status
+NSS-DC01,Windows Server,Domain Controller,99.99,12,68,57,Healthy
+NSS-FILE01,Windows Server,File Server,99.96,21,51,39,Healthy
+NSS-APP01,Windows Server,Application,99.93,32,44,31,Watch
+NSS-LINUX-APP01,Ubuntu,Application,99.97,18,62,48,Healthy
+NSS-LINUX-DB01,Rocky Linux,Database,99.91,35,41,22,Watch
+NSS-MON01,Ubuntu,Monitoring,99.98,24,56,45,Healthy

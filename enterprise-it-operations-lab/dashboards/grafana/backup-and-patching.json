@@ -1,0 +1,37 @@
+{
+  "title": "Backup and Patching",
+  "uid": "nss-compliance",
+  "schemaVersion": 39,
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Backup Success",
+      "targets": [
+        {
+          "expr": "backup_success_ratio"
+        }
+      ],
+      "gridPos": {
+        "h": 5,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Patch Compliance",
+      "targets": [
+        {
+          "expr": "patch_compliance_ratio"
+        }
+      ],
+      "gridPos": {
+        "h": 5,
+        "w": 12,
+        "x": 12,
+        "y": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Service Availability",
+  "uid": "nss-availability",
+  "schemaVersion": 39,
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "Blackbox Probe Success",
+      "targets": [
+        {
+          "expr": "probe_success"
+        }
+      ],
+      "gridPos": {
+        "h": 8,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      }
+    }
+  ]
+}
