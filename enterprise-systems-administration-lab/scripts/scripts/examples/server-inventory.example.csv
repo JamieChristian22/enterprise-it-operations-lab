@@ -1,0 +1,4 @@
+ComputerName,Platform,Role
+NSS-DC01,Windows Server,Domain Controller
+NSS-WIN-FILE01,Windows Server,File Server
+NSS-LINUX-APP01,Ubuntu,Application Server

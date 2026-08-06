@@ -1,0 +1,3 @@
+GivenName,Surname,SamAccountName,UserPrincipalName,Department,Title,OU,Groups
+Alex,Morgan,amorgan,alex.morgan@northstar.local,Finance,Analyst,"OU=Employees,DC=northstar,DC=local","Finance Users;All Employees"
+Jordan,Lee,jlee,jordan.lee@northstar.local,Operations,Coordinator,"OU=Employees,DC=northstar,DC=local","Operations Users;All Employees"

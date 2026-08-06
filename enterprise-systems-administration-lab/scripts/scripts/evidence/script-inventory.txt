@@ -1,0 +1,7 @@
+PowerShell scripts: 9
+Bash scripts: 6
+Python scripts: 3
+Configuration files: 2
+Example input files: 2
+Automated tests: 3
+CI workflows: 1

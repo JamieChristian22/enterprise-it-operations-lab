@@ -1,0 +1,6 @@
+PASS Bash syntax validation
+PASS Python bytecode compilation
+PASS No empty files
+PASS Structured CSV and JSON outputs
+PASS WhatIf support for user provisioning
+PASS Secrets excluded from source

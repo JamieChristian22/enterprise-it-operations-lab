@@ -1,0 +1,20 @@
+{
+  "project": "Enterprise Systems Administration Automation Library",
+  "version": "1.0.0",
+  "generated": "2026-08-05",
+  "languages": [
+    "PowerShell",
+    "Bash",
+    "Python"
+  ],
+  "areas": [
+    "Active Directory",
+    "Microsoft 365",
+    "Patching",
+    "Backup",
+    "Monitoring",
+    "PKI",
+    "Security",
+    "Reporting"
+  ]
+}

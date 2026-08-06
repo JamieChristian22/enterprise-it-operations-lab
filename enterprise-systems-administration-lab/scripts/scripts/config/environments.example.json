@@ -1,0 +1,7 @@
+{
+  "environment": "lab",
+  "domain": "northstar.local",
+  "default_ou": "OU=Employees,DC=northstar,DC=local",
+  "m365_tenant": "northstarservices.onmicrosoft.com",
+  "output_directory": "./output"
+}
