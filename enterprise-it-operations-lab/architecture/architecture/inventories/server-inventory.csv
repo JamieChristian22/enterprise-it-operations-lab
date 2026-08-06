@@ -1,0 +1,8 @@
+Hostname,Platform,Role,Subnet,Owner
+NSS-DC01,Windows Server 2022,Domain Controller,10.10.20.0/24,Identity
+NSS-DC02,Windows Server 2022,Domain Controller,10.10.20.0/24,Identity
+NSS-FILE01,Windows Server 2022,File Server,10.10.20.0/24,Infrastructure
+NSS-MON01,Ubuntu Server,Monitoring,10.10.70.0/24,Operations
+NSS-ISSUING-CA01,Windows Server 2022,Issuing CA,10.10.20.0/24,PKI
+AWS-APP-01,Amazon Linux,Application,10.50.110.0/24,Cloud Operations
+AWS-DB-01,RDS PostgreSQL,Database,10.50.210.0/24,Database Team

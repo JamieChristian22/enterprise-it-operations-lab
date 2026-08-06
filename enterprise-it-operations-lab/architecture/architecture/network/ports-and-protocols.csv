@@ -1,0 +1,13 @@
+Service,Protocol,Port,Source,Destination
+DNS,TCP/UDP,53,Clients,DNS Servers
+Kerberos,TCP/UDP,88,Clients,Domain Controllers
+LDAP,TCP/UDP,389,Clients,Domain Controllers
+LDAPS,TCP,636,Clients,Domain Controllers
+SMB,TCP,445,Clients,File Servers
+RDP,TCP,3389,Management,Windows Servers
+SSH,TCP,22,Management,Linux Servers
+WinRM,TCP,5985-5986,Management,Windows Servers
+Prometheus,TCP,9090,Management,Monitoring Server
+Grafana,TCP,3000,Admins,Monitoring Server
+Node Exporter,TCP,9100,Monitoring Server,Linux Servers
+Windows Exporter,TCP,9182,Monitoring Server,Windows Servers

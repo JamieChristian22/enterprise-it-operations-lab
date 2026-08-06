@@ -1,0 +1,15 @@
+{
+  "project": "Enterprise IT Operations Architecture",
+  "version": "1.0.0",
+  "generated": "2026-08-06",
+  "domains": [
+    "Hybrid networking",
+    "AWS",
+    "Active Directory",
+    "Microsoft 365",
+    "Monitoring",
+    "PKI",
+    "Backup and disaster recovery",
+    "Security segmentation"
+  ]
+}

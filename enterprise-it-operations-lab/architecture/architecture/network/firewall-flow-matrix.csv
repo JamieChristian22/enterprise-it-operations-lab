@@ -1,0 +1,11 @@
+Source Zone,Destination Zone,Protocol,Port,Purpose,Action
+Management,Servers,TCP,3389,RDP administration,Allow
+Management,Servers,TCP,5985-5986,WinRM administration,Allow
+Management,Linux Servers,TCP,22,SSH administration,Allow
+Users,Domain Controllers,TCP/UDP,53,DNS,Allow
+Users,Domain Controllers,TCP/UDP,88,Kerberos,Allow
+Users,File Servers,TCP,445,SMB file access,Allow
+Printers,Print Server,TCP,9100,Printing,Allow
+Guest,Internal Networks,Any,Any,Internal access,Deny
+AWS App,AWS DB,TCP,5432,Application database access,Allow
+On-Premises,AWS Private,TCP,443,Application and management access,Allow

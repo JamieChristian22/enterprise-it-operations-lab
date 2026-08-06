@@ -1,0 +1,12 @@
+PASS hybrid_overview=true
+PASS network_segmentation=true
+PASS aws_vpc_design=true
+PASS active_directory_topology=true
+PASS monitoring_flow=true
+PASS backup_dr_design=true
+PASS identity_flow=true
+PASS pki_hierarchy=true
+PASS service_dependencies=true
+PASS firewall_matrix=true
+PASS rto_rpo_map=true
+PASS adr_count=3

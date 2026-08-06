@@ -1,0 +1,8 @@
+Service,PrimaryOwner,Dependencies,Criticality
+Active Directory,Identity,DNS and network,Critical
+File Services,Infrastructure,AD DNS storage backup,High
+Microsoft 365,Messaging,Entra ID and internet,Critical
+AWS Production App,Cloud Operations,VPN ALB EC2 RDS,Critical
+Monitoring,Operations,Network exporters storage,High
+PKI,PKI Team,AD DNS HTTP publication,High
+Backup,Infrastructure,Network storage credentials,Critical
