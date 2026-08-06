@@ -1,0 +1,6 @@
+PASS domain_admins_reviewed=true
+PASS enterprise_admins_reviewed=true
+PASS local_admins_reviewed=true
+PASS linux_sudo_groups_reviewed=true
+PASS emergency_accounts_tested=true
+PASS unauthorized_access_removed=1

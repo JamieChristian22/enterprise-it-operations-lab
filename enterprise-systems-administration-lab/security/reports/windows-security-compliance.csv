@@ -1,0 +1,8 @@
+Control,Status,Evidence
+Defender real-time protection,Pass,Enabled
+Windows Firewall domain profile,Pass,Enabled
+Windows Firewall private profile,Pass,Enabled
+Windows Firewall public profile,Pass,Enabled
+SMBv1,Pass,Disabled
+PowerShell Script Block Logging,Pass,Enabled
+Windows LAPS,Pass,Deployed

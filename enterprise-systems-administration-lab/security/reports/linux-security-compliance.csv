@@ -1,0 +1,7 @@
+Control,Status,Evidence
+Root SSH login,Pass,Disabled
+SSH password authentication,Pass,Disabled
+auditd,Pass,Active
+Host firewall,Pass,Active
+World-writable sensitive files,Pass,0
+sudo group review,Pass,Completed

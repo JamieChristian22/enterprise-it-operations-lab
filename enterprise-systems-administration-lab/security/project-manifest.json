@@ -1,0 +1,18 @@
+{
+  "project": "Enterprise Security Hardening and Privileged Access Lab",
+  "version": "1.0.0",
+  "generated": "2026-08-05",
+  "focus": [
+    "Windows hardening",
+    "Linux hardening",
+    "Microsoft Defender",
+    "Windows Firewall",
+    "LAPS",
+    "Audit Policy",
+    "PowerShell logging",
+    "SSH",
+    "sudo",
+    "auditd",
+    "Privileged Access"
+  ]
+}

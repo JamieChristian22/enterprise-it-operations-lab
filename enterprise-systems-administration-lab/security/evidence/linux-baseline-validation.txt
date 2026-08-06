@@ -1,0 +1,6 @@
+PASS permit_root_login=no
+PASS password_authentication=no
+PASS auditd=active
+PASS firewall=active
+PASS unauthorized_sudoers=0
+PASS critical_world_writable_files=0

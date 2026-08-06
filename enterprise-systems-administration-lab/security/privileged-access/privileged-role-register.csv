@@ -1,0 +1,5 @@
+Account,Platform,Role,Owner,ReviewDate,Status
+jamie.admin,northstar.local,Server Administrators,Infrastructure Manager,2026-07-31,Approved
+exchange.admin,Microsoft 365,Exchange Administrator,Messaging Manager,2026-07-31,Approved
+linux.ops,Linux,linux-admins,Infrastructure Manager,2026-07-31,Approved
+legacy.vendor,northstar.local,Local Administrator,Application Owner,2026-07-31,Remove

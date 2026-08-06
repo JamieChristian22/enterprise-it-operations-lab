@@ -1,0 +1,7 @@
+PASS defender_real_time=true
+PASS firewall_domain=true
+PASS firewall_private=true
+PASS firewall_public=true
+PASS smbv1_disabled=true
+PASS laps_deployed=true
+PASS powershell_logging=true
