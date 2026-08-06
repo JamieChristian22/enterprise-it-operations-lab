@@ -1,0 +1,22 @@
+{
+  "project": "Enterprise IT Operations Analytics",
+  "version": "1.0.0",
+  "generated": "2026-08-06",
+  "components": [
+    "SQL",
+    "SQLite",
+    "Python",
+    "Excel dashboard",
+    "Executive reports",
+    "Data quality tests"
+  ],
+  "datasets": [
+    "service_tickets.csv",
+    "patch_compliance.csv",
+    "backup_jobs.csv",
+    "cloud_costs.csv",
+    "vulnerability_findings.csv",
+    "change_records.csv",
+    "major_incidents.csv"
+  ]
+}

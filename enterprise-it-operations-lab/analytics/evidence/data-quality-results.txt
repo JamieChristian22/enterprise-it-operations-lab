@@ -1,0 +1,5 @@
+PASS service_tickets_missing_category failures=0
+PASS service_tickets_invalid_csat failures=0
+PASS patch_compliance_invalid_counts failures=0
+PASS backup_jobs_invalid_counts failures=0
+PASS cloud_costs_negative failures=0

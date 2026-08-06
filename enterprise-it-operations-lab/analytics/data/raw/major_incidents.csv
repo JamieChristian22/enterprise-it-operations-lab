@@ -1,0 +1,4 @@
+incident_id,incident_date,priority,mttr_minutes,users_impacted
+INC-001,2026-05-11,P1,31,140
+INC-002,2026-06-09,P1,27,95
+INC-003,2026-07-15,P1,17,210

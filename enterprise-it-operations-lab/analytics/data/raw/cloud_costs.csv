@@ -1,0 +1,9 @@
+month,provider,environment,cost_usd
+2026-04,AWS,Production,7420
+2026-04,Azure,Production,5880
+2026-05,AWS,Production,7610
+2026-05,Azure,Production,6010
+2026-06,AWS,Production,7890
+2026-06,Azure,Production,6175
+2026-07,AWS,Production,8150
+2026-07,Azure,Production,6425

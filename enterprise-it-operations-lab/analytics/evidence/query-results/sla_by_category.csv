@@ -1,0 +1,7 @@
+category,tickets,sla_attainment_pct,avg_resolution_minutes,avg_csat
+Microsoft 365,4,100.0,79.0,5.0
+Access,4,100.0,42.0,5.0
+Network,3,66.7,111.7,3.67
+Hardware,3,100.0,146.7,4.0
+Software,2,50.0,100.5,4.0
+Security,2,100.0,52.5,5.0

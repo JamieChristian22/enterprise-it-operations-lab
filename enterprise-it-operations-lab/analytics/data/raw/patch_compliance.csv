@@ -1,0 +1,5 @@
+snapshot_date,platform,assets,compliant_assets,exceptions
+2026-07-31,Windows 11,84,82,2
+2026-07-31,Windows Server,18,18,0
+2026-07-31,Ubuntu Server,9,9,0
+2026-07-31,Rocky Linux,4,3,1
