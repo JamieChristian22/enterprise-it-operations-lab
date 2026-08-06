@@ -1,0 +1,6 @@
+PASS site=finance.northstar.local
+PASS https_binding=true
+PASS hostname_match=true
+PASS chain_trusted=true
+PASS revocation_check=true
+PASS tls_handshake=true

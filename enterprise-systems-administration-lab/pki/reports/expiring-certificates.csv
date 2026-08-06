@@ -1,0 +1,3 @@
+Subject,Thumbprint,NotAfter,DaysRemaining,Owner
+CN=legacy-app.northstar.local,001122AABBCC,2026-08-20,15,Application Team
+CN=vpn.northstar.local,AABBCC112233,2026-08-29,24,Network Team

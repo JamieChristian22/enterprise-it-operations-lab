@@ -1,0 +1,6 @@
+Template,Validity,AutoEnrollment,EnrollmentGroup
+Northstar Web Server,1 Year,No,PKI-Web-Server-Enrollment
+Northstar Computer Authentication,1 Year,Yes,Domain Computers
+Northstar User Authentication,1 Year,Yes,PKI-User-Certificate-Enrollment
+Northstar NPS Server,1 Year,No,PKI-NPS-Servers
+Northstar OCSP Response Signing,2 Weeks,Yes,NSS-OCSP-01

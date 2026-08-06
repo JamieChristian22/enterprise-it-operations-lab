@@ -1,0 +1,17 @@
+{
+  "project": "Enterprise Public Key Infrastructure Lab",
+  "version": "1.0.0",
+  "generated": "2026-08-05",
+  "platform": "Microsoft Active Directory Certificate Services",
+  "components": [
+    "Offline Root CA",
+    "Enterprise Issuing CA",
+    "AIA/CDP",
+    "CRL",
+    "OCSP",
+    "Certificate Templates",
+    "Auto-Enrollment",
+    "IIS TLS",
+    "Backup and Recovery"
+  ]
+}

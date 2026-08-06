@@ -1,0 +1,6 @@
+PASS root_ca_certificate_http=reachable
+PASS issuing_ca_certificate_http=reachable
+PASS root_crl_http=reachable
+PASS issuing_crl_http=reachable
+PASS root_crl_current=true
+PASS issuing_crl_current=true

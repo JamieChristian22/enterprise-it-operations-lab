@@ -1,0 +1,3 @@
+RequestID,CommonName,RevocationDate,Reason
+1042,legacy-web.northstar.local,2026-07-10,KeyCompromise
+1088,departed.user,2026-07-22,CessationOfOperation

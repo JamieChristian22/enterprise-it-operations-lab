@@ -1,0 +1,5 @@
+CommonName,Template,NotAfter,Status,Owner
+NSS-WEB-01,Northstar Web Server,2027-08-05,Valid,Web Operations
+NSS-NPS-01,Northstar NPS Server,2027-06-12,Valid,Network Operations
+jamie.christian,Northstar User Authentication,2027-07-01,Valid,Jamie Christian
+NSS-ADM-01,Northstar Computer Authentication,2027-07-15,Valid,IT Operations

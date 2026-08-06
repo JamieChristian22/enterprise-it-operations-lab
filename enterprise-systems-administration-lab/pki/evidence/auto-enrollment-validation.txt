@@ -1,0 +1,6 @@
+PASS computer_policy_applied=true
+PASS user_policy_applied=true
+PASS computer_certificate_enrolled=true
+PASS user_certificate_enrolled=true
+PASS expected_eku_present=true
+PASS private_key_present=true

@@ -1,0 +1,4 @@
+PASS valid_certificate_response=Good
+PASS revoked_certificate_response=Revoked
+PASS unknown_certificate_response=Unknown
+PASS ocsp_signing_certificate_valid=true

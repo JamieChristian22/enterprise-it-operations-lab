@@ -1,0 +1,5 @@
+PASS issuing_ca_name=Northstar Services Issuing CA
+PASS issuing_ca_type=EnterpriseSubordinateCA
+PASS issuing_ca_service=Running
+PASS chain_to_root=true
+PASS certificate_requests_operational=true

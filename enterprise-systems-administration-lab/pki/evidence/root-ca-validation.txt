@@ -1,0 +1,6 @@
+PASS root_ca_name=Northstar Services Root CA
+PASS root_ca_type=StandaloneRootCA
+PASS root_ca_key_length=4096
+PASS root_ca_hash=SHA256
+PASS root_ca_offline=true
+PASS root_ca_validity_years=20
