@@ -1,0 +1,1 @@
+End-user outage notification template.

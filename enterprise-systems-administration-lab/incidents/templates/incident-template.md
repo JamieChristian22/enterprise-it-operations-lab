@@ -1,0 +1,1 @@
+# Standard enterprise incident template
