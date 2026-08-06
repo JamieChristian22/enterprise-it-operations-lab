@@ -1,0 +1,2 @@
+ChecklistID,ChecklistName,Date,Operator,ReferenceID,Service,Status,Exceptions,EvidencePath,Reviewer,SignoffDate
+CHK-001,Daily Operations,2026-08-06,Jamie Christian,OPS-2026-0806,Core Infrastructure,Completed,0,evidence/daily-operations-2026-08-06.txt,Infrastructure Manager,2026-08-06

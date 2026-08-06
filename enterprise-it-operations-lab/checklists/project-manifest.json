@@ -1,0 +1,15 @@
+{
+  "project": "Enterprise IT Operations Checklist Library",
+  "version": "1.0.0",
+  "generated": "2026-08-06",
+  "categories": [
+    "Daily",
+    "Weekly",
+    "Monthly",
+    "Identity",
+    "Maintenance",
+    "Incident",
+    "Recovery",
+    "Security"
+  ]
+}

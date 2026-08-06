@@ -1,0 +1,13 @@
+PASS daily_checklists=3
+PASS weekly_checklists=3
+PASS monthly_checklists=3
+PASS identity_checklists=3
+PASS maintenance_checklists=4
+PASS incident_checklists=4
+PASS recovery_checklists=3
+PASS security_checklists=2
+PASS template_present=true
+PASS completion_record_present=true
+PASS evidence_fields_present=true
+PASS escalation_fields_present=true
+PASS signoff_fields_present=true
