@@ -1,0 +1,9 @@
+flowchart TB
+A[Protected Workloads] --> B[Primary Backup Repository]
+B --> C[Offsite Copy]
+B --> D[Immutable Copy]
+C --> E[Restore Testing]
+D --> E
+F[Restore Request] --> G[Isolated Restore]
+G --> H[Validate Data and Permissions]
+H --> I[Production Restore]

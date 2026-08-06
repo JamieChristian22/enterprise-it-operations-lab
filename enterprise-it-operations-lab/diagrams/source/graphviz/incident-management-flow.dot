@@ -1,0 +1,17 @@
+digraph G {
+  graph [rankdir=LR, bgcolor="white", pad=0.3, fontname="Arial"];
+  node [shape=box, style="rounded,filled", fillcolor="#EAF2F8", color="#1F4E78", fontname="Arial"];
+  edge [color="#5B6573", fontname="Arial"];
+
+  alert [label="Alert / User Report", fillcolor="#FFF2CC"];
+  triage [label="Triage & Priority"];
+  evidence [label="Collect Evidence"];
+  contain [label="Contain / Stabilize"];
+  restore [label="Restore Service"];
+  validate [label="Validate Resolution"];
+  comms [label="Communicate Status"];
+  rca [label="Root Cause Analysis"];
+  improve [label="Update Monitoring / Runbook", fillcolor="#D9EAD3"];
+
+  alert -> triage -> evidence -> contain -> restore -> validate -> comms -> rca -> improve;
+}

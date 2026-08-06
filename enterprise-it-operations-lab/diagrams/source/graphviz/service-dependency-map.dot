@@ -1,0 +1,35 @@
+digraph G {
+  graph [rankdir=TB, bgcolor="white", pad=0.3, fontname="Arial"];
+  node [shape=box, style="rounded,filled", fontname="Arial", color="#1F4E78"];
+  edge [color="#5B6573", fontname="Arial"];
+
+  user [label="End User", fillcolor="#D9EAD3"];
+  dns [label="DNS"];
+  auth [label="Active Directory"];
+  file [label="File Services"];
+  m365 [label="Microsoft 365"];
+  vpn [label="VPN"];
+  nps [label="NPS / RADIUS"];
+  pki [label="PKI"];
+  app [label="Internal Application"];
+  db [label="Database"];
+  storage [label="Storage"];
+  backup [label="Backup"];
+  monitoring [label="Monitoring & Logging"];
+
+  user -> dns;
+  user -> auth;
+  auth -> file;
+  auth -> m365;
+  auth -> vpn;
+  vpn -> nps;
+  nps -> pki;
+  app -> dns;
+  app -> auth;
+  app -> db;
+  file -> storage;
+  file -> backup;
+  monitoring -> auth;
+  monitoring -> file;
+  monitoring -> app;
+}

@@ -1,0 +1,48 @@
+digraph G {
+  graph [rankdir=TB, bgcolor="white", pad=0.3, nodesep=0.45, ranksep=0.7, fontname="Arial"];
+  node [shape=box, style="rounded,filled", fillcolor="#EAF2F8", color="#1F4E78", fontname="Arial"];
+  edge [color="#5B6573", fontname="Arial"];
+
+  users [label="Employees & Administrators", fillcolor="#D9EAD3"];
+  hq [label="Headquarters"];
+  site1 [label="Distribution Site 1"];
+  site2 [label="Distribution Site 2"];
+  fw [label="HA Edge Firewalls", fillcolor="#FCE5CD"];
+  core [label="Core Network"];
+  ad [label="Active Directory\nDNS / DHCP"];
+  win [label="Windows Servers"];
+  linux [label="Linux Servers"];
+  mon [label="Monitoring & Logging"];
+  pki [label="Enterprise PKI"];
+  backup [label="Backup & Recovery"];
+  m365 [label="Microsoft 365 / Entra ID", fillcolor="#D9EAF7"];
+  vpn [label="Site-to-Site VPN"];
+  aws [label="AWS Production VPC", fillcolor="#FFF2CC"];
+  alb [label="Public ALB"];
+  app [label="Private App Subnets"];
+  db [label="Private DB Subnets"];
+  ssm [label="AWS Systems Manager"];
+
+  users -> hq;
+  users -> site1;
+  users -> site2;
+  site1 -> vpn;
+  site2 -> vpn;
+  vpn -> fw;
+  hq -> fw;
+  fw -> core;
+  core -> ad;
+  core -> win;
+  core -> linux;
+  core -> mon;
+  core -> pki;
+  core -> backup;
+  ad -> m365 [label="Identity Sync"];
+  fw -> aws [label="IPsec VPN"];
+  aws -> alb;
+  aws -> app;
+  aws -> db;
+  aws -> ssm;
+  alb -> app;
+  app -> db;
+}

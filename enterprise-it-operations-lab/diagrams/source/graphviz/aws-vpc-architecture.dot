@@ -1,0 +1,30 @@
+digraph G {
+  graph [rankdir=TB, bgcolor="white", pad=0.3, nodesep=0.4, ranksep=0.7, fontname="Arial"];
+  node [shape=box, style="rounded,filled", fontname="Arial", color="#C65911"];
+  edge [fontname="Arial", color="#6B6B6B"];
+
+  internet [label="Internet", shape=ellipse, fillcolor="#FFFFFF"];
+  igw [label="Internet Gateway", fillcolor="#FCE4D6"];
+  albA [label="Public Subnet A\nALB / NAT\n10.50.10.0/24", fillcolor="#FFF2CC"];
+  albB [label="Public Subnet B\nALB / NAT\n10.50.20.0/24", fillcolor="#FFF2CC"];
+  appA [label="Private App A\n10.50.110.0/24", fillcolor="#E2F0D9"];
+  appB [label="Private App B\n10.50.120.0/24", fillcolor="#E2F0D9"];
+  dbA [label="Private DB A\n10.50.210.0/24", fillcolor="#D9EAF7"];
+  dbB [label="Private DB B\n10.50.220.0/24", fillcolor="#D9EAF7"];
+  vpn [label="Site-to-Site VPN", fillcolor="#F4CCCC"];
+  onprem [label="On-Premises Network", fillcolor="#EADCF8"];
+  ssm [label="Systems Manager", fillcolor="#D9D9D9"];
+
+  internet -> igw;
+  igw -> albA;
+  igw -> albB;
+  albA -> appA;
+  albB -> appB;
+  appA -> dbA;
+  appB -> dbB;
+  onprem -> vpn;
+  vpn -> appA;
+  vpn -> appB;
+  ssm -> appA;
+  ssm -> appB;
+}

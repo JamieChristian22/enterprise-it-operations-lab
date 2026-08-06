@@ -1,0 +1,31 @@
+digraph G {
+  graph [rankdir=LR, bgcolor="white", pad=0.3, nodesep=0.45, ranksep=0.7, fontname="Arial"];
+  node [shape=box, style="rounded,filled", fontname="Arial", color="#1F4E78"];
+  edge [fontname="Arial", color="#5B6573"];
+
+  fw [label="Enterprise Firewall", fillcolor="#FCE5CD"];
+  users [label="VLAN 10\nUsers\n10.10.10.0/24", fillcolor="#D9EAF7"];
+  servers [label="VLAN 20\nServers\n10.10.20.0/24", fillcolor="#E2F0D9"];
+  mgmt [label="VLAN 30\nManagement\n10.10.30.0/24", fillcolor="#FFF2CC"];
+  printers [label="VLAN 40\nPrinters\n10.10.40.0/24", fillcolor="#F4CCCC"];
+  voice [label="VLAN 50\nVoice\n10.10.50.0/24", fillcolor="#EADCF8"];
+  guest [label="VLAN 60\nGuest\n10.10.60.0/24", fillcolor="#D9D9D9"];
+  monitor [label="VLAN 70\nMonitoring\n10.10.70.0/24", fillcolor="#CFE2F3"];
+  backup [label="VLAN 80\nBackup\n10.10.80.0/24", fillcolor="#D0E0E3"];
+  internet [label="Internet", shape=ellipse, fillcolor="#FFFFFF"];
+
+  fw -> users;
+  fw -> servers;
+  fw -> mgmt;
+  fw -> printers;
+  fw -> voice;
+  fw -> guest;
+  fw -> monitor;
+  fw -> backup;
+  guest -> internet [label="Internet only"];
+  mgmt -> servers [label="RDP / SSH / WinRM"];
+  users -> servers [label="Approved apps"];
+  printers -> servers [label="Print services"];
+  monitor -> servers [label="Metrics / logs"];
+  backup -> servers [label="Backup traffic"];
+}

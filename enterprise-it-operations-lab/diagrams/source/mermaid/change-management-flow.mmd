@@ -1,0 +1,11 @@
+flowchart LR
+A[Change Request] --> B[Classify and Risk Score]
+B --> C[CAB or Approval]
+C --> D[Forward Schedule]
+D --> E[Pre-Checks and Backup]
+E --> F[Implementation]
+F --> G[Validation]
+G --> H{Successful?}
+H -->|Yes| I[Close Change]
+H -->|No| J[Rollback]
+J --> K[PIR]

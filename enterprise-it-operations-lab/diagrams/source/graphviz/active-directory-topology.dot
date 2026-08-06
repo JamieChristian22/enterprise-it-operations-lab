@@ -1,0 +1,18 @@
+digraph G {
+  graph [rankdir=TB, bgcolor="white", pad=0.3, fontname="Arial"];
+  node [shape=box, style="rounded,filled", fillcolor="#D9EAF7", color="#0078D4", fontname="Arial"];
+  edge [dir=both, color="#5B6573", fontname="Arial"];
+
+  dc1 [label="NSS-DC01\nHQ Site\nAD DS / DNS / DHCP"];
+  dc2 [label="NSS-DC02\nHQ Site\nAD DS / DNS / DHCP"];
+  dc3 [label="NSS-DC03\nSite 1\nRODC / DNS"];
+  dc4 [label="NSS-DC04\nSite 2\nRODC / DNS"];
+  entra [label="Microsoft Entra ID", fillcolor="#E2F0D9"];
+  sync [label="Entra Connect / Cloud Sync", fillcolor="#FFF2CC"];
+
+  dc1 -> dc2 [label="Intra-site replication"];
+  dc1 -> dc3 [label="Site link"];
+  dc2 -> dc4 [label="Site link"];
+  dc1 -> sync [dir=forward];
+  sync -> entra [dir=forward];
+}

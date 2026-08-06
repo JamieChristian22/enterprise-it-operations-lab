@@ -1,0 +1,27 @@
+digraph G {
+  graph [rankdir=LR, bgcolor="white", pad=0.3, fontname="Arial"];
+  node [shape=box, style="rounded,filled", fontname="Arial", color="#3D85C6"];
+  edge [color="#5B6573", fontname="Arial"];
+
+  win [label="Windows Exporter", fillcolor="#D9EAF7"];
+  linux [label="Node Exporter", fillcolor="#E2F0D9"];
+  blackbox [label="Blackbox Exporter", fillcolor="#FFF2CC"];
+  app [label="Application Metrics", fillcolor="#EADCF8"];
+  prom [label="Prometheus", fillcolor="#FCE5CD"];
+  graf [label="Grafana", fillcolor="#F9CB9C"];
+  alert [label="Alertmanager", fillcolor="#F4CCCC"];
+  teams [label="Teams / Email", fillcolor="#D9D9D9"];
+  logs [label="Central Log Platform", fillcolor="#CFE2F3"];
+  winlog [label="Windows Events"];
+  syslog [label="Linux Syslog"];
+
+  win -> prom;
+  linux -> prom;
+  blackbox -> prom;
+  app -> prom;
+  prom -> graf;
+  prom -> alert;
+  alert -> teams;
+  winlog -> logs;
+  syslog -> logs;
+}

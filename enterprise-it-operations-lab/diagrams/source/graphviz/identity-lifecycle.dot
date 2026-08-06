@@ -1,0 +1,22 @@
+digraph G {
+  graph [rankdir=LR, bgcolor="white", pad=0.3, fontname="Arial"];
+  node [shape=box, style="rounded,filled", fillcolor="#EAF2F8", color="#1F4E78", fontname="Arial"];
+  edge [color="#5B6573", fontname="Arial"];
+
+  hr [label="Approved HR Request", fillcolor="#D9EAD3"];
+  ad [label="Create AD Account"];
+  groups [label="Assign Role-Based Groups"];
+  m365 [label="Assign M365 License"];
+  mailbox [label="Provision Mailbox"];
+  teams [label="Teams / SharePoint Access"];
+  mfa [label="MFA Registration"];
+  validate [label="Validate & Document", fillcolor="#D9EAD3"];
+  off [label="Offboarding Trigger", fillcolor="#F4CCCC"];
+  disable [label="Disable Account"];
+  revoke [label="Revoke Sessions / Roles"];
+  preserve [label="Preserve Data"];
+  close [label="Close Request", fillcolor="#D9D9D9"];
+
+  hr -> ad -> groups -> m365 -> mailbox -> teams -> mfa -> validate;
+  off -> disable -> revoke -> preserve -> close;
+}

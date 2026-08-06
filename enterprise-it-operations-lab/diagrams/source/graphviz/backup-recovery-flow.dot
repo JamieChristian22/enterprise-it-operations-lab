@@ -1,0 +1,22 @@
+digraph G {
+  graph [rankdir=TB, bgcolor="white", pad=0.3, fontname="Arial"];
+  node [shape=box, style="rounded,filled", fontname="Arial", color="#1F4E78"];
+  edge [color="#5B6573", fontname="Arial"];
+
+  sources [label="Windows / Linux / AD / PKI / DB / M365 / AWS", fillcolor="#D9EAF7"];
+  primary [label="Primary Backup Repository", fillcolor="#E2F0D9"];
+  offsite [label="Offsite Copy", fillcolor="#FFF2CC"];
+  immutable [label="Immutable Copy", fillcolor="#F4CCCC"];
+  test [label="Restore Testing", fillcolor="#EADCF8"];
+  incident [label="Restore Request / Incident"];
+  isolate [label="Restore to Isolated Target"];
+  validate [label="Validate Data, ACLs, Checksums"];
+  prod [label="Restore to Production", fillcolor="#D9EAD3"];
+
+  sources -> primary;
+  primary -> offsite;
+  primary -> immutable;
+  offsite -> test;
+  immutable -> test;
+  incident -> isolate -> validate -> prod;
+}

@@ -1,0 +1,22 @@
+digraph G {
+  graph [rankdir=TB, bgcolor="white", pad=0.3, fontname="Arial"];
+  node [shape=box, style="rounded,filled", fontname="Arial", color="#674EA7"];
+  edge [color="#5B6573", fontname="Arial"];
+
+  root [label="Offline Root CA", fillcolor="#EADCF8"];
+  issue [label="Enterprise Issuing CA", fillcolor="#D9EAF7"];
+  web [label="Web Server Certificates"];
+  user [label="User Certificates"];
+  computer [label="Computer Certificates"];
+  nps [label="NPS / VPN Certificates"];
+  ocsp [label="OCSP Signing"];
+  crl [label="AIA / CDP / CRL", fillcolor="#FFF2CC"];
+
+  root -> issue;
+  issue -> web;
+  issue -> user;
+  issue -> computer;
+  issue -> nps;
+  issue -> ocsp;
+  issue -> crl;
+}

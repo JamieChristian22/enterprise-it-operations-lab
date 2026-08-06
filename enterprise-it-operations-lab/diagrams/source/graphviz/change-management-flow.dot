@@ -1,0 +1,22 @@
+digraph G {
+  graph [rankdir=LR, bgcolor="white", pad=0.3, fontname="Arial"];
+  node [shape=box, style="rounded,filled", fillcolor="#EAF2F8", color="#1F4E78", fontname="Arial"];
+  edge [color="#5B6573", fontname="Arial"];
+
+  request [label="Change Request"];
+  classify [label="Classify & Risk Score"];
+  cab [label="CAB / Approval"];
+  schedule [label="Forward Schedule"];
+  pre [label="Pre-Checks & Backup"];
+  implement [label="Implementation"];
+  test [label="Validation"];
+  decision [label="Successful?", shape=diamond, fillcolor="#FFF2CC"];
+  close [label="Close Change", fillcolor="#D9EAD3"];
+  rollback [label="Rollback", fillcolor="#F4CCCC"];
+  pir [label="PIR / Lessons Learned"];
+
+  request -> classify -> cab -> schedule -> pre -> implement -> test -> decision;
+  decision -> close [label="Yes"];
+  decision -> rollback [label="No"];
+  rollback -> pir;
+}

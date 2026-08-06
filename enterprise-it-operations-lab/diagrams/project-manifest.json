@@ -1,0 +1,12 @@
+{
+  "project": "Enterprise IT Operations Diagram Library",
+  "version": "1.0.0",
+  "generated": "2026-08-06",
+  "diagram_count": 12,
+  "formats": [
+    "DOT",
+    "PNG",
+    "SVG",
+    "Mermaid"
+  ]
+}

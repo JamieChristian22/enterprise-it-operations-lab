@@ -1,0 +1,18 @@
+digraph G {
+  graph [rankdir=LR, bgcolor="white", pad=0.3, fontname="Arial"];
+  node [shape=box, style="rounded,filled", fillcolor="#EAF2F8", color="#1F4E78", fontname="Arial"];
+  edge [color="#5B6573", fontname="Arial"];
+
+  declare [label="Declare Disaster", fillcolor="#F4CCCC"];
+  assess [label="Assess Scope"];
+  activate [label="Activate DR Plan"];
+  identity [label="Recover Identity & DNS"];
+  network [label="Recover Connectivity"];
+  apps [label="Recover Applications & Data"];
+  validate [label="Business Validation"];
+  communicate [label="Stakeholder Communication"];
+  return [label="Return to Normal"];
+  aar [label="After-Action Review", fillcolor="#D9EAD3"];
+
+  declare -> assess -> activate -> identity -> network -> apps -> validate -> communicate -> return -> aar;
+}
