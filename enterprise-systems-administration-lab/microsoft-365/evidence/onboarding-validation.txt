@@ -1,0 +1,10 @@
+PASS user=alex.morgan@northstarservices.com exists=true
+PASS account_enabled=true
+PASS usage_location=US
+PASS license=SPB assigned=true
+PASS mailbox_type=UserMailbox
+PASS group=SG-Finance-Users member=true
+PASS team=Finance Operations member=true
+PASS shared_mailbox=finance@northstarservices.com full_access=true
+PASS shared_mailbox=finance@northstarservices.com send_as=true
+PASS mfa_registration_required=true

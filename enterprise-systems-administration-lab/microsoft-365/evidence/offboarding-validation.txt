@@ -1,0 +1,8 @@
+PASS user=former.employee@northstarservices.com account_enabled=false
+PASS active_sessions_revoked=true
+PASS mailbox_type=SharedMailbox
+PASS manager_full_access=true
+PASS onedrive_preserved=true
+PASS team_ownership_transferred=true
+PASS privileged_roles=0
+PASS licenses_assigned=0

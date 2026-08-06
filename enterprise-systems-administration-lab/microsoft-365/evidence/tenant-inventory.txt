@@ -1,0 +1,10 @@
+Microsoft 365 Tenant Inventory
+Tenant: northstarservices.onmicrosoft.com
+Primary domain: northstarservices.com
+Users: 150
+Primary license: Microsoft 365 Business Premium
+Identity: Microsoft Entra ID
+Messaging: Exchange Online
+Collaboration: Microsoft Teams
+Content: SharePoint Online and OneDrive
+PowerShell: Microsoft Graph and Exchange Online

@@ -1,0 +1,5 @@
+RoleName,DisplayName,UserPrincipalName,AccountEnabled,ReviewResult
+Exchange Administrator,Exchange Admin,exchange.admin@northstarservices.com,True,Approved
+Teams Administrator,Teams Admin,teams.admin@northstarservices.com,True,Approved
+SharePoint Administrator,SharePoint Admin,sharepoint.admin@northstarservices.com,True,Approved
+Global Administrator,Emergency Access 01,emergency01@northstarservices.onmicrosoft.com,True,Approved-Emergency

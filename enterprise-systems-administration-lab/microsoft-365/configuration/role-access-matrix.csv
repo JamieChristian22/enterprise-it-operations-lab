@@ -1,0 +1,8 @@
+Role,Primary Administrative Scope,Example Tasks
+Global Reader,Tenant-wide read-only,Review configuration and reports
+Helpdesk Administrator,Password and authentication support,Reset passwords and revoke sessions
+User Administrator,User and group lifecycle,Create users and update memberships
+Exchange Administrator,Exchange Online,Mailboxes groups mail flow
+Teams Administrator,Microsoft Teams,Teams policies and troubleshooting
+SharePoint Administrator,SharePoint and OneDrive,Sites sharing and recovery
+Security Reader,Security monitoring,Review alerts risks and incidents

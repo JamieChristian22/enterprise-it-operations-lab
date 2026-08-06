@@ -1,0 +1,3 @@
+DisplayName,PrimarySmtpAddress,ForwardingSmtpAddress,DeliverToMailboxAndForward,ReviewResult
+Accounts Payable,ap@northstarservices.com,,False,None
+Former Employee,former.employee@northstarservices.com,manager@northstarservices.com,True,Approved-Offboarding

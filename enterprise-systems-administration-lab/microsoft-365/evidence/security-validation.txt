@@ -1,0 +1,8 @@
+PASS CA-001 Require MFA for All Users status=Enabled
+PASS CA-002 Block Legacy Authentication status=Enabled
+PASS CA-003 Protect Administrator Roles status=Enabled
+PASS emergency_access_accounts count=2
+PASS administrator_mfa_registered=true
+PASS mailbox_forwarding_reviewed=true
+PASS privileged_roles_reviewed=true
+PASS guest_accounts_reviewed=true

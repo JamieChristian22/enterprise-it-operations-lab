@@ -1,0 +1,6 @@
+PASS shared_mailbox=support@northstarservices.com type=SharedMailbox
+PASS full_access_members=4
+PASS send_as_members=4
+PASS direct_sign_in=false
+PASS message_trace_test=Delivered
+PASS unauthorized_forwarding=0

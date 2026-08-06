@@ -1,0 +1,16 @@
+{
+  "project": "Enterprise Microsoft 365 Administration Lab",
+  "version": "1.0.0",
+  "generated": "2026-08-05",
+  "tenant": "northstarservices.onmicrosoft.com",
+  "focus": [
+    "Microsoft Entra ID",
+    "Exchange Online",
+    "Microsoft Teams",
+    "SharePoint Online",
+    "OneDrive",
+    "Conditional Access",
+    "PowerShell automation",
+    "Incident response"
+  ]
+}
