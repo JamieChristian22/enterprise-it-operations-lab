@@ -1,0 +1,6 @@
+PASS hostname=NSS-FILE01
+PASS domain=northstar.local
+PASS static_ip=10.20.30.21
+PASS secure_channel=true
+PASS firewall_enabled=true
+PASS updates_current=true

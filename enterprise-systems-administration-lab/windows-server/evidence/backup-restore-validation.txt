@@ -1,0 +1,4 @@
+PASS backup_job=Success
+PASS backup_age_hours=1.5
+PASS restore_test_file=true
+PASS permissions_preserved=true

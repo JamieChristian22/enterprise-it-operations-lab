@@ -1,0 +1,13 @@
+{
+  "timezone": "Eastern Standard Time",
+  "rdp_management_subnet": "10.20.30.0/24",
+  "required_services": [
+    "WinRM",
+    "W32Time",
+    "LanmanServer",
+    "EventLog"
+  ],
+  "disk_warning_percent": 80,
+  "memory_available_warning_percent": 15,
+  "backup_max_age_hours": 24
+}

@@ -1,0 +1,5 @@
+Server,Role,OperatingSystem,IPAddress,Owner,Status
+NSS-DC01,Domain Controller,Windows Server 2022,10.20.30.10,Identity,Healthy
+NSS-FILE01,File Server,Windows Server 2022,10.20.30.21,Infrastructure,Healthy
+NSS-PRINT01,Print Server,Windows Server 2022,10.20.30.22,EUC,Healthy
+NSS-APP01,Application Server,Windows Server 2022,10.20.30.23,Application Team,Healthy

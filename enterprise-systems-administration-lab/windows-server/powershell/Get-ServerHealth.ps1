@@ -1,0 +1,4 @@
+[CmdletBinding()]param([string]$OutputPath='.\output\server-health.json')
+$os=Get-CimInstance Win32_OperatingSystem;$disk=Get-CimInstance Win32_LogicalDisk -Filter "DeviceID='C:'";$events=Get-WinEvent -FilterHashtable @{LogName='System';Level=1,2;StartTime=(Get-Date).AddHours(-24)} -ErrorAction SilentlyContinue
+$result=[pscustomobject]@{ComputerName=$env:COMPUTERNAME;OperatingSystem=$os.Caption;LastBoot=$os.LastBootUpTime;MemoryAvailablePercent=[math]::Round(($os.FreePhysicalMemory/$os.TotalVisibleMemorySize)*100,2);SystemDriveFreePercent=[math]::Round(($disk.FreeSpace/$disk.Size)*100,2);CriticalEventCount=($events|Measure-Object).Count;Timestamp=(Get-Date).ToString('o')}
+New-Item (Split-Path $OutputPath) -ItemType Directory -Force|Out-Null;$result|ConvertTo-Json|Set-Content $OutputPath;$result

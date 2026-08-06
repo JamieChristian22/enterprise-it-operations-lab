@@ -1,0 +1,5 @@
+PASS share=Finance exists=true
+PASS ntfs_modify_group=DL-Finance-Modify
+PASS ntfs_read_group=DL-Finance-Read
+PASS quota_enabled=true
+PASS backup_includes_share=true

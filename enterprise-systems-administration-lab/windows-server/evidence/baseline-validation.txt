@@ -1,0 +1,5 @@
+PASS firewall_profiles_enabled=true
+PASS rdp_nla_enabled=true
+PASS required_services_running=true
+PASS event_logs_available=true
+PASS monitoring_enabled=true

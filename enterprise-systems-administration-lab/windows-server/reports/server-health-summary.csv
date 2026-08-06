@@ -1,0 +1,5 @@
+Server,CPUAvgPercent,MemoryAvailablePercent,SystemDriveFreePercent,CriticalEvents,Status
+NSS-DC01,12,68,57,0,Healthy
+NSS-FILE01,21,51,39,0,Healthy
+NSS-PRINT01,18,62,48,1,Healthy
+NSS-APP01,32,44,31,0,Watch

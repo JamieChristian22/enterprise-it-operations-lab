@@ -1,0 +1,4 @@
+Server,ShareName,Path,ModifyGroup,ReadGroup
+NSS-FILE01,Finance,D:\Shares\Finance,DL-Finance-Modify,DL-Finance-Read
+NSS-FILE01,HR,D:\Shares\HR,DL-HR-Modify,DL-HR-Read
+NSS-FILE01,Operations,D:\Shares\Operations,DL-Operations-Modify,DL-Operations-Read
