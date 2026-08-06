@@ -1,0 +1,3 @@
+Repository,Capacity_TB,Used_TB,Used_Pct,Daily_Growth_GB,Retention_Days,Status
+BR01,8.0,5.71,71.4,19.4,30,Monitor
+Offsite-Archive,20.0,8.42,42.1,11.2,365,Healthy

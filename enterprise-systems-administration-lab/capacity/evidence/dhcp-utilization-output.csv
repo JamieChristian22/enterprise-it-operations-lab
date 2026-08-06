@@ -1,0 +1,4 @@
+ScopeId,Name,Free,InUse,PercentageInUse
+10.20.10.0,HQ-Users,37,174,82.46
+10.20.20.0,HQ-Voice,60,71,54.20
+10.30.10.0,Branch-Users,58,103,63.98

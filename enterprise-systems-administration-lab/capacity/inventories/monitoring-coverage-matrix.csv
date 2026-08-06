@@ -1,0 +1,9 @@
+Asset,CPU,Memory,Disk,Network,Service_Specific,Collection_Frequency
+DC01,Yes,Yes,Yes,Yes,NTDS and DNS,5 minutes
+DC02,Yes,Yes,Yes,Yes,NTDS and DNS,5 minutes
+FS01,Yes,Yes,Yes,Yes,File volume growth,5 minutes
+APP01,Yes,Yes,Yes,Yes,Application queue,5 minutes
+SQL01,Yes,Yes,Yes,Yes,Database size,5 minutes
+DHCP01,Yes,Yes,Yes,Yes,Scope utilization,30 minutes
+CA01,Yes,Yes,Yes,Yes,Certificate expiry,Daily
+BR01,Yes,Yes,Yes,Yes,Backup growth,Daily

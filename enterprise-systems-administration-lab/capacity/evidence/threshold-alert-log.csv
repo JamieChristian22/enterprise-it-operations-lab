@@ -1,0 +1,5 @@
+Timestamp,Asset,Metric,Value,Severity,Ticket
+2026-07-14T09:10:00,DHCP01,HQ-Users utilization,84.4,Critical,INC-CAP-001
+2026-07-18T23:25:00,FS01,D volume utilization,75.1,Warning,CHG-CAP-001
+2026-07-25T03:30:00,SQL01,Memory peak,91.0,Critical,PRB-PERF-004
+2026-07-31T06:00:00,BR01,Repository utilization,71.4,Informational,PRB-CAP-001

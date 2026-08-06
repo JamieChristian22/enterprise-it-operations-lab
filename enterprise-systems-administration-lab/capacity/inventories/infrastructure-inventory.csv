@@ -1,0 +1,9 @@
+Asset,Role,OS,CPU_Cores,Memory_GB,Storage_GB,Criticality,Owner
+DC01,Domain Controller,Windows Server 2022,4,16,160,Critical,Identity Team
+DC02,Domain Controller,Windows Server 2022,4,16,160,Critical,Identity Team
+FS01,File Server,Windows Server 2022,8,32,4096,Critical,Infrastructure Operations
+APP01,Application Server,Windows Server 2022,8,32,512,High,Applications Team
+SQL01,Database Server,Windows Server 2022,12,64,2048,Critical,Database Team
+DHCP01,DHCP Server,Windows Server 2022,4,8,120,High,Network Operations
+CA01,Certificate Authority,Windows Server 2022,4,8,120,High,Security Operations
+BR01,Backup Repository,Windows Server 2022,8,32,8192,Critical,Infrastructure Operations

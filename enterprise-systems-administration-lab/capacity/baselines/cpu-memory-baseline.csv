@@ -1,0 +1,9 @@
+Asset,Avg_CPU_Pct,Peak_CPU_Pct,Avg_Memory_Pct,Peak_Memory_Pct,Observation
+DC01,19,46,41,58,Healthy
+DC02,17,42,39,55,Healthy
+FS01,38,71,63,78,Memory warning during backup scan
+APP01,52,83,72,88,Near warning during month-end processing
+SQL01,61,87,76,91,Critical peak during financial close
+DHCP01,12,28,31,44,Healthy
+CA01,8,21,29,38,Healthy
+BR01,33,69,57,74,Healthy

@@ -1,0 +1,5 @@
+Resource,Current_Used_Pct,Forecast_60_Day_Pct,Threshold,Outcome
+FS01-D,74.0,92.8,85,Critical exceeded
+SQL01-E,71.0,89.8,85,Critical exceeded
+BR01-E,71.4,85.6,90,Warning only
+HQ-Users-DHCP,82.5,108.1,85,Exhausted before horizon

@@ -1,0 +1,5 @@
+Metric,Current_Value,Growth_or_Trend,Warning,Critical,Status
+NTDS_DIT_Size_GB,6.8,0.09 GB per month,12,15,Healthy
+Issued_Certificates,1842,38 per month,3500,4500,Healthy
+Certificates_Expiring_Within_45_Days,17,Stable,25,40,Healthy
+Average_Patch_Window_Minutes,184,Increasing 8 min per cycle,180,240,Warning

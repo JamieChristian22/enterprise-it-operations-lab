@@ -1,0 +1,8 @@
+Service,Primary_Asset,Metric,Warning,Critical,Business_Owner
+Active Directory,DC01 and DC02,NTDS database growth,12 GB,15 GB,IT Operations
+File Services,FS01,Data volume utilization,75%,85%,Corporate Services
+Business Application,APP01,CPU and memory,70% and 75%,85% and 90%,Operations
+Database,SQL01,Data volume utilization,75%,85%,Finance
+DHCP,DHCP01,Scope utilization,75%,85%,IT Operations
+Backups,BR01,Repository utilization,75%,90%,IT Operations
+Certificates,CA01,Certificates expiring,45 days,15 days,Security

@@ -1,0 +1,9 @@
+Asset,Volume,Capacity_GB,Used_GB,Used_Pct,Daily_Growth_GB,Status
+DC01,C:,160,72,45,0.08,Healthy
+DC02,C:,160,69,43,0.07,Healthy
+FS01,D:,4096,3031,74,12.8,Warning approaching
+APP01,C:,512,286,56,0.7,Healthy
+SQL01,E:,2048,1454,71,6.4,Monitor
+DHCP01,C:,120,44,37,0.03,Healthy
+CA01,C:,120,39,33,0.02,Healthy
+BR01,E:,8192,5849,71,19.4,Monitor

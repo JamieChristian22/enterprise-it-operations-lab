@@ -1,0 +1,9 @@
+Asset,Interface_Gbps,Avg_Utilization_Pct,Peak_Utilization_Pct,Packet_Errors,Status
+DC01,1,7,19,0,Healthy
+DC02,1,6,17,0,Healthy
+FS01,10,24,61,2,Healthy
+APP01,1,29,72,0,Monitor
+SQL01,10,31,77,1,Monitor
+DHCP01,1,3,11,0,Healthy
+CA01,1,2,8,0,Healthy
+BR01,10,38,82,4,Monitor backup window

@@ -1,0 +1,4 @@
+Scope,Start_IP,End_IP,Usable_Addresses,Active_Leases,Utilization_Pct,Daily_Net_Growth,Status
+HQ-Users,10.20.10.20,10.20.10.230,211,174,82.5,0.9,Critical forecast risk
+HQ-Voice,10.20.20.20,10.20.20.150,131,71,54.2,0.2,Healthy
+Branch-Users,10.30.10.20,10.30.10.180,161,103,64.0,0.4,Monitor
