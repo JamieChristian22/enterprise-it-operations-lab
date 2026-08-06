@@ -1,0 +1,14 @@
+PASS executive_reports=2
+PASS operations_reports=3
+PASS patch_reports=2
+PASS m365_reports=2
+PASS active_directory_reports=2
+PASS backup_reports=2
+PASS pki_reports=2
+PASS availability_reports=1
+PASS sla_reports=1
+PASS incident_reports=2
+PASS change_reports=2
+PASS capacity_reports=2
+PASS security_reports=2
+PASS compliance_reports=1

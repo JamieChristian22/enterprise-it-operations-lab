@@ -1,0 +1,5 @@
+ObjectType,Name,Status,LastLogonDate,Action
+Computer,NSS-LAPTOP-044,Stale,2026-03-11,Owner review
+Computer,NSS-LAPTOP-051,Stale,2026-03-18,Owner review
+User,contractor.old,Disabled,2026-02-01,Retain until policy date
+Group,Domain Admins,Reviewed,2026-07-31,No change

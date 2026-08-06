@@ -1,0 +1,4 @@
+CommonName,Template,ExpirationDate,DaysRemaining,Owner,Action
+legacy-app.northstar.local,Northstar Web Server,2026-08-20,15,Application Team,Renew
+vpn.northstar.local,Northstar NPS Server,2026-08-29,24,Network Team,Renew
+NSS-WEB-01,Northstar Web Server,2027-08-05,365,Web Operations,None

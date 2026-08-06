@@ -1,0 +1,5 @@
+Asset,Platform,Ring,ComplianceStatus,LastPatchDate,RebootPending,Exception
+NSS-WIN-FILE01,Windows Server,2,Compliant,2026-07-15,False,
+NSS-DC01,Windows Server,3,Compliant,2026-07-20,False,
+NSS-LINUX-APP01,Ubuntu,2,Compliant,2026-07-15,False,
+NSS-LINUX-DB01,Rocky Linux,3,Exception,2026-06-20,False,Vendor validation pending

@@ -1,0 +1,5 @@
+Server,Platform,CPUAvgPercent,MemoryAvailablePercent,DiskFreePercent,FailedServices,Status
+NSS-LINUX-APP01,Ubuntu,18,62,48,0,Healthy
+NSS-LINUX-DB01,Rocky Linux,32,44,22,0,Watch
+NSS-WIN-FILE01,Windows Server,21,51,39,0,Healthy
+NSS-DC01,Windows Server,12,68,57,0,Healthy

@@ -1,0 +1,5 @@
+ChangeID,Type,Risk,Result,RollbackRequired,IncidentCreated
+CHG-001,Standard,Low,Success,False,False
+CHG-002,Normal,Medium,Success,False,False
+CHG-003,Emergency,High,Success,False,False
+CHG-004,Normal,High,Failed,True,True

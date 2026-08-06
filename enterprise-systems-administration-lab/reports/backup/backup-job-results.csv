@@ -1,0 +1,5 @@
+Date,Workload,Job,Result,DurationMinutes,RestoreValidated
+2026-07-31,Windows Servers,Daily Server Backup,Success,42,True
+2026-07-31,Linux Servers,Daily Linux Backup,Success,19,True
+2026-07-31,Microsoft 365,Exchange Online Backup,SuccessAfterRetry,61,True
+2026-07-28,PKI,CA Database and Key Backup,Success,8,True

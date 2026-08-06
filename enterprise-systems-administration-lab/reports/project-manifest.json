@@ -1,0 +1,21 @@
+{
+  "project": "Enterprise IT Operations Reporting Suite",
+  "version": "1.0.0",
+  "generated": "2026-08-05",
+  "report_categories": [
+    "Executive",
+    "Operations",
+    "Security",
+    "Compliance",
+    "Capacity",
+    "Availability",
+    "Patching",
+    "Microsoft 365",
+    "Active Directory",
+    "Backup",
+    "PKI",
+    "Incidents",
+    "Changes",
+    "SLA"
+  ]
+}
