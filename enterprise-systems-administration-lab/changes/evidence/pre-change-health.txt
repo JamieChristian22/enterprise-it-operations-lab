@@ -1,0 +1,5 @@
+Timestamp: 2026-08-04 21:45 ET
+DC01 Reachable | DNS Running | ADWS Running | C: 58% free
+DC02 Reachable | DNS Running | ADWS Running | C: 61% free
+FS01 Reachable | LanmanServer Running | Data: 18% free
+Result: PASS

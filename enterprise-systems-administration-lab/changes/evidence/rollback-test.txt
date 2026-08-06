@@ -1,0 +1,7 @@
+Change: CHG-2026-046
+Rollback start: 22:31 ET
+Previous agent package restored: PASS
+Configuration restored: PASS
+Telemetry resumed: 22:37 ET
+Application availability maintained: PASS
+Rollback result: SUCCESSFUL

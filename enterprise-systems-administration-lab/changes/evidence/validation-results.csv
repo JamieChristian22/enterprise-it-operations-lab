@@ -1,0 +1,8 @@
+ChangeId,Check,Expected,Actual,Result
+CHG-2026-041,Minimum password length,14,14,PASS
+CHG-2026-041,User authentication,Successful,Successful,PASS
+CHG-2026-042,FS01 data size GB,2560,2560,PASS
+CHG-2026-042,SMB share access,Available,Available,PASS
+CHG-2026-044,External DNS resolution,Successful,Successful,PASS
+CHG-2026-045,On-demand backup,Successful,Successful,PASS
+CHG-2026-046,Rollback agent version,7.2,7.2,PASS

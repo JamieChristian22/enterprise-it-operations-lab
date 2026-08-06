@@ -1,0 +1,7 @@
+ChangeId,Type,Risk,Outcome,DurationMinutes
+CHG-2026-041,Normal,High,Successful,31
+CHG-2026-042,Normal,Moderate,Successful,24
+CHG-2026-043,Standard,Low,Successful,96
+CHG-2026-044,Normal,Moderate,Successful,18
+CHG-2026-045,Emergency,High,Successful,27
+CHG-2026-046,Normal,Moderate,Backed Out,43
