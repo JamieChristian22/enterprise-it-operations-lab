@@ -1,0 +1,2 @@
+[CmdletBinding()]param([int]$WarningAgeDays=3,[int]$CriticalAgeDays=7,[string]$OutputPath=".\hyperv-checkpoints.csv")
+$n=Get-Date;$r=Get-VM|Get-VMSnapshot|%{$a=($n-$_.CreationTime).Days;[pscustomobject]@{VM=$_.VMName;Snapshot=$_.Name;Created=$_.CreationTime;AgeDays=$a;Status=if($a-ge$CriticalAgeDays){"Critical"}elseif($a-ge$WarningAgeDays){"Warning"}else{"Healthy"}}};$r|Export-Csv $OutputPath -NoTypeInformation;$r

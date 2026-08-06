@@ -1,0 +1,2 @@
+[CmdletBinding()]param([string]$VCenter="VCENTER01",[string]$OutputPath=".\vmware-datastores.csv")
+try{Import-Module VMware.PowerCLI;Connect-VIServer $VCenter|Out-Null;$r=Get-Datastore|%{$f=[math]::Round(($_.FreeSpaceGB/$_.CapacityGB)*100,2);[pscustomobject]@{Name=$_.Name;CapacityGB=[math]::Round($_.CapacityGB,2);FreeGB=[math]::Round($_.FreeSpaceGB,2);FreePercent=$f;Status=if($f-lt15){"Critical"}elseif($f-lt25){"Warning"}else{"Healthy"}}};$r|Export-Csv $OutputPath -NoTypeInformation;$r}finally{Disconnect-VIServer * -Confirm:$false -ErrorAction SilentlyContinue}

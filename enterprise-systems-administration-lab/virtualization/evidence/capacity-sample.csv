@@ -1,0 +1,5 @@
+Platform,Resource,CapacityGB,FreeGB,FreePercent,Status
+Hyper-V,CSV-Prod01,2048,786,38.38,Healthy
+Hyper-V,CSV-Prod02,2048,862,42.09,Healthy
+VMware,DS-PROD-01,4096,1303,31.81,Healthy
+VMware,DS-PROD-02,4096,1892,46.19,Healthy

@@ -1,0 +1,9 @@
+Report Date: 2026-08-06 09:00 ET
+Cluster: HV-CLUSTER01
+HV01: Up
+HV02: Up
+CSV-Prod01 Free: 38.4%
+CSV-Prod02 Free: 42.1%
+Quorum: Online
+Critical Roles Offline: 0
+Result: HEALTHY

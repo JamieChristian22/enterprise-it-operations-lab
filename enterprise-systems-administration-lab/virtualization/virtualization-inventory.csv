@@ -1,0 +1,9 @@
+Platform,Type,Name,Role,RecoveryTier
+Hyper-V,Cluster,HV-CLUSTER01,Production compute,Tier 1
+Hyper-V,Host,HV01,Cluster node,Tier 1
+Hyper-V,Host,HV02,Cluster node,Tier 1
+VMware,vCenter,VCENTER01,Management plane,Tier 1
+VMware,Cluster,PROD-CLUSTER,Production compute,Tier 1
+VMware,Host,ESX01,Cluster node,Tier 1
+VMware,Host,ESX02,Cluster node,Tier 1
+VMware,Host,ESX03,Cluster node,Tier 1

@@ -1,0 +1,3 @@
+Platform,VM,Snapshot,Created,AgeDays,SizeGB,Status
+Hyper-V,PRD-WEB-02,CHG-2026-0041-prepatch,2026-08-05,1,8.4,Healthy
+VMware,PRD-APP-04,CHG-2026-0043-prepatch,2026-08-04,2,12.1,Healthy

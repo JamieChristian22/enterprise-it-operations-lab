@@ -1,0 +1,9 @@
+Report Date: 2026-08-06 09:15 ET
+vCenter: VCENTER01
+ESX01: Connected
+ESX02: Connected
+ESX03: Connected
+HA: Enabled
+DRS: Fully Automated
+Critical Alarms: 0
+Result: HEALTHY
